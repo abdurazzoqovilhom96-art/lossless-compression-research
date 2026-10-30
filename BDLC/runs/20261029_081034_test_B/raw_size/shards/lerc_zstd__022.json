@@ -1,0 +1,718 @@
+{
+ "codec": "lerc_zstd",
+ "mode": "size",
+ "shard": 22,
+ "pin": {
+  "requested_cpu": 15,
+  "affinity_ok": true,
+  "priority_ok": false,
+  "affinity_mask": "0x8000"
+ },
+ "python": "3.14.4 (main, Apr 14 2026, 14:26:14) [Clang 22.1.3 ]",
+ "started": "2026-10-29 09:02:12",
+ "images": [
+  {
+   "input_id": "DAVIS2017/drift-turn/00045",
+   "key": "0b56bdad97baa77c",
+   "bytes": 918,
+   "stream_bytes": 918,
+   "stream_sha256": "6c4ff37423b06bd20db1ea00633df2e7851d4c0ae7e82ad69f2195161063f2f2"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00046",
+   "key": "38835417a103f37e",
+   "bytes": 989,
+   "stream_bytes": 989,
+   "stream_sha256": "30798d4b13fb5908a36fcf21c76f7e0633f06c1fcf6968de49bd3bd7c8f5d98e"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00047",
+   "key": "84a17def98877860",
+   "bytes": 997,
+   "stream_bytes": 997,
+   "stream_sha256": "56299ec2932a61e8c5a973588364a1fd10b9bf4758b70c11b95b08b2205211b9"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00048",
+   "key": "d0701615ea3ad125",
+   "bytes": 1043,
+   "stream_bytes": 1043,
+   "stream_sha256": "747872001a9c12688426a7a080a9c2b5daaa159b20ce8b459567511eadb9c98b"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00049",
+   "key": "10f4b11f81e716f1",
+   "bytes": 1062,
+   "stream_bytes": 1062,
+   "stream_sha256": "6105292f9d3c5af4efedbc22280b086aad8ad4a6b995bd23c5865ed9e20f0c75"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00050",
+   "key": "59bb16dcaac131b0",
+   "bytes": 1059,
+   "stream_bytes": 1059,
+   "stream_sha256": "7d7f14265e9641ec9097310d7e0e36cb9ee3cc0438f2dc97080518695a0b2dc3"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00051",
+   "key": "eca392cdb9b8523f",
+   "bytes": 1050,
+   "stream_bytes": 1050,
+   "stream_sha256": "faca186cbd30b3c1dd81eb1b2dee6a6ee0e3afe90d6b2c89f2837b5804fc7371"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00052",
+   "key": "6e768dd8043a7fbf",
+   "bytes": 1037,
+   "stream_bytes": 1037,
+   "stream_sha256": "c422cdd619ea21a65fd524ef5f9ab805820343eb6d3d1a40a4a15f123fc84430"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00053",
+   "key": "78719e452b33f4d6",
+   "bytes": 1041,
+   "stream_bytes": 1041,
+   "stream_sha256": "15735ab3b2665870f118a2497eec323d4cc64c71c2a8258a31496ec2bb9a4103"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00054",
+   "key": "1a67b45fa76a405a",
+   "bytes": 1010,
+   "stream_bytes": 1010,
+   "stream_sha256": "de00a74a90c5389a1287ff55299eb1f9b97c88a7c41d0e7e5f983a2e4a6a603b"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00055",
+   "key": "e6dfd322f075e8b2",
+   "bytes": 1028,
+   "stream_bytes": 1028,
+   "stream_sha256": "0ad1cd91b1d924fa8bcfd11a088f2e1868e3d68a95b8627e3db2f284160b37d1"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00056",
+   "key": "f6bbb44868c18512",
+   "bytes": 979,
+   "stream_bytes": 979,
+   "stream_sha256": "a55b8ba728876e9f76c118c85b4d8f54b665721063f084977200e50a5a91dc2a"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00057",
+   "key": "a5a824b4b07de305",
+   "bytes": 1001,
+   "stream_bytes": 1001,
+   "stream_sha256": "65ec92e34c087885d371920770d7c0d427c7b97ca02832786e0d386a8bdd11e2"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00058",
+   "key": "317f2f5f21605f7a",
+   "bytes": 972,
+   "stream_bytes": 972,
+   "stream_sha256": "b5c9b77b7e0bc207315e2777ff9815c3753fb3e31f48509f7376a17d9e910bb1"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00059",
+   "key": "ae337f1968c6938a",
+   "bytes": 1018,
+   "stream_bytes": 1018,
+   "stream_sha256": "d1abb7062f5d2e50d4ab9b858fb67114e160254135a4cf5e996a57f8b40bb60d"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00060",
+   "key": "d019a8318246ec4c",
+   "bytes": 966,
+   "stream_bytes": 966,
+   "stream_sha256": "d42635ac0663f34f7422de5b59705a921cb632fc567d7970d4fe015ba588ece0"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00061",
+   "key": "4c627b1bb686420d",
+   "bytes": 976,
+   "stream_bytes": 976,
+   "stream_sha256": "c927361f57d89c69f147c8bcd0d6022ec931403241bfd918671f25850d5fa143"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00062",
+   "key": "b5e566ac52220bfb",
+   "bytes": 982,
+   "stream_bytes": 982,
+   "stream_sha256": "ae3819257b1c3e01637180c38994ece0a8d09eef730e2cdadb1d6001e14f2114"
+  },
+  {
+   "input_id": "DAVIS2017/drift-turn/00063",
+   "key": "81d0bf135b9688ee",
+   "bytes": 1020,
+   "stream_bytes": 1020,
+   "stream_sha256": "402e1b02e32f5ad2486f976f02ef7270100c827260a2d2f5bf54e2f00c8f0ac9"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00000",
+   "key": "3d5b6bd4db8c9105",
+   "bytes": 2168,
+   "stream_bytes": 2168,
+   "stream_sha256": "d0bee7103c3b274167fab5d62a7b9bc21cd877a9692070d4b0be55d9e846ef51"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00001",
+   "key": "b8162a880b88d906",
+   "bytes": 2096,
+   "stream_bytes": 2096,
+   "stream_sha256": "ab6d3e7fa054682a103c5ca35decfe0e34b0c442d4d3460a2cddb95187c6ca7f"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00002",
+   "key": "210c338d0355c071",
+   "bytes": 2091,
+   "stream_bytes": 2091,
+   "stream_sha256": "f6a788c4985c5230a138b2990b155ffb9a4e028a211007615b2c2f803e73f2ff"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00003",
+   "key": "ff522869512ddc7f",
+   "bytes": 2052,
+   "stream_bytes": 2052,
+   "stream_sha256": "1086bc21cc311762c87b89e434098fd15f5442a26ed71b937cb1db57e1f22024"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00004",
+   "key": "6bd5824d1aec4763",
+   "bytes": 2082,
+   "stream_bytes": 2082,
+   "stream_sha256": "af332ab1a95729ca005df6044355726914999eda70a34040b15e3cbd0b651436"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00005",
+   "key": "7152ab66cfabb3b6",
+   "bytes": 1974,
+   "stream_bytes": 1974,
+   "stream_sha256": "451148ad3b7faa81fd45463cc942ab66a95a5578d87b1fa95328ab0013c4489d"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00006",
+   "key": "51c0c418fbd2a513",
+   "bytes": 1958,
+   "stream_bytes": 1958,
+   "stream_sha256": "0bb79ec72a2c1bceed99f423889e1139a3b7eff15663731f2a9672ab86f44cfa"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00007",
+   "key": "dc35c4a34fcf08f6",
+   "bytes": 1857,
+   "stream_bytes": 1857,
+   "stream_sha256": "175dc996b9a688a33fe4d18b051ba69b6ed58a5cc97d8069862d46b9297dd8f5"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00008",
+   "key": "7c78f6abf2eaa831",
+   "bytes": 1810,
+   "stream_bytes": 1810,
+   "stream_sha256": "aa5544a987408a309b098ba4691da90886c31c9ddb4b855d413cd4e30480d0ce"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00009",
+   "key": "56efbed74245869f",
+   "bytes": 1718,
+   "stream_bytes": 1718,
+   "stream_sha256": "bad6c1a2f4d7799ea0f090300bbda3b46a026df8dc823834550dc5889ffe3363"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00010",
+   "key": "491b283eaf6cd0a2",
+   "bytes": 1704,
+   "stream_bytes": 1704,
+   "stream_sha256": "4453173da2e41259d8b926a7a2673af687d15dd779516d40a21704310485c7d7"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00011",
+   "key": "150d5d2ae40b2cec",
+   "bytes": 1584,
+   "stream_bytes": 1584,
+   "stream_sha256": "722b59be90afe2c86b9b347de7eb6e6a76fa5263e085170ba1910c49d3d26eed"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00012",
+   "key": "590198d0a26868b6",
+   "bytes": 1454,
+   "stream_bytes": 1454,
+   "stream_sha256": "74357893bed3cf6ff58aeb33c88bd97305df9d8aae7c15b735fc847320d60611"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00013",
+   "key": "17c9ee35234e642c",
+   "bytes": 1430,
+   "stream_bytes": 1430,
+   "stream_sha256": "316d5613b3d0bc16ee04281642c9a4343f693cc0c5533211f9db71e8e931aad1"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00014",
+   "key": "5358dc255d66b61e",
+   "bytes": 1522,
+   "stream_bytes": 1522,
+   "stream_sha256": "5a893af201c684210eedf415e408c4b3fc8e916383d041c70d79c2a658705661"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00015",
+   "key": "cdfa431ba7271633",
+   "bytes": 1374,
+   "stream_bytes": 1374,
+   "stream_sha256": "2de479c865a60e228f7d7356dbb165b6a206c6f057cc96eb0a521155f640116f"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00016",
+   "key": "2867cdfd85bd607d",
+   "bytes": 1278,
+   "stream_bytes": 1278,
+   "stream_sha256": "e01431a6eafc4aeb3935092298226d38cc0736a41cd748762e8e2a4c6c2e3c21"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00017",
+   "key": "536904be6303694d",
+   "bytes": 1110,
+   "stream_bytes": 1110,
+   "stream_sha256": "283d6116baf5a40cbae5a98ffc82e24bc5184a7c5ced241e295aae5bd9faafc3"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00018",
+   "key": "8bbd4507cfcf1cdb",
+   "bytes": 918,
+   "stream_bytes": 918,
+   "stream_sha256": "4c1789534df8683495e5f0082179e81db249ef404e292a620f94c385191fabfc"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00019",
+   "key": "8dfb6288ce3d4459",
+   "bytes": 1004,
+   "stream_bytes": 1004,
+   "stream_sha256": "eed76b07e61e8b52794fc10494208e5d7844fdc27d4cc5f3bbe035306655cdd6"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00020",
+   "key": "0d13e9d9c7e980fc",
+   "bytes": 911,
+   "stream_bytes": 911,
+   "stream_sha256": "3e8e56635e521d3b143b5d2017c3eec428d95d6b759d473009db042aacef742d"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00021",
+   "key": "c61b3a7c66abbf02",
+   "bytes": 1322,
+   "stream_bytes": 1322,
+   "stream_sha256": "923b616623dca1049ee03e0a7d506e2f0812babf9bbd24a9cbe5ca73819be5ec"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00022",
+   "key": "738fee6e1382eed4",
+   "bytes": 1384,
+   "stream_bytes": 1384,
+   "stream_sha256": "c7c440e3596dc4920ae148a8131fe2513f17a858b3cc24d3dda14f5d0ae2cd73"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00023",
+   "key": "c1b51b24c2c05748",
+   "bytes": 1448,
+   "stream_bytes": 1448,
+   "stream_sha256": "1a4b374c33f158829425927aaa9be29d88fb8e75bbd39d4d956da378d82fdc4e"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00024",
+   "key": "a3435fd181fcce63",
+   "bytes": 1236,
+   "stream_bytes": 1236,
+   "stream_sha256": "e43b13d9ec2ae497d2147d86b8e729cc33ade46647b2e141c667cbdad2c527dd"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00025",
+   "key": "023515a9f4b021e0",
+   "bytes": 1002,
+   "stream_bytes": 1002,
+   "stream_sha256": "0cf510d55efc30888f2ffe606a2a54bac86aab5ce6e8aa8f37773a759724e56a"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00026",
+   "key": "0d8f5424508ea22c",
+   "bytes": 843,
+   "stream_bytes": 843,
+   "stream_sha256": "d6c3c1a3ce8af5fd44fdc3838f4db49f4549ff4aa3be2b4cfd9bda11a52d32db"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00027",
+   "key": "315dd31d71dd1977",
+   "bytes": 728,
+   "stream_bytes": 728,
+   "stream_sha256": "d9b8c13ffa3b66c5e18950c18bb8d777e5e000541eb214f0fbcd34d27f1debc0"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00028",
+   "key": "259ea24ecee971b9",
+   "bytes": 688,
+   "stream_bytes": 688,
+   "stream_sha256": "1a9895f1fcddf9af7f90433b40f12a64653bff7a98b1b9a3fc1c4bcc79b0c023"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00029",
+   "key": "1a07b34fbe0c968b",
+   "bytes": 621,
+   "stream_bytes": 621,
+   "stream_sha256": "81028f31cf80257676cc5aefa57db9042b7a2001f2179845c17546fe12156383"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00030",
+   "key": "0ab32cb75b40280d",
+   "bytes": 647,
+   "stream_bytes": 647,
+   "stream_sha256": "44201957c6cf9de7aa77d4a5296e7e6bd726f48cbbd74d8f88a5710adce3ef09"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00031",
+   "key": "389a64b03489c62f",
+   "bytes": 699,
+   "stream_bytes": 699,
+   "stream_sha256": "0f0a89e006ff3228053585b0109d751888ed54308695274413994236eb70616d"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00032",
+   "key": "f5c8ee325736a95e",
+   "bytes": 764,
+   "stream_bytes": 764,
+   "stream_sha256": "a66ee0c5aac703dee03512c494b4efd8fcdc0cfff780b50d1d36721262b141bf"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00033",
+   "key": "1f58c417af412a29",
+   "bytes": 836,
+   "stream_bytes": 836,
+   "stream_sha256": "e8f3457ebd5a1c1c7fd814f036d2b894147cd9b3a0912d24821c837f7dd84f91"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00034",
+   "key": "64e7ddfdbb99b62c",
+   "bytes": 899,
+   "stream_bytes": 899,
+   "stream_sha256": "abb433c1cbaef43ddb74dfaf7ce6ffeaf80be943cb4f8390609fcb07b47f8288"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00035",
+   "key": "6e33e6ef5c7512e1",
+   "bytes": 962,
+   "stream_bytes": 962,
+   "stream_sha256": "528cc97c3ad44e2f4073ace1b1e1686f8df788cf5eed067a1fcd3809a392111a"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00036",
+   "key": "51f41d12afe84c2d",
+   "bytes": 982,
+   "stream_bytes": 982,
+   "stream_sha256": "75bccd1af1336080a0197ca37386e6bd3fa74eff476640901cbadbe15ed19cea"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00037",
+   "key": "bddb24d21431acc2",
+   "bytes": 1006,
+   "stream_bytes": 1006,
+   "stream_sha256": "8daac39c1a71168e8e573449ddbe639cdf075fe409cb4e1f46369df6db2b49d4"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00038",
+   "key": "1b2017238291e27e",
+   "bytes": 998,
+   "stream_bytes": 998,
+   "stream_sha256": "f7b9a83b6fbf0d12370dc67781ebcbbb3916ce76b540a72b0f08acfcbcdf7faf"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00039",
+   "key": "d87ea1b26b66e97f",
+   "bytes": 1029,
+   "stream_bytes": 1029,
+   "stream_sha256": "755f93ffcdb8e182386f96c5d942de94aa69fdd540a6ff44937c6b784d4494c2"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00040",
+   "key": "91ba62489c812525",
+   "bytes": 1083,
+   "stream_bytes": 1083,
+   "stream_sha256": "71605c321bace87ad07291b647f21e0b08724fab16f6293fe1379d824c11e9ad"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00041",
+   "key": "f94a5fb8a4c1ead7",
+   "bytes": 1091,
+   "stream_bytes": 1091,
+   "stream_sha256": "ec4854ba62876cd131bda954e4fc570bc3bacc528f84d84e713845451e45b291"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00042",
+   "key": "210a26c2f6c1e6a7",
+   "bytes": 1082,
+   "stream_bytes": 1082,
+   "stream_sha256": "0f186105a4864680132c970f8f5fbc38fce8a12eb89f3426822549d1af85533d"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00043",
+   "key": "48c59555a924fcb4",
+   "bytes": 1251,
+   "stream_bytes": 1251,
+   "stream_sha256": "a102fe5722aa7836aa687606a282a93cc44c1a0fe1a1a5ea4ef3121d05bf3473"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00044",
+   "key": "20f188217434acab",
+   "bytes": 1352,
+   "stream_bytes": 1352,
+   "stream_sha256": "d08e12702afcda11a032a67a5eec4ed629eb7b69cc28dd2aa03743d753b3e10f"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00045",
+   "key": "54f6ec77dd568431",
+   "bytes": 1438,
+   "stream_bytes": 1438,
+   "stream_sha256": "6cd612f8ff73b8d8f5f63d55e573afe4933cc9af81c562b708592b462ecb6df2"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00046",
+   "key": "a8fb64c735d3117d",
+   "bytes": 1524,
+   "stream_bytes": 1524,
+   "stream_sha256": "fa1ebc053658d8f322a4d4d7b64b44c9d0fbc797d75d5fd94fa2a7ee24f4ea05"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00047",
+   "key": "e716b656121f7566",
+   "bytes": 1736,
+   "stream_bytes": 1736,
+   "stream_sha256": "f27ac6c05224b75682fba7c813db853982734b9c1c67a8534dcc60d2f4c468cd"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00048",
+   "key": "89ff0af1a01c432e",
+   "bytes": 1856,
+   "stream_bytes": 1856,
+   "stream_sha256": "47e022c73c735551f223f8fa1d93fc73a88c3759491643372a9fc920b41bad69"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00049",
+   "key": "bb9f9afa7ecbf147",
+   "bytes": 2009,
+   "stream_bytes": 2009,
+   "stream_sha256": "65e1cb540177fe12cc8c5938af6f6d3e1c6c6a72b2107d096560bb6d104366a4"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00050",
+   "key": "bc450eecfe8af1ec",
+   "bytes": 2019,
+   "stream_bytes": 2019,
+   "stream_sha256": "afa0f93ee9bdabe8b036cb9fc4a11c45ce1118379a1ae8128167a53043cd3835"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00051",
+   "key": "c9ad68edf7982de1",
+   "bytes": 1906,
+   "stream_bytes": 1906,
+   "stream_sha256": "f2ed886b5548e62a2857712c49d0cb3596fc88688dbc982a7a4d7e2adea18668"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00052",
+   "key": "5e3611c185aa8bdf",
+   "bytes": 1865,
+   "stream_bytes": 1865,
+   "stream_sha256": "ce417c55a46ee63b72e13aaea2882db3fcf51e8021727c23f5943f60e98ceb0d"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00053",
+   "key": "281f5f0a80f35859",
+   "bytes": 1826,
+   "stream_bytes": 1826,
+   "stream_sha256": "5eac3d1e8a5b213bfc926ef50880a2f3ceccaefbf1351e0eca8b545c7e1017e4"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00054",
+   "key": "efe037323243b7af",
+   "bytes": 1963,
+   "stream_bytes": 1963,
+   "stream_sha256": "634f4f5abaf8ea4fa01218aa674c981951aa9536474f155dc61a973794088252"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00055",
+   "key": "3547c9e04447e5ad",
+   "bytes": 2129,
+   "stream_bytes": 2129,
+   "stream_sha256": "7adb52a75c543be9a68c7eacf0be8b520dd54b8115ea1a4f7cdcf45a72b1554b"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00056",
+   "key": "5474dfbb673d1420",
+   "bytes": 2261,
+   "stream_bytes": 2261,
+   "stream_sha256": "e8208ec41eb8897e7ac907edb59851437289f535e1ab5df180f7793fcb0969e7"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00057",
+   "key": "faffa1e83bce2476",
+   "bytes": 2126,
+   "stream_bytes": 2126,
+   "stream_sha256": "c53bcf58739fe928e5f418fd55752a16a6f8d93afdf81544637cda9ec84dfdfc"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00058",
+   "key": "430c16df855c156d",
+   "bytes": 2068,
+   "stream_bytes": 2068,
+   "stream_sha256": "8403625819fa22b8896107ac597dfd626d304dba4e266fa928ffd1825f6b39ff"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00059",
+   "key": "4dbdc802f403fb6f",
+   "bytes": 1640,
+   "stream_bytes": 1640,
+   "stream_sha256": "7e432211c555f4a1a243041c837accbb0d30848b49fbe837cce7cbc9a8a33f12"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00060",
+   "key": "dfd8650e6749cd2e",
+   "bytes": 1637,
+   "stream_bytes": 1637,
+   "stream_sha256": "0e86bf112044918f10b9193b68c6b2f8df0b6ab78c5939fb0c7e7def8c9136ec"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00061",
+   "key": "9834aef17b3c3c19",
+   "bytes": 1361,
+   "stream_bytes": 1361,
+   "stream_sha256": "74c3675de3a201b0f55ad9ebc61297f51095e98a3faa569e7e9346c0495fa1ca"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00062",
+   "key": "51ef1f8b46411c54",
+   "bytes": 1201,
+   "stream_bytes": 1201,
+   "stream_sha256": "7b1d6fb44a1e8977f44c8c281cf4a18c34d42730bf1a2730ae8a49f7c44bfe26"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00063",
+   "key": "dcbe6ddec30c3c73",
+   "bytes": 1358,
+   "stream_bytes": 1358,
+   "stream_sha256": "41fd2f6a2dd3a00c38148423456b6f131effec2f52cb28c49c944dccfd06c500"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00064",
+   "key": "82242cc3de64d3dd",
+   "bytes": 1437,
+   "stream_bytes": 1437,
+   "stream_sha256": "4c39fc7cd7412d8715fbb2a00274fb05b3c3cd66572811028feb957eaa30a536"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00065",
+   "key": "72026ca008a841b2",
+   "bytes": 1436,
+   "stream_bytes": 1436,
+   "stream_sha256": "a17d388b1c81ca8787dfb525dcee610922cebfc1ce370a186a1b3ed217a014dc"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00066",
+   "key": "b2f533e207a24536",
+   "bytes": 1427,
+   "stream_bytes": 1427,
+   "stream_sha256": "3f19a5b7711604506132051f81caf7e6865007e656e665ebc4a252262ba7f576"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00067",
+   "key": "ab546297b2b1f0c7",
+   "bytes": 1422,
+   "stream_bytes": 1422,
+   "stream_sha256": "fed411a0194f0c70290debfd5ffbccec1efb7e4eda4cffa673d5a462de7c37ac"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00068",
+   "key": "a0ba1a77179ad83d",
+   "bytes": 1180,
+   "stream_bytes": 1180,
+   "stream_sha256": "153465fec12e48996b0339865d966c9514eaaa9f22bf7ef85d1bc8f8fd8b5c08"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00069",
+   "key": "db036f6114847306",
+   "bytes": 1098,
+   "stream_bytes": 1098,
+   "stream_sha256": "15ee0821fc19219be644c36aba6a22db64d73e2f0a506d975e956de32d6d8fc6"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00070",
+   "key": "7eb7dc62af6edb25",
+   "bytes": 1277,
+   "stream_bytes": 1277,
+   "stream_sha256": "2b7c1b0f0dc75f3d252292a0091957b193076c0efc821ca1c1da33248e8997a9"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00071",
+   "key": "40528211216b3c7b",
+   "bytes": 1714,
+   "stream_bytes": 1714,
+   "stream_sha256": "2e3e92dfc38a055cc38f2eed60195cce2ca17f535e01a29ebaf3787767de0851"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00072",
+   "key": "dec731a58e6ee42a",
+   "bytes": 2185,
+   "stream_bytes": 2185,
+   "stream_sha256": "da6c62d6c5c8c3a4704f2880b5654071cd05010d6495b81fa57bc3bddd1621d9"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00073",
+   "key": "67ce0614f5bf8e9a",
+   "bytes": 2397,
+   "stream_bytes": 2397,
+   "stream_sha256": "87059642ffb96e3bb9967bf76aeafbcbde6af4f269d1c945f67374756e36d7fd"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00074",
+   "key": "8e5865e38682cfeb",
+   "bytes": 2454,
+   "stream_bytes": 2454,
+   "stream_sha256": "d4aa43f251a8c86aa4c7b8818247f274777a7a7d6acd8ff1ec96b93530da2473"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00075",
+   "key": "2f876ee3b2993769",
+   "bytes": 2734,
+   "stream_bytes": 2734,
+   "stream_sha256": "166396147367b910e8bd1017796a47c071dcebaf2d92725470b8c4d58c4abea1"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00076",
+   "key": "4f29f3ad3044b6cc",
+   "bytes": 2927,
+   "stream_bytes": 2927,
+   "stream_sha256": "833221a0a907bda9dcababd1af68633cf62d0c4f272e2228f5418423e264ff8d"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00077",
+   "key": "89370bc14bfdee03",
+   "bytes": 3005,
+   "stream_bytes": 3005,
+   "stream_sha256": "7476147dd6e5b31e204cf75c3db5985840665676c2c8d9101dbc340b250f85a0"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00078",
+   "key": "30ec278a1049bccc",
+   "bytes": 3034,
+   "stream_bytes": 3034,
+   "stream_sha256": "e72303ece3f857db48cc7d328035de571df710a7517a228b821d095b80caf4c0"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00079",
+   "key": "f92d8cf09bfde367",
+   "bytes": 2923,
+   "stream_bytes": 2923,
+   "stream_sha256": "fc25987123741c02c84e288c48781235f581cfad61847559e1f41e2c813fd281"
+  },
+  {
+   "input_id": "DAVIS2017/drone/00080",
+   "key": "509f508fc10da444",
+   "bytes": 3274,
+   "stream_bytes": 3274,
+   "stream_sha256": "8ff61f17db92a19d907ae7f7e5d03275a41d390f92e2d7d89a5d8da54e07f06f"
+  }
+ ],
+ "errors": [],
+ "not_applicable": [],
+ "finished": "2026-10-29 09:02:16"
+}

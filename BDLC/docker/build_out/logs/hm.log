@@ -1,0 +1,124 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Setting up BBuildEnv 3.14.4.4
+CMake Warning at cmake/CMakeBuild/cmake/modules/BBuildEnv.cmake:919 (message):
+  BBuildEnv: lsb_release not found, no way to retrieve additional linux
+  system information.
+Call Stack (most recent call first):
+  cmake/CMakeBuild/cmake/modules/BBuildEnv.cmake:1252 (_bb_query_system_info)
+  cmake/CMakeBuild/cmake/modules/BBuildEnv.cmake:1363 (bb_build_env_setup)
+  CMakeLists.txt:53 (include)
+
+
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- bb_enable_warnings:  -> updating warnings flags: -Wall;-fdiagnostics-show-option;-Werror;-Wno-sign-compare;-Wno-class-memaccess
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /opt/baselines/src/HM-HM-16.21+SCM-8.8/build
+[  3%] Building CXX object source/Lib/Utilities/CMakeFiles/Utilities.dir/program_options_lite.cpp.o
+[  1%] Building CXX object source/Lib/Utilities/CMakeFiles/Utilities.dir/TVideoIOYuv.cpp.o
+[  5%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/ContextModel3DBuffer.cpp.o
+[  7%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/Debug.cpp.o
+[  7%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/SEI.cpp.o
+[  8%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComBitStream.cpp.o
+[ 10%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComCABACTables.cpp.o
+[ 12%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/ContextModel.cpp.o
+[ 14%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComChromaFormat.cpp.o
+[ 15%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComDataCU.cpp.o
+[ 15%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComHash.cpp.o
+[ 17%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComInterpolationFilter.cpp.o
+[ 19%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComLoopFilter.cpp.o
+[ 21%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComMotionInfo.cpp.o
+[ 22%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComPattern.cpp.o
+[ 24%] Linking CXX static library /opt/baselines/src/HM-HM-16.21+SCM-8.8/lib/umake/gcc-13.3/x86_64/release/libUtilities.a
+[ 24%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComPic.cpp.o
+[ 24%] Built target Utilities
+[ 26%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComPicSym.cpp.o
+[ 28%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComPicYuv.cpp.o
+[ 29%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComPicYuvMD5.cpp.o
+/opt/baselines/src/HM-HM-16.21+SCM-8.8/source/Lib/TLibCommon/TComLoopFilter.cpp: In member function 'Void TComLoopFilter::xDeblockCU(TComDataCU*, UInt, UInt, DeblockEdgeDir)':
+/opt/baselines/src/HM-HM-16.21+SCM-8.8/source/Lib/TLibCommon/TComLoopFilter.cpp:214:34: warning: array subscript [0, 1] is outside array bounds of 'Bool* [2]' {aka 'bool* [2]'} [-Warray-bounds=]
+  214 |     if ( m_aapbEdgeFilter[edgeDir][uiPartIdx] && uiBSCheck )
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~^
+In file included from /opt/baselines/src/HM-HM-16.21+SCM-8.8/source/Lib/TLibCommon/TComLoopFilter.cpp:38:
+/opt/baselines/src/HM-HM-16.21+SCM-8.8/source/Lib/TLibCommon/TComLoopFilter.h:60:13: note: while referencing 'TComLoopFilter::m_aapbEdgeFilter'
+   60 |   Bool*     m_aapbEdgeFilter[NUM_EDGE_DIR];
+      |             ^~~~~~~~~~~~~~~~
+[ 29%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComPrediction.cpp.o
+[ 31%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComRdCost.cpp.o
+[ 33%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComRdCostWeightPrediction.cpp.o
+[ 35%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComRom.cpp.o
+[ 36%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComSampleAdaptiveOffset.cpp.o
+[ 36%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComSlice.cpp.o
+[ 38%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComTU.cpp.o
+[ 40%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComTrQuant.cpp.o
+[ 42%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComWeightPrediction.cpp.o
+[ 43%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/TComYuv.cpp.o
+[ 43%] Building CXX object source/Lib/TLibCommon/CMakeFiles/TLibCommon.dir/__/libmd5/libmd5.cpp.o
+[ 45%] Linking CXX static library /opt/baselines/src/HM-HM-16.21+SCM-8.8/lib/umake/gcc-13.3/x86_64/release/libTLibCommon.a
+[ 45%] Built target TLibCommon
+[ 49%] Building CXX object source/Lib/TLibDecoder/CMakeFiles/TLibDecoder.dir/SEIread.cpp.o
+[ 49%] Building CXX object source/Lib/TLibDecoder/CMakeFiles/TLibDecoder.dir/SyntaxElementParser.cpp.o
+[ 50%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/SEIEncoder.cpp.o
+[ 49%] Building CXX object source/Lib/TLibDecoder/CMakeFiles/TLibDecoder.dir/AnnexBread.cpp.o
+[ 52%] Building CXX object source/Lib/TLibDecoder/CMakeFiles/TLibDecoder.dir/TDecBinCoderCABAC.cpp.o
+[ 54%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/NALwrite.cpp.o
+[ 56%] Building CXX object source/Lib/TLibDecoder/CMakeFiles/TLibDecoder.dir/NALread.cpp.o
+[ 57%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/SEIwrite.cpp.o
+[ 59%] Building CXX object source/Lib/TLibDecoder/CMakeFiles/TLibDecoder.dir/TDecCAVLC.cpp.o
+[ 61%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/SyntaxElementWriter.cpp.o
+[ 63%] Building CXX object source/Lib/TLibDecoder/CMakeFiles/TLibDecoder.dir/TDecConformance.cpp.o
+[ 64%] Building CXX object source/Lib/TLibDecoder/CMakeFiles/TLibDecoder.dir/TDecCu.cpp.o
+[ 64%] Building CXX object source/Lib/TLibDecoder/CMakeFiles/TLibDecoder.dir/TDecEntropy.cpp.o
+[ 64%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/TEncBinCoderCABAC.cpp.o
+[ 66%] Building CXX object source/Lib/TLibDecoder/CMakeFiles/TLibDecoder.dir/TDecGop.cpp.o
+[ 68%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/TEncBinCoderCABACCounter.cpp.o
+[ 70%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/TEncCavlc.cpp.o
+[ 71%] Building CXX object source/Lib/TLibDecoder/CMakeFiles/TLibDecoder.dir/TDecSbac.cpp.o
+[ 73%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/TEncCu.cpp.o
+[ 75%] Building CXX object source/Lib/TLibDecoder/CMakeFiles/TLibDecoder.dir/TDecSlice.cpp.o
+[ 77%] Building CXX object source/Lib/TLibDecoder/CMakeFiles/TLibDecoder.dir/TDecTop.cpp.o
+[ 78%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/TEncEntropy.cpp.o
+[ 78%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/TEncGOP.cpp.o
+[ 80%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/TEncPic.cpp.o
+[ 82%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/TEncPreanalyzer.cpp.o
+[ 84%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/TEncRateCtrl.cpp.o
+[ 85%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/TEncSampleAdaptiveOffset.cpp.o
+[ 85%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/TEncSbac.cpp.o
+[ 87%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/TEncSearch.cpp.o
+[ 87%] Linking CXX static library /opt/baselines/src/HM-HM-16.21+SCM-8.8/lib/umake/gcc-13.3/x86_64/release/libTLibDecoder.a
+[ 87%] Built target TLibDecoder
+[ 89%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/TEncSlice.cpp.o
+[ 91%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/TEncTemporalFilter.cpp.o
+[ 92%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/TEncTop.cpp.o
+[ 92%] Building CXX object source/Lib/TLibEncoder/CMakeFiles/TLibEncoder.dir/WeightPredAnalysis.cpp.o
+[ 94%] Linking CXX static library /opt/baselines/src/HM-HM-16.21+SCM-8.8/lib/umake/gcc-13.3/x86_64/release/libTLibEncoder.a
+[ 94%] Built target TLibEncoder
+[ 98%] Building CXX object source/App/TAppEncoder/CMakeFiles/TAppEncoder.dir/encmain.cpp.o
+[ 98%] Building CXX object source/App/TAppEncoder/CMakeFiles/TAppEncoder.dir/TAppEncCfg.cpp.o
+[ 98%] Building CXX object source/App/TAppEncoder/CMakeFiles/TAppEncoder.dir/TAppEncTop.cpp.o
+[100%] Linking CXX executable /opt/baselines/src/HM-HM-16.21+SCM-8.8/bin/umake/gcc-13.3/x86_64/release/TAppEncoder
+[100%] Built target TAppEncoder
+[  7%] Built target Utilities
+[ 65%] Built target TLibCommon
+[ 92%] Built target TLibDecoder
+[ 92%] Building CXX object source/App/TAppDecoder/CMakeFiles/TAppDecoder.dir/TAppDecCfg.cpp.o
+[ 97%] Building CXX object source/App/TAppDecoder/CMakeFiles/TAppDecoder.dir/TAppDecTop.cpp.o
+[ 97%] Building CXX object source/App/TAppDecoder/CMakeFiles/TAppDecoder.dir/decmain.cpp.o
+[100%] Linking CXX executable /opt/baselines/src/HM-HM-16.21+SCM-8.8/bin/umake/gcc-13.3/x86_64/release/TAppDecoder
+[100%] Built target TAppDecoder

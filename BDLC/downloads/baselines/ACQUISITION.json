@@ -1,0 +1,44 @@
+{
+  "purpose": "Q1 step 1: source code of the closest baselines (Q1_REJA_UZ.md, section 1). Not built or run yet; building needs WSL/Linux (no C++ compiler on this machine). Nothing is run on test-B data before protocol B is written.",
+  "acquired": "2026-10-29",
+  "inventory": "INVENTORY.csv (bytes, sha256, url per archive)",
+  "archives": {
+    "ECC": {
+      "file": "ECC/ECC-fe3f2f1.tar.gz",
+      "source": "https://github.com/InterDigitalInc/LosslessSegmentationMapCompression",
+      "commit": "fe3f2f13466cb911306159930423580dc9affe2f",
+      "commit_date": "2026-08-20T19:51:10Z",
+      "licence": "BSD (InterDigital); patent rights explicitly not granted",
+      "notes": "C++ (Makefile/CMake). Input raw YUV 4:0:0 or 4:2:0, options -r rows -c cols -f frames -s skip -t 400|420."
+    },
+    "JBIG-KIT": {
+      "file": "JBIG-KIT/jbigkit-2.1.tar.gz",
+      "source": "https://www.cl.cam.ac.uk/~mgk25/jbigkit/download/jbigkit-2.1.tar.gz",
+      "version": "2.1",
+      "server_last_modified": "Thu, 27 Mar 2014 18:48:40 GMT",
+      "licence": "GPL-2.0"
+    },
+    "FLIF": {
+      "file": "FLIF/FLIF-v0.4.tar.gz",
+      "source": "https://github.com/FLIF-hub/FLIF",
+      "tag": "v0.4",
+      "licence": "LGPL-3.0-or-later (reference implementation); some parts Apache-2.0"
+    },
+    "Compresso": {
+      "file": "Compresso/compresso-b1f7fd6.tar.gz",
+      "source": "https://github.com/seung-lab/compresso",
+      "commit": "b1f7fd65b947d62ce9d28bccde8cebc3aa86eebd",
+      "commit_date": "2025-02-27T15:37:53Z",
+      "licence": "MIT (cc3d.hpp: LGPL-3.0)",
+      "notes": "28 MB archive is mostly sample data (ws.npy.cpso.gz 24.7 MB)."
+    },
+    "HM-SCM": {
+      "file": "HM-SCM/HM-16.21+SCM-8.8.tar.gz",
+      "source": "https://vcgit.hhi.fraunhofer.de/jvet/HM",
+      "tag": "HM-16.21+SCM-8.8",
+      "tag_commit": "f9f83a027b4bc33b60ebac4ed72a00d3fe2a6d93",
+      "licence": "BSD (ITU/ISO/IEC)",
+      "notes": "Latest SCM tag. The ECC paper used SCM-7.0; tag HM-16.8+SCM-7.0 also exists on the server and was not downloaded."
+    }
+  }
+}

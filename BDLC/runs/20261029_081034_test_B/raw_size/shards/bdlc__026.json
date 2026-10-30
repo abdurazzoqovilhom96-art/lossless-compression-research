@@ -1,0 +1,718 @@
+{
+ "codec": "bdlc",
+ "mode": "size",
+ "shard": 26,
+ "pin": {
+  "requested_cpu": 17,
+  "affinity_ok": true,
+  "priority_ok": false,
+  "affinity_mask": "0x20000"
+ },
+ "python": "3.14.4 (main, Apr 14 2026, 14:26:14) [Clang 22.1.3 ]",
+ "started": "2026-10-29 08:52:59",
+ "images": [
+  {
+   "input_id": "DAVIS2017/gold-fish/00040",
+   "key": "87ccea666481a793",
+   "bytes": 603,
+   "stream_bytes": 603,
+   "stream_sha256": "12a0f6491bb05d80a70c5d510e0cb77aa67f9aa5c7f47427448c2ecb7a5c864b"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00041",
+   "key": "13d9819dc1d91ade",
+   "bytes": 597,
+   "stream_bytes": 597,
+   "stream_sha256": "c2be22fc08babc6cecf630874e0c6e9dab47f0e8a45fa8ab0728fa6b8df88b54"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00042",
+   "key": "49ee22b0f2ebb328",
+   "bytes": 609,
+   "stream_bytes": 609,
+   "stream_sha256": "0a847e1e1f34582a729d6d97c41e4f220a4b0ad0d83870659eb2748d74447843"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00043",
+   "key": "c675921ad2ee82e8",
+   "bytes": 623,
+   "stream_bytes": 623,
+   "stream_sha256": "a69068723c8c92adcdd9c6e0a6ca8f4f99bc0b4d054a210c6bab07ad4f8a74d4"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00044",
+   "key": "de7256fca50094e5",
+   "bytes": 648,
+   "stream_bytes": 648,
+   "stream_sha256": "ac26ffb1c5430f4768d9075102874281923bcee5b95edcbeec05097b496baf3f"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00045",
+   "key": "66bdf96c788911a7",
+   "bytes": 668,
+   "stream_bytes": 668,
+   "stream_sha256": "0c77dc5b66667e4a1157e3d9dcab23fadbd0efea934d93c5c5c2d1363e28ecc9"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00046",
+   "key": "a8ed2dac17b3075c",
+   "bytes": 605,
+   "stream_bytes": 605,
+   "stream_sha256": "ed790e8fea8f8e27233233c48bd2b5364cddf3019c3d21389d79a4bae4f417d2"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00047",
+   "key": "15501bdbb105c237",
+   "bytes": 581,
+   "stream_bytes": 581,
+   "stream_sha256": "067f010231bbf9a9ee900313771e5bfb7817fdc3884909bf30462c677a41bcbe"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00048",
+   "key": "a71d6de95c6d8d0c",
+   "bytes": 598,
+   "stream_bytes": 598,
+   "stream_sha256": "26183307e19b1e8edeed2491d855baa6f52d7c9ccaf89eb77c7dcb0f9547b4a5"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00049",
+   "key": "c80eccd6abae69a7",
+   "bytes": 563,
+   "stream_bytes": 563,
+   "stream_sha256": "65268448e0150beae5cdad17a462744601b72d62530a1be4aa78e2a0f9e592d8"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00050",
+   "key": "28b07b88683e422e",
+   "bytes": 585,
+   "stream_bytes": 585,
+   "stream_sha256": "6c651894ad800e40c748214eaaf7c1b2bc100d114211fae9ce3ebcc02c6e396c"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00051",
+   "key": "6215f66ecd4c1fe5",
+   "bytes": 594,
+   "stream_bytes": 594,
+   "stream_sha256": "51b1f07533eb08801a835311a6eb3c4de50bb9e353444b904e4dd350e7ce4102"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00052",
+   "key": "ae202eb70a2d5228",
+   "bytes": 593,
+   "stream_bytes": 593,
+   "stream_sha256": "4165b9a5eab89799a566d049a248b7daf77cb72231d53694d3b17ab4b0806307"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00053",
+   "key": "088154100fc88b9a",
+   "bytes": 599,
+   "stream_bytes": 599,
+   "stream_sha256": "2d783f3b9d4d9e64a28d67db183611bb9862c7763008db9f35afa0745e45dff4"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00054",
+   "key": "5700f34c0c1abfe2",
+   "bytes": 622,
+   "stream_bytes": 622,
+   "stream_sha256": "55d28e7457ca5ddf3773c0f1e31919b1184c4800befa0125175ba851bc663b1f"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00055",
+   "key": "bc5895777f422f33",
+   "bytes": 628,
+   "stream_bytes": 628,
+   "stream_sha256": "d4e85d4dc324de1ad6af141c97e7bd69775cc221c92fad1deeddce7bf0aa7fd1"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00056",
+   "key": "0fa55fed27031865",
+   "bytes": 613,
+   "stream_bytes": 613,
+   "stream_sha256": "0ae66b9f29594285251e039cd72812ad7f934f617c863e735b0977b275cb7a83"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00057",
+   "key": "ced491c7827e0a44",
+   "bytes": 608,
+   "stream_bytes": 608,
+   "stream_sha256": "5c1961139190a8c4a3ac7c9284197093acfcfcec006236fe858e7052bf3f64f5"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00058",
+   "key": "4ecead72e805e6f0",
+   "bytes": 595,
+   "stream_bytes": 595,
+   "stream_sha256": "8b6956e2c99252de0022d3355eea0056ccf168d6d23b185ceae355a51b4abc69"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00059",
+   "key": "964a75e6205e5c1a",
+   "bytes": 580,
+   "stream_bytes": 580,
+   "stream_sha256": "b929e8f2eaf2da813d3aa0c7cf0cb729fa1c12a84e90f3bf3b7c234152c0929e"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00060",
+   "key": "58ced30815beb4ff",
+   "bytes": 579,
+   "stream_bytes": 579,
+   "stream_sha256": "fe23a832d66751823ce129cee3a71d7e687f48a936bfd302912aad77872eb56e"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00061",
+   "key": "c6badbf78971c479",
+   "bytes": 573,
+   "stream_bytes": 573,
+   "stream_sha256": "2fb1503f183ba4e1ba648ea95ea93351b6e22a6f0c5f819bbd9009b97d43eea5"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00062",
+   "key": "af100fe44083b0be",
+   "bytes": 567,
+   "stream_bytes": 567,
+   "stream_sha256": "479fc70a7bdd919df28903b537cbd174445f4527991ead9b759e4c50f7a9037d"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00063",
+   "key": "ff7cadacbbf22140",
+   "bytes": 572,
+   "stream_bytes": 572,
+   "stream_sha256": "0e160fcd6e65cbba2e5545220851b08a6658231c713a5554334214a79b4ef6e7"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00064",
+   "key": "dafcbe53a39b9440",
+   "bytes": 574,
+   "stream_bytes": 574,
+   "stream_sha256": "37e902151f5b2a65688036c9ec876a51655baf45b328460e57a521babf17f1b2"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00065",
+   "key": "581008a798759279",
+   "bytes": 552,
+   "stream_bytes": 552,
+   "stream_sha256": "56e4bc93492c6c6b4367de23cd0b3fd62265fe3b2e1173b16ca5a4dd0a3c8b57"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00066",
+   "key": "97111da4611f2593",
+   "bytes": 559,
+   "stream_bytes": 559,
+   "stream_sha256": "d4efcbb4df60c400bbd903e9cc0013de8dbb31d68cee37adbe08b36419fb761d"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00067",
+   "key": "42a2af9940d83703",
+   "bytes": 510,
+   "stream_bytes": 510,
+   "stream_sha256": "b485c1af9a4b4bf3b41496cf66496e4587acf33ced832bdba7e83217cd091349"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00068",
+   "key": "bce77ea4752204be",
+   "bytes": 508,
+   "stream_bytes": 508,
+   "stream_sha256": "9bd85eae140f0fceb833a9cb4649fed4ede6155551c3e73f517ef66af13d7fe1"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00069",
+   "key": "30154d090f972f25",
+   "bytes": 486,
+   "stream_bytes": 486,
+   "stream_sha256": "3ed9e9bc7f0dc04c97d186f5217cbf6e27fb8ef4e727e94070aebc03dc6acacf"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00070",
+   "key": "9ef82e45ed5d04dc",
+   "bytes": 522,
+   "stream_bytes": 522,
+   "stream_sha256": "5d0320de32e82875bab79cc00f9fb0a0f7fe1e94a71e4869e5851a240fd5f0cf"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00071",
+   "key": "2ce4b23ee74ec8bd",
+   "bytes": 512,
+   "stream_bytes": 512,
+   "stream_sha256": "0ce3394e479e75add6b4a5960959627962013b384f26efc031076cb50e67dea6"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00072",
+   "key": "e774692e02ed32b5",
+   "bytes": 531,
+   "stream_bytes": 531,
+   "stream_sha256": "80a5e838b5a00bffa4ac2bb4934861e6a0c2c4a93622617c5a1c7b4c44fb5df2"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00073",
+   "key": "2e75c5cc82cdf639",
+   "bytes": 543,
+   "stream_bytes": 543,
+   "stream_sha256": "dff83253ddf2bad5d77d8281e713de56f5f452fd3e386aeb7e6ff5296131441a"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00074",
+   "key": "db7c0bbed01aeeac",
+   "bytes": 550,
+   "stream_bytes": 550,
+   "stream_sha256": "e5780f7a7c574179c18d318b243a214ceadb50657fda09ffbae7a8efa83c16df"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00075",
+   "key": "30b6ae91d90227bf",
+   "bytes": 536,
+   "stream_bytes": 536,
+   "stream_sha256": "0d3cd46cecd2eb0ecf16f0f2f08c08abbbf263998a60a60621f5ec26df741e1a"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00076",
+   "key": "7162bf1507df6042",
+   "bytes": 540,
+   "stream_bytes": 540,
+   "stream_sha256": "6fd7cc502dfc4e482d244fca7a47b51974e425aa252ad024b7825d2abccc7c33"
+  },
+  {
+   "input_id": "DAVIS2017/gold-fish/00077",
+   "key": "627c8cbe7f122e3c",
+   "bytes": 565,
+   "stream_bytes": 565,
+   "stream_sha256": "1a17f462c282e9ee307982f9b67e104f51f17fe337fcc0d849a8e28233855b41"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00000",
+   "key": "37a8779689b59fe1",
+   "bytes": 224,
+   "stream_bytes": 224,
+   "stream_sha256": "ab036d71bea0c3eecb343e8604a0a2c1b71093327a4c65ad7e6a6d68ea6717ea"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00001",
+   "key": "ecacf0154affa504",
+   "bytes": 225,
+   "stream_bytes": 225,
+   "stream_sha256": "a66f3c9dd56639c83e03e50ca9a806dc06b68281537b4407a37bf51bb0df0218"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00002",
+   "key": "0beffc4a9cb980b1",
+   "bytes": 230,
+   "stream_bytes": 230,
+   "stream_sha256": "3cdfb2fb7fd21d852a9e4b77547166941c8131c51a8b3d89c8e829e2957e46af"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00003",
+   "key": "d858c3ddab04d6c8",
+   "bytes": 228,
+   "stream_bytes": 228,
+   "stream_sha256": "336753f52108f036ac592da5fabd49a75b93609480439f24f6c209ec16713155"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00004",
+   "key": "230151d584c4b0d9",
+   "bytes": 229,
+   "stream_bytes": 229,
+   "stream_sha256": "f9a46241080e7dbfada4a0154546cb3d533db256633fbad0c89c60345e897b75"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00005",
+   "key": "c0b06733ee0e8042",
+   "bytes": 231,
+   "stream_bytes": 231,
+   "stream_sha256": "3609585a4244e115eab99e538be0509c343ffe5eeafebc350238c2baab19e80d"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00006",
+   "key": "18883f8b5792eea6",
+   "bytes": 222,
+   "stream_bytes": 222,
+   "stream_sha256": "036ebda378e109b50db65c2fd2564e4a344995abb70684952abb18f45ec05123"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00007",
+   "key": "0bbe0e310a59857d",
+   "bytes": 225,
+   "stream_bytes": 225,
+   "stream_sha256": "ad787ae0deb7a01fcb4881ff4444bdbeb6da68745e789ce4526f25da9652e8b7"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00008",
+   "key": "cb7c7cb51b4b9006",
+   "bytes": 216,
+   "stream_bytes": 216,
+   "stream_sha256": "c92de073838598b00d8c6176ec38b6f2d42ca058b709007f49ae16241647fff8"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00009",
+   "key": "ace75bb2741cf12f",
+   "bytes": 221,
+   "stream_bytes": 221,
+   "stream_sha256": "0c0d10645111825f7ec706ed616597a1ae401fc065ff6d481406257703f639a7"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00010",
+   "key": "5a8f1a8c2fefd1e2",
+   "bytes": 230,
+   "stream_bytes": 230,
+   "stream_sha256": "be2a0dbf7baaf3fd4356c4f04d6a1c3cc8926d37955cf3872d6c24419bc55942"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00011",
+   "key": "7acd64c601fc7c03",
+   "bytes": 216,
+   "stream_bytes": 216,
+   "stream_sha256": "cbc6298fe3b355b333e9da7835318837da561e31160841c84ac75558f2e7d88f"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00012",
+   "key": "3083941a0a0d2c12",
+   "bytes": 236,
+   "stream_bytes": 236,
+   "stream_sha256": "7f5bf1b6f10e59bfa27303235f62b7882cbf906433867871c1162c9f7a6dcdf5"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00013",
+   "key": "c3c1376903a46b2d",
+   "bytes": 242,
+   "stream_bytes": 242,
+   "stream_sha256": "ab8a4e0b5a7089060343a244f1e9d9fb02bc2cd04c827ebfb4b1a7ff5fedd553"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00014",
+   "key": "48bc52d9725aac80",
+   "bytes": 223,
+   "stream_bytes": 223,
+   "stream_sha256": "18e9fa2895e7bb2cc5f25a61e949de0aa6aa0fe698fd2ecc81db86c8edd94fdc"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00015",
+   "key": "bace921e51afb075",
+   "bytes": 234,
+   "stream_bytes": 234,
+   "stream_sha256": "60ad6c18220b02ace1b343c3fdb445e461b4c061cc1697caa57b717a5c9d7d1a"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00016",
+   "key": "d5151c77653881d1",
+   "bytes": 246,
+   "stream_bytes": 246,
+   "stream_sha256": "5d95faa66ad77baf300a65b74e5d7f80f993059ce7de7e5537736d2f18ea6c49"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00017",
+   "key": "3fe7659b87e188e5",
+   "bytes": 231,
+   "stream_bytes": 231,
+   "stream_sha256": "3666259eb87bd65c96e06dbcd001fb6c3faf5a7aa37f927c79fed81581a5cb9a"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00018",
+   "key": "a72b4cd2a35db0fe",
+   "bytes": 217,
+   "stream_bytes": 217,
+   "stream_sha256": "38e989a2c8d8023ac033b41f043bbe55ba7e7c1bb1bc20dba1184f88ca243bc5"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00019",
+   "key": "95650f521820e68e",
+   "bytes": 231,
+   "stream_bytes": 231,
+   "stream_sha256": "850fda9a96bd1ccdaa4413c03f1821e44a8a52b978b04f9c4a5c584818f670d2"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00020",
+   "key": "3459542d263a6e17",
+   "bytes": 225,
+   "stream_bytes": 225,
+   "stream_sha256": "70acd3d84e409bbf82956e3049ff0f74cbfc8d5795a79d0e2e577b0a60ab5197"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00021",
+   "key": "80142a36afd33aae",
+   "bytes": 228,
+   "stream_bytes": 228,
+   "stream_sha256": "ed3267c84868e81b86d667914fabde700a081e68ed3265f8ab954f21d98c5ad6"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00022",
+   "key": "22be42cf87ad615d",
+   "bytes": 212,
+   "stream_bytes": 212,
+   "stream_sha256": "6268b0e2f6b190c0d099e77a87427f5c6e3f1737b3989ffaae90107ee217b2b5"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00023",
+   "key": "235c61f4d4b9606e",
+   "bytes": 219,
+   "stream_bytes": 219,
+   "stream_sha256": "25c58e9f176e9050c2f7f8bf736d83c782985d6fae0e06b8932d32e6b8d36e33"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00024",
+   "key": "ea47579c3be5d268",
+   "bytes": 215,
+   "stream_bytes": 215,
+   "stream_sha256": "76f3121faa1382dfd5a193b5cc8d448292c66c53e408f680b5e379b6c1e99199"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00025",
+   "key": "eabd2e7c4aad5b15",
+   "bytes": 219,
+   "stream_bytes": 219,
+   "stream_sha256": "54f8202f1bf05a1f4699d902b4cee91fc700dd1822659d796676ce2a1742eae1"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00026",
+   "key": "8b2c9332220cbde0",
+   "bytes": 228,
+   "stream_bytes": 228,
+   "stream_sha256": "90405be3d19e54a72155286ab68d3c8261626eabbdd6fd4733ce60bef43e53d2"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00027",
+   "key": "56de8da3c25b458a",
+   "bytes": 216,
+   "stream_bytes": 216,
+   "stream_sha256": "831bdd40f792c3d16ec885e6ee8a40fa6133e31fee9fcccb290a69b5c33c6f83"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00028",
+   "key": "0e8871e3000df917",
+   "bytes": 211,
+   "stream_bytes": 211,
+   "stream_sha256": "60b4e2d73dea4cc59bc2654edd1684ac174006732606b51ba1beff00340e1c54"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00029",
+   "key": "85cf39ef9bd8e36a",
+   "bytes": 204,
+   "stream_bytes": 204,
+   "stream_sha256": "4cc8f97560b1cf482959044b55d75ec507819dcaea3d414f27ede885a5ef6edd"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00030",
+   "key": "554baf1cceda9d2d",
+   "bytes": 207,
+   "stream_bytes": 207,
+   "stream_sha256": "de90fa66be7bcec30c5d20d2db07a2fb8ce2c202d5b8aad6b36ab48d5244f68b"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00031",
+   "key": "09665caae3fca9ef",
+   "bytes": 216,
+   "stream_bytes": 216,
+   "stream_sha256": "0b04a53bbf8b7dea166aa0acdd886930defe192987b3306837c88aa63b8b6f64"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00032",
+   "key": "02bccc8a9ae26a53",
+   "bytes": 215,
+   "stream_bytes": 215,
+   "stream_sha256": "b2dea87258cbc8bf41ac9c6ac6390c13989fb2caf23973e84f1f9b129f7b2e2e"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00033",
+   "key": "fd53b84c9dd26b10",
+   "bytes": 217,
+   "stream_bytes": 217,
+   "stream_sha256": "f338eda656dfdc4689bcf7f79b5a9cfbf83cd09bc1ffbfdb2a3b382ad27cd13e"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00034",
+   "key": "68925383819543dd",
+   "bytes": 209,
+   "stream_bytes": 209,
+   "stream_sha256": "5963c2c153bd6f391b2610e189ec6437898ae9e755cb21d04a5e3501c4f25dc1"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00035",
+   "key": "432266c384b48cd6",
+   "bytes": 210,
+   "stream_bytes": 210,
+   "stream_sha256": "ffa6418f904e67bb1cd40b61021601cd9480b633836714ab11d9ef53341f23d6"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00036",
+   "key": "06e3390b8baf48ed",
+   "bytes": 212,
+   "stream_bytes": 212,
+   "stream_sha256": "28d89d138099f8bd63d13193cd8b93df6543ad7c6796e70678fde8f0e36aa2d8"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00037",
+   "key": "637330f8abc69725",
+   "bytes": 210,
+   "stream_bytes": 210,
+   "stream_sha256": "b271a2eea375210c92ef8951b3742558a38dc8865aa22efe8e010cc7e875f842"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00038",
+   "key": "dd00188d9bb092f4",
+   "bytes": 205,
+   "stream_bytes": 205,
+   "stream_sha256": "d2123fa11ace604fe484380da34a0210dbee06425e6f910e593159cdce493f02"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00039",
+   "key": "803e0c57107f7047",
+   "bytes": 198,
+   "stream_bytes": 198,
+   "stream_sha256": "eb5fe49ed4e1784b7c106fc90a9cc25c58975225f4e9ccefcd144e3e88606539"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00040",
+   "key": "380490cc208db016",
+   "bytes": 200,
+   "stream_bytes": 200,
+   "stream_sha256": "c2bfc913e9a8e6b0263dc9c3d63be7b626b1ae3893b3fb45e0ad6e2e082197e7"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00041",
+   "key": "977e8d691f8c6259",
+   "bytes": 210,
+   "stream_bytes": 210,
+   "stream_sha256": "caf8cf7b73ee9574b41ff257e2c139c457d69d44d1136db474d84bef28dd1c98"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00042",
+   "key": "87d7727da6ea44ef",
+   "bytes": 220,
+   "stream_bytes": 220,
+   "stream_sha256": "f6075ced9730276089d45e26a858f92b3bc2d1624fa8302c3c3c4929ce7d62c5"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00043",
+   "key": "aca7c9329660d7b0",
+   "bytes": 220,
+   "stream_bytes": 220,
+   "stream_sha256": "20066a6bae6fff645fa3dadca23b4bdc9d0491489d137ab36bf34221600ff4df"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00044",
+   "key": "2d3d13b397ad3325",
+   "bytes": 210,
+   "stream_bytes": 210,
+   "stream_sha256": "ec3894660f58212da95a0f4ee138945618a3dbde773890fc1b3e2fce8f0556a6"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00045",
+   "key": "92a8f5c4c17136b9",
+   "bytes": 216,
+   "stream_bytes": 216,
+   "stream_sha256": "c39f71f2f1ad0094ae6eb58bec556e4fe6f1477b25cb0a4f0ecdc43d362df225"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00046",
+   "key": "6f4fc49cfb14702a",
+   "bytes": 212,
+   "stream_bytes": 212,
+   "stream_sha256": "9821267fa79c449d763ea33f27317043c3e7c3edbfc7b591d149b646430ba672"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00047",
+   "key": "b2711e4774e614bf",
+   "bytes": 219,
+   "stream_bytes": 219,
+   "stream_sha256": "fc170238ac7218945040d32510495368a17eab35a6de17c41d9359a39a8481d0"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00048",
+   "key": "dba77634098b5de5",
+   "bytes": 214,
+   "stream_bytes": 214,
+   "stream_sha256": "5d0db8e02ba9400751bf1df5c45e6e99dc0868b1bb7073decdfdc81a054f75b5"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00049",
+   "key": "a34d264b0c47d8b5",
+   "bytes": 222,
+   "stream_bytes": 222,
+   "stream_sha256": "e490ef42b5ddb48f4bc7f622c855fdb53e2f6c5116e683e157ed44e83565b74a"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00050",
+   "key": "2b800566ee86faa5",
+   "bytes": 226,
+   "stream_bytes": 226,
+   "stream_sha256": "1d3389923a3a32b314f1f026461963905c951c57aad3778bc2c28707eb87c450"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00051",
+   "key": "9ff917ab3b79312c",
+   "bytes": 223,
+   "stream_bytes": 223,
+   "stream_sha256": "49f700c43744212266f817363494c09b61070e936aa974956decb2835d190c39"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00052",
+   "key": "cc705586fa7e2673",
+   "bytes": 222,
+   "stream_bytes": 222,
+   "stream_sha256": "1d4dc19bab2ce561d2e15f563e73feced2f5765d22bfe4121c2a598424ab7280"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00053",
+   "key": "0d53b0de73522516",
+   "bytes": 227,
+   "stream_bytes": 227,
+   "stream_sha256": "4b86e022aa0635adfdec9b2b01b2a96eae26135469d61d866a1fe1b3d15990c4"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00054",
+   "key": "9a8bd2433c7f0311",
+   "bytes": 232,
+   "stream_bytes": 232,
+   "stream_sha256": "b9612925d6eee6cc7f09ea541096f3dfe0282b8e9b691920970539b2c5089e53"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00055",
+   "key": "d3385d87f567a912",
+   "bytes": 240,
+   "stream_bytes": 240,
+   "stream_sha256": "9f296370bf4939ccfb643777dc3997a5db603b4ca65db13100ad80e6dc6c0662"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00056",
+   "key": "d8289d88b29b31a7",
+   "bytes": 252,
+   "stream_bytes": 252,
+   "stream_sha256": "b39050c08e18a0684420311e66e8c0ae9bf6b93c4785fa866faadddd3ebdf8f4"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00057",
+   "key": "19032a3f3233c3ab",
+   "bytes": 247,
+   "stream_bytes": 247,
+   "stream_sha256": "a2c0e2675f9fb2397360feb8df77b004235cb810164803a2b4a6d601b06c2620"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00058",
+   "key": "f9655897236cb945",
+   "bytes": 262,
+   "stream_bytes": 262,
+   "stream_sha256": "76e0ff6801f63e33f86aa4a713e0893c4e575b2951b0d6941103bfadbcdbd6f7"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00059",
+   "key": "a0e3643f3526e1ae",
+   "bytes": 261,
+   "stream_bytes": 261,
+   "stream_sha256": "3a2e37e20f41faeb0bac5084e49b1179cee61fe68b84e54cf7f864716e7b79b7"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00060",
+   "key": "1760638b1e01a339",
+   "bytes": 261,
+   "stream_bytes": 261,
+   "stream_sha256": "14ccd5f2f132638def693d25cb918a7d742b8f81fb36e19ff120afd14653bb99"
+  },
+  {
+   "input_id": "DAVIS2017/hike/00061",
+   "key": "37351580046ed8ae",
+   "bytes": 251,
+   "stream_bytes": 251,
+   "stream_sha256": "91a63d9a0107efaadcdef9f879c27a445ccb566faf5a0b501a75eead92c27559"
+  }
+ ],
+ "errors": [],
+ "not_applicable": [],
+ "finished": "2026-10-29 08:53:03"
+}

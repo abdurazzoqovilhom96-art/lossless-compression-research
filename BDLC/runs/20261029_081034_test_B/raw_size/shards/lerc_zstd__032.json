@@ -1,0 +1,718 @@
+{
+ "codec": "lerc_zstd",
+ "mode": "size",
+ "shard": 32,
+ "pin": {
+  "requested_cpu": 10,
+  "affinity_ok": true,
+  "priority_ok": false,
+  "affinity_mask": "0x400"
+ },
+ "python": "3.14.4 (main, Apr 14 2026, 14:26:14) [Clang 22.1.3 ]",
+ "started": "2026-10-29 09:02:14",
+ "images": [
+  {
+   "input_id": "DAVIS2017/kite-walk/00064",
+   "key": "880a73309c675e3d",
+   "bytes": 1874,
+   "stream_bytes": 1874,
+   "stream_sha256": "82d8d0f518010c0e55a91269c3f7c653677f6e471f40405d494ce4d9c8804e4a"
+  },
+  {
+   "input_id": "DAVIS2017/kite-walk/00065",
+   "key": "1e6becb35f4fb6bb",
+   "bytes": 1959,
+   "stream_bytes": 1959,
+   "stream_sha256": "0efedb880a4f691a2eef376583ea39e48862ea6a4f87081d2ac8466a92ee8120"
+  },
+  {
+   "input_id": "DAVIS2017/kite-walk/00066",
+   "key": "b5dd66d9ed661b85",
+   "bytes": 1934,
+   "stream_bytes": 1934,
+   "stream_sha256": "8dcbac800205d6322c6f5120f41c60e5d70643c1cdf6abf8589a22d77a4fa636"
+  },
+  {
+   "input_id": "DAVIS2017/kite-walk/00067",
+   "key": "49949e4d078874bf",
+   "bytes": 1903,
+   "stream_bytes": 1903,
+   "stream_sha256": "ec2d8db736763f1d4693da5758fbdea0de3126ba66d11c9dec53348ab2e63241"
+  },
+  {
+   "input_id": "DAVIS2017/kite-walk/00068",
+   "key": "5d668d9df5f41d3e",
+   "bytes": 1870,
+   "stream_bytes": 1870,
+   "stream_sha256": "32ff2850f08d3d60a70d51549dbe4b2536ce0b33d80b2fefbe951cd4b97989e4"
+  },
+  {
+   "input_id": "DAVIS2017/kite-walk/00069",
+   "key": "961f26d8ef14c62b",
+   "bytes": 1959,
+   "stream_bytes": 1959,
+   "stream_sha256": "bf8aa2553c650d12b641af6c3f465cad7e5a19368a51695ed2a66e91483ec4d2"
+  },
+  {
+   "input_id": "DAVIS2017/kite-walk/00070",
+   "key": "b06d9741dd583715",
+   "bytes": 1965,
+   "stream_bytes": 1965,
+   "stream_sha256": "430fb99e73e0c21d7d06e7780c92b59f82791807bc2bee344f169d809750450d"
+  },
+  {
+   "input_id": "DAVIS2017/kite-walk/00071",
+   "key": "21be0b881cd8b4ec",
+   "bytes": 1923,
+   "stream_bytes": 1923,
+   "stream_sha256": "38f17dfdc167f70b94f8d005dc21b135bb36c25a867ef9974a96078abc01d505"
+  },
+  {
+   "input_id": "DAVIS2017/kite-walk/00072",
+   "key": "659d363850b8718d",
+   "bytes": 1899,
+   "stream_bytes": 1899,
+   "stream_sha256": "f645e135c572c7288ec7feed030a4a6f2e670ac62b7dd9527c4a052e980ecfdf"
+  },
+  {
+   "input_id": "DAVIS2017/kite-walk/00073",
+   "key": "b2bf7439d5e851fa",
+   "bytes": 2006,
+   "stream_bytes": 2006,
+   "stream_sha256": "8c295b03c267c11035165a5c76ea4f720f8b2c83e7ba53d66751997918cd392c"
+  },
+  {
+   "input_id": "DAVIS2017/kite-walk/00074",
+   "key": "04cc0f53ec46be1f",
+   "bytes": 2056,
+   "stream_bytes": 2056,
+   "stream_sha256": "e2f051726af0df3049f2135412b6b55475f044d3b3e77d4b5b5df085766f5d3d"
+  },
+  {
+   "input_id": "DAVIS2017/kite-walk/00075",
+   "key": "3e969659d31a76d7",
+   "bytes": 2046,
+   "stream_bytes": 2046,
+   "stream_sha256": "290c95eb88ae252b2932747821935a569865e413c6aaa58a6bcbcb64b38cfddc"
+  },
+  {
+   "input_id": "DAVIS2017/kite-walk/00076",
+   "key": "affeca74b5b1703f",
+   "bytes": 2062,
+   "stream_bytes": 2062,
+   "stream_sha256": "df68a41b79c0dfb1b255b98c1559c7ab9d11f60d97eee2525f115c478cc9ae8a"
+  },
+  {
+   "input_id": "DAVIS2017/kite-walk/00077",
+   "key": "bb75b1230c84a549",
+   "bytes": 2080,
+   "stream_bytes": 2080,
+   "stream_sha256": "6bc9be93062826e612b6bc8008bec83590efe9e01bfa94d35543a6fcc1c4bd78"
+  },
+  {
+   "input_id": "DAVIS2017/kite-walk/00078",
+   "key": "5f6bf18f1bf42822",
+   "bytes": 2068,
+   "stream_bytes": 2068,
+   "stream_sha256": "a3f8e60cd92c0538d8b15234c9d9ea379f6434bd7c356e247d4f2ccc580b07d1"
+  },
+  {
+   "input_id": "DAVIS2017/kite-walk/00079",
+   "key": "86640f0cd9a3e332",
+   "bytes": 2076,
+   "stream_bytes": 2076,
+   "stream_sha256": "009b4941cd2fc8fcc8a6236a9a08baf8cd53de3e1ef6935fc84af08d50b48db2"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00000",
+   "key": "687b94097885ce4c",
+   "bytes": 1574,
+   "stream_bytes": 1574,
+   "stream_sha256": "d6c1d66b59f193c2a16eb7a7d86063d81a8faabe43a10b4aa33654f81abaf471"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00001",
+   "key": "f559a4fac12d4511",
+   "bytes": 1535,
+   "stream_bytes": 1535,
+   "stream_sha256": "d78af3ed033793d307466ac53ab4e2b0b4fee2887688b83cdfb95d6ebcdc4a7c"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00002",
+   "key": "d5c436db4416457a",
+   "bytes": 1444,
+   "stream_bytes": 1444,
+   "stream_sha256": "44d461ad2a6a81dc3b5f07d5ea8da9e10e559289ca7f979d3725b66c6fe94049"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00003",
+   "key": "ff81866c5dfdb2d2",
+   "bytes": 1507,
+   "stream_bytes": 1507,
+   "stream_sha256": "d3f432e476ed9ca448a9a8ec617cdd5f665cf19da4c090018e5676d2d3cbeb71"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00004",
+   "key": "7e2955a22049b5af",
+   "bytes": 1564,
+   "stream_bytes": 1564,
+   "stream_sha256": "1a8a9aa1a7f33d7bc153d5eba133c8f52f6b52c7976848a9325f127953447ed3"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00005",
+   "key": "ee167abe7aebaf6f",
+   "bytes": 1548,
+   "stream_bytes": 1548,
+   "stream_sha256": "c9dc93178d1f096063505ec229677d45d5256bb18f5573ab7289a38aa0a0bac2"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00006",
+   "key": "bf16c678cc45b64c",
+   "bytes": 1455,
+   "stream_bytes": 1455,
+   "stream_sha256": "e35e931bd3a90a124d07bf585994d0d8623beac8c3e475e49efc949949c8377c"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00007",
+   "key": "0dc6c4f07922134e",
+   "bytes": 1393,
+   "stream_bytes": 1393,
+   "stream_sha256": "06d921b5f366941f78ccc24d96d7ceff724ccab721950af32ad11f817d8a6848"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00008",
+   "key": "f4c9026935f2e818",
+   "bytes": 1306,
+   "stream_bytes": 1306,
+   "stream_sha256": "30e83488f943108ba3cb3aa24cb7c29920ba3ac66943cd7a6ccd4d3a3d23e9e2"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00009",
+   "key": "6315e26f1543b89f",
+   "bytes": 1259,
+   "stream_bytes": 1259,
+   "stream_sha256": "c61c38e24abfabcb73071a4f25ecd6a8df9a5862741b9ee109c1c4dd81b4d9c1"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00010",
+   "key": "d68f610a93abde5b",
+   "bytes": 1244,
+   "stream_bytes": 1244,
+   "stream_sha256": "fe88418cc18cfa65f1a20db34b9e6848ac346c7e0f43a477ca4bde937abeba85"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00011",
+   "key": "1bf5772c165e6c42",
+   "bytes": 1278,
+   "stream_bytes": 1278,
+   "stream_sha256": "61be1cf377e9b9cb7db45898d80784f0bbb4ea7f37ebdd697ddc1039673654e9"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00012",
+   "key": "24a76bb4375047f2",
+   "bytes": 1265,
+   "stream_bytes": 1265,
+   "stream_sha256": "1841317a3d5853a35bdefb76bcf51cc6df537887e3fb8eefec27d8ea26333da7"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00013",
+   "key": "442e9efcb5b8fd05",
+   "bytes": 1291,
+   "stream_bytes": 1291,
+   "stream_sha256": "c876630227bb4616cf550cadac92e394c204534f5ce1234fa7e77cec4ef24170"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00014",
+   "key": "f70e302012667437",
+   "bytes": 1219,
+   "stream_bytes": 1219,
+   "stream_sha256": "d5013dbe291e9b64f555a15f7e17db97dc85ebfa41e60c96b3de05ddf5fb68a6"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00015",
+   "key": "f8cf744d05f2f7d5",
+   "bytes": 1225,
+   "stream_bytes": 1225,
+   "stream_sha256": "c6a67d3360f2c3e07da414f54b077ec65c9f553e23f5337fad0e5e5670f4e95b"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00016",
+   "key": "85a8d2ae2193205b",
+   "bytes": 1251,
+   "stream_bytes": 1251,
+   "stream_sha256": "5972a3ffe02bef3d508afab2d16f1535c7d173a32873d694ca7b7705db930e3d"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00017",
+   "key": "9c53a9831745d082",
+   "bytes": 1259,
+   "stream_bytes": 1259,
+   "stream_sha256": "2a9c729a5557a042aa8bf2e1925d2885ff88fcd11ab7c817f2a3e12826404037"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00018",
+   "key": "766621ef67d1ba74",
+   "bytes": 1242,
+   "stream_bytes": 1242,
+   "stream_sha256": "2ede21a040bc3b389350686278e22546d3beb1c050ce75beef2597f9cfe0b553"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00019",
+   "key": "00008c12a55423ff",
+   "bytes": 1254,
+   "stream_bytes": 1254,
+   "stream_sha256": "e560c794b1ffd1e79feb88953290e998e5c6a3a1133f3237fb62ad6fbd48aefa"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00020",
+   "key": "4885ba9e092da6c1",
+   "bytes": 1250,
+   "stream_bytes": 1250,
+   "stream_sha256": "d2aaa19ac662d93bbde20c89f73b9b76e1751eeef1f60c95281876be912aa754"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00021",
+   "key": "b7e63d79890a01bd",
+   "bytes": 1243,
+   "stream_bytes": 1243,
+   "stream_sha256": "d9b0802a643bced2bb00a7efbe40bca4aa2f7d61c70192bb273e88d84e54bd05"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00022",
+   "key": "125e52bce6e2ac0d",
+   "bytes": 1222,
+   "stream_bytes": 1222,
+   "stream_sha256": "675678d092c5d74ba70e5bfd9713b6a8a2dcb46bb376b68d6e422479b6c0345e"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00023",
+   "key": "b79f1fb1b0038e9c",
+   "bytes": 1269,
+   "stream_bytes": 1269,
+   "stream_sha256": "58bc8c640d6686014dbc61b2f305a8f3625f8fa5f1b9ef91f92a17f7d38b9122"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00024",
+   "key": "a4c8fbcab38c4b3b",
+   "bytes": 1310,
+   "stream_bytes": 1310,
+   "stream_sha256": "4bc6a2c388fddc4f557bca25cd5eaa376c104e49e569a796329954805e61fc3d"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00025",
+   "key": "7b82f99bc17fc6ab",
+   "bytes": 1375,
+   "stream_bytes": 1375,
+   "stream_sha256": "fa7f8e2d6f66ffd6cfae6049d07b14e21c5148178a5c032f3edad2d79ada001d"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00026",
+   "key": "6e644f5536faa8f6",
+   "bytes": 1489,
+   "stream_bytes": 1489,
+   "stream_sha256": "357d24fa74de5cce0bd55660289f2b6b888ecc0974b365f8ce0e8c3f5a9cbab9"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00027",
+   "key": "101b5a67e9eb3d29",
+   "bytes": 1479,
+   "stream_bytes": 1479,
+   "stream_sha256": "ed4e75a5708c4970e99b207af24cf546ad90144adeeb1a919618d9bc59b07777"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00028",
+   "key": "ba374a08be5c4012",
+   "bytes": 1480,
+   "stream_bytes": 1480,
+   "stream_sha256": "005dc1d578e4a028e741f050c7784206d86a00f908bb6bc67a6b37c074a2c68d"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00029",
+   "key": "688771745957c6f0",
+   "bytes": 1540,
+   "stream_bytes": 1540,
+   "stream_sha256": "5e0ebef83191538f3dae9e6ee392004584e6ceb03a3cb98bea4f864ea8bb4110"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00030",
+   "key": "67fb971ab958e8e9",
+   "bytes": 1568,
+   "stream_bytes": 1568,
+   "stream_sha256": "cebf0a8562689f39f892b96e27b11e472a00641b85cb54acc672e14d2e0c6e74"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00031",
+   "key": "c2c157c04b51eb6d",
+   "bytes": 1681,
+   "stream_bytes": 1681,
+   "stream_sha256": "d219281e6798305d2e3d25957d36c8e3dbd36c74074e7856378238e3959393b1"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00032",
+   "key": "b6ff82b501dd70b2",
+   "bytes": 1741,
+   "stream_bytes": 1741,
+   "stream_sha256": "3dd01d434523192f1ba3794f44cc2d975b8aa75bb2b85292c3b3f64964c8f641"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00033",
+   "key": "b14400d78ce4fb3a",
+   "bytes": 1809,
+   "stream_bytes": 1809,
+   "stream_sha256": "21c6e8d5473141e945a2be50d9337b824bdef4cd2a1e44f0c73b8b3f27fc983e"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00034",
+   "key": "edf4b8b03dc4505d",
+   "bytes": 1786,
+   "stream_bytes": 1786,
+   "stream_sha256": "68e20e4ffced9ce84df0aa6d5fe6e1753efadb9f839168314c9c62bc9116f659"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00035",
+   "key": "5986675c2f234513",
+   "bytes": 1718,
+   "stream_bytes": 1718,
+   "stream_sha256": "77b626604c05aadbc146dcf9847cdedb957830a0ec31a48f7b32702c727982bb"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00036",
+   "key": "b8de93e5152b6782",
+   "bytes": 1705,
+   "stream_bytes": 1705,
+   "stream_sha256": "606e5c0620bc2daa2dfc96795ec99134bdc4f62f60de67b0dc7856061ac5efba"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00037",
+   "key": "386f4a19fb0b6791",
+   "bytes": 1799,
+   "stream_bytes": 1799,
+   "stream_sha256": "a4d93311bb5a71cf09f6e07abd8504a959ec81222b817dd6e29c70f86e944a78"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00038",
+   "key": "ad7e8478547357d1",
+   "bytes": 1707,
+   "stream_bytes": 1707,
+   "stream_sha256": "75fde507c79aab93f5d051e7d7a4cdf2e8c25246c6ad544f10892f925d07af85"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00039",
+   "key": "29fa4ebed337dded",
+   "bytes": 1651,
+   "stream_bytes": 1651,
+   "stream_sha256": "1cb585a2716cad6a9d1b814286fa149d26a052300d784e4379a0a8859730dc5e"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00040",
+   "key": "919a63150ecde3f7",
+   "bytes": 1553,
+   "stream_bytes": 1553,
+   "stream_sha256": "3e4f3b887a366dc49fbf9a761f153cbea574f58008f77a7ea465540998de75cf"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00041",
+   "key": "fa8a7e0c9d1a5fb9",
+   "bytes": 1578,
+   "stream_bytes": 1578,
+   "stream_sha256": "01779e6190f994b84a337eada5014a679657a6ac8d27ba30743ba9e7d353d987"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00042",
+   "key": "d170a9ccc9df2efc",
+   "bytes": 1478,
+   "stream_bytes": 1478,
+   "stream_sha256": "e4360640d0df379052cc6814dcb1a168ba05018c540c2927291339e606ab1247"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00043",
+   "key": "b5ab576cb94155a8",
+   "bytes": 1507,
+   "stream_bytes": 1507,
+   "stream_sha256": "041edcc3573b36cca8f4c7f5a68a59263ee850dc557e080a269b91574e1ae233"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00044",
+   "key": "772a1dad2c1cd7a3",
+   "bytes": 1578,
+   "stream_bytes": 1578,
+   "stream_sha256": "2c5c03d1fcec77aa3f3fc6dd0fb8aaf88b3a99c22ca7a40525c079b969e39d08"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00045",
+   "key": "60b877ead3f26ddd",
+   "bytes": 1562,
+   "stream_bytes": 1562,
+   "stream_sha256": "8390f398280cc6402c253fcc35b4e6eaf5b864e0455824536e8163fa77d85563"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00046",
+   "key": "c49e7474a1f92305",
+   "bytes": 1594,
+   "stream_bytes": 1594,
+   "stream_sha256": "c2e3a7e62dd2b9f14dc9f7e8aef8a4c086e810db372520cc0d6a7cc8567b8121"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00047",
+   "key": "9597f683f06499a5",
+   "bytes": 1577,
+   "stream_bytes": 1577,
+   "stream_sha256": "5e6aefff117b70041cc16b999d9ae4bcef126a55303024d9c7042b396b85a76e"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00048",
+   "key": "d3d20013428cf8f6",
+   "bytes": 1771,
+   "stream_bytes": 1771,
+   "stream_sha256": "785fe60e2904123f3ddb607c9da0c422b34ea27e31fedcd4434485930546c70e"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00049",
+   "key": "40360aa9b697a046",
+   "bytes": 1702,
+   "stream_bytes": 1702,
+   "stream_sha256": "ab84469795de44d27c775d6399aa511c0e50d42c33729543bde2e4bcbd4f09e6"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00050",
+   "key": "03d4b0789589e5aa",
+   "bytes": 1703,
+   "stream_bytes": 1703,
+   "stream_sha256": "ba08796864e3464bfde6fdb782656e59a52985469ddeb11860e82848c09365f1"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00051",
+   "key": "5ccbee44e8518462",
+   "bytes": 1759,
+   "stream_bytes": 1759,
+   "stream_sha256": "0b1c92c423c1f89dd296bb45da291460b0204aa5019a1381f34f2cfced0200f7"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00052",
+   "key": "acb7530d4aded9db",
+   "bytes": 1785,
+   "stream_bytes": 1785,
+   "stream_sha256": "768864541676425d21d8000abb48fa62dbd99212f526e77b7b44fa51187feac7"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00053",
+   "key": "f9b522e6df239b6b",
+   "bytes": 1706,
+   "stream_bytes": 1706,
+   "stream_sha256": "2a8d91d3e74ef2a4b3778c45c2a0041942567c0539e922e28c43e0590ae7a0cc"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00054",
+   "key": "63d7287f10ca8e89",
+   "bytes": 1785,
+   "stream_bytes": 1785,
+   "stream_sha256": "ed89a5efe2ffdf3c9a5f5d98235f4e42edfbb45ead605438da7c317b283e8748"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00055",
+   "key": "ea1c0ba6393432fa",
+   "bytes": 1819,
+   "stream_bytes": 1819,
+   "stream_sha256": "227c067dd2ce7b85a83bbe02c66b2a24624e214b6b6ccd084472c49f8de5621d"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00056",
+   "key": "b5fe3a664fd97c4d",
+   "bytes": 1823,
+   "stream_bytes": 1823,
+   "stream_sha256": "d7462dcd1896e7b518470cdb105dd7f7b1bceec92df85e3ef38b31ec7cdfb9b3"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00057",
+   "key": "5b16fcebbeb96f20",
+   "bytes": 1889,
+   "stream_bytes": 1889,
+   "stream_sha256": "655f5236ea32c06feb13402f96274bcabf5418408fbb7b830c131871288f2280"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00058",
+   "key": "26a339443b6d5c33",
+   "bytes": 1864,
+   "stream_bytes": 1864,
+   "stream_sha256": "2554444251aec405537d27517979af81bce3c9404f7f5da7c2648d11f717d62f"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00059",
+   "key": "01f827f7fecf3548",
+   "bytes": 1794,
+   "stream_bytes": 1794,
+   "stream_sha256": "5cc92d0ceda30b99c8c6805397ee8559b2f9350d2321cfcb36c4273c4a15ce04"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00060",
+   "key": "f066b2feb52eb74e",
+   "bytes": 1769,
+   "stream_bytes": 1769,
+   "stream_sha256": "22faaa653510e3df7e7a11ddd830f25ce711a94f1b11e21c72b50517f0d51001"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00061",
+   "key": "84b7a08733cd3011",
+   "bytes": 1805,
+   "stream_bytes": 1805,
+   "stream_sha256": "6e818e2da9eadb2d4fb6684c15858ddbe646c03ee30b232aeb052d1d77ef10b2"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00062",
+   "key": "5952ae666cf4255c",
+   "bytes": 1814,
+   "stream_bytes": 1814,
+   "stream_sha256": "0e2de1661b65e3debd449d0357d988927dfaaeb94ff030809e47d24f396f1fe7"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00063",
+   "key": "d84f08b8dd95e422",
+   "bytes": 1804,
+   "stream_bytes": 1804,
+   "stream_sha256": "565c9fb6131594a7ddd2bdd85a917ebb1213e1b42fda484c8090bc2d9ebad023"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00064",
+   "key": "f2f1e0e083074589",
+   "bytes": 1743,
+   "stream_bytes": 1743,
+   "stream_sha256": "00e79be385eecf551b248b1a69b9c36cdd954b8c93d5d441d180ce519326a86e"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00065",
+   "key": "d5001298db63d5f9",
+   "bytes": 1876,
+   "stream_bytes": 1876,
+   "stream_sha256": "4153d26d5760b3051ad38a8a7f3dd69b9042f86c061d4b6d54f8920d903cbaea"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00066",
+   "key": "55898ccf244df9c6",
+   "bytes": 1882,
+   "stream_bytes": 1882,
+   "stream_sha256": "469d5daa05a3f5f3a4deb0ef1358ae902469455d35b6cf5a90bac0ab47b17807"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00067",
+   "key": "8d2393a4b9289f3c",
+   "bytes": 1816,
+   "stream_bytes": 1816,
+   "stream_sha256": "593d058200aefd1da1d6ae2453bfe3319f447e9fa91508434fb8abda7792c1bd"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00068",
+   "key": "21087371fe0c8eaf",
+   "bytes": 1782,
+   "stream_bytes": 1782,
+   "stream_sha256": "0f5ba0120c19903c2d2014a9d79f24b3926418860689a032bce4184b46568791"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00069",
+   "key": "6accbcf11a12df3e",
+   "bytes": 1746,
+   "stream_bytes": 1746,
+   "stream_sha256": "70d8ef2b919645e4b0cad53bbb84a47af1c6d1dfca08385a4ffa059ec47b3352"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00070",
+   "key": "e80bb78779f457db",
+   "bytes": 1654,
+   "stream_bytes": 1654,
+   "stream_sha256": "19662148c149cfac2119b94ad9567351916b3182cf267a468ad83ba765572f0e"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00071",
+   "key": "b207adc40b54897d",
+   "bytes": 1623,
+   "stream_bytes": 1623,
+   "stream_sha256": "0d4da2d4c398f674a2763ab6cdcc0726ca6df708561dbb8a078de35908110d88"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00072",
+   "key": "07f89d7a8a3fae87",
+   "bytes": 1646,
+   "stream_bytes": 1646,
+   "stream_sha256": "cc675e98b4dcbd2d9ab622551bbf6a5203eb82016b7180979823290a99f9dfb0"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00073",
+   "key": "38155ad901264c08",
+   "bytes": 1703,
+   "stream_bytes": 1703,
+   "stream_sha256": "bb937e8c1254a98844e53f5eef850e517b147c2a590fdbbec85cd5884865f2b7"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00074",
+   "key": "9da9b9ef12b9d132",
+   "bytes": 1821,
+   "stream_bytes": 1821,
+   "stream_sha256": "88d14b5d421980336b2ab734b677dcec79fc5dafa88b5ec41db2fd219f033947"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00075",
+   "key": "68afa43ada5d9446",
+   "bytes": 1733,
+   "stream_bytes": 1733,
+   "stream_sha256": "7036a6c8a77f7a0f944aaa1dbfea1bf29ec2329378a8981700853f2a3cc07a06"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00076",
+   "key": "e3059bc8e2970b53",
+   "bytes": 1756,
+   "stream_bytes": 1756,
+   "stream_sha256": "f6de278839a2eb253955125a142c8e0e7b8d504b09d3fdefea3728da122d950f"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00077",
+   "key": "3ae715b14c5978e7",
+   "bytes": 1800,
+   "stream_bytes": 1800,
+   "stream_sha256": "38242568a618742c6473aa9c9982a5fda3e7a4e6c4fda43599088033e1ad1698"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00078",
+   "key": "51251b5cb3c3e316",
+   "bytes": 1819,
+   "stream_bytes": 1819,
+   "stream_sha256": "48a21ad53e823a747a8e57b5c4395e35080067d35890904890b25f0c7db0d535"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00079",
+   "key": "5228ce6b325eecd7",
+   "bytes": 1842,
+   "stream_bytes": 1842,
+   "stream_sha256": "19e5ec98e351d0fc2fbe4b5fde8cc6eded24cbf30a1dfba4c65e370daf45a420"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00080",
+   "key": "c947996a2fa699fc",
+   "bytes": 1921,
+   "stream_bytes": 1921,
+   "stream_sha256": "24bf78137807b4582f0182eedde3140697a3e42372d2cf28ede921c642bda688"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00081",
+   "key": "1c2efb1e44c31fce",
+   "bytes": 1889,
+   "stream_bytes": 1889,
+   "stream_sha256": "9d2954e5d2301d04b92c6538ca04f7ccf6d5b65731b0ec38f16a41f3a899e8e2"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00082",
+   "key": "620384b94d794735",
+   "bytes": 1938,
+   "stream_bytes": 1938,
+   "stream_sha256": "feaf008ff8413c75bf753fd84abc86530e598e094f8777cb13809fa4588bd1e7"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00083",
+   "key": "9a3ea7f0db2dbde5",
+   "bytes": 1863,
+   "stream_bytes": 1863,
+   "stream_sha256": "696a31b78efdfddb7e637e54f4e94788c3c2a869642ee95875eea50a890282fd"
+  }
+ ],
+ "errors": [],
+ "not_applicable": [],
+ "finished": "2026-10-29 09:02:19"
+}

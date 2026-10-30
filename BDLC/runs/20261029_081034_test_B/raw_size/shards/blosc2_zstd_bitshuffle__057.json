@@ -1,0 +1,718 @@
+{
+ "codec": "blosc2_zstd_bitshuffle",
+ "mode": "size",
+ "shard": 57,
+ "pin": {
+  "requested_cpu": 15,
+  "affinity_ok": true,
+  "priority_ok": false,
+  "affinity_mask": "0x8000"
+ },
+ "python": "3.14.4 (main, Apr 14 2026, 14:26:14) [Clang 22.1.3 ]",
+ "started": "2026-10-29 08:52:17",
+ "images": [
+  {
+   "input_id": "DAVIS2017/swing/00041",
+   "key": "053b1148459e9335",
+   "bytes": 4980,
+   "stream_bytes": 4980,
+   "stream_sha256": "63c8fc13971c7666a979c9515389bc5eb42d2dc3b701d3e12be0b15628cdcd4d"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00042",
+   "key": "90a11776a67c846a",
+   "bytes": 4895,
+   "stream_bytes": 4895,
+   "stream_sha256": "f3b59e33bb6b2f644c23c3431a7718f8b5c40f5fe09570c4f85ea7c3616be9f3"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00043",
+   "key": "c252f5a46dd61eb5",
+   "bytes": 4804,
+   "stream_bytes": 4804,
+   "stream_sha256": "4e860d078db88af59e1326d45bce568bbe6cd9c42d377c244010bb3d338c8574"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00044",
+   "key": "679fd2efbe40a35b",
+   "bytes": 4909,
+   "stream_bytes": 4909,
+   "stream_sha256": "bc9974f06903592f83a6af9a235d5ada192f811fd81cf6e91eb675150c09d8df"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00045",
+   "key": "aeabd544ef6d3437",
+   "bytes": 5188,
+   "stream_bytes": 5188,
+   "stream_sha256": "2e68870d0d66de83e5c0b4dcd4d90c8e4b210eb66b7c88cacabcc0f506d762cf"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00046",
+   "key": "579a8abfc9956891",
+   "bytes": 5197,
+   "stream_bytes": 5197,
+   "stream_sha256": "328b82aa9d511fa93f7d4b9014ea568b4e992ac0b17ae765d795f6638d5d7bf0"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00047",
+   "key": "0177d49b7102d421",
+   "bytes": 5334,
+   "stream_bytes": 5334,
+   "stream_sha256": "09b754372c99b5a34b302229f058d516bc067f81a0178c5fd959b609f7735ccc"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00048",
+   "key": "96ae461be02772d6",
+   "bytes": 5235,
+   "stream_bytes": 5235,
+   "stream_sha256": "1b23db64a20c6a7a48c1efaa0e9fb43496402952285554dac1aff647262142a8"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00049",
+   "key": "de7c84f03583437c",
+   "bytes": 4898,
+   "stream_bytes": 4898,
+   "stream_sha256": "4a70bb93967fc8ba0623765671442cecd7055895ff6783232dae566f0fd8eb01"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00050",
+   "key": "a2ecd82909fcb134",
+   "bytes": 3858,
+   "stream_bytes": 3858,
+   "stream_sha256": "1953c89bfa3055cc207b147dbfe21826bcd5577f3c099ea39f92c11e33c02cc3"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00051",
+   "key": "161f490f1db1c433",
+   "bytes": 4480,
+   "stream_bytes": 4480,
+   "stream_sha256": "91050f9986488cc9f1b7b54bd6a1a50d69d1c4fcf4f01651023dff1d69fc2feb"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00052",
+   "key": "e7d28c21ae0035ec",
+   "bytes": 5093,
+   "stream_bytes": 5093,
+   "stream_sha256": "8a8a7b416fb6aacccfc2161f63009ffd0d8f81f46ed1a97a319ab23b79fdc36c"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00053",
+   "key": "99cbb2d7cf26aea0",
+   "bytes": 4746,
+   "stream_bytes": 4746,
+   "stream_sha256": "894d2023d62cab272cf684f530de4bcb57ea15a79952261403c147a8158dd152"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00054",
+   "key": "b0c25e695d239221",
+   "bytes": 4132,
+   "stream_bytes": 4132,
+   "stream_sha256": "4b6362e246878940dc3801ea8d8812b8cd6faa782628de56b8598d16fcb7ee18"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00055",
+   "key": "896bd06b0dee73b8",
+   "bytes": 4050,
+   "stream_bytes": 4050,
+   "stream_sha256": "5b4c70fec8396fa599eafcacbf30990ffe58a8ac1681eebb99bcb20549aa26ce"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00056",
+   "key": "10a6bd7c6375ac10",
+   "bytes": 4419,
+   "stream_bytes": 4419,
+   "stream_sha256": "790793a9166dfb80a163b866be96237afb4af3cd0a527f2e65682a6e4ecf4884"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00057",
+   "key": "cd51e567f6593475",
+   "bytes": 4748,
+   "stream_bytes": 4748,
+   "stream_sha256": "99d5d728eeb40d7745fa907c5d84a0a63b92840e6b93457c5e3c28224ac8ef23"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00058",
+   "key": "501dfc7c83fc0666",
+   "bytes": 4699,
+   "stream_bytes": 4699,
+   "stream_sha256": "13b2bc653440b32f5410a4b4d7aeb7e3c17b99d8e0cdfd79c57c0d0cdbcc1438"
+  },
+  {
+   "input_id": "DAVIS2017/swing/00059",
+   "key": "2b71bf74faaf08d5",
+   "bytes": 4549,
+   "stream_bytes": 4549,
+   "stream_sha256": "46a767898f0b7af7a0b05e15c8a621a469aa810a3da4ae95d337c36a6cc6f234"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00000",
+   "key": "41629dcff12e1510",
+   "bytes": 2447,
+   "stream_bytes": 2447,
+   "stream_sha256": "06dc9106bc51c006af13291da809beabda72b7058e07c5710a1f4209e5025b99"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00001",
+   "key": "30cd555c90262ed2",
+   "bytes": 2509,
+   "stream_bytes": 2509,
+   "stream_sha256": "266e1a0a5de6d6ef600751152f068f6e62bbdb808155c2cbdd4e46b381395774"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00002",
+   "key": "62991bdaa3ea2b7b",
+   "bytes": 2494,
+   "stream_bytes": 2494,
+   "stream_sha256": "64f4379f1fcba4460ce86d373f16ac1cfe007f42b06edb0c9cf8dfbc1fc84fd1"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00003",
+   "key": "690ff14c8dc56f13",
+   "bytes": 2471,
+   "stream_bytes": 2471,
+   "stream_sha256": "a13caf97b87f0cfd415ca25878845d38bda096c0f4b367622e644d7277570f38"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00004",
+   "key": "c30a91f58d9422ff",
+   "bytes": 2271,
+   "stream_bytes": 2271,
+   "stream_sha256": "f0569f5d22348042d726b38f49ad22cef1bbc956fc508128cf0209ac51272bc4"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00005",
+   "key": "3e2237115d1b92bb",
+   "bytes": 1893,
+   "stream_bytes": 1893,
+   "stream_sha256": "2f107721862832eae5ac3fb4b2bd0f15e71a88cc7100094040003f891e252a3a"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00006",
+   "key": "50d52d64dd9dbf06",
+   "bytes": 1997,
+   "stream_bytes": 1997,
+   "stream_sha256": "ebde801416e621a83e056053149d94bb3aa7fd9efdee827b1ac4218b621ab239"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00007",
+   "key": "0e8acdc7f000ba9f",
+   "bytes": 2260,
+   "stream_bytes": 2260,
+   "stream_sha256": "8c2978528a071cb6917c3e415f813c0ad8476c26837246403377da98f579b379"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00008",
+   "key": "65dbb2d1c01c3b32",
+   "bytes": 2476,
+   "stream_bytes": 2476,
+   "stream_sha256": "dec354ece4b40ace57cbec580987407eff8ae0b8e7954037c4c5a2b2466f9753"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00009",
+   "key": "170e07127bf33420",
+   "bytes": 2533,
+   "stream_bytes": 2533,
+   "stream_sha256": "fa18fc9094acbf0f12470254a590c574bde270351e0cda16a6cc2ca07f050b32"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00010",
+   "key": "c4d7b6d58b857383",
+   "bytes": 2416,
+   "stream_bytes": 2416,
+   "stream_sha256": "68cda23286f4c3dd356bfef75588336e08bcb075ddf23fb024c700d6e7d0e703"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00011",
+   "key": "66c4bb3f2fb27db5",
+   "bytes": 2406,
+   "stream_bytes": 2406,
+   "stream_sha256": "f53e61e2aa12da87d3ca395e6850406d88b46be12d9a35bc05bc598c66580809"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00012",
+   "key": "850938661a020d92",
+   "bytes": 2163,
+   "stream_bytes": 2163,
+   "stream_sha256": "f1126f9d84799d6dc73f2df29a23fcf87e8749a8ad099ac430196b2684de8f0c"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00013",
+   "key": "21782b9b57bf58cc",
+   "bytes": 2802,
+   "stream_bytes": 2802,
+   "stream_sha256": "df54b1161e69fc03508d52cbf4357f8ccf69cc398abdc82a229d7f8c83a64ff8"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00014",
+   "key": "093fbef8ac9bb527",
+   "bytes": 2821,
+   "stream_bytes": 2821,
+   "stream_sha256": "ae9867dfc384efa109af4efc68c50b74ed11429ef7d897f94be89f4dbbc2d19a"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00015",
+   "key": "cdc46845313515d6",
+   "bytes": 2890,
+   "stream_bytes": 2890,
+   "stream_sha256": "981c7af49207c222f1d0c4cc97ee2f6708853cecf3eea93e6b2ff4fcb7b684c0"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00016",
+   "key": "8458fc7a4a12c09c",
+   "bytes": 2997,
+   "stream_bytes": 2997,
+   "stream_sha256": "dc81ab74b51f9a09ce751008dc14d24b6634ff6d58c69a6926c1f44ddefb13b7"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00017",
+   "key": "ae218e94ba95c540",
+   "bytes": 3021,
+   "stream_bytes": 3021,
+   "stream_sha256": "a169e249240a1a52a4018554544b4b50da14f9702ac261c840c630f65d662e0c"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00018",
+   "key": "cb4396fb627c425e",
+   "bytes": 2988,
+   "stream_bytes": 2988,
+   "stream_sha256": "a64e842d472f31c44ea4b6752e4df569a14c7908b69d0b4c80280ebcb59b45eb"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00019",
+   "key": "86df7bcf2fef2949",
+   "bytes": 3352,
+   "stream_bytes": 3352,
+   "stream_sha256": "5fcd1cecae1d8900d8d1c42d13eeaecd284f7064f7faa6bb52191c1895922e14"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00020",
+   "key": "b8590a38afdef6d2",
+   "bytes": 3383,
+   "stream_bytes": 3383,
+   "stream_sha256": "3ed0bd381082a4a5ea1c09c32d895fc2cedd135782dbb9423d6dcf14171dc1e3"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00021",
+   "key": "77fb61073a1b4a4b",
+   "bytes": 3046,
+   "stream_bytes": 3046,
+   "stream_sha256": "84d966c0b249ba6451e2e38d8d6a9d277a468ec7c4243740204bdb0b0d1a26b3"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00022",
+   "key": "9ab24d98b4ca974b",
+   "bytes": 2950,
+   "stream_bytes": 2950,
+   "stream_sha256": "663d67e22258426703e04670ec5ea24bb908927fd6c5c041b2d5255d82518313"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00023",
+   "key": "d985fed0ff8050ca",
+   "bytes": 2790,
+   "stream_bytes": 2790,
+   "stream_sha256": "c73177be5b88dc9c5c9580bdb5a2334a3a1cb09dff185b311461f17cbc3d7c27"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00024",
+   "key": "18e903c42901424e",
+   "bytes": 2894,
+   "stream_bytes": 2894,
+   "stream_sha256": "a5327c061747e524eb3e67a169b1d33deda23cfc0fe9edf1e8e53662ae65a301"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00025",
+   "key": "03d526146563b64e",
+   "bytes": 2725,
+   "stream_bytes": 2725,
+   "stream_sha256": "a158e16cc8932e8ab48845dfa74b61b6277fd40cbacf1aa0e6add44d47f37f61"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00026",
+   "key": "4441d468d29e09f8",
+   "bytes": 2209,
+   "stream_bytes": 2209,
+   "stream_sha256": "9f2781ad189ef8bac4ecb4f9b89239e86b87d1e1f0e8b73cc9ed742629a45d1d"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00027",
+   "key": "2e7ad7f23f1dcb3b",
+   "bytes": 2267,
+   "stream_bytes": 2267,
+   "stream_sha256": "65b5f2d3821769c130a6d7be9352e444dbbf3e1d9d07437e376d031d2fc845d3"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00028",
+   "key": "f10458b33dea24f8",
+   "bytes": 2221,
+   "stream_bytes": 2221,
+   "stream_sha256": "5f489d1ef14f89864b2ffb0d6d7256c8dbe9031228dff03c399d0706d1766299"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00029",
+   "key": "ccf9169aadecd023",
+   "bytes": 2230,
+   "stream_bytes": 2230,
+   "stream_sha256": "90fe48df048d3ec169d63c1466bff5d42f8f46b847fc43a0bb06260a1f1a2414"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00030",
+   "key": "a9e426f3b81e5972",
+   "bytes": 2484,
+   "stream_bytes": 2484,
+   "stream_sha256": "45f9bf2ab7c9e4209c846b4c9858bba340f74c3c2d70d00107315980ec9f6e3d"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00031",
+   "key": "5b144035355a781d",
+   "bytes": 2636,
+   "stream_bytes": 2636,
+   "stream_sha256": "4521be252bc618922c97ef489783ed09285fe77be0dca3898b8a26df116933bc"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00032",
+   "key": "564e6fd971d14737",
+   "bytes": 2700,
+   "stream_bytes": 2700,
+   "stream_sha256": "df38bdb9abb116c700492bd1400210df38b3213b1ae48156086631405e44f899"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00033",
+   "key": "13cf735b93f3f555",
+   "bytes": 2721,
+   "stream_bytes": 2721,
+   "stream_sha256": "8160edd0298410bcdf90add45e730e1efe84ec58facee35529052ed3a7c615a2"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00034",
+   "key": "6882803ed78d990f",
+   "bytes": 2974,
+   "stream_bytes": 2974,
+   "stream_sha256": "7a2b33b439f4f9ecf1eac104d7b67899c53ffa9cde5bb54b83058712a108a4a3"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00035",
+   "key": "518ad125c77e6817",
+   "bytes": 3074,
+   "stream_bytes": 3074,
+   "stream_sha256": "3a82f4ef7d91733a4ab5aa81041d6f94b7045c955b32a636b0ad4857525d7a48"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00036",
+   "key": "6e1589a72884df50",
+   "bytes": 3079,
+   "stream_bytes": 3079,
+   "stream_sha256": "fd877b81d6db395bb3e69b12b76e4861246eb4eea610fda10c930971e9bb7cfa"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00037",
+   "key": "b14a393ee345baa4",
+   "bytes": 3112,
+   "stream_bytes": 3112,
+   "stream_sha256": "b7154536a1d92c9084e50b99930c9c9d77e532a6b809e20122fde6766a8d99b2"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00038",
+   "key": "25096213b8b3f460",
+   "bytes": 3177,
+   "stream_bytes": 3177,
+   "stream_sha256": "16114077224a7d4e9c96668af7736ab51dda992cc8f305b64c9f10cca36dc160"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00039",
+   "key": "3cc2671de71b1b04",
+   "bytes": 3365,
+   "stream_bytes": 3365,
+   "stream_sha256": "a1e95f6b5c6b402c8d77b20790cfc9a22297373a85cf156b8381c3fb0cf16d5d"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00040",
+   "key": "39857c1b2a44139c",
+   "bytes": 3347,
+   "stream_bytes": 3347,
+   "stream_sha256": "f9fad52f08654ea877f365624363c792494c901c91d59cdf378aae8490ce0f00"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00041",
+   "key": "278dc7310873ffcc",
+   "bytes": 3449,
+   "stream_bytes": 3449,
+   "stream_sha256": "0bd021fd5d85daff0f06f1071c3fd543efedc28d61adc9c041f068e58fbf1c53"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00042",
+   "key": "a4035fd3c9fc0903",
+   "bytes": 3437,
+   "stream_bytes": 3437,
+   "stream_sha256": "97e5abb2e2e36ac37fa74a171bd7d4a07565488449a241f25b2ad11da085f285"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00043",
+   "key": "ba3c4e9dab5b2cb1",
+   "bytes": 3280,
+   "stream_bytes": 3280,
+   "stream_sha256": "9a9aba057879752a84aff063a2afedc0b61323161faed2f053e96d5d5f3ffe3e"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00044",
+   "key": "0d090e79dc7dd901",
+   "bytes": 3326,
+   "stream_bytes": 3326,
+   "stream_sha256": "aaefbb9a887ec44becc833f73d041bb06ca4d0f8a0dbd98bb2a82617ae2234b0"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00045",
+   "key": "9050676b1d31cf71",
+   "bytes": 3037,
+   "stream_bytes": 3037,
+   "stream_sha256": "bf2686271518c0762c13bdaf8f486a5945b3f4a8e5d3a2cb6062f52efeca1d4c"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00046",
+   "key": "fc5d957ccfd117d9",
+   "bytes": 2815,
+   "stream_bytes": 2815,
+   "stream_sha256": "59627c5cd404219c9dffde3af68684b2080d4d4d77e853a3bf14355df3a73ebd"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00047",
+   "key": "6c4f518d9358d25f",
+   "bytes": 3010,
+   "stream_bytes": 3010,
+   "stream_sha256": "b98d90dd0b225c8ee6fa6cba61a26749d2459197a6722659dbbbe174433e5e7a"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00048",
+   "key": "e5c9b6a03350af4f",
+   "bytes": 3334,
+   "stream_bytes": 3334,
+   "stream_sha256": "15faa9c0cd2af9922c1cf484462ba0b626efdffe88d89be91aa19b1e0d30c420"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00049",
+   "key": "b255057aca9e7575",
+   "bytes": 3244,
+   "stream_bytes": 3244,
+   "stream_sha256": "dfb740c8333ce7d36f0e26b9ad1b3f31e42a7a32bba8aeccd9f2fa8834ce0d4e"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00050",
+   "key": "78350bb348cc5efd",
+   "bytes": 2999,
+   "stream_bytes": 2999,
+   "stream_sha256": "621015db9de89b580150143c04d5100d38de02d2c1d5ad015b3cdcb20f962420"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00051",
+   "key": "e4d0dfb84d667e28",
+   "bytes": 2661,
+   "stream_bytes": 2661,
+   "stream_sha256": "5e113b9e9e9e2c1a09790b32596f50054cc10854854ed544db07c53a6803ae50"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00052",
+   "key": "b7be03c25968d751",
+   "bytes": 2277,
+   "stream_bytes": 2277,
+   "stream_sha256": "07b356b3ca215a54242df3049284062f3ad6dde0724362abde85f93dca535d60"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00053",
+   "key": "013beedc64080ee6",
+   "bytes": 2543,
+   "stream_bytes": 2543,
+   "stream_sha256": "895e6a98fb4faae46da26b0b361bef7ffe05007a0042a91132d4d39635bfe606"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00054",
+   "key": "13ae64fa66610246",
+   "bytes": 2578,
+   "stream_bytes": 2578,
+   "stream_sha256": "755d9ae2aefdf5818fd72c7b052235a05dfbb2595dbde7c995cdd138cf364098"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00055",
+   "key": "0c9ca1eb0240dea8",
+   "bytes": 2700,
+   "stream_bytes": 2700,
+   "stream_sha256": "d15d3bb249d0b5315b96e6958537221180ffcc0c2193d58dbd6907ff10890766"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00056",
+   "key": "b364d9c3e14e9c19",
+   "bytes": 2737,
+   "stream_bytes": 2737,
+   "stream_sha256": "838c2ec06a3334d80effdff3a804bfa9dec4b98844d6dbb41c9d26deee26c4d6"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00057",
+   "key": "85a0f9f85fa94eae",
+   "bytes": 2554,
+   "stream_bytes": 2554,
+   "stream_sha256": "a108cc206c64e85d0245464bbf0ddce7b837c2e4a3786315bde9ceabd667b954"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00058",
+   "key": "918ebf73c13843c3",
+   "bytes": 2417,
+   "stream_bytes": 2417,
+   "stream_sha256": "5ef67420b76d6faace0333f81a8bc84a2eb7feec683cf8448d9683a4b80daa3e"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00059",
+   "key": "b5271605582d3d78",
+   "bytes": 2179,
+   "stream_bytes": 2179,
+   "stream_sha256": "a85f2ec17d2b393d9f2f2c29bf51f817af8e09fed0d4a869c2fe43039c575af6"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00060",
+   "key": "e6dd0df63eb28fba",
+   "bytes": 2397,
+   "stream_bytes": 2397,
+   "stream_sha256": "6a2fb7a595abd53d09f592952e302716009cf741e0cbdcdd00a94154a993c4f1"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00061",
+   "key": "a050aa8fe1688af2",
+   "bytes": 2395,
+   "stream_bytes": 2395,
+   "stream_sha256": "7f1083ab735d973b33a757ee53519d7fa16db39430cc0b08caae8754248de831"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00062",
+   "key": "73b5b20ba6ee351b",
+   "bytes": 2405,
+   "stream_bytes": 2405,
+   "stream_sha256": "c69374b56216905dcb1d3aa43a00d57bf00b10a14ce38f987b4a377e216bd591"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00063",
+   "key": "390769e17e24eb24",
+   "bytes": 2135,
+   "stream_bytes": 2135,
+   "stream_sha256": "90d72097f099432147773c369c27055e4c419d03d39c7402021a9b1ca1a94f0c"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00064",
+   "key": "0f2b78148ef22797",
+   "bytes": 2286,
+   "stream_bytes": 2286,
+   "stream_sha256": "7a4134829b4c6e8aed770ca70063e2ed21086dd02f0402bb1b1a904cc5431024"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00065",
+   "key": "4f4135e630dc1ad7",
+   "bytes": 2479,
+   "stream_bytes": 2479,
+   "stream_sha256": "365c94df91251cc8b0ce37fe844500e0f09e6d64e91085527e3c29b6d5d503fc"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00066",
+   "key": "2465fdb906715c96",
+   "bytes": 2608,
+   "stream_bytes": 2608,
+   "stream_sha256": "aaf7d6690e6e68bbadddca869cc7d5ff64b5f23d5bc333134c9534488a01065a"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00067",
+   "key": "0700d0dd3e2b1a0c",
+   "bytes": 2509,
+   "stream_bytes": 2509,
+   "stream_sha256": "b64787f94b97eaaac4a12686190f74c2e4ee48d209adc0fb9c5dd4e3b371ec33"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00068",
+   "key": "9c7f4080f29622d6",
+   "bytes": 2351,
+   "stream_bytes": 2351,
+   "stream_sha256": "dc1ace0f031993f11c4a608e97afbeb750c1c604e26625417909be9059a7678e"
+  },
+  {
+   "input_id": "DAVIS2017/tennis/00069",
+   "key": "53ccbf5dbf5a19b5",
+   "bytes": 2105,
+   "stream_bytes": 2105,
+   "stream_sha256": "508d7afad204301e939aa422fb333574fa83f7ae39af9244edac5692a476331c"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00000",
+   "key": "3afed730662c6133",
+   "bytes": 4579,
+   "stream_bytes": 4579,
+   "stream_sha256": "cba0b40ad11d1fe5758b314fd0d752199b63fc0b707721cedf48f6b9bd03a3a7"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00001",
+   "key": "effb0baf4b0b4de0",
+   "bytes": 4472,
+   "stream_bytes": 4472,
+   "stream_sha256": "3c897c8b3d0b8c1b57f8f6021cbf307434afdcd708ddb6f4de897c6353481576"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00002",
+   "key": "920d66036b6e38f4",
+   "bytes": 4441,
+   "stream_bytes": 4441,
+   "stream_sha256": "1a1b69adcb67ee39da34b2674de93cc7c86f4589de423073157ce9119a1239fb"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00003",
+   "key": "442b8fe45a8ebf02",
+   "bytes": 4299,
+   "stream_bytes": 4299,
+   "stream_sha256": "2d0d6dc08ad86ea48dcef8bd20bb21c46f3ceee859a650bcb2b00a4f19e6be2a"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00004",
+   "key": "05afb4444ee05f48",
+   "bytes": 4073,
+   "stream_bytes": 4073,
+   "stream_sha256": "da5d097c50cc1c359f97c85a05a79d5afb6ee1b6f1132a4f90363457cb559009"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00005",
+   "key": "f3f7644d991c5efc",
+   "bytes": 4089,
+   "stream_bytes": 4089,
+   "stream_sha256": "3993da79380698d460f0f14c4899d9d750e9f54409b3154b18e4b2921deb1d11"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00006",
+   "key": "d13b28871f929ead",
+   "bytes": 3862,
+   "stream_bytes": 3862,
+   "stream_sha256": "be0036512a71e944fdfc14c5017b6062a7079805f844258ebcc6ba9b2ca6ea90"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00007",
+   "key": "0d5a087835760627",
+   "bytes": 3831,
+   "stream_bytes": 3831,
+   "stream_sha256": "938f10de854fd3e28c4ea312e95f847ddd088f7fe1ae8dd50bde28e9b1409e82"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00008",
+   "key": "9060b094a6945156",
+   "bytes": 3664,
+   "stream_bytes": 3664,
+   "stream_sha256": "f9237af0fe8f03b58e8ca5612e26895f39505cc1624d1938a4bf672dce381bf6"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00009",
+   "key": "1e516b4faeb048f3",
+   "bytes": 3660,
+   "stream_bytes": 3660,
+   "stream_sha256": "88f9c2bf3a7b49bcdc1eb3e51412e779cdf1be651863b19f18770ee83e8ce796"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00010",
+   "key": "0fb07827d1259df8",
+   "bytes": 3543,
+   "stream_bytes": 3543,
+   "stream_sha256": "777af2b5a77a2f2cdddec904e2233c3f514ec0ca8cdc1a7f4fafd4a896bbf3e9"
+  }
+ ],
+ "errors": [],
+ "not_applicable": [],
+ "finished": "2026-10-29 08:52:24"
+}

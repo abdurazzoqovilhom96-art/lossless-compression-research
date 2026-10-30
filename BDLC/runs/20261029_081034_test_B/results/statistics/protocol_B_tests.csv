@@ -1,0 +1,16 @@
+scope,hypothesis,images,groups,groups_ours_better,statistic,estimate,ci95_low,ci95_high,p_sign,p_wilcoxon,p_holm
+ALL_REAL,"B1 size vs ECC (oracle of ecc_direct+ecc_pi), two-sided",6262,94,4,delta_pct,-9.860299523604343,-10.836740978891157,-8.862349714535611,3.219068471442615e-22,2.220446049250313e-16,3.219068471442615e-22
+ALL_REAL,"B2 size vs best non-ECC competitor (33 configurations), one-sided",6262,94,91,delta_pct,33.2574411811092,30.70593399985816,35.66754439992243,6.99296793485839e-24,5.643435999900277e-17,1.398593586971678e-23
+ALL_REAL,"B3 faster than ecc_direct in encode and decode, one-sided (intersection-union)",954,94,94 enc / 94 dec,encode/decode speedup (cluster geometric mean),17.241 / 8.507,,,5.048709793414476e-29,,1.5146129380243427e-28
+DAVIS2017_480p,"B1 size vs ECC (oracle of ecc_direct+ecc_pi), two-sided",6208,90,2,delta_pct,-10.196493359792914,-11.11597993507598,-9.223203315734384,6.617444900424222e-24,6.661338147750939e-16,1.3234889800848443e-23
+DAVIS2017_480p,"B2 size vs best non-ECC competitor (33 configurations), one-sided",6208,90,87,delta_pct,33.124444667668165,30.435908694633696,35.60603937264209,9.820831069506532e-23,2.536310424556556e-16,9.820831069506532e-23
+DAVIS2017_480p,"B3 faster than ecc_direct in encode and decode, one-sided (intersection-union)",900,90,90 enc / 90 dec,encode/decode speedup (cluster geometric mean),17.148 / 8.631,,,8.077935669463161e-28,,2.4233807008389483e-27
+Fluo-N2DH-GOWT1_GT_SEG,"B1 size vs ECC (oracle of ecc_direct+ecc_pi), two-sided",50,2,0,delta_pct,-6.26805431552806,-9.384487993375657,-3.2404098165356165,0.5,0.5,0.75
+Fluo-N2DH-GOWT1_GT_SEG,"B2 size vs best non-ECC competitor (33 configurations), one-sided",50,2,2,delta_pct,43.99110673937982,40.97408400357462,46.85391880289465,0.25,0.25,0.75
+Fluo-N2DH-GOWT1_GT_SEG,"B3 faster than ecc_direct in encode and decode, one-sided (intersection-union)",50,2,2 enc / 2 dec,encode/decode speedup (cluster geometric mean),26.588 / 8.882,,,0.25,,0.75
+Fluo-N2DH-SIM+_GT_SEG,"B1 size vs ECC (oracle of ecc_direct+ecc_pi), two-sided",215,2,0,delta_pct,-18.06130710815721,-18.89552572429123,-17.232941703868356,0.5,0.5,0.75
+Fluo-N2DH-SIM+_GT_SEG,"B2 size vs best non-ECC competitor (33 configurations), one-sided",215,2,2,delta_pct,15.093182465422672,11.979075689739183,18.097114744685573,0.25,0.25,0.75
+Fluo-N2DH-SIM+_GT_SEG,"B3 faster than ecc_direct in encode and decode, one-sided (intersection-union)",215,2,2 enc / 2 dec,encode/decode speedup (cluster geometric mean),14.934 / 5.533,,,0.25,,0.75
+PhC-C2DL-PSC_GT_SEG,"B1 size vs ECC (oracle of ecc_direct+ecc_pi), two-sided",4,2,2,delta_pct,1.016225934014947,0.6289308176100628,1.4020115818348056,0.5,0.5,0.75
+PhC-C2DL-PSC_GT_SEG,"B2 size vs best non-ECC competitor (33 configurations), one-sided",4,2,2,delta_pct,27.281647393561826,27.123225951790943,27.439724454649827,0.25,0.25,0.75
+PhC-C2DL-PSC_GT_SEG,"B3 faster than ecc_direct in encode and decode, one-sided (intersection-union)",4,2,2 enc / 2 dec,encode/decode speedup (cluster geometric mean),14.276 / 4.261,,,0.25,,0.75

@@ -1,0 +1,50 @@
+\begin{table}[t]
+\centering
+\caption{PhC-C2DL-PSC\_GT\_SEG: BDLC vs each configuration on the same maps. Negative size gain = BDLC larger (a loss); speedup < 1 = BDLC slower.}
+\begin{tabular}{lrrrrrr}
+\hline
+Reference & Common maps & Size gain \% (+ = BDLC smaller) & Maps W/T/L (size) & Common timed maps & Encode speedup & Decode speedup \\
+\hline
+HTJ2K & 4 & +95.64 & 4/0/0 & 4 & 2.52 & 2.18 \\
+JPEG 2000 & 4 & +94.85 & 4/0/0 & 4 & 16.20 & 17.18 \\
+Blosc2 zstd+bitshuffle & 4 & +92.61 & 4/0/0 & 4 & 385.98 & 1.14 \\
+LERC & 4 & +90.65 & 4/0/0 & 4 & 7.43 & 1.12 \\
+RVC (legacy) & 4 & +82.31 & 4/0/0 & 4 & 24.71 & 43.53 \\
+PNG 16-bit & 4 & +81.36 & 4/0/0 & 4 & 30.46 & 1.71 \\
+JPEG-LS & 4 & +80.15 & 4/0/0 & 4 & 0.60 & 0.57 \\
+Zstandard -3 & 4 & +78.15 & 4/0/0 & 4 & 0.46 & 0.32 \\
+Compresso & 4 & +77.87 & 4/0/0 & 4 & 9.46 & 9.13 \\
+compressed\_segmentation + gzip & 4 & +77.26 & 4/0/0 & 4 & 14.26 & 1.03 \\
+zlib -9 & 4 & +75.94 & 4/0/0 & 4 & 64.73 & 2.04 \\
+JBIG1 (Gray) & 4 & +75.46 & 4/0/0 & 4 & 31.69 & 27.95 \\
+bzip2 -9 & 4 & +74.06 & 4/0/0 & 4 & 10.77 & 5.16 \\
+JBIG1 (binary) & 4 & +73.93 & 4/0/0 & 4 & 30.55 & 26.58 \\
+Zstandard -19 & 4 & +72.99 & 4/0/0 & 4 & 80.21 & 0.33 \\
+JPEG XL e7 & 4 & +69.12 & 4/0/0 & 4 & 73.11 & 27.20 \\
+LERC + zstd & 4 & +69.08 & 4/0/0 & 4 & 14.66 & 1.17 \\
+Brotli -11 & 4 & +68.65 & 4/0/0 & 4 & 832.03 & 1.27 \\
+xz -9e & 4 & +68.01 & 4/0/0 & 4 & 558.20 & 1.79 \\
+palette + zstd -19 & 4 & +67.99 & 4/0/0 & 4 & 142.68 & 3.09 \\
+JPEG XL e9 & 4 & +67.18 & 4/0/0 & 4 & 418.84 & 27.49 \\
+palette + xz -9e & 4 & +66.02 & 4/0/0 & 4 & 423.39 & 3.90 \\
+FLIF rank map & 4 & +55.69 & 4/0/0 & 4 & 219.28 & 35.49 \\
+HEVC SCC (rank map) & 4 & +55.63 & 4/0/0 & 4 & 1328.66 & 40.08 \\
+FLIF rank map -E100 & 4 & +55.40 & 4/0/0 & 4 & 346.32 & 33.40 \\
+JPEG XL e10 & 4 & +55.34 & 4/0/0 & 4 & 1870.29 & 31.66 \\
+FLIF 16-bit & 4 & +53.64 & 4/0/0 & 4 & 222.92 & 40.10 \\
+HEVC SCC & 4 & +53.51 & 4/0/0 & 4 & 1344.69 & 39.75 \\
+FLIF 16-bit -E100 & 4 & +53.31 & 4/0/0 & 4 & 368.84 & 40.76 \\
+Crackle mo0 & 4 & +50.95 & 4/0/0 & 4 & 3.27 & 1.79 \\
+BDLC no k2 & 4 & +45.95 & 4/0/0 & 4 & 1.16 & 1.12 \\
+Crackle mo3 & 4 & +39.24 & 4/0/0 & 4 & 3.50 & 1.84 \\
+Crackle mo0 + zstd & 4 & +32.29 & 4/0/0 & 4 & 3.55 & 1.69 \\
+Crackle mo3 + zstd & 4 & +27.28 & 4/0/0 & 4 & 3.75 & 1.89 \\
+BDLC no slope & 4 & +10.46 & 4/0/0 & 4 & 0.99 & 0.94 \\
+ECC-2026 (rank map) & 4 & +10.16 & 4/0/0 & 4 & 16.85 & 6.48 \\
+BDLC no PASS & 4 & +5.96 & 4/0/0 & 4 & 1.04 & 1.02 \\
+BDLC uniform init & 4 & +1.72 & 4/0/0 & 4 & 1.00 & 0.99 \\
+ECC-2026 & 4 & +1.02 & 4/0/0 & 4 & 14.28 & 4.28 \\
+BDLC +CRC & 4 & +0.25 & 4/0/0 & 4 & 1.23 & 1.31 \\
+\hline
+\end{tabular}
+\end{table}

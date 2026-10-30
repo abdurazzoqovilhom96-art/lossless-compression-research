@@ -1,0 +1,718 @@
+{
+ "codec": "blosc2_zstd_bitshuffle",
+ "mode": "size",
+ "shard": 30,
+ "pin": {
+  "requested_cpu": 0,
+  "affinity_ok": true,
+  "priority_ok": false,
+  "affinity_mask": "0x1"
+ },
+ "python": "3.14.4 (main, Apr 14 2026, 14:26:14) [Clang 22.1.3 ]",
+ "started": "2026-10-29 08:52:04",
+ "images": [
+  {
+   "input_id": "DAVIS2017/judo/00016",
+   "key": "c5c32402951432db",
+   "bytes": 4411,
+   "stream_bytes": 4411,
+   "stream_sha256": "8a3f74220228a2debb730ee855633130ff3be375ed43cf4be7644e0930b8a3a1"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00017",
+   "key": "2cd919d3bbfaab61",
+   "bytes": 4163,
+   "stream_bytes": 4163,
+   "stream_sha256": "8002688c293c2afc45fb65b4e1a3cf49b921f8fbb7bf9af6770fac6252c3e350"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00018",
+   "key": "7241d172758038dc",
+   "bytes": 3996,
+   "stream_bytes": 3996,
+   "stream_sha256": "43712956e9f964cb160f68194f4ee2a1282c269070590c3bef67d4b8519bfc69"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00019",
+   "key": "1774888f1ce4006c",
+   "bytes": 4118,
+   "stream_bytes": 4118,
+   "stream_sha256": "48b30eb9b5ec09ee5edb26ca4c7fbb1512d89790cea2412efc05d826d2797b00"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00020",
+   "key": "7d37901476911be1",
+   "bytes": 3969,
+   "stream_bytes": 3969,
+   "stream_sha256": "b26fe34fe67f47b7262106d2c940270f94a3773b147a1e4727c8ccd3f1e3f6d6"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00021",
+   "key": "465848519ba67c99",
+   "bytes": 4070,
+   "stream_bytes": 4070,
+   "stream_sha256": "f15dd7557d48d36db63403cc239969fb31e093bd92561f76bd035a9837e3d2e0"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00022",
+   "key": "dda520f30ee0b724",
+   "bytes": 4122,
+   "stream_bytes": 4122,
+   "stream_sha256": "cfec012604a5ac31906e97d2859a0011f8acd0954cdbfcea2f3ecfd77181729d"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00023",
+   "key": "97b7391d6c810da7",
+   "bytes": 4543,
+   "stream_bytes": 4543,
+   "stream_sha256": "4b87afae59a882b002e1142bc21eca5cbab6c883e282318ede1f48ca4d1ada49"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00024",
+   "key": "89fa06ede11cdada",
+   "bytes": 5277,
+   "stream_bytes": 5277,
+   "stream_sha256": "7545edcfcd377e13cb6203ce2c79356e254f1d60041181b5047bead072067cce"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00025",
+   "key": "9505a82d725d184f",
+   "bytes": 5392,
+   "stream_bytes": 5392,
+   "stream_sha256": "3494cbf3b74f1b1b7d556ce93616191fe660f0a4d6b787a2ba6ad548fd7b1280"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00026",
+   "key": "557795a1ea8e6c57",
+   "bytes": 5376,
+   "stream_bytes": 5376,
+   "stream_sha256": "2da3a4d7358758f9749e4ba2392262e1d9b5d612bb47fcb4483e5fe88e3c6859"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00027",
+   "key": "9b21e1f6bbafaf21",
+   "bytes": 4908,
+   "stream_bytes": 4908,
+   "stream_sha256": "816b6ac5b48696d7f3580ff028b40eb7cc724c344991c677576614c73c5dbc31"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00028",
+   "key": "4a7f315d2f0643a7",
+   "bytes": 4607,
+   "stream_bytes": 4607,
+   "stream_sha256": "41d04a7a355c69c8a5599f68bca5c04c21a4243f5de38c57d64e67e91e34e449"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00029",
+   "key": "ab2a0bff78cb696e",
+   "bytes": 4723,
+   "stream_bytes": 4723,
+   "stream_sha256": "31d5aff7d378dab27b69e8912c0d8fb7d628c16da82568bc48b483467c701705"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00030",
+   "key": "cb35fb9653945b50",
+   "bytes": 4691,
+   "stream_bytes": 4691,
+   "stream_sha256": "a622dbb40e4a62503419376600efa5fc4afd52267e9c525ae54d8953eaa50448"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00031",
+   "key": "920e1cc1b17a4a8b",
+   "bytes": 5170,
+   "stream_bytes": 5170,
+   "stream_sha256": "491e1816c643f9545189dec8cc8dc90d68e5395d2a19eaa28b9d3d5c20e751c1"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00032",
+   "key": "058fbb3c4e396623",
+   "bytes": 5221,
+   "stream_bytes": 5221,
+   "stream_sha256": "6f968f19465af1e1f09a4344862c3f416c9aaac499e200c8976e88e9b46a5a48"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00033",
+   "key": "e12a4c10f5ffe912",
+   "bytes": 5166,
+   "stream_bytes": 5166,
+   "stream_sha256": "71d5e4dd4b83e19f74a4096d19e9a395bd3a1d217c492176bd7948ba20678e9c"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00000",
+   "key": "94eebcd34c107a6c",
+   "bytes": 3305,
+   "stream_bytes": 3305,
+   "stream_sha256": "9db0e61fe22fd94f4c79ea9e0da75be577b0dc86c223aed697225e85347feabd"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00001",
+   "key": "6b20131ad3183a6e",
+   "bytes": 3696,
+   "stream_bytes": 3696,
+   "stream_sha256": "6fae30316b41db7a9123b01110663be66b5b86c080dd97047db7f666d511f998"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00002",
+   "key": "858f09026b31b7f1",
+   "bytes": 4253,
+   "stream_bytes": 4253,
+   "stream_sha256": "62fdc26496ac1c8a2e68591f31399dd7ed61e6b5a854913e75aabfbe9b950c50"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00003",
+   "key": "306fe875428f3c8e",
+   "bytes": 4798,
+   "stream_bytes": 4798,
+   "stream_sha256": "be2bd311cb9ecfe1ee2bcf9f1581f06d1468760b10fde441597431b365829ec1"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00004",
+   "key": "fbf3450f2633d5a1",
+   "bytes": 5091,
+   "stream_bytes": 5091,
+   "stream_sha256": "6e8ed95400455098503809a86dae4262f513144345b479714cc25306f089c49c"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00005",
+   "key": "dbf9f36a685c37dd",
+   "bytes": 5093,
+   "stream_bytes": 5093,
+   "stream_sha256": "5170d61e300d763d526ac4a52720d091a0e5217cf684f389bc716e1f8d4ba51f"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00006",
+   "key": "05fa716656ed1667",
+   "bytes": 5199,
+   "stream_bytes": 5199,
+   "stream_sha256": "be9d42d5dd56d477bbf2d2550944c75d1ea992a467d440e60ab24a471addd52b"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00007",
+   "key": "e71be695b2ec8107",
+   "bytes": 5061,
+   "stream_bytes": 5061,
+   "stream_sha256": "dff41cbb858cf2a78aa6dbec0e46762ca6b0a3d91cea151b898f4b961c293770"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00008",
+   "key": "d17b375be198d252",
+   "bytes": 4646,
+   "stream_bytes": 4646,
+   "stream_sha256": "ceb3019226dbe9f78528129fa72943d1c2fc312c963ec05c260502c948f5610c"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00009",
+   "key": "84cd6f4630101369",
+   "bytes": 3889,
+   "stream_bytes": 3889,
+   "stream_sha256": "f0d8dfcedc6db4b24c77f1b01b72e6f946994870d11336ae073102cf04123d25"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00010",
+   "key": "0e66fda58f87751c",
+   "bytes": 3470,
+   "stream_bytes": 3470,
+   "stream_sha256": "cbee1baf399e5282aba9a7a0662b3012a661fa3cb7016dffc3daa86fc784c8c2"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00011",
+   "key": "3b2225ede8a680a8",
+   "bytes": 3474,
+   "stream_bytes": 3474,
+   "stream_sha256": "34866efa5b5aa66baa6595f6db7e248eb9cec15e672b8c4074c010dad10ed6cf"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00012",
+   "key": "234db04ad4d3d1ab",
+   "bytes": 3363,
+   "stream_bytes": 3363,
+   "stream_sha256": "ca53dd17f7cab6c5508151145745eb318a74ed62b2cdba252f1db9befb8e8963"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00013",
+   "key": "5dc4cc1351701419",
+   "bytes": 3379,
+   "stream_bytes": 3379,
+   "stream_sha256": "cc98f2492af4b6c828cef7dfa7729fee4e4cb5fc48464d82085892e697e34506"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00014",
+   "key": "2ee4cc083bfac35f",
+   "bytes": 3708,
+   "stream_bytes": 3708,
+   "stream_sha256": "6ef69df27835954a3a56e51bf150c7a7b28e87916bd5a1225d2afdebef3126c7"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00015",
+   "key": "52f8661aa48ef061",
+   "bytes": 4110,
+   "stream_bytes": 4110,
+   "stream_sha256": "3010effc4b5cf2d88f160b67167bffeead5c09d289402f87ad6f0f68b818ae08"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00016",
+   "key": "e1dfa5839a841012",
+   "bytes": 4328,
+   "stream_bytes": 4328,
+   "stream_sha256": "aa606d0ce22c7ac433a766da0314742df42692ff866ce39adf1fa3473983a6a8"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00017",
+   "key": "032aad36bc2e8bac",
+   "bytes": 4778,
+   "stream_bytes": 4778,
+   "stream_sha256": "fdcc408adb3d8613b3eaf775cb19dcba3d81c128b2d8f5cb92fd0de7b26d2929"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00018",
+   "key": "d3566cfdd492bae8",
+   "bytes": 4634,
+   "stream_bytes": 4634,
+   "stream_sha256": "366ca5d65cc04a4b296a42841998efd352275d22b0dec5409f37fc1594d7bfc7"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00019",
+   "key": "6e365cab7abc7a4e",
+   "bytes": 4922,
+   "stream_bytes": 4922,
+   "stream_sha256": "e77f700ea914bc4763354910f12f92cb2dea3e39508c9e0f7c6fa6edba3c7091"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00020",
+   "key": "4973fbc9b7261815",
+   "bytes": 5092,
+   "stream_bytes": 5092,
+   "stream_sha256": "bf485d95b05383fcd39a1e01e43d9b3f8c6f602d743a5c0890917a69bae463dd"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00021",
+   "key": "ad3fdfee8bc38931",
+   "bytes": 4864,
+   "stream_bytes": 4864,
+   "stream_sha256": "93f07ddb22cb151ffa8e94421807774d74dd4f450d36f8cfcab7e8ea876b5510"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00022",
+   "key": "323865f33dd2523d",
+   "bytes": 4810,
+   "stream_bytes": 4810,
+   "stream_sha256": "7ab5b895d636df73049714382282d0cfd52507a2edc71b50dff70d6b0f756846"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00023",
+   "key": "510b474005d6d9a2",
+   "bytes": 5005,
+   "stream_bytes": 5005,
+   "stream_sha256": "2dfd9b9aa5f577abe46f88766ae1bc32cd903893948bea0cb426d06aa57badd1"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00024",
+   "key": "ebc98b88c01e6d98",
+   "bytes": 5162,
+   "stream_bytes": 5162,
+   "stream_sha256": "a594fb53e3e4c26d040cbebf40244b7dbdcb12ea4d916c9207dc76a706f54169"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00025",
+   "key": "493f7a13860cc87f",
+   "bytes": 5383,
+   "stream_bytes": 5383,
+   "stream_sha256": "f513036110d6ea51f2feaff9d5e3ccf209773b70ee27c4f7daa32144d534a970"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00026",
+   "key": "b9a9399762c08c28",
+   "bytes": 5409,
+   "stream_bytes": 5409,
+   "stream_sha256": "c187d5d12b4cac9f44f1318a0bd18ad907899e404191da20b0c5c6a0cd320677"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00027",
+   "key": "2af29ffcaaca859a",
+   "bytes": 4859,
+   "stream_bytes": 4859,
+   "stream_sha256": "06dffc0825839828c570dbeaa2f0231ad7e0436d28491cafa026733af63175f1"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00028",
+   "key": "4e43399daa80ddff",
+   "bytes": 4682,
+   "stream_bytes": 4682,
+   "stream_sha256": "62f365fc2d4354c50e888b15f8d32194fc4e17c8289e54eea9d9528f62a73b99"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00029",
+   "key": "b2734b51b05278e8",
+   "bytes": 4602,
+   "stream_bytes": 4602,
+   "stream_sha256": "06fa6fa77ed29da4cf2e69849e5cc824c35761ed4e0e581197eb31128a7a5c99"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00030",
+   "key": "bc5c1819e4cf8764",
+   "bytes": 3901,
+   "stream_bytes": 3901,
+   "stream_sha256": "70492f0cbe9454c93ca8507eaea7b5c79ea60a05b51277bb12afe03d9b9f08a8"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00031",
+   "key": "fde3751bd73a340a",
+   "bytes": 3105,
+   "stream_bytes": 3105,
+   "stream_sha256": "1ed1da3e949449ec6b65d20fe4a1abc71c2b9d7d45ff9fccf7a21c22135a8a3b"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00032",
+   "key": "48b4942d82ad6563",
+   "bytes": 2621,
+   "stream_bytes": 2621,
+   "stream_sha256": "c568e949ebf73a43671679aae69d164b62d6c4044e3953ba122f5b57fac9481b"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00033",
+   "key": "ce2c9fb5eff6867e",
+   "bytes": 2654,
+   "stream_bytes": 2654,
+   "stream_sha256": "91cf7f0e60f4aff022a94794cb1c62684d584292e86568b276029cc2f76c9769"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00034",
+   "key": "8bbc45c2e45ce500",
+   "bytes": 3042,
+   "stream_bytes": 3042,
+   "stream_sha256": "54381fee0c6f9069932a36edfc4516583103ae6817db41ac1778c80642c0c2ad"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00035",
+   "key": "fb0aa41070cd76fb",
+   "bytes": 3254,
+   "stream_bytes": 3254,
+   "stream_sha256": "aa99fcb51b44e8fe059ddc5a2694814ebb1e00a2accee8f1a9e017cddcd8ae2f"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00036",
+   "key": "c3eb855e4d0323da",
+   "bytes": 3491,
+   "stream_bytes": 3491,
+   "stream_sha256": "45a8998f3fe43c5f217df144632d462e2b798fed58b3d1ce8cc4fa61272bf614"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00037",
+   "key": "1939e343d24826d4",
+   "bytes": 3579,
+   "stream_bytes": 3579,
+   "stream_sha256": "6acfe11e37892c19c7e9e99c230ee2a33f5416b803193893efbb94ac8772b986"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00038",
+   "key": "0d6622e910d74326",
+   "bytes": 3387,
+   "stream_bytes": 3387,
+   "stream_sha256": "51039de84ace184ef28dd2f633f11591cd432bff1b17aa6c314b9f1bff2831b4"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00039",
+   "key": "b9b4e2fbba78486e",
+   "bytes": 3233,
+   "stream_bytes": 3233,
+   "stream_sha256": "e32d657d0d88ddc7fc1508cd18c4cacb221ce7020a395dd2c2bd9c7cea8cbbc5"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00040",
+   "key": "e8297c1902bc0c1b",
+   "bytes": 3151,
+   "stream_bytes": 3151,
+   "stream_sha256": "6b6feec4513fd1a12e14723b776c685f69b96b38261b2083a624154cdfcf6402"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00041",
+   "key": "cf7c157e3e8bf660",
+   "bytes": 3084,
+   "stream_bytes": 3084,
+   "stream_sha256": "1d23ff060ff1088401a520eadf6091fb591b9fe3f3f3135e4494ac78700d2ad5"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00042",
+   "key": "2be6beb27f07c28c",
+   "bytes": 3271,
+   "stream_bytes": 3271,
+   "stream_sha256": "4fcd21b30dfc14346f1055c94c219974852f75eb251656376202dfeeca06e039"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00043",
+   "key": "e7bc5e5857b3865d",
+   "bytes": 3611,
+   "stream_bytes": 3611,
+   "stream_sha256": "089c5c4da42aaa2e6988bcdd743c9591f6a27ec6e68d1537c785fb6502713d20"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00044",
+   "key": "a60293dea2c4a67a",
+   "bytes": 3759,
+   "stream_bytes": 3759,
+   "stream_sha256": "99543fd509deec2f48f4799a27273577c556dd4e5d063da1c861f9c7bedc5a3a"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00045",
+   "key": "746771177f52481c",
+   "bytes": 3607,
+   "stream_bytes": 3607,
+   "stream_sha256": "50c4bb685031aa4029972fdb49fb20790fa57866e5061bf7a7c58c71da3ae2f9"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00046",
+   "key": "24b492542abee116",
+   "bytes": 3525,
+   "stream_bytes": 3525,
+   "stream_sha256": "2b2ebed24fb7810af84059e53f0930dfd436a9c793f1aa3b03cb2ca2533969e1"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00047",
+   "key": "085e8aa8a80c54a4",
+   "bytes": 3468,
+   "stream_bytes": 3468,
+   "stream_sha256": "0c6822a6535b2a483b48c7d2d1e5eaa7f8f918f9dd66e0b52c7ff3b4c6baa7fa"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00048",
+   "key": "c1b97db39ca986fb",
+   "bytes": 3279,
+   "stream_bytes": 3279,
+   "stream_sha256": "f0f4638995ca7e448295a7f44c506e29c7267a4ece30a837278ad0fcd72b89a4"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00049",
+   "key": "fc23708118ef6b8b",
+   "bytes": 3364,
+   "stream_bytes": 3364,
+   "stream_sha256": "c1f8ddaf8ecc5056dc2458907e1326c30f6e5e070e0b8eb1a7eb88bc1b6355d6"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00050",
+   "key": "2a745e13bae9707b",
+   "bytes": 3303,
+   "stream_bytes": 3303,
+   "stream_sha256": "7e25c46c96eecd7d7835fc0a813bbf6b8c413832160e05a381fdd71d2704c2db"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00051",
+   "key": "7bc6fd99b61b2b78",
+   "bytes": 3009,
+   "stream_bytes": 3009,
+   "stream_sha256": "f6bf5a4139a4f83fe7f221cfa77c0dea2d2b7683c5dd8cded80b3c500bc4d15b"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00052",
+   "key": "8d928a18a14dcadb",
+   "bytes": 2593,
+   "stream_bytes": 2593,
+   "stream_sha256": "40db4430afcda08085260e885b2db39b3fe537726336862629a47c350e055573"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00053",
+   "key": "f2aa530d6768244c",
+   "bytes": 2954,
+   "stream_bytes": 2954,
+   "stream_sha256": "29e1870574d058742577a24e998dc1cac178dc2815337508fcf7935bceb2620e"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00054",
+   "key": "cfd60847bc00c139",
+   "bytes": 2925,
+   "stream_bytes": 2925,
+   "stream_sha256": "12b9fba13e519fe935f7c0abc55bda1253d097b068f0ed37e02d00885fd3a1ad"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00055",
+   "key": "94b2634ef105c50b",
+   "bytes": 3014,
+   "stream_bytes": 3014,
+   "stream_sha256": "8585937b3e5affc16916529edbb431fb3185da812024953fa1565e85a6ff4d35"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00056",
+   "key": "e7453ae5c98cf737",
+   "bytes": 2943,
+   "stream_bytes": 2943,
+   "stream_sha256": "7b54158e663bc26139ee2fb5bc6c8a425eed006fd8ac685c78d69705deae65c3"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00057",
+   "key": "deb954b7ff2049dd",
+   "bytes": 2722,
+   "stream_bytes": 2722,
+   "stream_sha256": "f32114c793b4c7a20b3e8c7f14d98c7eb98aad6193371a3b400744f91774fb52"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00058",
+   "key": "e83f1f843d3fb1f3",
+   "bytes": 2695,
+   "stream_bytes": 2695,
+   "stream_sha256": "883132ab12d6c71cc37f6d8074c7d9890de370c17acee6117384bcc4fb0fd526"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00059",
+   "key": "a7112a19a506ab01",
+   "bytes": 2534,
+   "stream_bytes": 2534,
+   "stream_sha256": "5584497be771ca37efb77155b7cf698b70e094c04a69283e4f7db8668a20a52a"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00060",
+   "key": "bd6ae439c5c761ae",
+   "bytes": 2725,
+   "stream_bytes": 2725,
+   "stream_sha256": "bf3ee90446a460d9a1dc179f2be147cf5db54ced5d67fa17ff62470c76b7e41a"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00061",
+   "key": "50be1aa847928759",
+   "bytes": 2731,
+   "stream_bytes": 2731,
+   "stream_sha256": "111005314e479f1b80c66424cef8027bdc70719f88972058354c3ace543783ea"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00062",
+   "key": "7b46b13db0f249ff",
+   "bytes": 2777,
+   "stream_bytes": 2777,
+   "stream_sha256": "c0bc0bf6514a6ec3c318001ac2fb30125c38571c306b249ef3749cc90145bdb2"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00063",
+   "key": "eab8e260c01379e8",
+   "bytes": 2863,
+   "stream_bytes": 2863,
+   "stream_sha256": "955c9e56206764f9a49e943af96ef4295dec194db3ee54ee008f7c2c6ececb20"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00064",
+   "key": "99bfde92c788c643",
+   "bytes": 3052,
+   "stream_bytes": 3052,
+   "stream_sha256": "acbfe74dffab621298e42e66b10cd325d6ccf7d39c08053bc11efcce5f32cf70"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00065",
+   "key": "8258e197f3513032",
+   "bytes": 3128,
+   "stream_bytes": 3128,
+   "stream_sha256": "6eb222e6d94a56badb07b2b8cc78ec61a4803a8cc8d68d98296b78872e17cd37"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00066",
+   "key": "7aa48030d857e126",
+   "bytes": 3013,
+   "stream_bytes": 3013,
+   "stream_sha256": "4ff14f92b45996cfb77ebb9d621d2d8a00778975caa0c18a509c6d97d942f128"
+  },
+  {
+   "input_id": "DAVIS2017/kid-football/00067",
+   "key": "d53af6a0fdd522f6",
+   "bytes": 3058,
+   "stream_bytes": 3058,
+   "stream_sha256": "0694567142421c3823688087fc8a54a6deb24de1518175620e425631354c38f2"
+  },
+  {
+   "input_id": "DAVIS2017/kite-surf/00000",
+   "key": "0c1496bc70158642",
+   "bytes": 4713,
+   "stream_bytes": 4713,
+   "stream_sha256": "c11a5fec70665defcc9ea15548526a2d89e6207c5ea648d66525af9abcdcec30"
+  },
+  {
+   "input_id": "DAVIS2017/kite-surf/00001",
+   "key": "c35c2a9e219d6e6d",
+   "bytes": 4583,
+   "stream_bytes": 4583,
+   "stream_sha256": "e9ba8a1011736c58a71627bc3337a7c36a676921e6c6ebe2a40895331b3e0e27"
+  },
+  {
+   "input_id": "DAVIS2017/kite-surf/00002",
+   "key": "30e7b3c21a738300",
+   "bytes": 4574,
+   "stream_bytes": 4574,
+   "stream_sha256": "542b50f305285c4212042a6f0efdef2cda5dafd44ae9b8e194adf7d8e8c8750e"
+  },
+  {
+   "input_id": "DAVIS2017/kite-surf/00003",
+   "key": "5c7db73729e83989",
+   "bytes": 4527,
+   "stream_bytes": 4527,
+   "stream_sha256": "d5d8617c30e71031ae21bcc2d6f0b10e996245bbc76c21628be7d3009a20ba5b"
+  },
+  {
+   "input_id": "DAVIS2017/kite-surf/00004",
+   "key": "50d8c7ef70854ee5",
+   "bytes": 4642,
+   "stream_bytes": 4642,
+   "stream_sha256": "86aa1e1ce97f74f074723d552daee91ca85ea27dc16362dd1be664538464d134"
+  },
+  {
+   "input_id": "DAVIS2017/kite-surf/00005",
+   "key": "180334bad646b883",
+   "bytes": 4705,
+   "stream_bytes": 4705,
+   "stream_sha256": "a8de34e3a175f8b0c47be5c4b3856a53089e7a539d54ac94a744b2db85cc27ee"
+  },
+  {
+   "input_id": "DAVIS2017/kite-surf/00006",
+   "key": "1b493b732e4b9452",
+   "bytes": 4947,
+   "stream_bytes": 4947,
+   "stream_sha256": "9a9ea2be02fd58dea0eb0dac4a4cdb2ca0edc5a07a3f542a57a1dc40af340d71"
+  },
+  {
+   "input_id": "DAVIS2017/kite-surf/00007",
+   "key": "f8085265c3bce2f2",
+   "bytes": 5047,
+   "stream_bytes": 5047,
+   "stream_sha256": "f9b7f5a4fd4efc4c4c60bf53da9f46503b2a63b65d4f0bb803f14e6fedf5d49e"
+  },
+  {
+   "input_id": "DAVIS2017/kite-surf/00008",
+   "key": "501e0820e8206e62",
+   "bytes": 5332,
+   "stream_bytes": 5332,
+   "stream_sha256": "a3a647ebf11cbdb4a9e41e914188a6e39301472562b20056036391ecaa8ac12c"
+  },
+  {
+   "input_id": "DAVIS2017/kite-surf/00009",
+   "key": "5e8a0b39eb6a1804",
+   "bytes": 5442,
+   "stream_bytes": 5442,
+   "stream_sha256": "bedc57fbdc3807af86de1d1d50e756eae9fa9fb3d375ff8a55f14a8defc68ad2"
+  },
+  {
+   "input_id": "DAVIS2017/kite-surf/00010",
+   "key": "955ccf07359a8d49",
+   "bytes": 5241,
+   "stream_bytes": 5241,
+   "stream_sha256": "37397d3fdf409792cbc1430635457120c490ce159e8cb00762ba79b731d9cf2c"
+  },
+  {
+   "input_id": "DAVIS2017/kite-surf/00011",
+   "key": "8a45596e855c7893",
+   "bytes": 5202,
+   "stream_bytes": 5202,
+   "stream_sha256": "9f293e8564c4c1332e2272599352f7c22a454681ab45f5d5cc19042217485c15"
+  },
+  {
+   "input_id": "DAVIS2017/kite-surf/00012",
+   "key": "1767bb5eb5d5be06",
+   "bytes": 4892,
+   "stream_bytes": 4892,
+   "stream_sha256": "0648f93b42c8daa68c7997aec41cfe27a65edaccdfee1b87529823d52e8ec776"
+  },
+  {
+   "input_id": "DAVIS2017/kite-surf/00013",
+   "key": "3d939498123fc531",
+   "bytes": 4607,
+   "stream_bytes": 4607,
+   "stream_sha256": "9ae337b4e56a65a792e3813a4f3c8801590a0e701c90db0dc202512822e00b66"
+  }
+ ],
+ "errors": [],
+ "not_applicable": [],
+ "finished": "2026-10-29 08:52:13"
+}

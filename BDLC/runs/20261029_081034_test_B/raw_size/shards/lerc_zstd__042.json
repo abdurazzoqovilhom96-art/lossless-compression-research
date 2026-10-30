@@ -1,0 +1,718 @@
+{
+ "codec": "lerc_zstd",
+ "mode": "size",
+ "shard": 42,
+ "pin": {
+  "requested_cpu": 15,
+  "affinity_ok": true,
+  "priority_ok": false,
+  "affinity_mask": "0x8000"
+ },
+ "python": "3.14.4 (main, Apr 14 2026, 14:26:14) [Clang 22.1.3 ]",
+ "started": "2026-10-29 09:02:19",
+ "images": [
+  {
+   "input_id": "DAVIS2017/night-race/00036",
+   "key": "cf79a763ee53f8c2",
+   "bytes": 830,
+   "stream_bytes": 830,
+   "stream_sha256": "07183de65b1c22e24db34b5f3a3fe8506e7f52668430dd32b39734c22db93009"
+  },
+  {
+   "input_id": "DAVIS2017/night-race/00037",
+   "key": "31ef6c373897842e",
+   "bytes": 919,
+   "stream_bytes": 919,
+   "stream_sha256": "42d97aaf7f8e54e69177bd556404dccbed9e1113897263b7215bde80bd183837"
+  },
+  {
+   "input_id": "DAVIS2017/night-race/00038",
+   "key": "c81759cd5e8d11a8",
+   "bytes": 839,
+   "stream_bytes": 839,
+   "stream_sha256": "927ac5f2a791c6e644c3f2c800dac93b63f8162940b2c47ea33dd69cb38dae91"
+  },
+  {
+   "input_id": "DAVIS2017/night-race/00039",
+   "key": "2174e3037ca5867a",
+   "bytes": 900,
+   "stream_bytes": 900,
+   "stream_sha256": "0e59d251393a30883c46c1525235d67652e16761f0303056f5986a5ba4aa9062"
+  },
+  {
+   "input_id": "DAVIS2017/night-race/00040",
+   "key": "cb3ad871b30d9c8b",
+   "bytes": 819,
+   "stream_bytes": 819,
+   "stream_sha256": "bc734e93886988b9a6d4bda9bc41d8c4bf6714bbaf76f494c06d937beeb20520"
+  },
+  {
+   "input_id": "DAVIS2017/night-race/00041",
+   "key": "f00134db7a651e82",
+   "bytes": 707,
+   "stream_bytes": 707,
+   "stream_sha256": "9d1abd9da064d7c36a600708116a899bbeebe159e1b65fe7664d86db4b24d95a"
+  },
+  {
+   "input_id": "DAVIS2017/night-race/00042",
+   "key": "657d94182e8c5e47",
+   "bytes": 789,
+   "stream_bytes": 789,
+   "stream_sha256": "c1726cefd7a2150e594cf1e2d0a76f829f44b7ff738a56c1986ff80d1024f727"
+  },
+  {
+   "input_id": "DAVIS2017/night-race/00043",
+   "key": "c7324283cd88736f",
+   "bytes": 850,
+   "stream_bytes": 850,
+   "stream_sha256": "4453886d441f00edb05c0c411c2ec41591afa5386face1be3ef5c855ebb001df"
+  },
+  {
+   "input_id": "DAVIS2017/night-race/00044",
+   "key": "3c643410bfc4db62",
+   "bytes": 894,
+   "stream_bytes": 894,
+   "stream_sha256": "942cc2ff778582af5a4bff96a3164b21db6fafe26b59d5d70b834379ea3364e9"
+  },
+  {
+   "input_id": "DAVIS2017/night-race/00045",
+   "key": "b939ccbe10f4cd81",
+   "bytes": 920,
+   "stream_bytes": 920,
+   "stream_sha256": "c5f04b28ed25c177251918c07c10f01274c0947bdc37d27712510b7f29815e35"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00000",
+   "key": "130e732845dc5c7b",
+   "bytes": 2538,
+   "stream_bytes": 2538,
+   "stream_sha256": "4ff6b539888c961cfdbd317acaa32af7654016f56f46e10ffe5c4b1e4484456b"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00001",
+   "key": "6c3056c2f9912242",
+   "bytes": 2563,
+   "stream_bytes": 2563,
+   "stream_sha256": "e3c2032241df3429b38255cc09b64ce8ce57bfe5498562d87bc5a54f887b73ab"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00002",
+   "key": "f6782e72c6c9f75e",
+   "bytes": 2617,
+   "stream_bytes": 2617,
+   "stream_sha256": "3f848f1155c7dc00ee94148bc5d0c1c2bc8af557b27765b3631d958a6f642fc8"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00003",
+   "key": "d4e7c0abe503a82d",
+   "bytes": 2587,
+   "stream_bytes": 2587,
+   "stream_sha256": "daddd100386e0abaf8cdd75b6f721ebc2bccbae7eb20d4f9b0262e1fc99f586e"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00004",
+   "key": "43fe3e4aae7b31ee",
+   "bytes": 2586,
+   "stream_bytes": 2586,
+   "stream_sha256": "293e2099056569df1a09fd328f918a9d7083e4c341f0bc3c7a3e8222c17ccd55"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00005",
+   "key": "84d38a9858372a13",
+   "bytes": 2680,
+   "stream_bytes": 2680,
+   "stream_sha256": "75c2bc2f6bcc602c21d69ac7874e1824245e06087dde16953f701b05df5e3d2c"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00006",
+   "key": "c17c04bb770833c1",
+   "bytes": 2692,
+   "stream_bytes": 2692,
+   "stream_sha256": "5e70287b9f0e2d3cd66f566a871495b14384566ce9ce366d9ebdecc600afeceb"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00007",
+   "key": "bd540e9950d5808e",
+   "bytes": 2755,
+   "stream_bytes": 2755,
+   "stream_sha256": "eda5fa22f6171c4a4bd3eee873fbf5fc89fe8c12f810799a475ba5fa0df10f5d"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00008",
+   "key": "96b7402eff9efa25",
+   "bytes": 2672,
+   "stream_bytes": 2672,
+   "stream_sha256": "deba183c9fcf6516bd37099f02980eb73a242c3f500a02236583e0b9b5ee9ae8"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00009",
+   "key": "7c9aa9dbd54ed72f",
+   "bytes": 2836,
+   "stream_bytes": 2836,
+   "stream_sha256": "497c83cf8de3b170b471b148638b3744b1bd6c52a39a6b5cb8b0d44ec4f9e135"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00010",
+   "key": "15f07fb20d19b8ae",
+   "bytes": 2815,
+   "stream_bytes": 2815,
+   "stream_sha256": "73e1db8df5c8faa4f7d3202d0aa3fc74bb4d0f2f798dfcd0be72c19620117754"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00011",
+   "key": "c3ae157010769b91",
+   "bytes": 2923,
+   "stream_bytes": 2923,
+   "stream_sha256": "39cf57a06d48dc1deb35b616a08e8fb794bc9b21b80e49f2b2dd671fd6cbdc34"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00012",
+   "key": "476e91c040dbec10",
+   "bytes": 2898,
+   "stream_bytes": 2898,
+   "stream_sha256": "183a2cf8c0e1605d22e305b111c1e6ec8ef12da0baefc4d4dc1ff4ce32c57e02"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00013",
+   "key": "26f37ae1e3f4b668",
+   "bytes": 2866,
+   "stream_bytes": 2866,
+   "stream_sha256": "b822630b5c48bd09594f9ed43da1d90381ac12db799e28dd21dde5a8b7924731"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00014",
+   "key": "f8d724b7aa247b5e",
+   "bytes": 2862,
+   "stream_bytes": 2862,
+   "stream_sha256": "98cc8233e07d69442e0884ec44cdd7a29c28667856ef06bd604ffe2c083535fe"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00015",
+   "key": "2af3d24c01a74c80",
+   "bytes": 2879,
+   "stream_bytes": 2879,
+   "stream_sha256": "8d1da6582fce03125bc2b59083c1add7d139c4909c185c6f144cbde376edc967"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00016",
+   "key": "1c81820853caa309",
+   "bytes": 2841,
+   "stream_bytes": 2841,
+   "stream_sha256": "269990fd7fac8d48578ad85f1e25a824c68b9483e56c282654319ea5c9c61e1c"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00017",
+   "key": "d4ee7f2839ebc600",
+   "bytes": 1958,
+   "stream_bytes": 1958,
+   "stream_sha256": "0068a3afd5bdef780fb49e69008f6f595e839d5d95f2b2c808eb575c4c404766"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00018",
+   "key": "862f381495eec67b",
+   "bytes": 2036,
+   "stream_bytes": 2036,
+   "stream_sha256": "5ab5f2d4402571b5f87a216ba3d92fa42a122ce7cd825fa7ecfed88b1bb1db1d"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00019",
+   "key": "dc85f53abc1678e6",
+   "bytes": 2035,
+   "stream_bytes": 2035,
+   "stream_sha256": "f2d02ae549c5d572516c1c16c7d048da24d490029051c75d40adfe805285311d"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00020",
+   "key": "4360a5a6c99c5654",
+   "bytes": 2940,
+   "stream_bytes": 2940,
+   "stream_sha256": "0f74e143823af8cb21be185e4023a9b78b0c31b759407eaa2e48e117cac15093"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00021",
+   "key": "d26f50d297426fa0",
+   "bytes": 2907,
+   "stream_bytes": 2907,
+   "stream_sha256": "606f05ef464d63546aebde3df7bc2d246e91d132c070ad5b383d46e5b801439c"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00022",
+   "key": "492752caa98c658a",
+   "bytes": 2928,
+   "stream_bytes": 2928,
+   "stream_sha256": "91592d731d7d9c6e83b8681f73f72908815a721ac1fe6c572f2428a3c96ff42d"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00023",
+   "key": "bee3e63998138dda",
+   "bytes": 2970,
+   "stream_bytes": 2970,
+   "stream_sha256": "a704cc5aa16ab070953d4dea37c6822d1de245631d215bce7d28e443dd03d2a7"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00024",
+   "key": "92d0e758d753ae26",
+   "bytes": 3139,
+   "stream_bytes": 3139,
+   "stream_sha256": "368fbbfde72d829a8f3229d42cc7b4138122d565ea6d3e87309cb3cbba5f9c3d"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00025",
+   "key": "1fb0f302411abd86",
+   "bytes": 3093,
+   "stream_bytes": 3093,
+   "stream_sha256": "4b3d2aa3a8c77d98ed71808798fc5c79c60242aad6bb1d01cb779f8b9d84fdea"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00026",
+   "key": "0fa6cbf1a97a82a9",
+   "bytes": 3126,
+   "stream_bytes": 3126,
+   "stream_sha256": "3d8d3454cf91a98edf2ae31fb50873114f344ff8d6b9cfd7b34857072efe2c5b"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00027",
+   "key": "b4ac22715ec102bd",
+   "bytes": 3108,
+   "stream_bytes": 3108,
+   "stream_sha256": "52de738451aebf12d5fe28e89468d7f251742ba2f5b8cb40f86e1563d9319e95"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00028",
+   "key": "4700ef50862d32d7",
+   "bytes": 3016,
+   "stream_bytes": 3016,
+   "stream_sha256": "af214f1da68dc37292972952277bd658b49d47a133b67b703cb8ab434feabb97"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00029",
+   "key": "16dae78e2e8b6d83",
+   "bytes": 3013,
+   "stream_bytes": 3013,
+   "stream_sha256": "7f2624e6f47a50881d5451465526ca041a6f701fa6cf2748d2f9e5e79654ff0b"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00030",
+   "key": "fb2c47ba81d8ca0d",
+   "bytes": 2962,
+   "stream_bytes": 2962,
+   "stream_sha256": "e6bd530e7443a43fccbe393b3a254f7d7fc70f59cc4316fa1a425c5cc7215c06"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00031",
+   "key": "8bd4785d91e58ac6",
+   "bytes": 2834,
+   "stream_bytes": 2834,
+   "stream_sha256": "d6d0697c7334630ffa4d44c9fa07373ddb38a3f7129df4db78be85882ca580e4"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00032",
+   "key": "06528140fabbf61e",
+   "bytes": 2917,
+   "stream_bytes": 2917,
+   "stream_sha256": "4a29fe6a5ac0710928b9b87a98214b04a580bdcea14b68614fccbad2b20381fa"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00033",
+   "key": "4c7f1e197f72e2f2",
+   "bytes": 3023,
+   "stream_bytes": 3023,
+   "stream_sha256": "2fee47de071527ce7ae6814d2b34c692346fb8a35a9463e819196eacb5f240e2"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00034",
+   "key": "ec746aa55af9eaff",
+   "bytes": 3057,
+   "stream_bytes": 3057,
+   "stream_sha256": "0db012268fda6042d1100859428f541c4411e0e2a3ba99b32f2b91653fb89d3e"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00035",
+   "key": "b844bb01baa910b8",
+   "bytes": 3025,
+   "stream_bytes": 3025,
+   "stream_sha256": "0b3c0f8c80ae19b74558bbad86247d910b07a7eeb11ebe5a455fc84ceabfe0ed"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00036",
+   "key": "ce3dfc6c48cc4e6f",
+   "bytes": 3139,
+   "stream_bytes": 3139,
+   "stream_sha256": "bc2a5326a2c1b92c9d67837c2447ad6f328d85ca5a93c32075d211d35acb9443"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00037",
+   "key": "521330dcb87afda3",
+   "bytes": 3215,
+   "stream_bytes": 3215,
+   "stream_sha256": "7be7449cb3356b784ffe2ba151a80839521cdc25c2b96e2f72fe4fe457d0f5ce"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00038",
+   "key": "847d5973eace8839",
+   "bytes": 3220,
+   "stream_bytes": 3220,
+   "stream_sha256": "5028663b5697cec2e054c87b6ff2ba7ef57d94f54b7531da22e74750181a8ef9"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00039",
+   "key": "e9681cda6c15ad34",
+   "bytes": 3863,
+   "stream_bytes": 3863,
+   "stream_sha256": "df9d709076470839298c68fc3c5b4d2654f7aeaf0acfe863039b317e209dbe45"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00040",
+   "key": "9c6226913462113a",
+   "bytes": 3612,
+   "stream_bytes": 3612,
+   "stream_sha256": "0becfecf51358bacd4d459a50239786483288f9a821a3c2e06faeae6ad286159"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00041",
+   "key": "b0e755afb70076b7",
+   "bytes": 3745,
+   "stream_bytes": 3745,
+   "stream_sha256": "41ab62b6af62069c68e07bb2f1511de15d811e238783e3b5bc522d548c3c811c"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00042",
+   "key": "6611da76b63870f1",
+   "bytes": 3760,
+   "stream_bytes": 3760,
+   "stream_sha256": "a2976e9581e750ebb0b54aa22e294e87d8e5b4b43667d15826d9658979eacc21"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00043",
+   "key": "5e083774a1044d61",
+   "bytes": 3846,
+   "stream_bytes": 3846,
+   "stream_sha256": "703ec3bfa1f994b013d3d8c7d9ec8b489bfcce532af07079fe9bcc81486793ac"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00044",
+   "key": "0ac913ee7a6787e7",
+   "bytes": 3934,
+   "stream_bytes": 3934,
+   "stream_sha256": "72f7a0674d807f530d11b0abb8526ffa677004f7dae9c2fb034eb9501e6ac446"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00045",
+   "key": "4d7e57f9c3185c9d",
+   "bytes": 4028,
+   "stream_bytes": 4028,
+   "stream_sha256": "62fb396127311df71bbb60484571067549419b2c31b2dc8612ad62aa60e0f157"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00046",
+   "key": "e6c938a913a5c43b",
+   "bytes": 3989,
+   "stream_bytes": 3989,
+   "stream_sha256": "726cc1c34cef746d9bb252ad3b36f232dcf87723aa9064113b0fee93053f412c"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00047",
+   "key": "a6142634117ef703",
+   "bytes": 4021,
+   "stream_bytes": 4021,
+   "stream_sha256": "432d31e8c3014d706cdce26b38213838f310c43f0a568155268f280de9984ddc"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00048",
+   "key": "a745944ba412300f",
+   "bytes": 3981,
+   "stream_bytes": 3981,
+   "stream_sha256": "94b59b93d356f219baac3c9cc6a6c3a08c9c30ae5fc6ea01cde8ccddbd96ac84"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00049",
+   "key": "a507dd21b8fbfd1d",
+   "bytes": 3999,
+   "stream_bytes": 3999,
+   "stream_sha256": "7bc9d146d5115cd053b5da679876048ed3482040d640184aed125032cf287f10"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00050",
+   "key": "b94cbdd3526960e3",
+   "bytes": 4109,
+   "stream_bytes": 4109,
+   "stream_sha256": "5dcf33bd18cd0c2ba1916415a7eeb655097272fb36da53ee6a93af3a63fd9801"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00051",
+   "key": "c13d3cc345aa38eb",
+   "bytes": 4041,
+   "stream_bytes": 4041,
+   "stream_sha256": "aadfa3b520b83e98b225bb07b620cfbb0b85e8a2d6d5480d271896b785a00548"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00052",
+   "key": "b2192cf97f71bd88",
+   "bytes": 3988,
+   "stream_bytes": 3988,
+   "stream_sha256": "2e871a20f90ac227b2474aba64974ea5706cdb3b4989d42002e0985713340dcd"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00053",
+   "key": "466576733473b59c",
+   "bytes": 4076,
+   "stream_bytes": 4076,
+   "stream_sha256": "aed5388e3809267bc6f62ce507cf44eb77059c8c6f470859c32652e311db6690"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00054",
+   "key": "6a2d7525ea9770fc",
+   "bytes": 4084,
+   "stream_bytes": 4084,
+   "stream_sha256": "a7648fd6b2855d9a9d7659351117502af938a714d325c6132b83072a39fd7fd5"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00055",
+   "key": "03f6ccc0eacd86f6",
+   "bytes": 4055,
+   "stream_bytes": 4055,
+   "stream_sha256": "38993c28cdf5f9a360b8d94fd05c2ffe9d8b682c8ea22bb63d44c1e13696d956"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00056",
+   "key": "e0fdabd29398a7a8",
+   "bytes": 4038,
+   "stream_bytes": 4038,
+   "stream_sha256": "340506478a213631a39e50ef316c40b0589c1169545c9b13b8ccec80eaa3b93f"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00057",
+   "key": "d4810bb24cb494b6",
+   "bytes": 4158,
+   "stream_bytes": 4158,
+   "stream_sha256": "ae41f3440425857962de1fdb8b8853b0be04ac6fbdf01f178d96ad8c467f8f17"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00058",
+   "key": "27456ac6b61ddb9c",
+   "bytes": 4033,
+   "stream_bytes": 4033,
+   "stream_sha256": "5481924e8861ce6ce093ebf7917d3cb6bdc1ba97b55435033291b5b215d3ff48"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00059",
+   "key": "e6b7ee1b95b93571",
+   "bytes": 4108,
+   "stream_bytes": 4108,
+   "stream_sha256": "9f1198baf0425ba466263ba5da3a995e40c6cf825b8cb726327992590d8112cf"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00060",
+   "key": "0ad0c3f20724e354",
+   "bytes": 4088,
+   "stream_bytes": 4088,
+   "stream_sha256": "1a9288bfce39dbd83e43de64b893351d7479c9f7a7bc7beb49d0d107e4f0cc5d"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00061",
+   "key": "2381b6078122be9e",
+   "bytes": 3981,
+   "stream_bytes": 3981,
+   "stream_sha256": "b9b946ae3a84c2428f3bdd7b345cdaf0bb550435d37613f018e85950e74fe1df"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00062",
+   "key": "c88976c3de9f9cb3",
+   "bytes": 3982,
+   "stream_bytes": 3982,
+   "stream_sha256": "dc271868727c42e79fdb73e737f1c82f328a28b0be22edbf6544f2e346de95a6"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00063",
+   "key": "8212cdb5b60b7482",
+   "bytes": 4039,
+   "stream_bytes": 4039,
+   "stream_sha256": "2d24d2204fea6769197dfaac5727cd56c3717fe0b8f9d09e4037353fbf990a46"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00064",
+   "key": "f1b219b5cef365af",
+   "bytes": 3931,
+   "stream_bytes": 3931,
+   "stream_sha256": "4e078c3ae75e0b517f2891ad4b802491fafbff235f87c89a882ab145d4690341"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00065",
+   "key": "f6e739480df9d552",
+   "bytes": 3938,
+   "stream_bytes": 3938,
+   "stream_sha256": "a67adea4f790e1e5e44daa4cd2cdea42e769d1193b5753e16a0f461da7212890"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00066",
+   "key": "36dba42beebe0c36",
+   "bytes": 3979,
+   "stream_bytes": 3979,
+   "stream_sha256": "490c7dc6b71c133e622058854c60db517c0ecb07c45a83df1da82190e8a4cd78"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00067",
+   "key": "6398b1080906d58d",
+   "bytes": 3952,
+   "stream_bytes": 3952,
+   "stream_sha256": "f0d0d5326808024452fb1344c6a354626c12deb127350dea8ffc581d11959727"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00068",
+   "key": "a907b72977e16a85",
+   "bytes": 3947,
+   "stream_bytes": 3947,
+   "stream_sha256": "f504e7e14887ab6d5b409d795d54cda18d17382c644cc051493da7526286e0b4"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00069",
+   "key": "b8f3b0359a09e335",
+   "bytes": 4034,
+   "stream_bytes": 4034,
+   "stream_sha256": "8586fd3927b5322d25fdf846615583beef752dfc39b7ce93edda98590083892e"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00070",
+   "key": "d1dc5fadb982f43c",
+   "bytes": 3912,
+   "stream_bytes": 3912,
+   "stream_sha256": "80c5c20bad3baea9184b0f7bad5aa5f97dfee538e2284cc5650863ab951dd241"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00071",
+   "key": "e33176cde4548b29",
+   "bytes": 3817,
+   "stream_bytes": 3817,
+   "stream_sha256": "14f32719528228c2121c928e501c4d9b33f0a94776ddab2b4a84dd8af987427e"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00072",
+   "key": "c2eb136fa5ef30b5",
+   "bytes": 3897,
+   "stream_bytes": 3897,
+   "stream_sha256": "bbbfff333448add612a37ad1b1ba7cbbb07d4359fe3fe09f441e6872dddde10a"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00073",
+   "key": "d3135b507711eff0",
+   "bytes": 3824,
+   "stream_bytes": 3824,
+   "stream_sha256": "9992ce04da87d79d9fd7c77e5f05e111985f3d0485ce579f0b98e301a816f2c2"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00074",
+   "key": "af03e5cef394a8c2",
+   "bytes": 3869,
+   "stream_bytes": 3869,
+   "stream_sha256": "5ba28ff82115dcd577b38bae510b96ee09cce44617e2907108aca319044b09aa"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00075",
+   "key": "cc69618ea7e3759d",
+   "bytes": 3915,
+   "stream_bytes": 3915,
+   "stream_sha256": "6edf04f66d4b2428d703ac94c967e209c42b26ad32f5d9d87f6ba7f539eee103"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00076",
+   "key": "01789c5cc90ce043",
+   "bytes": 3825,
+   "stream_bytes": 3825,
+   "stream_sha256": "de64c14e66035ed4a01fc3f818c954256bd3a9171c0fe0b4498a74a459ea6d45"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00077",
+   "key": "be55f9e9d5d9644f",
+   "bytes": 3896,
+   "stream_bytes": 3896,
+   "stream_sha256": "95517f9d042c3e14d11b80bae1aaf73d9107593547b6137b7ccdf2deccdd87c3"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00078",
+   "key": "56ff9bd192d9c2cf",
+   "bytes": 3928,
+   "stream_bytes": 3928,
+   "stream_sha256": "4a33f54f559e33b11d63d8e0bc8302ef5ade4b71070a3d5f9a09315052e8b708"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding-launch/00079",
+   "key": "38a2da161f757895",
+   "bytes": 4005,
+   "stream_bytes": 4005,
+   "stream_sha256": "30ff8a6a259d543334e9ce5be79ac9b2e7f7a29fdd3612cbd54b4da0ec02d089"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding/00000",
+   "key": "bcc5432f24e3d25f",
+   "bytes": 553,
+   "stream_bytes": 553,
+   "stream_sha256": "52d7669b63ead2e93617da9b59f5887a30e63eac7c214919c90cf98c2b136563"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding/00001",
+   "key": "849038055a3c8e8e",
+   "bytes": 572,
+   "stream_bytes": 572,
+   "stream_sha256": "32637a734871a740e5dce47aefd229e04474ae735867f776336c8ad95d3eef18"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding/00002",
+   "key": "0a52215ac1a1d1a7",
+   "bytes": 568,
+   "stream_bytes": 568,
+   "stream_sha256": "26c2d7efdd11daa233a2858b7c5bbb9af497ec9fb16823c8f4fbcd632d55da6b"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding/00003",
+   "key": "9c86aba292837d74",
+   "bytes": 566,
+   "stream_bytes": 566,
+   "stream_sha256": "fbb301d348e5eb01af71fcbb7aaac759794bfe63728282700f59111c8b1c0543"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding/00004",
+   "key": "af652ddb2412f165",
+   "bytes": 572,
+   "stream_bytes": 572,
+   "stream_sha256": "7a2ea0fd5c28eba1937d700c26b2e90356c6e4838c4be352bed8243c678adba6"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding/00005",
+   "key": "6b36c80d736171ea",
+   "bytes": 561,
+   "stream_bytes": 561,
+   "stream_sha256": "75d3ed7d5b354e4b3802ef5eac143a21ce68676e3cd90ba3c9579fcca8ed5e78"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding/00006",
+   "key": "2aa6f489fd614c54",
+   "bytes": 546,
+   "stream_bytes": 546,
+   "stream_sha256": "75b4fadcf9d1e69fadaf92f520956ffa1ded03da87230aa080991cb862dc5bb8"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding/00007",
+   "key": "506a270d57b26719",
+   "bytes": 534,
+   "stream_bytes": 534,
+   "stream_sha256": "f21625cd8f5292cb9a1d6e23c7368ced6da788d7c8478bd9b3cde080c629479e"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding/00008",
+   "key": "3d543c0807185d70",
+   "bytes": 540,
+   "stream_bytes": 540,
+   "stream_sha256": "de1bd8adf94e47ce40f776d82404728ef4cfc078df16df564a5a32b14e4b810d"
+  },
+  {
+   "input_id": "DAVIS2017/paragliding/00009",
+   "key": "e6a1c573359a5472",
+   "bytes": 557,
+   "stream_bytes": 557,
+   "stream_sha256": "b26be5e74ae10672f28f4b83ca56cb7efc4241270cb605d2698306fa5edb93ab"
+  }
+ ],
+ "errors": [],
+ "not_applicable": [],
+ "finished": "2026-10-29 09:02:24"
+}

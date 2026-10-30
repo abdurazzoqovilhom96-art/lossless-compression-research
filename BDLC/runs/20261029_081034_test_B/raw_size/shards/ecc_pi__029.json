@@ -1,0 +1,718 @@
+{
+ "codec": "ecc_pi",
+ "mode": "size",
+ "shard": 29,
+ "pin": {
+  "requested_cpu": 10,
+  "affinity_ok": true,
+  "priority_ok": false,
+  "affinity_mask": "0x400"
+ },
+ "python": "3.14.4 (main, Apr 14 2026, 14:26:14) [Clang 22.1.3 ]",
+ "started": "2026-10-29 08:59:07",
+ "images": [
+  {
+   "input_id": "DAVIS2017/horsejump-low/00057",
+   "key": "d12ca8fb0c96a53b",
+   "bytes": 311,
+   "stream_bytes": 315,
+   "stream_sha256": "23dd12e6465ac7c4ac80f7dcd47ef3cddce7c06a756500f8a29052274ba6b3e9"
+  },
+  {
+   "input_id": "DAVIS2017/horsejump-low/00058",
+   "key": "9a1d7db3e1161e2c",
+   "bytes": 324,
+   "stream_bytes": 328,
+   "stream_sha256": "d526f87ada47ba4701fe24a5dbfeb60607c3abdc48bded433dec430b9406ecfe"
+  },
+  {
+   "input_id": "DAVIS2017/horsejump-low/00059",
+   "key": "db63746e39e2b924",
+   "bytes": 320,
+   "stream_bytes": 324,
+   "stream_sha256": "5fb9dfb8fd997af346b769b10cdab8ad8d971b849616630c63cb84b84236e643"
+  },
+  {
+   "input_id": "DAVIS2017/india/00000",
+   "key": "b688166133d076ed",
+   "bytes": 450,
+   "stream_bytes": 454,
+   "stream_sha256": "476fd949c9e76ea6d19cdd069193424da30d00d5908c235b65e37ad7fb37b53e"
+  },
+  {
+   "input_id": "DAVIS2017/india/00001",
+   "key": "0452da2f65c8ca30",
+   "bytes": 443,
+   "stream_bytes": 447,
+   "stream_sha256": "da4c06dd8d0445ab065be9beff328560439a57dc75612335af29c5533e83d3d8"
+  },
+  {
+   "input_id": "DAVIS2017/india/00002",
+   "key": "4818d2dc09dd2b8f",
+   "bytes": 455,
+   "stream_bytes": 459,
+   "stream_sha256": "bd2f6fe55a12684e2926feb32548e9e17c7759bba0cff54afcd2fa6923638f7d"
+  },
+  {
+   "input_id": "DAVIS2017/india/00003",
+   "key": "2a99ca8a4c1a8554",
+   "bytes": 453,
+   "stream_bytes": 457,
+   "stream_sha256": "5d691485e873747eb0f5d597de9f2022bbb0d184ab502893556c4ae5ab5221e4"
+  },
+  {
+   "input_id": "DAVIS2017/india/00004",
+   "key": "21ea592864ca335a",
+   "bytes": 432,
+   "stream_bytes": 436,
+   "stream_sha256": "b44f04771d943fa8160a1c84f914cb5b79abd8b61561950affa468d5572d776c"
+  },
+  {
+   "input_id": "DAVIS2017/india/00005",
+   "key": "2dba0c2d4b193552",
+   "bytes": 427,
+   "stream_bytes": 431,
+   "stream_sha256": "9320f7e2d0932182ff160e9ec6d6517b7822f19fd0d36cbdd88a99b59afbfe3b"
+  },
+  {
+   "input_id": "DAVIS2017/india/00006",
+   "key": "38c860764d25a777",
+   "bytes": 438,
+   "stream_bytes": 442,
+   "stream_sha256": "ffdf2c722a966e195f99cee3c4d186aaa05729f8f4e5d9f01cf9fc7dd37b9602"
+  },
+  {
+   "input_id": "DAVIS2017/india/00007",
+   "key": "880380cc19953ee0",
+   "bytes": 427,
+   "stream_bytes": 431,
+   "stream_sha256": "532c29a3c77c29b453f000bcddb9e1bf54e7659cce1281f5a5f90dbd527365ef"
+  },
+  {
+   "input_id": "DAVIS2017/india/00008",
+   "key": "a8babd5915e0e64f",
+   "bytes": 414,
+   "stream_bytes": 418,
+   "stream_sha256": "e1554ed24cc7134a23d5f7b3a361181ae7db7a273c0ab6021296fd3baf496233"
+  },
+  {
+   "input_id": "DAVIS2017/india/00009",
+   "key": "28d80b557959a34e",
+   "bytes": 401,
+   "stream_bytes": 405,
+   "stream_sha256": "981b25d6eb0fdf77e76bf3a526d7d3aaaf559700e78b966792bc5e71629d3ab2"
+  },
+  {
+   "input_id": "DAVIS2017/india/00010",
+   "key": "711be5597344f8e7",
+   "bytes": 417,
+   "stream_bytes": 421,
+   "stream_sha256": "6583480dd242c613fea660e34339379ec9851ca90661c0fd85e91413a9432a90"
+  },
+  {
+   "input_id": "DAVIS2017/india/00011",
+   "key": "196fce81bdc4526d",
+   "bytes": 420,
+   "stream_bytes": 424,
+   "stream_sha256": "749dd93465f04c66c16f64678712c54bfd169bafbc09006ddda4ee1c237bb180"
+  },
+  {
+   "input_id": "DAVIS2017/india/00012",
+   "key": "7fce81f16cfd001c",
+   "bytes": 411,
+   "stream_bytes": 415,
+   "stream_sha256": "4e70bf394a3dd70d60eb3ea4e4351ae0e5dd522c5caa31e4bfa2cab1e760d046"
+  },
+  {
+   "input_id": "DAVIS2017/india/00013",
+   "key": "2ae95ee830d2c0f9",
+   "bytes": 426,
+   "stream_bytes": 430,
+   "stream_sha256": "901cae046fb6a76ee7e33d34cdd61ed605b2b52c2f65459aaab44761ca6232e6"
+  },
+  {
+   "input_id": "DAVIS2017/india/00014",
+   "key": "3df180d1913c29c5",
+   "bytes": 418,
+   "stream_bytes": 422,
+   "stream_sha256": "c9f0af1df9083d64df208bb7a3b6baa51624a6979c9c19ec99addd962e22425d"
+  },
+  {
+   "input_id": "DAVIS2017/india/00015",
+   "key": "764b9643bccda695",
+   "bytes": 432,
+   "stream_bytes": 436,
+   "stream_sha256": "e933fd6d15d3e47d6098f59427622f65f4be48b4f9b2fcffc4b439e3d8954ca8"
+  },
+  {
+   "input_id": "DAVIS2017/india/00016",
+   "key": "19ed302af7f85829",
+   "bytes": 453,
+   "stream_bytes": 457,
+   "stream_sha256": "107fec6547810a0a8992223b32887cfc9cd2705bf360e181d24dc7edfb1b66bc"
+  },
+  {
+   "input_id": "DAVIS2017/india/00017",
+   "key": "2c982f947da8d363",
+   "bytes": 454,
+   "stream_bytes": 458,
+   "stream_sha256": "6346618fa514b4a05dbf0dd46919426d94ca3c4a378de99455fa567952255877"
+  },
+  {
+   "input_id": "DAVIS2017/india/00018",
+   "key": "e352f4780d3d8ab2",
+   "bytes": 448,
+   "stream_bytes": 452,
+   "stream_sha256": "054aded519a7cad10135c411f72a7874e9d0112f3ee5150557b1361072a688f7"
+  },
+  {
+   "input_id": "DAVIS2017/india/00019",
+   "key": "2616ebb19d6dd224",
+   "bytes": 437,
+   "stream_bytes": 441,
+   "stream_sha256": "138e18fb0d5db80db5034eb13f49e682f1da9daf233844df4162f97202a8ff91"
+  },
+  {
+   "input_id": "DAVIS2017/india/00020",
+   "key": "f698e2f1d415348f",
+   "bytes": 443,
+   "stream_bytes": 447,
+   "stream_sha256": "b27100f05e5095a6bce159b4dfd144f142b011e37762ab6c34ab85057f6be8ed"
+  },
+  {
+   "input_id": "DAVIS2017/india/00021",
+   "key": "638d58cad0994952",
+   "bytes": 437,
+   "stream_bytes": 441,
+   "stream_sha256": "d1cfd2706574d0682ea2bd4a438d997cbeb73d1c95eb050faa96f7a96eca9a86"
+  },
+  {
+   "input_id": "DAVIS2017/india/00022",
+   "key": "7b748fd8d264148f",
+   "bytes": 449,
+   "stream_bytes": 453,
+   "stream_sha256": "47ac923f94d2b5806b4aaa839e58ab11a09484318058d8e622f4203b83b23b3a"
+  },
+  {
+   "input_id": "DAVIS2017/india/00023",
+   "key": "72e2afcffa951d91",
+   "bytes": 453,
+   "stream_bytes": 457,
+   "stream_sha256": "3ae25908e4ac2f74d8c81cac2d30f73ca9cd20fd6f38dd4c5ef547a9219e8cca"
+  },
+  {
+   "input_id": "DAVIS2017/india/00024",
+   "key": "a2375ed340c41c12",
+   "bytes": 470,
+   "stream_bytes": 474,
+   "stream_sha256": "4c889196f2b164cfa5ab7bbf16cdab6166c519474426efe85775221b3bbd649a"
+  },
+  {
+   "input_id": "DAVIS2017/india/00025",
+   "key": "1b2f7c7e40e1904d",
+   "bytes": 491,
+   "stream_bytes": 495,
+   "stream_sha256": "261866745146d7352ac91aea4211c94a4db87a995776e5e4bd23fb1ede7ea5f2"
+  },
+  {
+   "input_id": "DAVIS2017/india/00026",
+   "key": "9784668f7546d870",
+   "bytes": 490,
+   "stream_bytes": 494,
+   "stream_sha256": "4e4d676059a7294c4651b50d606191d74a54088c2be530f49abead98a7d7807d"
+  },
+  {
+   "input_id": "DAVIS2017/india/00027",
+   "key": "140e413741661d3f",
+   "bytes": 499,
+   "stream_bytes": 503,
+   "stream_sha256": "fef2a88cd2202ed749f15650361e6da2ee39c64e7f978d249c8f53e5c181c17e"
+  },
+  {
+   "input_id": "DAVIS2017/india/00028",
+   "key": "2c2371217d6272d4",
+   "bytes": 500,
+   "stream_bytes": 504,
+   "stream_sha256": "e64592f49391c290f20ca8e419eda4fa27f71ce0d10fc9af86838ac5c75b5c6b"
+  },
+  {
+   "input_id": "DAVIS2017/india/00029",
+   "key": "b20136bbe5d16f6c",
+   "bytes": 476,
+   "stream_bytes": 480,
+   "stream_sha256": "bb90e9dfd7d845fe527515227b0881b4839e0286f335bc42334b8b690181e38a"
+  },
+  {
+   "input_id": "DAVIS2017/india/00030",
+   "key": "7fd6bec7abc6b8ab",
+   "bytes": 443,
+   "stream_bytes": 447,
+   "stream_sha256": "676b2b38ec5140228972921d304edbed51ddde99a8c96eaab22ec3ea69842510"
+  },
+  {
+   "input_id": "DAVIS2017/india/00031",
+   "key": "4256afdd81834520",
+   "bytes": 415,
+   "stream_bytes": 419,
+   "stream_sha256": "2e7c70d2554ef299bc2a43e63c61c929fd900bd4b3fdcb60f36781ec096aa1df"
+  },
+  {
+   "input_id": "DAVIS2017/india/00032",
+   "key": "767ed1c8f2263395",
+   "bytes": 398,
+   "stream_bytes": 402,
+   "stream_sha256": "6831e1deaa0b4d09062c293efab9d469897f0c3b93e0e021c4e686fceacf2c4e"
+  },
+  {
+   "input_id": "DAVIS2017/india/00033",
+   "key": "a3c1e24c3c545aec",
+   "bytes": 392,
+   "stream_bytes": 396,
+   "stream_sha256": "bc3ba533856f11a42dc210ebd2bce4b364a55759501c9bed4c3867e698d065e4"
+  },
+  {
+   "input_id": "DAVIS2017/india/00034",
+   "key": "27733bd88e67a9ea",
+   "bytes": 349,
+   "stream_bytes": 353,
+   "stream_sha256": "4c27d709db657016d97d9b97e3053aaa756d784ee280abcb00e2a7047c06cbf4"
+  },
+  {
+   "input_id": "DAVIS2017/india/00035",
+   "key": "2a9b6a6a5a586d8e",
+   "bytes": 256,
+   "stream_bytes": 260,
+   "stream_sha256": "7e05e937564f5d04928dbf3eca289ccc67b3432ea14474b10a1f06b100542e80"
+  },
+  {
+   "input_id": "DAVIS2017/india/00036",
+   "key": "66b3a6909fd8b363",
+   "bytes": 375,
+   "stream_bytes": 379,
+   "stream_sha256": "49c6ed4656c57cb464d1669fdc6b7c4e65c7d0148904d81b6a7f5d0d9974f003"
+  },
+  {
+   "input_id": "DAVIS2017/india/00037",
+   "key": "4f8488d9fb51acfe",
+   "bytes": 328,
+   "stream_bytes": 332,
+   "stream_sha256": "1b17c12579807e55cec164991f7228fbd13f2286669ef73f2c39702b91687c98"
+  },
+  {
+   "input_id": "DAVIS2017/india/00038",
+   "key": "a3bf60bb269b5fd4",
+   "bytes": 284,
+   "stream_bytes": 288,
+   "stream_sha256": "06a51c74f6b8b57af11edbc9296548506dcf3b1e18722befa3a5dca37a2d5d88"
+  },
+  {
+   "input_id": "DAVIS2017/india/00039",
+   "key": "89abaedfbfddd97d",
+   "bytes": 274,
+   "stream_bytes": 278,
+   "stream_sha256": "270009a2b66892e720fdd35ef65f8778ec38fd30dc5d232c2bfce8a753764177"
+  },
+  {
+   "input_id": "DAVIS2017/india/00040",
+   "key": "dc4d9970c26f5abb",
+   "bytes": 269,
+   "stream_bytes": 273,
+   "stream_sha256": "197e9c97272fae5d913e8515b729ad624e386e14b194c479118803d2bc149bb9"
+  },
+  {
+   "input_id": "DAVIS2017/india/00041",
+   "key": "f161f114d5de1e97",
+   "bytes": 350,
+   "stream_bytes": 354,
+   "stream_sha256": "0676c65e3324f44ea32f9c7c5c2eb6d02f1d134eaea85165814076ed2e89708f"
+  },
+  {
+   "input_id": "DAVIS2017/india/00042",
+   "key": "ea1e67b56c1b5bd8",
+   "bytes": 307,
+   "stream_bytes": 311,
+   "stream_sha256": "fc96ed0f3dcfe8df45ef19664d43907a2534564b7cb83273b52687292f015622"
+  },
+  {
+   "input_id": "DAVIS2017/india/00043",
+   "key": "d3ffb26c57b32751",
+   "bytes": 287,
+   "stream_bytes": 291,
+   "stream_sha256": "9d9dc7166072148f345d74079ef8b9e4af98f50841db642c7a6b8cf53077aa28"
+  },
+  {
+   "input_id": "DAVIS2017/india/00044",
+   "key": "308fce5812660ec6",
+   "bytes": 293,
+   "stream_bytes": 297,
+   "stream_sha256": "b8a7e503d29c1f0d17fe6a524699f8eb0d187b0af2ee34180be6e36cf67ad955"
+  },
+  {
+   "input_id": "DAVIS2017/india/00045",
+   "key": "a4041591391b4f19",
+   "bytes": 290,
+   "stream_bytes": 294,
+   "stream_sha256": "c1467899e28d2baabe57377f73f63ff77fc89c089647c93a7793f6649510abfd"
+  },
+  {
+   "input_id": "DAVIS2017/india/00046",
+   "key": "958a8feb75937e39",
+   "bytes": 263,
+   "stream_bytes": 267,
+   "stream_sha256": "581d4bf7d3875c42e10f87265f4efb58908ce2aad3ef99c0d83484f9e1f42061"
+  },
+  {
+   "input_id": "DAVIS2017/india/00047",
+   "key": "2ac9ea6bb77c82f2",
+   "bytes": 256,
+   "stream_bytes": 260,
+   "stream_sha256": "99bcc6f1cd33237191adad53fa8294b4d59c706cf60cc36b8f2473b4f17f0d79"
+  },
+  {
+   "input_id": "DAVIS2017/india/00048",
+   "key": "691fcf8277767a2f",
+   "bytes": 228,
+   "stream_bytes": 232,
+   "stream_sha256": "e9ebc70f399f895dc9620eef80df317b29d9c27186e588dc6f50350a2face37d"
+  },
+  {
+   "input_id": "DAVIS2017/india/00049",
+   "key": "cdbed1ba762930f1",
+   "bytes": 209,
+   "stream_bytes": 213,
+   "stream_sha256": "0a6500e18fb37659a5cbdeccc5883798b6fa00782fbbf5d7b367829de886e4dc"
+  },
+  {
+   "input_id": "DAVIS2017/india/00050",
+   "key": "7f6bdecb3f09c09f",
+   "bytes": 175,
+   "stream_bytes": 179,
+   "stream_sha256": "d6f8debc7b400ea765cfe8f37dab208e91a1169b62906a097e1e127b77cc6631"
+  },
+  {
+   "input_id": "DAVIS2017/india/00051",
+   "key": "e38a38a67480e0aa",
+   "bytes": 169,
+   "stream_bytes": 173,
+   "stream_sha256": "8262314efbfeaeccbdbdd5abbeeeb1fec0b1b25b98d3467ec7b9fa69588958e3"
+  },
+  {
+   "input_id": "DAVIS2017/india/00052",
+   "key": "1b9bdc2fe433976f",
+   "bytes": 127,
+   "stream_bytes": 131,
+   "stream_sha256": "ceb02c824c597c27394b5d2e8ebcd25ce40e5832e13dd07085ca8ec41fb18ecb"
+  },
+  {
+   "input_id": "DAVIS2017/india/00053",
+   "key": "15759e4ce0f8b335",
+   "bytes": 142,
+   "stream_bytes": 146,
+   "stream_sha256": "33113a3e1c95e50f02cbc1181c97d085282f05556eba929a77ac6c3cc511b1c8"
+  },
+  {
+   "input_id": "DAVIS2017/india/00054",
+   "key": "107f05358ca0ea4e",
+   "bytes": 138,
+   "stream_bytes": 142,
+   "stream_sha256": "6245a610bde08ad7ab0772dcf6d0c9bd673436e50de5c2187b4689d0734df28c"
+  },
+  {
+   "input_id": "DAVIS2017/india/00055",
+   "key": "b5cad0e00752dbcb",
+   "bytes": 139,
+   "stream_bytes": 143,
+   "stream_sha256": "6544fa4664495e797c4f08a3221848b15017f81ec2475be7df967b0ca6d6f6e4"
+  },
+  {
+   "input_id": "DAVIS2017/india/00056",
+   "key": "18581d3a7b89b82d",
+   "bytes": 138,
+   "stream_bytes": 142,
+   "stream_sha256": "6f854c08e09bc8ec29ef4b94733db5ad28d541e977d196d861be45f8234b369f"
+  },
+  {
+   "input_id": "DAVIS2017/india/00057",
+   "key": "2ffbf7e35eec07a5",
+   "bytes": 123,
+   "stream_bytes": 127,
+   "stream_sha256": "ea099931f7cd56a7825a8ba1f1f3743edf25210117d50709fbdf1acb84b5463b"
+  },
+  {
+   "input_id": "DAVIS2017/india/00058",
+   "key": "f730f404e23e99ca",
+   "bytes": 126,
+   "stream_bytes": 130,
+   "stream_sha256": "afab24e3a4d421d8449d353aab91218808d246ffa73a153cfdd8b71d74de69f8"
+  },
+  {
+   "input_id": "DAVIS2017/india/00059",
+   "key": "22262c179cd8cce6",
+   "bytes": 139,
+   "stream_bytes": 143,
+   "stream_sha256": "e9792ac3f5b74a5937e0a030a450387a72aad285b47c149e1ce1e84c32719c16"
+  },
+  {
+   "input_id": "DAVIS2017/india/00060",
+   "key": "ddef7b99447759a0",
+   "bytes": 154,
+   "stream_bytes": 158,
+   "stream_sha256": "412265ca42bbb3b4ec3f3671b93eedcdac7a199a084e2d134136f196d688d1d3"
+  },
+  {
+   "input_id": "DAVIS2017/india/00061",
+   "key": "5e8cc3d946100dc8",
+   "bytes": 159,
+   "stream_bytes": 163,
+   "stream_sha256": "8ec93918c500c93ef8121902abf5c19372f456a63a236ee3acebf1e170f91d64"
+  },
+  {
+   "input_id": "DAVIS2017/india/00062",
+   "key": "8822c349648ab171",
+   "bytes": 141,
+   "stream_bytes": 145,
+   "stream_sha256": "c1d707bf5acefda27d6e1adb31e539b01ea8d40bea509149bda44066f1b1f441"
+  },
+  {
+   "input_id": "DAVIS2017/india/00063",
+   "key": "58f531667edeb01b",
+   "bytes": 150,
+   "stream_bytes": 154,
+   "stream_sha256": "4ba4269883d5cadbd9ac9c3ca760481e56c95f6c552ea256a5f2d02c3e736783"
+  },
+  {
+   "input_id": "DAVIS2017/india/00064",
+   "key": "1f2a75a80798ad0b",
+   "bytes": 167,
+   "stream_bytes": 171,
+   "stream_sha256": "a9f7bc7e902144dcee4fe1495bbaa1376483d8fd170c8287eba24418cd649c59"
+  },
+  {
+   "input_id": "DAVIS2017/india/00065",
+   "key": "e5c13957c2aca77d",
+   "bytes": 172,
+   "stream_bytes": 176,
+   "stream_sha256": "4439f9884c3db1209589d59a34bf13a6d27a9cbb7e3c7608ff74782c6e8f3657"
+  },
+  {
+   "input_id": "DAVIS2017/india/00066",
+   "key": "cd21177be5b38471",
+   "bytes": 180,
+   "stream_bytes": 184,
+   "stream_sha256": "6398e13018c4acf1638edb97ed230176c122ba9ccb6aa6c7d8539b26f626f08b"
+  },
+  {
+   "input_id": "DAVIS2017/india/00067",
+   "key": "61ffe3abcd71235e",
+   "bytes": 181,
+   "stream_bytes": 185,
+   "stream_sha256": "78112a1b1b9357378db74f488b012fcf5f2fd16c7d650c428cd1b8d9f0a163b2"
+  },
+  {
+   "input_id": "DAVIS2017/india/00068",
+   "key": "7bf5893e44e28a78",
+   "bytes": 175,
+   "stream_bytes": 179,
+   "stream_sha256": "3a492225fbecb2ff8b132019a53c023bbb2f7378fd1a01a44c97892e3e4b1c97"
+  },
+  {
+   "input_id": "DAVIS2017/india/00069",
+   "key": "02e42e990565879f",
+   "bytes": 163,
+   "stream_bytes": 167,
+   "stream_sha256": "2b9994d668f41365229dd2f1aaa0dacaac31fedb0ffc588bc2f8661f5376b632"
+  },
+  {
+   "input_id": "DAVIS2017/india/00070",
+   "key": "3fe45be237084ce0",
+   "bytes": 162,
+   "stream_bytes": 166,
+   "stream_sha256": "85d0c414164b8600bd64d8b8322494b3bd25efeee756178f8f3f926e0e4940b3"
+  },
+  {
+   "input_id": "DAVIS2017/india/00071",
+   "key": "7fd510a29a65bddb",
+   "bytes": 159,
+   "stream_bytes": 163,
+   "stream_sha256": "66dd94862770f2a326cb500d808f852d2c73889988a2263ced1a1d5559abe194"
+  },
+  {
+   "input_id": "DAVIS2017/india/00072",
+   "key": "8e76e6f37961ffcb",
+   "bytes": 167,
+   "stream_bytes": 171,
+   "stream_sha256": "282609483a2d6f328aac0868a98d06c1068ca1b7fad4ed2bb67564e376bd2d46"
+  },
+  {
+   "input_id": "DAVIS2017/india/00073",
+   "key": "d2a4d2cf6be9a9b1",
+   "bytes": 164,
+   "stream_bytes": 168,
+   "stream_sha256": "a5cb298b5a8f5d6f500eeb50f5bb5beb2425b313904e9972b7e020a9c6a1593f"
+  },
+  {
+   "input_id": "DAVIS2017/india/00074",
+   "key": "c9f3d15c5c09afb1",
+   "bytes": 171,
+   "stream_bytes": 175,
+   "stream_sha256": "44a34a10284712a50ff00c02f9010082c5b950d21dd475b7d5554140ec7c9f56"
+  },
+  {
+   "input_id": "DAVIS2017/india/00075",
+   "key": "f2c6e47fe61405f2",
+   "bytes": 183,
+   "stream_bytes": 187,
+   "stream_sha256": "b6cde9ecf12878682c2df3f31147e3cc03b1d1639dd28ecdcb6b119b643ba268"
+  },
+  {
+   "input_id": "DAVIS2017/india/00076",
+   "key": "94fe93fa4918a913",
+   "bytes": 184,
+   "stream_bytes": 188,
+   "stream_sha256": "b0fadd082e5e93ef2fa6cdf19678109bd905d264be07a8bc2d7c5a491db4ee1f"
+  },
+  {
+   "input_id": "DAVIS2017/india/00077",
+   "key": "e9a0cd01d9c12ee4",
+   "bytes": 185,
+   "stream_bytes": 189,
+   "stream_sha256": "c0f07107627e452bc1c888a6bb7f2abc752c99e1d309085a15684ddfb0037baf"
+  },
+  {
+   "input_id": "DAVIS2017/india/00078",
+   "key": "cecece9841db6408",
+   "bytes": 180,
+   "stream_bytes": 184,
+   "stream_sha256": "cb5716e78fab18fd16bc492f1b277a89929dc1d6b921d5af1017927f1c7a92d0"
+  },
+  {
+   "input_id": "DAVIS2017/india/00079",
+   "key": "46cd3582d4e51c69",
+   "bytes": 177,
+   "stream_bytes": 181,
+   "stream_sha256": "7fd2c58029080c1b67fed1c2629a43f070ca1a15bf8e3ad99920d3929a567c37"
+  },
+  {
+   "input_id": "DAVIS2017/india/00080",
+   "key": "d015dd63ed915a28",
+   "bytes": 170,
+   "stream_bytes": 174,
+   "stream_sha256": "ff3eb42d5aa7978d421faa30fac403d04253d43678aecb9f61c4e0454c8d5db1"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00000",
+   "key": "068e50b37c8b3818",
+   "bytes": 370,
+   "stream_bytes": 374,
+   "stream_sha256": "0ee06fdf608ba43541da87c0d79ddd6c06b58d75164f73a0bcafb8714aec4422"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00001",
+   "key": "a3bb435db14887a3",
+   "bytes": 358,
+   "stream_bytes": 362,
+   "stream_sha256": "84ce4b127f738f71336c0fc216f99bfd0015e86c613967bc913657c368c59286"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00002",
+   "key": "3e8f7961a5d62ea1",
+   "bytes": 363,
+   "stream_bytes": 367,
+   "stream_sha256": "1fe46d73c02471a8250d42437cbc7cdbc5942de2e5deef70438355102b14e8bf"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00003",
+   "key": "446a6181339cf5e8",
+   "bytes": 349,
+   "stream_bytes": 353,
+   "stream_sha256": "0841718100ea5dd0df68545c052b02e125b1275bde5a6c704904b609318ce2cc"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00004",
+   "key": "896e1d374439b608",
+   "bytes": 342,
+   "stream_bytes": 346,
+   "stream_sha256": "f4ff2195c09e2e1d56a26972293ceb260d1dab2d8028d55fa71748463cdbff6d"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00005",
+   "key": "e9dd400df752123e",
+   "bytes": 332,
+   "stream_bytes": 336,
+   "stream_sha256": "2af66769417a87c5e884ab09804ef7b5a481bd02d709163e3941c6a5b38c8b4e"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00006",
+   "key": "92f5f36b340ba3af",
+   "bytes": 320,
+   "stream_bytes": 324,
+   "stream_sha256": "105c3a52c2c62249b60318f8c8b859e266c7efa6a244297b9fd09e88aba9b753"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00007",
+   "key": "1c03d3c73d7e6da0",
+   "bytes": 344,
+   "stream_bytes": 348,
+   "stream_sha256": "bb149016e85aa97fe4b4e3215ebee978e1dab35d11c88a4e690addbf443f103f"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00008",
+   "key": "c382570a6d24e28d",
+   "bytes": 330,
+   "stream_bytes": 334,
+   "stream_sha256": "301f3b299cfa71abc9b7994864fe25d0cad6b8db85ae5f211e007b6f53e73d93"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00009",
+   "key": "ea6b6cf9503cf06e",
+   "bytes": 333,
+   "stream_bytes": 337,
+   "stream_sha256": "221ed27051e05fc7893ec0bec1d8d32b8b25952d29b0002914015d29a73762f2"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00010",
+   "key": "ee3c80e2a9eebc58",
+   "bytes": 327,
+   "stream_bytes": 331,
+   "stream_sha256": "268421bc9899ce838313b016d2d05afa837b256450228cd4ab305924911861eb"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00011",
+   "key": "1932494cb3dd4837",
+   "bytes": 321,
+   "stream_bytes": 325,
+   "stream_sha256": "ccb34a7b2cabce1742890c6697ff248eefac141d7c80fd0a5482b73813aca799"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00012",
+   "key": "50a7f6c63cb0c58f",
+   "bytes": 313,
+   "stream_bytes": 317,
+   "stream_sha256": "c6a6f90bc19478b4cd8f4435e5f96504de7ed0c8f555768b92367746266aa1ba"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00013",
+   "key": "edd98ab45fe0e368",
+   "bytes": 311,
+   "stream_bytes": 315,
+   "stream_sha256": "62e6c641ce2a96ca8009e2c54472d544bfbd58cef667bc57a21cd0d8e08d6cd5"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00014",
+   "key": "45afda48e031eb36",
+   "bytes": 291,
+   "stream_bytes": 295,
+   "stream_sha256": "4045b9615cc95d923e9dd1270fab51a8b3f2f0a2c1873ddac9fe6bc1209c6285"
+  },
+  {
+   "input_id": "DAVIS2017/judo/00015",
+   "key": "f51d1a7759495654",
+   "bytes": 300,
+   "stream_bytes": 304,
+   "stream_sha256": "6681d7d3784bbc53a34e48a1284afd84f3c37a03ae46a75d5374dd8a4af0cb22"
+  }
+ ],
+ "errors": [],
+ "not_applicable": [],
+ "finished": "2026-10-29 08:59:13"
+}

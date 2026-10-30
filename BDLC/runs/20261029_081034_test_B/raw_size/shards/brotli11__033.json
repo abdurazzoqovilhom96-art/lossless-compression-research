@@ -1,0 +1,718 @@
+{
+ "codec": "brotli11",
+ "mode": "size",
+ "shard": 33,
+ "pin": {
+  "requested_cpu": 15,
+  "affinity_ok": true,
+  "priority_ok": false,
+  "affinity_mask": "0x8000"
+ },
+ "python": "3.14.4 (main, Apr 14 2026, 14:26:14) [Clang 22.1.3 ]",
+ "started": "2026-10-29 08:41:37",
+ "images": [
+  {
+   "input_id": "DAVIS2017/koala/00084",
+   "key": "731482d4256ac1a8",
+   "bytes": 2563,
+   "stream_bytes": 2563,
+   "stream_sha256": "6e122a8edad1dec93022c3a10640fe0fabb65d8a231d90379811d7b805271f55"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00085",
+   "key": "132a3d88908edffa",
+   "bytes": 2527,
+   "stream_bytes": 2527,
+   "stream_sha256": "214a6ced113c654d795ac5fe23c5bff6908f690af1918a2edbe0984b5bb624d2"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00086",
+   "key": "bc47d8c5662036ef",
+   "bytes": 2420,
+   "stream_bytes": 2420,
+   "stream_sha256": "6bf43647c24ba76f4770d4de1499811dea1013391b07db621cebd7f69290906d"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00087",
+   "key": "533e65a4df0e9c14",
+   "bytes": 2467,
+   "stream_bytes": 2467,
+   "stream_sha256": "13f63228fce5777eff52cb0a36247c986766ef165deb0e4c635f53082db4824c"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00088",
+   "key": "75394634e76b7cfc",
+   "bytes": 2671,
+   "stream_bytes": 2671,
+   "stream_sha256": "f25caedca52d3ff1daff12d81c83795617fc8b18e488623e2d8045e17d80aaf3"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00089",
+   "key": "d7c42c7e392bf001",
+   "bytes": 2540,
+   "stream_bytes": 2540,
+   "stream_sha256": "4ea186a85da211cf89aaa5fcf6b9115446c16eef243900224f10bbaee4bc5cfd"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00090",
+   "key": "96f344b485ae75ef",
+   "bytes": 2597,
+   "stream_bytes": 2597,
+   "stream_sha256": "d7e3cedbff17871ae8557cf2b9e7856ad17ddc694e3dc8b4f12384fdef1fad25"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00091",
+   "key": "0161eab589d04437",
+   "bytes": 2448,
+   "stream_bytes": 2448,
+   "stream_sha256": "5ca7e4238e6d7ca2d6386e9c85852066ca2fe9c0577af5ace4ee829b7f9286d5"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00092",
+   "key": "6ac219c2ad14b12a",
+   "bytes": 2463,
+   "stream_bytes": 2463,
+   "stream_sha256": "45a614c2f2f78b9eba3a55aea3ff14790f1c136f71cc6081f3ef5129f261532b"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00093",
+   "key": "50cbc0d04b005c9d",
+   "bytes": 2327,
+   "stream_bytes": 2327,
+   "stream_sha256": "f740315fc1120a0cc55377e35c02638928dcb1d4a301d7cbcd81a699a198ed9c"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00094",
+   "key": "79ac2c96a5111ec8",
+   "bytes": 2440,
+   "stream_bytes": 2440,
+   "stream_sha256": "90ea2287c68baa00db95866f42daa7cebe3d418865808182fb1aea32b9e7eb19"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00095",
+   "key": "2ccb5443cfbfb967",
+   "bytes": 2318,
+   "stream_bytes": 2318,
+   "stream_sha256": "714b99024d5791c7ffc2f19b60fed53bd7c0e507b6a428bdd33e3e6a6916f9d4"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00096",
+   "key": "f76cd4bfb4fe501c",
+   "bytes": 2237,
+   "stream_bytes": 2237,
+   "stream_sha256": "8a221d4819ee731a1d5a780b789395cba71ae838a96e9ce1316b9f4c76fce4e5"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00097",
+   "key": "826ff3fdf5372a90",
+   "bytes": 2231,
+   "stream_bytes": 2231,
+   "stream_sha256": "40847311a82a3b7c99f5f96a874c38004effa3b34278ff7787c08c9c2bca0c53"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00098",
+   "key": "0b1baa14a2a39d8f",
+   "bytes": 2243,
+   "stream_bytes": 2243,
+   "stream_sha256": "1d55c7d652e06197bc14e572122e7458639830db4c764c47a0f7c1618750804c"
+  },
+  {
+   "input_id": "DAVIS2017/koala/00099",
+   "key": "4e44a25555736fd3",
+   "bytes": 2144,
+   "stream_bytes": 2144,
+   "stream_sha256": "deed0ec2dd921191ce84b80ffc7e80b83081ecd7e3834ef568a32782d9b0a3a8"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00000",
+   "key": "0655106ef51fa67f",
+   "bytes": 1083,
+   "stream_bytes": 1083,
+   "stream_sha256": "c525bc859947c2c295285c032fd519151465413b9d20b160ec62d1892902ae53"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00001",
+   "key": "989d939594ff3628",
+   "bytes": 1097,
+   "stream_bytes": 1097,
+   "stream_sha256": "eb49fca49ca8b21c94ffc0600d1176134287e32d828e9d7d295b2b29627d8be6"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00002",
+   "key": "a953c40cbc1597a7",
+   "bytes": 1102,
+   "stream_bytes": 1102,
+   "stream_sha256": "08ea2799ce382779f02745a5a8332c9f9286690e70bbb047205cbf2415da04bb"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00003",
+   "key": "edf9247eb2a0707b",
+   "bytes": 1139,
+   "stream_bytes": 1139,
+   "stream_sha256": "624b01fb3f398ff21923c7d0618f4482e00330abc3d0db47e69fbef8c4d6ae88"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00004",
+   "key": "920f5944fdfdaf66",
+   "bytes": 1127,
+   "stream_bytes": 1127,
+   "stream_sha256": "265ba3d77b1dffbaf6296b2e1c472e9869b514da3883615338affc4a98b07a60"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00005",
+   "key": "f1b74a188e23d6ea",
+   "bytes": 1180,
+   "stream_bytes": 1180,
+   "stream_sha256": "a86c6407b61f5f0ac80377d3b4051edb951f2be4019ca97ddcf095baf5274915"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00006",
+   "key": "7bfadc6abc3697b6",
+   "bytes": 1186,
+   "stream_bytes": 1186,
+   "stream_sha256": "0fb45cdf3d847499402dca7cca7edcd579dbde4a9e1f92dd4ac9a08a2b2769b6"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00007",
+   "key": "9bac3af4a1579240",
+   "bytes": 1245,
+   "stream_bytes": 1245,
+   "stream_sha256": "166eaef9df188b95cee753735cc21d0679aedeb026142ccd451f51bbcf9b522e"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00008",
+   "key": "7c11de9fb8dd8c90",
+   "bytes": 1270,
+   "stream_bytes": 1270,
+   "stream_sha256": "2b7a2d47498c2f2c047c98b76b947ae2fd647c1cadad53cfdcd72a54ffaaf556"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00009",
+   "key": "b2d3cde21b896819",
+   "bytes": 1316,
+   "stream_bytes": 1316,
+   "stream_sha256": "e468ea338d1a94707e74b4e810962a7752acfd842794aaab4a6cec37717635eb"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00010",
+   "key": "d19ebfcefdbb3db4",
+   "bytes": 1368,
+   "stream_bytes": 1368,
+   "stream_sha256": "e4d5fff9261b0fe30e0a3b99019edc6dc3c6aacea2913c5daf72ee1150540874"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00011",
+   "key": "7cfeb25a19bd001d",
+   "bytes": 1405,
+   "stream_bytes": 1405,
+   "stream_sha256": "8ee8760fb6e38b008e1ca9bbb048efd2886d519248644bc007fd3eaaf6f0fb04"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00012",
+   "key": "33d601ef5bade54f",
+   "bytes": 1452,
+   "stream_bytes": 1452,
+   "stream_sha256": "2fb699393d47fa030f7b850dd2796b1283da626361000843414d7e890e22f69c"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00013",
+   "key": "dc2040e9df61356c",
+   "bytes": 1471,
+   "stream_bytes": 1471,
+   "stream_sha256": "8fabd8b6b32499238a3fd7e24a338f7024760212558e13729a5ab5128818c444"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00014",
+   "key": "f50506645fc64253",
+   "bytes": 1554,
+   "stream_bytes": 1554,
+   "stream_sha256": "2b7ae8eeadb916bdba918880644845e5e27a7386d9913d06cd7ebb7e6f00dcb4"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00015",
+   "key": "daff5fa9b50b7d1a",
+   "bytes": 1650,
+   "stream_bytes": 1650,
+   "stream_sha256": "dcf36c69c1dba78c32a79fa08f3f9985c30e0c1d0e4eab4bc2c3a380159a5777"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00016",
+   "key": "5b3a883c174f6357",
+   "bytes": 1738,
+   "stream_bytes": 1738,
+   "stream_sha256": "4ba8fcaf47f584c1179361c3fd4de4fdd92d0c3f72a61984ba99dba12d55c806"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00017",
+   "key": "fe652ddbe3bed38e",
+   "bytes": 1755,
+   "stream_bytes": 1755,
+   "stream_sha256": "6661c6c5fe33784a14872a42d115c8e61a169c9f840b569af62a92c57dbe25ea"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00018",
+   "key": "d262a7cd686950a9",
+   "bytes": 1820,
+   "stream_bytes": 1820,
+   "stream_sha256": "531465cce5d7acbeda4ed36582831396ba576097fc24d6b5033146d9cd978209"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00019",
+   "key": "d53dc49fea617a23",
+   "bytes": 1912,
+   "stream_bytes": 1912,
+   "stream_sha256": "6ae05162f8ec8232c2d7320f1d3816cdcb6f851ece5f2631e68f33fffd56c3a1"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00020",
+   "key": "c7c7efebbe509252",
+   "bytes": 1942,
+   "stream_bytes": 1942,
+   "stream_sha256": "e5d8d8ed687634c67e78b0ca75950e144bc0bd82c41f1330c5a693160fd76187"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00021",
+   "key": "538667b78fa192d4",
+   "bytes": 1955,
+   "stream_bytes": 1955,
+   "stream_sha256": "65b918eb3aae638c72aa8f695eb8afd12a3854df4ef03c98b1278345d3ddb2ac"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00022",
+   "key": "a86ef2c284171243",
+   "bytes": 1923,
+   "stream_bytes": 1923,
+   "stream_sha256": "e5c1cfb99ae529b55c6dcf0583038c4dafee53584d9ddcb07d51d9b97962d72d"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00023",
+   "key": "ec16501d5505686e",
+   "bytes": 2001,
+   "stream_bytes": 2001,
+   "stream_sha256": "0274fb8ca3ed2758180596f30dc5b21e31ddcc14a74cc2fb648cc5647eca2c68"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00024",
+   "key": "935d663a03ca9e5d",
+   "bytes": 2062,
+   "stream_bytes": 2062,
+   "stream_sha256": "704a8a4b1a3fc02f64225fedf4f6d6b61fdce1f071792721328fc58ab2a57caa"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00025",
+   "key": "bb868b8d787fa230",
+   "bytes": 2061,
+   "stream_bytes": 2061,
+   "stream_sha256": "e6f6be86e3f89b21828197e97932efd0bb0f8194f19ecd6720ecc1d13445c2e2"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00026",
+   "key": "45105a094881d3d2",
+   "bytes": 2046,
+   "stream_bytes": 2046,
+   "stream_sha256": "40b5e1def9705c958359d2fbfc112308df5b76ee3b2743265e3e5f9aaf291c26"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00027",
+   "key": "c3838aa182c77cc6",
+   "bytes": 2017,
+   "stream_bytes": 2017,
+   "stream_sha256": "85c1dc426187905eee6a420d139e713680df0ee34fdb6ec5a9efa4794950c59d"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00028",
+   "key": "7d52f5b2ada52174",
+   "bytes": 1974,
+   "stream_bytes": 1974,
+   "stream_sha256": "8c08265606b72508689968e24a7ef0ab7bc3e3547380c5785e91a6cad63620d7"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00029",
+   "key": "e086e0438394c797",
+   "bytes": 1988,
+   "stream_bytes": 1988,
+   "stream_sha256": "8e95d9d6bef82541b4f356bbc36724d1a2c832add209fbf84f5a1ddf2b959853"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00030",
+   "key": "ce529f69a9ff500f",
+   "bytes": 1988,
+   "stream_bytes": 1988,
+   "stream_sha256": "2d64148784c93200721da96f932099bc9ba748e0000e7d8e43962d21b315e9a5"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00031",
+   "key": "9b0d3b2331edd247",
+   "bytes": 2120,
+   "stream_bytes": 2120,
+   "stream_sha256": "4c1856b2abd3706a3b2f8353ed90d0d6b669f48d128bd0380798117a3e41b722"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00032",
+   "key": "0b5800b78c1da3e6",
+   "bytes": 2007,
+   "stream_bytes": 2007,
+   "stream_sha256": "bab8ae64cd7ef8446f04c4b1d8f03fe52167b915ebae5280cd8911f797b23980"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00033",
+   "key": "0f2e40bbe5385b38",
+   "bytes": 1985,
+   "stream_bytes": 1985,
+   "stream_sha256": "ebb663cb4d8b02e7afe0d97881647f6ced0f03383ffb24ad465f0eb83a154456"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00034",
+   "key": "e67683bb6e2c855f",
+   "bytes": 2038,
+   "stream_bytes": 2038,
+   "stream_sha256": "e762172eab31d3528855ad4eb4d86ea70c2271a968f4b08a58753dd2361e07dc"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00035",
+   "key": "9375ef7fcb8421dd",
+   "bytes": 2144,
+   "stream_bytes": 2144,
+   "stream_sha256": "4226e9badfb077a62c5570055f9735abb5a8564f5a712e193122ba2fb858f4f6"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00036",
+   "key": "1d472e55c0bc2775",
+   "bytes": 2181,
+   "stream_bytes": 2181,
+   "stream_sha256": "4a4eeb8ac56ee18cbb7c812da2ffc04436cb3791fa13f6db4db3d6923934c005"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00037",
+   "key": "10c08b8609846a32",
+   "bytes": 2176,
+   "stream_bytes": 2176,
+   "stream_sha256": "aa4730ab8282472df628c683858eb8f90d11ccface8f51a135608bcc4c9c808c"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00038",
+   "key": "a8834fc03fd6951f",
+   "bytes": 2174,
+   "stream_bytes": 2174,
+   "stream_sha256": "176aa26e4499c3387573e27b374d5568f51e7ecece939a72e95a3a85c9e173bc"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00039",
+   "key": "3fb7ad16604e1cc8",
+   "bytes": 2257,
+   "stream_bytes": 2257,
+   "stream_sha256": "e1893252dfe806d1f356e648bb4d788a93111a083f7972f404d5245566250d10"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00040",
+   "key": "5eeca22946af53f5",
+   "bytes": 2197,
+   "stream_bytes": 2197,
+   "stream_sha256": "c9322323db463e8cbb4bff7d8845d458af90531b0d4d8b584971cb95502930c3"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00041",
+   "key": "398073b75ebaf009",
+   "bytes": 2227,
+   "stream_bytes": 2227,
+   "stream_sha256": "3e9fd4577e9132fd783f2a60460de8bba37ddb98f4147a7151ae493765d1c87e"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00042",
+   "key": "ac481d8daff1d693",
+   "bytes": 2246,
+   "stream_bytes": 2246,
+   "stream_sha256": "913655858b36302213414a2e44cd266966d94df7a5467954201e92846f9f2e10"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00043",
+   "key": "63399109e80b2bca",
+   "bytes": 2220,
+   "stream_bytes": 2220,
+   "stream_sha256": "23b1e5b22d6f0a575bbdb68c68dda2de3b60eec5e8661426cd6f7fadf8a1ec63"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00044",
+   "key": "8fef0d7d6291734d",
+   "bytes": 2159,
+   "stream_bytes": 2159,
+   "stream_sha256": "f0f42990ba74ec104df2bf1270d03bf46b0a96af4f3bd616ec37689ff693920b"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00045",
+   "key": "6e82779d98d3154e",
+   "bytes": 2080,
+   "stream_bytes": 2080,
+   "stream_sha256": "cd7290adf87d61b4553f06c845c90bdb8a0936028627a651827fc35834f75f05"
+  },
+  {
+   "input_id": "DAVIS2017/lab-coat/00046",
+   "key": "eee874a1eadd8218",
+   "bytes": 2000,
+   "stream_bytes": 2000,
+   "stream_sha256": "a798335331b54949152228c43ed128cc1d4d6e4f513deecb1af1837e86bf7901"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00000",
+   "key": "dae373d7e0060497",
+   "bytes": 1230,
+   "stream_bytes": 1230,
+   "stream_sha256": "ffea123ea5997dd60c6dc50e3b4e6d08d5ca4f37c6fc91cb7d9a4195c8e3167e"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00001",
+   "key": "0b801c62249d3da6",
+   "bytes": 1268,
+   "stream_bytes": 1268,
+   "stream_sha256": "5875d469cef2826cbf7e3e81759657bb41d4fccc0d223d36825f3af6c2c7229d"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00002",
+   "key": "c9f3108258dd9bce",
+   "bytes": 1210,
+   "stream_bytes": 1210,
+   "stream_sha256": "11fbe53a221e4d60f7dc50efe8d693ae3ed67b65156d6f1ef938cfd1d3eac227"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00003",
+   "key": "e6c4caf0c25d9758",
+   "bytes": 1221,
+   "stream_bytes": 1221,
+   "stream_sha256": "c4ec29c8b007727c20f766cf294444af34343994f971dfb95acde93067f4a558"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00004",
+   "key": "73bc85756d257e88",
+   "bytes": 1171,
+   "stream_bytes": 1171,
+   "stream_sha256": "48912c58988ad3f2216f1c8d6261c05c3d90b50bcb1467bfdcb843bb99321268"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00005",
+   "key": "54cc7b06234b1912",
+   "bytes": 1141,
+   "stream_bytes": 1141,
+   "stream_sha256": "18bcc5d378ad8de6bf0a7ca7e23d4cc05f33ce54752d50d2798988d0ad37d6e2"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00006",
+   "key": "e53af5da63b80ec5",
+   "bytes": 1177,
+   "stream_bytes": 1177,
+   "stream_sha256": "4f9d35852f07a6ad10d99c49397d06de80085d19cce8c1b391f8f2ebee0ff348"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00007",
+   "key": "f27de67ce8048ed0",
+   "bytes": 1180,
+   "stream_bytes": 1180,
+   "stream_sha256": "f5ac0fe4f3243090f12bf23a187ed10b6845e46f7daa81426b128b7de91b5704"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00008",
+   "key": "a9a7ee22dbb24ec8",
+   "bytes": 1187,
+   "stream_bytes": 1187,
+   "stream_sha256": "beb9d7568e8f38082588aaa680b36ad7395e99bb518f2158bc79ba8897bb6a7f"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00009",
+   "key": "1e327f90865c1f0a",
+   "bytes": 1271,
+   "stream_bytes": 1271,
+   "stream_sha256": "1a02bf82a6fabb56387f4e597986aa0cde472574d61930fff81aba9b12d11823"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00010",
+   "key": "c789807781c8fbb3",
+   "bytes": 1176,
+   "stream_bytes": 1176,
+   "stream_sha256": "ee81d50e63f53b232ff63e70e682e8cf596d02acbb0dd256381eeef927a752b3"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00011",
+   "key": "95ea746171d01767",
+   "bytes": 1163,
+   "stream_bytes": 1163,
+   "stream_sha256": "391d4ad5956731ec535714098322e25872aa7542521b4abd97435b65810c6732"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00012",
+   "key": "663b788929ab2e36",
+   "bytes": 1115,
+   "stream_bytes": 1115,
+   "stream_sha256": "2f53060f284bcb71491f0c5a8a0868fc80e3243496fc11cb96e87171a46a0dd9"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00013",
+   "key": "51fb18854e51585b",
+   "bytes": 1176,
+   "stream_bytes": 1176,
+   "stream_sha256": "dda6a676aba53ba60c6cbf8743dd80df175681b16a15578dc80e93611c4f751e"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00014",
+   "key": "1e3fde1d5c542796",
+   "bytes": 1184,
+   "stream_bytes": 1184,
+   "stream_sha256": "657767104689a1e6741cc213ec6abf0390fc47f66f27fcbeab108ae2ddb674e2"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00015",
+   "key": "8c231c8cd1000d0e",
+   "bytes": 1194,
+   "stream_bytes": 1194,
+   "stream_sha256": "df82a73d7c7ac46885c6a957a02d0a28c50817dc8e9fffdb54c19d3eea9fcac1"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00016",
+   "key": "d342a75a19b49f0a",
+   "bytes": 1170,
+   "stream_bytes": 1170,
+   "stream_sha256": "bc4ff052a30129aaf6684fd736354cd020b890813da9bfea9472c7aae6b7d7b3"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00017",
+   "key": "91924e17532df1ca",
+   "bytes": 1156,
+   "stream_bytes": 1156,
+   "stream_sha256": "8316032bad7398fdc709306aef77d821a511f4b535c53b479427fe3a76713a59"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00018",
+   "key": "7b67ca4914ef4b76",
+   "bytes": 1106,
+   "stream_bytes": 1106,
+   "stream_sha256": "32749f870098ae50e0c7f591cbee7d2dd3013b010ae3c0d74b642ae39d061c73"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00019",
+   "key": "129351719ecbf4f4",
+   "bytes": 1149,
+   "stream_bytes": 1149,
+   "stream_sha256": "8d7fae82725bf76d42acafde9109abe47e68a6c729c1e713f567d59fc2ebeff1"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00020",
+   "key": "ab0f1cac5e9cf875",
+   "bytes": 1099,
+   "stream_bytes": 1099,
+   "stream_sha256": "23524c8993b12b53a278866f9ae5f7c666e291a7b842d43046bab62f2649b97f"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00021",
+   "key": "4253291a282e48e5",
+   "bytes": 1205,
+   "stream_bytes": 1205,
+   "stream_sha256": "bc9ff6319adfc1af2cd5769aedff9f07e2292af3f4aa215973ce8076b756779e"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00022",
+   "key": "5b5c50c5b67cd8a5",
+   "bytes": 1184,
+   "stream_bytes": 1184,
+   "stream_sha256": "b3cc1c2b0e3c3b5541d3ef686065f02e31f7201ace22de0da1b9ed162dfc8be0"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00023",
+   "key": "d425f47a7db23689",
+   "bytes": 1230,
+   "stream_bytes": 1230,
+   "stream_sha256": "21d02000ea73a7620debe3c3becf53b6b865b2e57f701d165a99b07bcd78bcb4"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00024",
+   "key": "9d0bc7875a7cfba6",
+   "bytes": 1280,
+   "stream_bytes": 1280,
+   "stream_sha256": "5aba46bb4ed5c75a754c9483092ac00d5e4d1ef0e05d28c2b61c455d2d14d5ed"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00025",
+   "key": "7c30dd710bf60db0",
+   "bytes": 1325,
+   "stream_bytes": 1325,
+   "stream_sha256": "8252509519cac9f6bf25046524c3d9071b2c190b25cfd24ecba99668e80a1f55"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00026",
+   "key": "d237963ce6eacef9",
+   "bytes": 1308,
+   "stream_bytes": 1308,
+   "stream_sha256": "9b5af2709afc3562713555971e42a8ae9484d353eb201fa1d4bd2f1fc14e9c6a"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00027",
+   "key": "89f868a0e1688d69",
+   "bytes": 1354,
+   "stream_bytes": 1354,
+   "stream_sha256": "a38919fef438e617cce8db391b7f0c74b8bc38f1bbad59a7995dcc4d54f3dcac"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00028",
+   "key": "0ccd85b69b8c3cf9",
+   "bytes": 1301,
+   "stream_bytes": 1301,
+   "stream_sha256": "575f39684dfa71baec179b518e02b7dc29b34ad2ccbc6801c60a91aff9e20aa1"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00029",
+   "key": "9b95179b3fa8a5da",
+   "bytes": 1162,
+   "stream_bytes": 1162,
+   "stream_sha256": "e5eebe987479df5252a551f40b4806e8705318e422118ccbf2392f92aa8ac960"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00030",
+   "key": "e386367c7850134e",
+   "bytes": 1216,
+   "stream_bytes": 1216,
+   "stream_sha256": "89392d24eeb2227bdb2b9fb093a25ac96c75bc501f0225d8e938335d66e514ca"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00031",
+   "key": "193fb611f3941400",
+   "bytes": 1195,
+   "stream_bytes": 1195,
+   "stream_sha256": "2c18400f88f14c1753e2ccea07e37fcb29a6a0a598f51e58d0445c428d499e52"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00032",
+   "key": "0a9f07e2ab8b8a04",
+   "bytes": 1239,
+   "stream_bytes": 1239,
+   "stream_sha256": "0bc34c4a0a296c4fd518441d47ab69e271e1432296a6799fa7e9aaddc53e01ee"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00033",
+   "key": "0d37a601250a7880",
+   "bytes": 1281,
+   "stream_bytes": 1281,
+   "stream_sha256": "f971b2321100bae00e8d2cdb8565494f0496ad6954bc8ed14ca4e808a5518769"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00034",
+   "key": "bd63cdd33b695e6f",
+   "bytes": 1194,
+   "stream_bytes": 1194,
+   "stream_sha256": "a91e127baefe0ace239c3bd2bcd1ac0ad00f91dc29160c953e5207faf0621548"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00035",
+   "key": "091e0a3b2f517d25",
+   "bytes": 1145,
+   "stream_bytes": 1145,
+   "stream_sha256": "befb5caadffcdead383a7550b0aed08c1224e9e633261de392abfb4b22f64dac"
+  },
+  {
+   "input_id": "DAVIS2017/lady-running/00036",
+   "key": "b2b85163eb7b37ab",
+   "bytes": 1156,
+   "stream_bytes": 1156,
+   "stream_sha256": "b382b022168b19aaaf28394180c1f101b16022a84a42c5e115e09c0b4c936a44"
+  }
+ ],
+ "errors": [],
+ "not_applicable": [],
+ "finished": "2026-10-29 08:43:05"
+}

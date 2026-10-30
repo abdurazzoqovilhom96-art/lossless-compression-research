@@ -1,0 +1,718 @@
+{
+ "codec": "bdlc_noslope",
+ "mode": "size",
+ "shard": 3,
+ "pin": {
+  "requested_cpu": 15,
+  "affinity_ok": true,
+  "priority_ok": false,
+  "affinity_mask": "0x8000"
+ },
+ "python": "3.14.4 (main, Apr 14 2026, 14:26:14) [Clang 22.1.3 ]",
+ "started": "2026-10-29 08:54:34",
+ "images": [
+  {
+   "input_id": "DAVIS2017/bmx-trees/00009",
+   "key": "eef455e4af724f58",
+   "bytes": 602,
+   "stream_bytes": 602,
+   "stream_sha256": "01cd2285bca5d746ffd563591fc710827ba333ecf060a387b5acadd074fbafd8"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00010",
+   "key": "8d89c24c12470f57",
+   "bytes": 618,
+   "stream_bytes": 618,
+   "stream_sha256": "128a75a0f21f7900cba5a0828d1d3d01358b55bc8b441f017d116541a83e694a"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00011",
+   "key": "c772cd994ea1b1de",
+   "bytes": 610,
+   "stream_bytes": 610,
+   "stream_sha256": "bbf37ac3138eabba15210475b757a47e9833377d379f949f006b09f3d84f89d7"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00012",
+   "key": "06607391fce92ba8",
+   "bytes": 613,
+   "stream_bytes": 613,
+   "stream_sha256": "9e076d2fd2810d24f408d1fccec8a9cb35e5edeecb09cf4fb8ff4ce8e9c1dd9a"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00013",
+   "key": "db9769f2de92909a",
+   "bytes": 571,
+   "stream_bytes": 571,
+   "stream_sha256": "e93e8aaf720dc7a77739a7589a4f641c9e7b67987c34f89fe20076f85026f1a3"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00014",
+   "key": "9a8baa4162b11328",
+   "bytes": 497,
+   "stream_bytes": 497,
+   "stream_sha256": "b71701b19d13755ed14c4474c7f57abc22bf03d3690c374f43d279df4e37c7c5"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00015",
+   "key": "96f379c90256f729",
+   "bytes": 418,
+   "stream_bytes": 418,
+   "stream_sha256": "45243889485333fe1594c97c5e20143e45c31c5c35d3b0ae68bdcd9303be802a"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00016",
+   "key": "c8540f8fd22dc74e",
+   "bytes": 473,
+   "stream_bytes": 473,
+   "stream_sha256": "60697eb35617f350899292ff8b1445b3dbf11e3c63bcb55ad478c55fd92bd01e"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00017",
+   "key": "8d448c4d0086d03f",
+   "bytes": 420,
+   "stream_bytes": 420,
+   "stream_sha256": "1bf6d35e6d66e8090a16b60679baa609f9e1c0a5a6905491523e4677ebdd3dab"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00018",
+   "key": "e6b9e69d385e7020",
+   "bytes": 391,
+   "stream_bytes": 391,
+   "stream_sha256": "1adec0dfd509a468cc27344f7b232631739806e16a832ca54d148bf1275f3790"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00019",
+   "key": "84b31c542afea47a",
+   "bytes": 349,
+   "stream_bytes": 349,
+   "stream_sha256": "f1ba250316101c020868151ba82aa853bfb91400084c83a89d23bdf0f7f41d62"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00020",
+   "key": "b5769c68e61d2587",
+   "bytes": 378,
+   "stream_bytes": 378,
+   "stream_sha256": "c51586641c0ac087b612d8e38036e758ca387c0c647952acd5f4574aeb58c0f8"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00021",
+   "key": "ecbd0d96f96ba8f6",
+   "bytes": 389,
+   "stream_bytes": 389,
+   "stream_sha256": "d5bd490e8aa556437cabf6f3e302981c1d1065b95bf2c66897733aa76ddfceb9"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00022",
+   "key": "04a82b05e3782b0a",
+   "bytes": 427,
+   "stream_bytes": 427,
+   "stream_sha256": "ab6e28840f3cab1d82437b1e3f93184f42488eef6b18e7f571022370a479811a"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00023",
+   "key": "3c8a9bac1684a89b",
+   "bytes": 383,
+   "stream_bytes": 383,
+   "stream_sha256": "d47fa6bcb8aa4b9ef26406adc6c21a7614fc82ad716316f28de00eaa216bf821"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00024",
+   "key": "b9036c247e59ebde",
+   "bytes": 381,
+   "stream_bytes": 381,
+   "stream_sha256": "d517818fbb427bc5de22019af9407312f091b7ee03381aefa50fd59cc93d3def"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00025",
+   "key": "5054a05d6c39fb47",
+   "bytes": 419,
+   "stream_bytes": 419,
+   "stream_sha256": "5d0b8e3418fd45da3626a4cdef094d72050b43b81543ded6713ebe9b9c245098"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00026",
+   "key": "4e810e785d00c025",
+   "bytes": 432,
+   "stream_bytes": 432,
+   "stream_sha256": "5da3a2c086a9dd3037900cf9e90deab4e55a6fc9baef0a883065613ad2ed7002"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00027",
+   "key": "7c6f77f2faa82659",
+   "bytes": 478,
+   "stream_bytes": 478,
+   "stream_sha256": "343bf96ef63831299deda2f37c32c5b71fb1de6747db5c690cca64fb1180bd8f"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00028",
+   "key": "fad00ff266825ef9",
+   "bytes": 483,
+   "stream_bytes": 483,
+   "stream_sha256": "d51288f436d2bed783d3646e2af1e8f8a28045e6c64b8a917686d638f424c226"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00029",
+   "key": "295394b529f86b81",
+   "bytes": 488,
+   "stream_bytes": 488,
+   "stream_sha256": "3303791f617a8b931711b8c6ce27f8cd763dbc06b247f04796bc9bbd7fb07fc3"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00030",
+   "key": "743b139d55889229",
+   "bytes": 453,
+   "stream_bytes": 453,
+   "stream_sha256": "edea9ce94775efb26a7e527ccd13bb5405b26291f1001763a3761033771aae71"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00031",
+   "key": "2ba2f70832aa45fd",
+   "bytes": 491,
+   "stream_bytes": 491,
+   "stream_sha256": "b5fb2a3bb58052b1d1535d9a6f1534f0de0aa0a53225a88eb458827b4da75f99"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00032",
+   "key": "3b23805578336b45",
+   "bytes": 477,
+   "stream_bytes": 477,
+   "stream_sha256": "b912000ae63d8b904c3ded57cccd5294de4c0d79a91fed8de985b499dca2ebea"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00033",
+   "key": "b2db7048d4fecf06",
+   "bytes": 487,
+   "stream_bytes": 487,
+   "stream_sha256": "1b28891ffd8522f894c44aff7ad0819fea9b914bb83bb755ca385305222bc411"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00034",
+   "key": "c7ce15b8a02e12e8",
+   "bytes": 482,
+   "stream_bytes": 482,
+   "stream_sha256": "080e02d64a17a57a8cce92c49aa10418a758b385eb210cc8f511ced11c3503d7"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00035",
+   "key": "075c64bc0eb953fb",
+   "bytes": 497,
+   "stream_bytes": 497,
+   "stream_sha256": "1dc551f7beb1206e7f6a1fd52c9fe9e99b09fa487e8e4988382d6ba2aec7fe40"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00036",
+   "key": "af2451a1bf7855b8",
+   "bytes": 496,
+   "stream_bytes": 496,
+   "stream_sha256": "ce44671cf6c576fbbce7826df80235c028e37b3475735f165148fa3d8472114f"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00037",
+   "key": "acb509b7a258bd02",
+   "bytes": 485,
+   "stream_bytes": 485,
+   "stream_sha256": "0dac2eefabdfc283f7644959fbcd878f220544372a9b475a7703f9f4fd4988e4"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00038",
+   "key": "953b1ce390b1e8de",
+   "bytes": 428,
+   "stream_bytes": 428,
+   "stream_sha256": "41dd988afb0100a486fab4dbf597a01698cbc06fb434ed3d66719f1f5b650a36"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00039",
+   "key": "ae6e4d3dd2889b1e",
+   "bytes": 430,
+   "stream_bytes": 430,
+   "stream_sha256": "0b61c0235e0643025f8c25aede86cda37c4c1c47aeb5e5ddff9d07aa92dd5955"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00040",
+   "key": "eb9d229161cc583a",
+   "bytes": 344,
+   "stream_bytes": 344,
+   "stream_sha256": "366b8899f134ccfb21283177de4096ac8ed36421de3499eba67cfef3cabf34ce"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00041",
+   "key": "1bd5a17397f949e8",
+   "bytes": 356,
+   "stream_bytes": 356,
+   "stream_sha256": "635bbc7e96d31685a36e1f690c4513e18ddc6c18a116264d42357299a18f5f84"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00042",
+   "key": "0fd10b9f4f242e6f",
+   "bytes": 331,
+   "stream_bytes": 331,
+   "stream_sha256": "6e197539f55767048cbc20a0faac7c580f798258ba1398dd0c254f563ee74b60"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00043",
+   "key": "bdac60ed434fe531",
+   "bytes": 378,
+   "stream_bytes": 378,
+   "stream_sha256": "a1c3b57b1330c3b0e12869fb66af4f82a7cef730883d5aa83bdae22cb7dc0223"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00044",
+   "key": "a9f2ff8c32c8084e",
+   "bytes": 401,
+   "stream_bytes": 401,
+   "stream_sha256": "e0dc133179bf6cd185bd195dec46e3c046484033f5e768a66f77f690f81bb72c"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00045",
+   "key": "9b97eb835039d9cc",
+   "bytes": 393,
+   "stream_bytes": 393,
+   "stream_sha256": "f77f2847a4a835b4a734dcce08ae314ca4b91c8e2cfdd88fbdeaca15f3441c52"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00046",
+   "key": "6406bf848732568e",
+   "bytes": 424,
+   "stream_bytes": 424,
+   "stream_sha256": "e90834d0be3f9e053520643e9440fc25219c9ad64e62102612470ceec0b80ae7"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00047",
+   "key": "2e6f46d87add2aa9",
+   "bytes": 440,
+   "stream_bytes": 440,
+   "stream_sha256": "84c76d7bd9a9d2b70d2215645d232ecd1daa9fc674f6321dd69826f2e7e97711"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00048",
+   "key": "4dcf8e87ab5b11e5",
+   "bytes": 470,
+   "stream_bytes": 470,
+   "stream_sha256": "497b120d8b004fca522bc74ad74539dd1bff91475f4951d09d04fa133208d28e"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00049",
+   "key": "ebc1988a4b309910",
+   "bytes": 463,
+   "stream_bytes": 463,
+   "stream_sha256": "167ef3acb3337e08c937faef032871c32f7823d6d37a101525a3582f2862b304"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00050",
+   "key": "5867af87e612d932",
+   "bytes": 466,
+   "stream_bytes": 466,
+   "stream_sha256": "867c2bcfeb50f084e11b1541b253fdf26667d666a1dfbae916d9f98dd2d3061b"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00051",
+   "key": "18fcf83422f2eab4",
+   "bytes": 509,
+   "stream_bytes": 509,
+   "stream_sha256": "264e1ba244ee670ce45ae17bb5921d4e80dfe3a9025a2cccf7ff494c55c3b0b9"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00052",
+   "key": "5f90b107f4003db2",
+   "bytes": 527,
+   "stream_bytes": 527,
+   "stream_sha256": "defade2aa96967e3e4da9e6efee1692f03538ea28f2a6b943a28b8c512a852b9"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00053",
+   "key": "cae57192f5cd8fdb",
+   "bytes": 510,
+   "stream_bytes": 510,
+   "stream_sha256": "6be70130eaf6335c4b198a3da8209ce6473c2feac57889db21266c5686a14776"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00054",
+   "key": "c382e8d7319d2d79",
+   "bytes": 478,
+   "stream_bytes": 478,
+   "stream_sha256": "c41f1527b0d67922d531d41774af5695b8d79146656e2f85f54d8b58abfba220"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00055",
+   "key": "f9e10596b0a8ab7f",
+   "bytes": 474,
+   "stream_bytes": 474,
+   "stream_sha256": "5be50eee6137c5e044dbb72904655197fb19b39bae35b934df24dcbd08c8dcae"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00056",
+   "key": "97040dec48fbe68d",
+   "bytes": 422,
+   "stream_bytes": 422,
+   "stream_sha256": "7cbffdcaed6a074448255413375d95295c490388e1a2467dbe377b22788271b0"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00057",
+   "key": "4042181f289004d5",
+   "bytes": 415,
+   "stream_bytes": 415,
+   "stream_sha256": "3903e0f73fb3f18533e61f5e8513948f1801b51134a48021f7a1dde94a90bc25"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00058",
+   "key": "5310afddde6a55be",
+   "bytes": 393,
+   "stream_bytes": 393,
+   "stream_sha256": "33055dccba9fce022350d0f9885aae11a095b7dc3a35a9f77f3c72f34e796aa9"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00059",
+   "key": "b5f136aac04429ab",
+   "bytes": 388,
+   "stream_bytes": 388,
+   "stream_sha256": "dd3d6af0f180039f63538a682576e1f867103345fdad59d52df060f19f43a4df"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00060",
+   "key": "0dd3cb24b2bef5c4",
+   "bytes": 375,
+   "stream_bytes": 375,
+   "stream_sha256": "96e2df8b121abdf2246908639fbda009af8125fa626d17e248c14b51b4a8a3f2"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00061",
+   "key": "f13445a66e82828b",
+   "bytes": 374,
+   "stream_bytes": 374,
+   "stream_sha256": "3745ad83356244e890edad431ce6daa0527aad3fc7b9b0176adeb79f835b1a6a"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00062",
+   "key": "4e7ca5c20496e3bf",
+   "bytes": 305,
+   "stream_bytes": 305,
+   "stream_sha256": "53ca9c9200c5b28715ce0582a5fc6f5443d7e338f9a4f902a7ada58ba77e7501"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00063",
+   "key": "9c8675b996af5b72",
+   "bytes": 330,
+   "stream_bytes": 330,
+   "stream_sha256": "439cfb42f0805e4b0d75f73dbb2b1cd8eb94a7078198ca7dbd1583ee7021da60"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00064",
+   "key": "22eb946218d0e5ce",
+   "bytes": 285,
+   "stream_bytes": 285,
+   "stream_sha256": "70aa74f3aaafe541ff8d66f060f9e9fa511df744ce081d922b7b0f0aaf24b67c"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00065",
+   "key": "ed9a73796653eda4",
+   "bytes": 219,
+   "stream_bytes": 219,
+   "stream_sha256": "c853679af43443df0f7fb62dcffa07ee6b6d1cb36277b9b4b82ad9cb60bca8a6"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00066",
+   "key": "1bb75373319ecd67",
+   "bytes": 215,
+   "stream_bytes": 215,
+   "stream_sha256": "d1cdb5d9044294d90e986761cd48456b16b182e19454625fbf20b7f7dfe26df0"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00067",
+   "key": "6df37cf6c5215c75",
+   "bytes": 209,
+   "stream_bytes": 209,
+   "stream_sha256": "38d27c4da15534d9579d00bdf35ff4f83dbb16202ab26d52e0a1bc42ec0e77d8"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00068",
+   "key": "b107155c485ef382",
+   "bytes": 188,
+   "stream_bytes": 188,
+   "stream_sha256": "7c375f836df2b7ef912552a15cb70c88b81d8a4b47c123a8c18e55bd2aa84711"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00069",
+   "key": "ba076586e05e39ee",
+   "bytes": 205,
+   "stream_bytes": 205,
+   "stream_sha256": "06abace5f5cefb6d32936dc9980e912ace6ef526be9baf96707141d39242a3d1"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00070",
+   "key": "49db9e3205146045",
+   "bytes": 251,
+   "stream_bytes": 251,
+   "stream_sha256": "cc9f809e3ea9c2db92d557f081b285116e125eabdcff1b5ba6001c29d6f37d3f"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00071",
+   "key": "4bd87b0e1356af51",
+   "bytes": 308,
+   "stream_bytes": 308,
+   "stream_sha256": "5952c61c396fcb0812fba2aa77f5b4da72bf230cc013931c4ced9f95d5af9ec6"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00072",
+   "key": "cc99de631859b2a5",
+   "bytes": 305,
+   "stream_bytes": 305,
+   "stream_sha256": "4edc96579682b0f48a7b2c7a446af37b423e91c564fa8c795d0de85722246a21"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00073",
+   "key": "627c561da6879d0b",
+   "bytes": 321,
+   "stream_bytes": 321,
+   "stream_sha256": "90e29fbbf8e33d4d171de3513832cf01563d7185132ed1acdc32ac0f7d2608ae"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00074",
+   "key": "f8d7e0286a05ecdc",
+   "bytes": 296,
+   "stream_bytes": 296,
+   "stream_sha256": "981b555c98a6bee5fbab04fdc4384ba0660e768a7f3604ada29ce7f990300a64"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00075",
+   "key": "9502696edf95f667",
+   "bytes": 271,
+   "stream_bytes": 271,
+   "stream_sha256": "915a08884bebcb5897765c84a8a91e3171883bd178bcfba1272d00b28e0cc34b"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00076",
+   "key": "558f070834c9971f",
+   "bytes": 266,
+   "stream_bytes": 266,
+   "stream_sha256": "c944920f625bae17ce8f43ecfadde5e8919594ba46f7725c2ebf9073013a4781"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00077",
+   "key": "eddaf30188d99144",
+   "bytes": 291,
+   "stream_bytes": 291,
+   "stream_sha256": "dc087599afcdafed8e50eb32d73cdb3106f878cb336781f8b16f3cb258095264"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00078",
+   "key": "c91ed93da1d3632d",
+   "bytes": 312,
+   "stream_bytes": 312,
+   "stream_sha256": "66e35afc8ed6fc79519680515a9d60aa6bd83ec577e831f7b2908433c82e566a"
+  },
+  {
+   "input_id": "DAVIS2017/bmx-trees/00079",
+   "key": "1d134cab76ec9a4a",
+   "bytes": 294,
+   "stream_bytes": 294,
+   "stream_sha256": "3fa5e0f724342efa8e4e07a90db3abb32ca021a421f39c887281bfe94e47882d"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00000",
+   "key": "2519078bb5302fcc",
+   "bytes": 743,
+   "stream_bytes": 743,
+   "stream_sha256": "64436c3b40d49710b4aa0fbbd7af7adf23bb0a44d58557b0330fd7cb928ab609"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00001",
+   "key": "f18eb4498cc4fa45",
+   "bytes": 728,
+   "stream_bytes": 728,
+   "stream_sha256": "f6837bc428f2eaa737ee3bea67abad2fc7b2b500119547b8c00a2e1533be458c"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00002",
+   "key": "c79e15b50a0c6f3a",
+   "bytes": 731,
+   "stream_bytes": 731,
+   "stream_sha256": "f7c34df178e8bd1efb743f2ac0bc31699a753f6b02eb51b15036e667a8aaa8c8"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00003",
+   "key": "acdf6e51edbb1c3f",
+   "bytes": 720,
+   "stream_bytes": 720,
+   "stream_sha256": "c7ace5c44f7178090f51e8f78041cfd892b2ae5880025ea189d5dd7cffbc2d73"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00004",
+   "key": "f7bdbf6763fffe32",
+   "bytes": 730,
+   "stream_bytes": 730,
+   "stream_sha256": "236625658d736ebe33bf14f614e46fffd40fb7a6cf2fee8c435fae687599609e"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00005",
+   "key": "493382f22e8773e1",
+   "bytes": 726,
+   "stream_bytes": 726,
+   "stream_sha256": "41c04b86f27967b26b17416facf3cacfdc0a0edf10727658283b2ff72fce3d6b"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00006",
+   "key": "bf1b792f3703bb83",
+   "bytes": 742,
+   "stream_bytes": 742,
+   "stream_sha256": "c68d6ee39bf7eb64b38c4338b71fdf7293a5f2a00773e1aaebcf336dd4282296"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00007",
+   "key": "f3d9f61062c3c71d",
+   "bytes": 735,
+   "stream_bytes": 735,
+   "stream_sha256": "8ab83dbe2fdc9b617bc4a5bf4509851e3df7d5be36f7abe4aa82ad434a5cb43c"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00008",
+   "key": "43b1b7f3d6078717",
+   "bytes": 755,
+   "stream_bytes": 755,
+   "stream_sha256": "af2fb0aa531ebf2828d1e9c53e481a8425232bf2e145660196ecc9d7416a8316"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00009",
+   "key": "331e2a8a9e5514a5",
+   "bytes": 737,
+   "stream_bytes": 737,
+   "stream_sha256": "7abe770c7b5a15b07dc76ea7155458ce8158b193833e58a3c5492ca6de8dc38f"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00010",
+   "key": "b46f0e94516cdff2",
+   "bytes": 728,
+   "stream_bytes": 728,
+   "stream_sha256": "9d19f1e00294b7303f108fd8c48167fb572852739ff5d583f0db7e984f0d8687"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00011",
+   "key": "8ba54092c0cf8aef",
+   "bytes": 731,
+   "stream_bytes": 731,
+   "stream_sha256": "032ff22bcdd32a1df7a5107c4e835a493afbde50fb525bfbdf5b55b4b961d016"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00012",
+   "key": "2d9778b3d60644a5",
+   "bytes": 739,
+   "stream_bytes": 739,
+   "stream_sha256": "a67450a26b1496b02a032b6fffa8f86c17525e7822b43956caaf8e913d9b7d7c"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00013",
+   "key": "c43e9f672487ad80",
+   "bytes": 741,
+   "stream_bytes": 741,
+   "stream_sha256": "3d261e9e9db1649b1ee92bbea288553707cfb12c1a11405363a11af4413055dc"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00014",
+   "key": "d9fbdd03c153d9f0",
+   "bytes": 736,
+   "stream_bytes": 736,
+   "stream_sha256": "c76b05f6386db4730969a23ca76e57c915c0ee4914be036f4b6e25fbb8334db8"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00015",
+   "key": "989a970aa2b04036",
+   "bytes": 733,
+   "stream_bytes": 733,
+   "stream_sha256": "038a516319ea553d8677b71ea96440469e2879d4351552139ba0e2ad644942cc"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00016",
+   "key": "2206a88d8b0e2d96",
+   "bytes": 735,
+   "stream_bytes": 735,
+   "stream_sha256": "c1d042dbcc1a042ac448e5c23b6a33ceaf14ff92edd95515cd3c5d0e4bc86cad"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00017",
+   "key": "6a91f313e183137d",
+   "bytes": 739,
+   "stream_bytes": 739,
+   "stream_sha256": "4041041ffafd5d2d9afa6199f3ca62ba66062e076c9085cf0bec36e61efc39a2"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00018",
+   "key": "439b4dd474eb84d8",
+   "bytes": 732,
+   "stream_bytes": 732,
+   "stream_sha256": "b1de2651740d3f8932bd004e44ae64b154788f8948d134e0af81d3175ca148f9"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00019",
+   "key": "b256b2e969bb3bd1",
+   "bytes": 718,
+   "stream_bytes": 718,
+   "stream_sha256": "ba4c8a5e2d5cb2419f0ea05bc5aa0f3cbe292ff03ef9f3a6e309bd901eb0990c"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00020",
+   "key": "b0f14e4f451f59d2",
+   "bytes": 720,
+   "stream_bytes": 720,
+   "stream_sha256": "060dc7cc2be29421d7ab6054b45397f13c34f339feb2edeca60637c4cc04401f"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00021",
+   "key": "a1fc620948efffb2",
+   "bytes": 719,
+   "stream_bytes": 719,
+   "stream_sha256": "29acd9eb0a8db829585feecf4d8c4f6775623c0f184b0fe5e64487993ae899e5"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00022",
+   "key": "046012d95bd20cce",
+   "bytes": 712,
+   "stream_bytes": 712,
+   "stream_sha256": "7d1fc9976e4fc8630f6c50054d5c91e0a6082f23d4bacd1f0cfde6cc61d16b6e"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00023",
+   "key": "85b9b0134a0574f3",
+   "bytes": 718,
+   "stream_bytes": 718,
+   "stream_sha256": "28bada8b42134f82ac25d2f19a782cd053ddf12ff65f78a65045221c331ff880"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00024",
+   "key": "f460bfa623ec8d58",
+   "bytes": 720,
+   "stream_bytes": 720,
+   "stream_sha256": "3dc23c97852c91de35bb24da91062caf07dec92a514eec711e3d26684010dde1"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00025",
+   "key": "d3df3aaaf0f4a7d5",
+   "bytes": 707,
+   "stream_bytes": 707,
+   "stream_sha256": "84abd7d68342e4ed459616fefb226cc0b6b12de8b21ec6a95b8250b8b33b10fd"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00026",
+   "key": "0ec0c1ea9e5ba103",
+   "bytes": 712,
+   "stream_bytes": 712,
+   "stream_sha256": "685c746f91a64de4b8f71e936e9be54b47fa8e15b22f719ed290482048cf8cfe"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00027",
+   "key": "b58bb27078d252d6",
+   "bytes": 722,
+   "stream_bytes": 722,
+   "stream_sha256": "3f00a50956c02ef3152502978c85db9b94af0d857f12b2321766f5a33e338079"
+  },
+  {
+   "input_id": "DAVIS2017/boat/00028",
+   "key": "9b7b63a1b8c26196",
+   "bytes": 730,
+   "stream_bytes": 730,
+   "stream_sha256": "28e3d25bb896d7cd1b7a1082b484067d11424488431fcc06e3e96fdfeb561c92"
+  }
+ ],
+ "errors": [],
+ "not_applicable": [],
+ "finished": "2026-10-29 08:54:38"
+}

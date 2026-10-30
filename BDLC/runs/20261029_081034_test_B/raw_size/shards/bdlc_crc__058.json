@@ -1,0 +1,718 @@
+{
+ "codec": "bdlc_crc",
+ "mode": "size",
+ "shard": 58,
+ "pin": {
+  "requested_cpu": 17,
+  "affinity_ok": true,
+  "priority_ok": false,
+  "affinity_mask": "0x20000"
+ },
+ "python": "3.14.4 (main, Apr 14 2026, 14:26:14) [Clang 22.1.3 ]",
+ "started": "2026-10-29 08:53:37",
+ "images": [
+  {
+   "input_id": "DAVIS2017/tractor-sand/00011",
+   "key": "c520fefe08282280",
+   "bytes": 416,
+   "stream_bytes": 416,
+   "stream_sha256": "808be6519287c8140d9a071b5b71fa4bcd80938f1b27e0bd03330be918e2f9e4"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00012",
+   "key": "4ca40dbca4b87a24",
+   "bytes": 388,
+   "stream_bytes": 388,
+   "stream_sha256": "6e0e288893292dc9ae57bae597fc9428d60f2bafc0be204a2627c859ecab7227"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00013",
+   "key": "e423fee33ef61ab5",
+   "bytes": 363,
+   "stream_bytes": 363,
+   "stream_sha256": "2e04b32a060f3d61669f2ad98758c2ece1f1205d4c51eadeca87c558b6537dfd"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00014",
+   "key": "ce63a41b8f9e2862",
+   "bytes": 380,
+   "stream_bytes": 380,
+   "stream_sha256": "d5340aadc934fda05901177fc89d741b20c06804123d73ec86e866cd2266885f"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00015",
+   "key": "00623e88a10dfbf7",
+   "bytes": 338,
+   "stream_bytes": 338,
+   "stream_sha256": "ef0091ce9c9a7a0c33514d24c6107dc79b392d517ec21cc56b4146b282a7a782"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00016",
+   "key": "afa5675e1d0043a8",
+   "bytes": 367,
+   "stream_bytes": 367,
+   "stream_sha256": "a0a1db8f7ed4c137742608342928d80fce6dc8c60f05be69f167236463300cce"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00017",
+   "key": "99109117c08c7842",
+   "bytes": 341,
+   "stream_bytes": 341,
+   "stream_sha256": "ef8526e9e073d2389dd28e0fc3a491b4141d1524a4de3037b7c0f873fd161ed0"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00018",
+   "key": "dd780edfada74ed4",
+   "bytes": 342,
+   "stream_bytes": 342,
+   "stream_sha256": "dd70228b0eefdcde34f6793653b5d88d84ca324c13d9e385aaa74e40bc09c769"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00019",
+   "key": "2504aeb6af90d7d5",
+   "bytes": 329,
+   "stream_bytes": 329,
+   "stream_sha256": "5e832da01c508c99578079cbef590f8c3a58a5b956420b818213a93389165fd3"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00020",
+   "key": "053fa02a4a0e840f",
+   "bytes": 328,
+   "stream_bytes": 328,
+   "stream_sha256": "6290cb65189575bd4b3bc3c3016f0403d69ba7741dbe85bd076696175dfb5f8c"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00021",
+   "key": "b340f05e5bf19ce3",
+   "bytes": 348,
+   "stream_bytes": 348,
+   "stream_sha256": "a1f4ca1e4caa450507c7a4e6549fb4859604e5ac7b46d7b8d25e8f276c6c5ec2"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00022",
+   "key": "753b87aeaea7992d",
+   "bytes": 330,
+   "stream_bytes": 330,
+   "stream_sha256": "875b64bb99f77505c5ec417eb0b533d9bd8d5aa7e8b3596a243820d1aba44273"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00023",
+   "key": "2fc61394056e47f5",
+   "bytes": 356,
+   "stream_bytes": 356,
+   "stream_sha256": "23ffb5a4824320391a58e9fdc7974b413bfdfdaa3d9b7092df3b6e8cbce77531"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00024",
+   "key": "00b58ffce63edf6f",
+   "bytes": 333,
+   "stream_bytes": 333,
+   "stream_sha256": "73f80649bb2d4bd58cc0d80d8a4f29fa761c0495067d66c7e7c690e97c321bf2"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00025",
+   "key": "cb9be3f2d313d788",
+   "bytes": 326,
+   "stream_bytes": 326,
+   "stream_sha256": "e249258c95d978199c2f14d2fefdbf16454be9af378a5b8dd822242eee74a110"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00026",
+   "key": "c2d36bdb75460ff1",
+   "bytes": 339,
+   "stream_bytes": 339,
+   "stream_sha256": "4ba8b5aa7abd010cd85cd2280d09e2bb10a46ddad0fce6858d29cdd49a3649b4"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00027",
+   "key": "364363603a66071f",
+   "bytes": 340,
+   "stream_bytes": 340,
+   "stream_sha256": "2d9c1213f03bd8b7c6d347ae7b759d8a9fdfd0869d3da09a222c9753a94b378c"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00028",
+   "key": "d88f206647ac667a",
+   "bytes": 334,
+   "stream_bytes": 334,
+   "stream_sha256": "067fe4937d9fa500a9bec27e155a5c57b409bce479c2d5b50eab5c5115fec0c1"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00029",
+   "key": "2d0359c515a7c6ab",
+   "bytes": 373,
+   "stream_bytes": 373,
+   "stream_sha256": "855120f5dd031e05e0e9668e88426eabca9bb7489c8ac87e230e2ee6d10dd365"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00030",
+   "key": "bcff38893437fe16",
+   "bytes": 359,
+   "stream_bytes": 359,
+   "stream_sha256": "440d40ef67d905eb75d408932caea8be722be10787a422ff4faa726a148e7bda"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00031",
+   "key": "7589d62866240966",
+   "bytes": 352,
+   "stream_bytes": 352,
+   "stream_sha256": "862f5e24484ee15fd61f943cde35075770b117696f153f2c8b82f03408bff239"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00032",
+   "key": "d0d41679063a529b",
+   "bytes": 363,
+   "stream_bytes": 363,
+   "stream_sha256": "2cc3a6e44230f916573ebaf5015fc211092b912c09744dc299ca225124d1ed32"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00033",
+   "key": "0e2da469a43b3be5",
+   "bytes": 354,
+   "stream_bytes": 354,
+   "stream_sha256": "0bc3340f8d46ea9fcc8b03e1b23769744c8385ee2b5eb3f45d60a9b02927580e"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00034",
+   "key": "68f4d0f6fa51a718",
+   "bytes": 338,
+   "stream_bytes": 338,
+   "stream_sha256": "71d36ec3dbbae280c8896df62c1c59dfc13d7e19e398b77191a26bc92f3a44a2"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00035",
+   "key": "c45ab7ad58074bff",
+   "bytes": 360,
+   "stream_bytes": 360,
+   "stream_sha256": "24c3c10d2c74cd04a7ef6e6400fb61a32883cc7f9fb30401e013539d22f675d1"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00036",
+   "key": "9e53dfe469b33670",
+   "bytes": 345,
+   "stream_bytes": 345,
+   "stream_sha256": "f7e4c033a43df1b149213cd57d78a0f5bbf353cc8c9ecdb1e669ffc9972aea02"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00037",
+   "key": "84cf434173ceb3eb",
+   "bytes": 358,
+   "stream_bytes": 358,
+   "stream_sha256": "90d0da2096ba650d5cf9ec7440c2ba6e86221ccf62ccb86e3cdd08bd34e3f2f4"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00038",
+   "key": "e199e9ec9a9f2dc8",
+   "bytes": 361,
+   "stream_bytes": 361,
+   "stream_sha256": "9d9134bb2f01b6a741e17ad4a9a71fb53a29fd8b7f002554f4007a5a43a3ba1d"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00039",
+   "key": "548b7fc9df8277a4",
+   "bytes": 339,
+   "stream_bytes": 339,
+   "stream_sha256": "77141dab85b6e256fdf53d4d41c64a7fa080921c9593a1b496944ddf0d60f1c6"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00040",
+   "key": "abb240680917b686",
+   "bytes": 368,
+   "stream_bytes": 368,
+   "stream_sha256": "81486fdc4fa2b6d9717ec6d1bf97899336de9e1426730f5cf8ef256a353a87d2"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00041",
+   "key": "b3e818c8cf9e17e4",
+   "bytes": 371,
+   "stream_bytes": 371,
+   "stream_sha256": "fcb446fee057d51f8872a3f33b9ee85ce45373fd2009262ab9c528698ec9beac"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00042",
+   "key": "34e9a312c3bb6028",
+   "bytes": 329,
+   "stream_bytes": 329,
+   "stream_sha256": "f7581a2f1ff5497e988ec3a7eab65a085200a9958cc12fe1f09758a235be55ef"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00043",
+   "key": "a1aa420e03080819",
+   "bytes": 360,
+   "stream_bytes": 360,
+   "stream_sha256": "988b6ff87ae5e587eb0192bc143526f2b6b59d344724a0493cac9e9916259b42"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00044",
+   "key": "a597b2aae48a4c03",
+   "bytes": 361,
+   "stream_bytes": 361,
+   "stream_sha256": "8f0f45be92880e77d6471e81d64f0d7cd4cf71e8a8b71d4b29b7918e74d8fc9f"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00045",
+   "key": "dc4b71a265f06baf",
+   "bytes": 378,
+   "stream_bytes": 378,
+   "stream_sha256": "f7a7b256c6c191881e81849f1f423a2df8bc248d1af380b6078faa027d7934ae"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00046",
+   "key": "27ef010d6f1314c3",
+   "bytes": 382,
+   "stream_bytes": 382,
+   "stream_sha256": "dfa501de46e30c8c5beab3e1ca417fe63013c60b84602bb2203ad69d324e409c"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00047",
+   "key": "9aa63ad1ed9a3e44",
+   "bytes": 391,
+   "stream_bytes": 391,
+   "stream_sha256": "3ca764f19e19b42b1cc22d930c624c463b229ca05d0b01071d68ca1c46fda085"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00048",
+   "key": "5504c75a55c58c9c",
+   "bytes": 358,
+   "stream_bytes": 358,
+   "stream_sha256": "706a07faa4ca14c4f7a1af4cf161743e6e9d687aece92719c4cd085433a0b4da"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00049",
+   "key": "3dc6f4223a172ebc",
+   "bytes": 386,
+   "stream_bytes": 386,
+   "stream_sha256": "be44d2f806045e6f757f0f1d199ff88f1fcf266676d85078c9008f0df846d787"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00050",
+   "key": "ef87512be6585e3e",
+   "bytes": 397,
+   "stream_bytes": 397,
+   "stream_sha256": "bd6dfb537c15f256677e4fead94e08703852eb9b246aa2b697ed2e39163f670a"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00051",
+   "key": "e18734579cc36852",
+   "bytes": 390,
+   "stream_bytes": 390,
+   "stream_sha256": "0ab88af544d34ed184a2f253e6b6172908cb6c3a1055306e422b5bf670be7c86"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00052",
+   "key": "578bf030f659f7d8",
+   "bytes": 368,
+   "stream_bytes": 368,
+   "stream_sha256": "0d02c3a148fc1fc3e3d1cec8e2984a2aad5e722c8b8b9d9f89890b5041aba3f9"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00053",
+   "key": "dda9f6ffea84913d",
+   "bytes": 370,
+   "stream_bytes": 370,
+   "stream_sha256": "b0ced479418d1384b925d16301b0cb3a27ec9fe2ed37a9d21eb0525cf388a7de"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00054",
+   "key": "cf68eb5975402b69",
+   "bytes": 359,
+   "stream_bytes": 359,
+   "stream_sha256": "9c7c52f7b1c0d577036747807e2a099a3ba69e08687f4fbf35649f64a2db254f"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00055",
+   "key": "671a359822ea8243",
+   "bytes": 352,
+   "stream_bytes": 352,
+   "stream_sha256": "3126c3c4478cd02ca8f66b972751bed24704360f5ef8651e06c49271e3f9e498"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00056",
+   "key": "4a647b68b2fb09dd",
+   "bytes": 352,
+   "stream_bytes": 352,
+   "stream_sha256": "9c177f094a4abd7f26c9b6c153795a405f5e13826606458beff7501f88f3678a"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00057",
+   "key": "7c1572d6737631bb",
+   "bytes": 321,
+   "stream_bytes": 321,
+   "stream_sha256": "6d89233c3007d669599fc81d808314cf3badacf8a464824ec9e9b9ab8993668e"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00058",
+   "key": "f8c52e29af359588",
+   "bytes": 320,
+   "stream_bytes": 320,
+   "stream_sha256": "86ee84f558df3122d336514a7dc8b09b2121b82ac184c265f68210bcbe3b5101"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00059",
+   "key": "409a3bf7d9d15caa",
+   "bytes": 324,
+   "stream_bytes": 324,
+   "stream_sha256": "710d938580f12480889c159cccb7e45bf1136337f5cee27630fb773692db6d32"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00060",
+   "key": "4a065cb1b367fb99",
+   "bytes": 323,
+   "stream_bytes": 323,
+   "stream_sha256": "99eeadb59f083d23f909cc34829b57e7844ae39fa8568dd68eff04adb2bc192f"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00061",
+   "key": "4a64442bde52d5c7",
+   "bytes": 322,
+   "stream_bytes": 322,
+   "stream_sha256": "62f2e8023cf58a4a89f3e27f89c48bb1af6fdb14874d3be81bed5b65b7776509"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00062",
+   "key": "dd60614883b4b9b2",
+   "bytes": 317,
+   "stream_bytes": 317,
+   "stream_sha256": "420badf01a5742f689209a0022576bf7de6cfab3b15341a5ab7bf6d51ad775f6"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00063",
+   "key": "cb115d260755a01a",
+   "bytes": 312,
+   "stream_bytes": 312,
+   "stream_sha256": "62b251484dbd07dfc412d9e7faef9449b421f2a446dd1588319ec348f86656fe"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00064",
+   "key": "9460b4063e280cec",
+   "bytes": 320,
+   "stream_bytes": 320,
+   "stream_sha256": "0ef9aa0c747b217e7e62820b6f24f2a2f35c9c26fd4df21d00ff00008efb2e0f"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00065",
+   "key": "95617f3df045c36d",
+   "bytes": 329,
+   "stream_bytes": 329,
+   "stream_sha256": "5bfaf3d09d281a1e44cb7eaa4fbf690a6d155d212c1cc154a3bed0e021d920d4"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00066",
+   "key": "605aae512c46b17f",
+   "bytes": 332,
+   "stream_bytes": 332,
+   "stream_sha256": "0185c9a4fcdb8e29e8b0dea5ce87ee66bb7bc512de41ad7f44a7f49c33cab697"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00067",
+   "key": "3bed2357c917495c",
+   "bytes": 315,
+   "stream_bytes": 315,
+   "stream_sha256": "b937c45fb9c359eb51782635ce63a393581b168967276a1a0aad3bce7e9bad79"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00068",
+   "key": "c142e2d3ee7cf656",
+   "bytes": 318,
+   "stream_bytes": 318,
+   "stream_sha256": "0249023ae94ce1a91a36286ac4d046a231458e487ee2320714963f8e0bbc916d"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00069",
+   "key": "b2bfcad0adc5a732",
+   "bytes": 336,
+   "stream_bytes": 336,
+   "stream_sha256": "7f445e179c0fef5b3418f3c330c562a0d817b1c9b30626df6d0cb1a4be1ba773"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00070",
+   "key": "4ad4e3edf0de750d",
+   "bytes": 294,
+   "stream_bytes": 294,
+   "stream_sha256": "5f51aa84f2ac3087dcb120f99ac191c131d13c4a41a63d088918f34476065d7b"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00071",
+   "key": "94a0bd36c84530c9",
+   "bytes": 281,
+   "stream_bytes": 281,
+   "stream_sha256": "2c1912c90690a9c77b4142683c4f7779a0771a905b7050900ec4380e0ba76ebe"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00072",
+   "key": "d2484f6f5819d09e",
+   "bytes": 287,
+   "stream_bytes": 287,
+   "stream_sha256": "de4e982c47c29a2b4245b2adb73e19df44a6224204eacc4a8b43d6ec18aa733b"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00073",
+   "key": "19bf86bfd35f19ca",
+   "bytes": 276,
+   "stream_bytes": 276,
+   "stream_sha256": "4e257a73df95d1cd000eea5b70de80b54be6b73c0595e37f34e00a1156e44b92"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00074",
+   "key": "31dd137443dff4b4",
+   "bytes": 276,
+   "stream_bytes": 276,
+   "stream_sha256": "bc6863e5914d88125d1b83721b5b1e7250b97b92400071ceabf23866f0439a65"
+  },
+  {
+   "input_id": "DAVIS2017/tractor-sand/00075",
+   "key": "2e24a24cab34a010",
+   "bytes": 287,
+   "stream_bytes": 287,
+   "stream_sha256": "f9b122a75839b435342fb5eabea09d498fe3e774403354b3d0cfd42dd01ba6b7"
+  },
+  {
+   "input_id": "DAVIS2017/train/00000",
+   "key": "688cdbac8859964e",
+   "bytes": 503,
+   "stream_bytes": 503,
+   "stream_sha256": "aa70283e4b4b92e6069556d2b15db15f164fd8587ecf666718314c87a960e40a"
+  },
+  {
+   "input_id": "DAVIS2017/train/00001",
+   "key": "5eb0b6f998cea4cd",
+   "bytes": 505,
+   "stream_bytes": 505,
+   "stream_sha256": "5de3546f106504559207cbe235e97f4598e9b2b55764dbff5fc854f52390b25b"
+  },
+  {
+   "input_id": "DAVIS2017/train/00002",
+   "key": "0d174bf025e70ef2",
+   "bytes": 520,
+   "stream_bytes": 520,
+   "stream_sha256": "b2167b6f1e341f81501c7fa170863754665a83765c5888f06ae1c869d35c1502"
+  },
+  {
+   "input_id": "DAVIS2017/train/00003",
+   "key": "a5285f0aad5c3c6b",
+   "bytes": 517,
+   "stream_bytes": 517,
+   "stream_sha256": "49b067ec8b63ff6921cab11f4d5051eeee53db3a6cb6cd643b60daf5fa27946b"
+  },
+  {
+   "input_id": "DAVIS2017/train/00004",
+   "key": "1591feda4fdf5d60",
+   "bytes": 506,
+   "stream_bytes": 506,
+   "stream_sha256": "92dddb314ef31b3019d6cf10ada9d5104d10c374e7d591c796272e340498f924"
+  },
+  {
+   "input_id": "DAVIS2017/train/00005",
+   "key": "bbea4f957cf0cb99",
+   "bytes": 494,
+   "stream_bytes": 494,
+   "stream_sha256": "d6678049cf01ff8fff31de687ecb11f9c370baab7088afca0ebc0b696c0e666e"
+  },
+  {
+   "input_id": "DAVIS2017/train/00006",
+   "key": "ff26cc1b3da2e8c3",
+   "bytes": 512,
+   "stream_bytes": 512,
+   "stream_sha256": "389fbf87a6bcfd79b6aa2a7bea4b6b8634c799a84d2577c319ece230991f697f"
+  },
+  {
+   "input_id": "DAVIS2017/train/00007",
+   "key": "bd9060b8ce9e85f9",
+   "bytes": 537,
+   "stream_bytes": 537,
+   "stream_sha256": "7251713b66020bc601f8f1156c73ce83ebdaa8433f2dde061cf279aaa496218e"
+  },
+  {
+   "input_id": "DAVIS2017/train/00008",
+   "key": "be2345e6b15dad59",
+   "bytes": 546,
+   "stream_bytes": 546,
+   "stream_sha256": "572aea5f5c000e71dab7e34442e3c3d9217cd67d8bc3e052fc013a1a540937f4"
+  },
+  {
+   "input_id": "DAVIS2017/train/00009",
+   "key": "d3cf231b77671183",
+   "bytes": 550,
+   "stream_bytes": 550,
+   "stream_sha256": "b5b5bcd4347876ea145b60ff0d0819fb2c698f3bcfeb5ccfedd7e1ab2094c42e"
+  },
+  {
+   "input_id": "DAVIS2017/train/00010",
+   "key": "b5acd27e2634fe3a",
+   "bytes": 550,
+   "stream_bytes": 550,
+   "stream_sha256": "dfc07097fb712aa78ba3d690207d09fd4c454177f3b55422ae49aaa9b0214671"
+  },
+  {
+   "input_id": "DAVIS2017/train/00011",
+   "key": "d7f2f381e61b745f",
+   "bytes": 564,
+   "stream_bytes": 564,
+   "stream_sha256": "d0fdd7dad95fdcb9e25344bee47c6f2092eaffdf5c2dd76b06fa78a89af1f5d9"
+  },
+  {
+   "input_id": "DAVIS2017/train/00012",
+   "key": "6044fd2408b717d7",
+   "bytes": 591,
+   "stream_bytes": 591,
+   "stream_sha256": "5d9b3e197626f38323c8cf06b25f01b39a369f597e381ea11bde92bb2f5a9a8d"
+  },
+  {
+   "input_id": "DAVIS2017/train/00013",
+   "key": "cdbc2f5e5b300367",
+   "bytes": 584,
+   "stream_bytes": 584,
+   "stream_sha256": "b648753b83cb98b95f12129c5ca079af6228e9a13bec86af36a657eb8dcded65"
+  },
+  {
+   "input_id": "DAVIS2017/train/00014",
+   "key": "4ea53ed098becc90",
+   "bytes": 596,
+   "stream_bytes": 596,
+   "stream_sha256": "e19c0c0b5bea8706ba06d20236ffa2f58dba3613a9ff990b3492ce34bf441944"
+  },
+  {
+   "input_id": "DAVIS2017/train/00015",
+   "key": "b14f460b635d0fc4",
+   "bytes": 587,
+   "stream_bytes": 587,
+   "stream_sha256": "537e74e7cb40f4f3f23327418f1ed1f08bfd31f86c1c36c7922b66ccbc4f8469"
+  },
+  {
+   "input_id": "DAVIS2017/train/00016",
+   "key": "cf20668c23d296fc",
+   "bytes": 590,
+   "stream_bytes": 590,
+   "stream_sha256": "a5ec390498ae8f758fc3b35029a6b14459863a0ca952e666ca6a94ccfcd9970f"
+  },
+  {
+   "input_id": "DAVIS2017/train/00017",
+   "key": "c6cc30c6c3449485",
+   "bytes": 598,
+   "stream_bytes": 598,
+   "stream_sha256": "aec1c8ade9dac1001c2e9b3592f2f786e376e374b21dae58fb1ea08c171005c4"
+  },
+  {
+   "input_id": "DAVIS2017/train/00018",
+   "key": "a6613475652bc149",
+   "bytes": 600,
+   "stream_bytes": 600,
+   "stream_sha256": "f9c1f3af6567ce950f2cfe8919eb4a2ce98e8d256118111e2cbb0084d19aa618"
+  },
+  {
+   "input_id": "DAVIS2017/train/00019",
+   "key": "c2b1cfe05dff95bf",
+   "bytes": 569,
+   "stream_bytes": 569,
+   "stream_sha256": "efc048985ab0ee5a8f16c65b1a4852f68a5582a0f792481e731dce89bc41baf2"
+  },
+  {
+   "input_id": "DAVIS2017/train/00020",
+   "key": "367aec0f252ec68e",
+   "bytes": 573,
+   "stream_bytes": 573,
+   "stream_sha256": "9b2b3cdea41cfb05f9dfb45d790a41b24fab92c81485cbe97dc7b68c3406551c"
+  },
+  {
+   "input_id": "DAVIS2017/train/00021",
+   "key": "0018c9d74b65335c",
+   "bytes": 576,
+   "stream_bytes": 576,
+   "stream_sha256": "88f4b5e462ffede1c800ba838361ed6a8dcaad9eab71f0b52d31ca6404292b9e"
+  },
+  {
+   "input_id": "DAVIS2017/train/00022",
+   "key": "25f7483b5e8eb68a",
+   "bytes": 589,
+   "stream_bytes": 589,
+   "stream_sha256": "6325728df9f96d36dc4c7fcb959404f668c1222511187d799e961c7752dd0ea2"
+  },
+  {
+   "input_id": "DAVIS2017/train/00023",
+   "key": "b062295c5e939a8a",
+   "bytes": 598,
+   "stream_bytes": 598,
+   "stream_sha256": "9cc59b8c14ec410434a5dafab79e884a2217e713d6c5de9521e82cf7df422efe"
+  },
+  {
+   "input_id": "DAVIS2017/train/00024",
+   "key": "421bc608cc6d603a",
+   "bytes": 615,
+   "stream_bytes": 615,
+   "stream_sha256": "bcb08eeb0b49dd7a0acef981e9c2d45da9321eda73b8cc390d4439f6cb9bf691"
+  },
+  {
+   "input_id": "DAVIS2017/train/00025",
+   "key": "95813d603e1b1669",
+   "bytes": 620,
+   "stream_bytes": 620,
+   "stream_sha256": "f15a512016376e121b9e78a341b24b050bdb659c71ea1b6e57ea8d322c73075f"
+  },
+  {
+   "input_id": "DAVIS2017/train/00026",
+   "key": "7f69b7c11b2a0f5f",
+   "bytes": 627,
+   "stream_bytes": 627,
+   "stream_sha256": "d413cc7882747e417b4640b927dcf7031d289f08bb48c4fce7f727836b965d54"
+  },
+  {
+   "input_id": "DAVIS2017/train/00027",
+   "key": "04c3ac76deaa18ab",
+   "bytes": 618,
+   "stream_bytes": 618,
+   "stream_sha256": "91c34b0aca6904fe4ff4b41ff0b4ae03aac83b784a65f7b273280e4c9e87f03e"
+  },
+  {
+   "input_id": "DAVIS2017/train/00028",
+   "key": "42bcb0ce1871534a",
+   "bytes": 618,
+   "stream_bytes": 618,
+   "stream_sha256": "62a74344660c97e22691533b609d9e0972ea5a22d2e7a081f09d36d2ce76677a"
+  },
+  {
+   "input_id": "DAVIS2017/train/00029",
+   "key": "75e9d133baf831f5",
+   "bytes": 629,
+   "stream_bytes": 629,
+   "stream_sha256": "c315e9d98b3c19d360838c784a638c8873538a51b1525deaa5338d17ed53347f"
+  },
+  {
+   "input_id": "DAVIS2017/train/00030",
+   "key": "c8dae3e0b21d83e2",
+   "bytes": 633,
+   "stream_bytes": 633,
+   "stream_sha256": "983f2c6fab2e2c729c4fd927e0dfb7e40c6983a4dbc158f889513622d61f4634"
+  },
+  {
+   "input_id": "DAVIS2017/train/00031",
+   "key": "205bd48c31b9ed32",
+   "bytes": 637,
+   "stream_bytes": 637,
+   "stream_sha256": "7878f5f3b266d001d0d299ea3202c43aa30dd4559bdce6507c70bea32041b3db"
+  },
+  {
+   "input_id": "DAVIS2017/train/00032",
+   "key": "0ea97b30124d02d4",
+   "bytes": 646,
+   "stream_bytes": 646,
+   "stream_sha256": "36e11d5938961b4737d00cb48936e6ed86ecbd598bea51d1016888bfc3e72cf2"
+  },
+  {
+   "input_id": "DAVIS2017/train/00033",
+   "key": "6e56d72298f96adf",
+   "bytes": 653,
+   "stream_bytes": 653,
+   "stream_sha256": "bc7d7503f54dbca021da2267b5235b2fe270d13c7e5cc69f2d5b6460acd5ecca"
+  },
+  {
+   "input_id": "DAVIS2017/train/00034",
+   "key": "d5f20343c09c66e2",
+   "bytes": 644,
+   "stream_bytes": 644,
+   "stream_sha256": "78c848a5793d8ff5938457220b425d9bbb83ba35e21b8cddb67f6fc7b31c5c16"
+  }
+ ],
+ "errors": [],
+ "not_applicable": [],
+ "finished": "2026-10-29 08:53:41"
+}

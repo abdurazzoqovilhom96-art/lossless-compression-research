@@ -1,0 +1,718 @@
+{
+ "codec": "blosc2_zstd_bitshuffle",
+ "mode": "size",
+ "shard": 62,
+ "pin": {
+  "requested_cpu": 8,
+  "affinity_ok": true,
+  "priority_ok": false,
+  "affinity_mask": "0x100"
+ },
+ "python": "3.14.4 (main, Apr 14 2026, 14:26:14) [Clang 22.1.3 ]",
+ "started": "2026-10-29 08:52:20",
+ "images": [
+  {
+   "input_id": "DAVIS2017/walking/00064",
+   "key": "ae3e4d29ad1fc7ff",
+   "bytes": 3974,
+   "stream_bytes": 3974,
+   "stream_sha256": "58a50a427fb42819534ff2dd0c11b9290508f443f81b622381e0732c1494f0f2"
+  },
+  {
+   "input_id": "DAVIS2017/walking/00065",
+   "key": "6519f9cf0c0f5032",
+   "bytes": 3966,
+   "stream_bytes": 3966,
+   "stream_sha256": "0dcd2374a60a793ca0c4c28fd30f8c76ad6ff60a383a18f551ed04e048b44688"
+  },
+  {
+   "input_id": "DAVIS2017/walking/00066",
+   "key": "397f5eed66d45293",
+   "bytes": 3919,
+   "stream_bytes": 3919,
+   "stream_sha256": "6fe93dfca2c9fe90ec4ed14ff51d135e863f030e43f9cf44128206fe2fda6b3c"
+  },
+  {
+   "input_id": "DAVIS2017/walking/00067",
+   "key": "9588af36ec6e4855",
+   "bytes": 3920,
+   "stream_bytes": 3920,
+   "stream_sha256": "4ed465a32fb47d6b4e4963a9621175be0ae8750e11254f3232254a3c681a7d8d"
+  },
+  {
+   "input_id": "DAVIS2017/walking/00068",
+   "key": "469f1391399e4fdc",
+   "bytes": 3845,
+   "stream_bytes": 3845,
+   "stream_sha256": "03473744ce46a0bd04bc5627f903d0e5059f1409e53ba63f5e6ac45cebb69b5e"
+  },
+  {
+   "input_id": "DAVIS2017/walking/00069",
+   "key": "80e14cf72208af7b",
+   "bytes": 3823,
+   "stream_bytes": 3823,
+   "stream_sha256": "fd5fba9454575b9c71cd42302f3dfd2a6cecfa9d31b26c4aff84dc0b77763da3"
+  },
+  {
+   "input_id": "DAVIS2017/walking/00070",
+   "key": "28877956410686c7",
+   "bytes": 3693,
+   "stream_bytes": 3693,
+   "stream_sha256": "6e3c259fe06e892cc1c4408d9cce5f170fcb7dad0aff0c5c0ff9e29c6c51b94d"
+  },
+  {
+   "input_id": "DAVIS2017/walking/00071",
+   "key": "edadc89fc1f5b036",
+   "bytes": 3522,
+   "stream_bytes": 3522,
+   "stream_sha256": "6fb8ba7c8458f33804eb9e04f0dd9be302bd4bc421d9ee399d38ef7529ccb6f4"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg002.tif",
+   "key": "2071f0212cafc699",
+   "bytes": 608,
+   "stream_bytes": 608,
+   "stream_sha256": "8bf36aa44f3466f2fc162a7cf98d18da09e3df95dbaffe9be1c9677008a2ddcc"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg005.tif",
+   "key": "f2c76ef45af876ef",
+   "bytes": 615,
+   "stream_bytes": 615,
+   "stream_sha256": "26ad3bfdab69d70f66cee0531ddb12af1cebe744e7ea72efc819fc1b9cc27fd0"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg006.tif",
+   "key": "6b96c8ce40d69bd2",
+   "bytes": 669,
+   "stream_bytes": 669,
+   "stream_sha256": "a9d64058518a699466f5f10aaaef7f718efb6f3b9a88603936178f0bcbcbc228"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg007.tif",
+   "key": "da0e8611ce5efb78",
+   "bytes": 408,
+   "stream_bytes": 408,
+   "stream_sha256": "34c024d984a1c69615cc44495f06d0719154aca36fdd644ac9f5274e9d426ad2"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg008.tif",
+   "key": "2ac6fe19c1d3a2fd",
+   "bytes": 379,
+   "stream_bytes": 379,
+   "stream_sha256": "b03816c598b46e418721358430a3b5168b00499c71051c37e832955188c0bd12"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg010.tif",
+   "key": "624a1134dc9bbfad",
+   "bytes": 660,
+   "stream_bytes": 660,
+   "stream_sha256": "9036f4b581842fe758e525ff76d1de3407dac661e8e66e128c03cf20525eb6bc"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg012.tif",
+   "key": "e881c11146b5dae0",
+   "bytes": 469,
+   "stream_bytes": 469,
+   "stream_sha256": "581766ab68bd5b9416057dd564e5f1536b97a07ed67968942f2ee5e99de1f510"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg013.tif",
+   "key": "71e561e5ffc7814e",
+   "bytes": 648,
+   "stream_bytes": 648,
+   "stream_sha256": "0161f5798998a8ba197fc04b18c3fc8d52dec80f1ae8799da4de748ec326e626"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg014.tif",
+   "key": "06670951a3f57296",
+   "bytes": 434,
+   "stream_bytes": 434,
+   "stream_sha256": "040395bafa9df5caa7e190d9cfb53e82f0993f4facd427aed068a7bb15e83d51"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg015.tif",
+   "key": "a953172774470517",
+   "bytes": 670,
+   "stream_bytes": 670,
+   "stream_sha256": "5bb69be8e003336a653df2afd64fc5dbdbd54bea5efb85dad032cafa8d68ba2b"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg016.tif",
+   "key": "048da7b6c3b4caf3",
+   "bytes": 892,
+   "stream_bytes": 892,
+   "stream_sha256": "db52b8187c87fd69303e8aa283fc15ce70aabbbc0915928c4f110ff0ac0dd4cc"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg017.tif",
+   "key": "320831621cbfef6a",
+   "bytes": 544,
+   "stream_bytes": 544,
+   "stream_sha256": "6e5f7d6a81cffcbef888edad0941b760c6f6788bc6e4e3449ac4753319c20ec6"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg018.tif",
+   "key": "8e966c1a5b4e1eba",
+   "bytes": 366,
+   "stream_bytes": 366,
+   "stream_sha256": "a38a80a552da1e9e6934cb5cda2a7a2c4c5879518027adc0c582c7af2a350874"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg020.tif",
+   "key": "5bf459814aad6344",
+   "bytes": 810,
+   "stream_bytes": 810,
+   "stream_sha256": "08d2b78f5cbbf779b501a71323f95c3899741bb8082a19a462ea1c38202795be"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg021.tif",
+   "key": "a6d30a3290ef1f77",
+   "bytes": 6871,
+   "stream_bytes": 6871,
+   "stream_sha256": "e8b1dda3d471f056fba358739a9cbb8e0c6edf0f2b32a7efc90464a9e4e82e3d"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg027.tif",
+   "key": "f798eb872a7bcb92",
+   "bytes": 630,
+   "stream_bytes": 630,
+   "stream_sha256": "330934a577f69116fceeefbaf5bfb85a24ab9ed4bd1e7c500f25346d5c1f06a5"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg028.tif",
+   "key": "06769f8fecc5fa34",
+   "bytes": 656,
+   "stream_bytes": 656,
+   "stream_sha256": "093a8696904eb467c6e4137295f2084d33642a19e1e9b796013fdcf5d8906bde"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg029.tif",
+   "key": "67f8475eac69356c",
+   "bytes": 646,
+   "stream_bytes": 646,
+   "stream_sha256": "acbc1468487a5839ca6a218f0bd742aad918ab7dbf0f98ff8d9cf0e83248fcd7"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg031.tif",
+   "key": "13718b3f2015e703",
+   "bytes": 6870,
+   "stream_bytes": 6870,
+   "stream_sha256": "08dd4f5957e9444c01068193b79ca95439f84b11d2741d6e2a480c216d8fd605"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg032.tif",
+   "key": "15613fde39203232",
+   "bytes": 635,
+   "stream_bytes": 635,
+   "stream_sha256": "5b442f5d429a9428dc3c24e3be2195ffa6eaca2879e87187e298349099014b16"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg033.tif",
+   "key": "148b344743c02c09",
+   "bytes": 6774,
+   "stream_bytes": 6774,
+   "stream_sha256": "2e3dc080a5cb8040b8cef30752505441d14a0e87c7ae05e0e7138fbc5123377c"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg034.tif",
+   "key": "2957f7006ee309f2",
+   "bytes": 674,
+   "stream_bytes": 674,
+   "stream_sha256": "3c2d8f6b005dadd598b54094c0c575e59d80b10d1623d8205e8160df478b3b39"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg037.tif",
+   "key": "99a14f579c69a4f7",
+   "bytes": 629,
+   "stream_bytes": 629,
+   "stream_sha256": "0b3127d3ce295ff292b31ba52ff2a1fabd9397e7e2093687ed1eca55d0107919"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg039.tif",
+   "key": "ec915535c34b1ef3",
+   "bytes": 7185,
+   "stream_bytes": 7185,
+   "stream_sha256": "a3c58d82014477d42bd8499e1acee85c832e8e085a5c6a6e0ad244cf07b60bb0"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg040.tif",
+   "key": "55a844f4c94c3950",
+   "bytes": 685,
+   "stream_bytes": 685,
+   "stream_sha256": "c27e6e1efdee3da40c59d52f8ae5b92456eac48555e273471e3b05734b6effa0"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg041.tif",
+   "key": "db9ba554ba809fb4",
+   "bytes": 665,
+   "stream_bytes": 665,
+   "stream_sha256": "83f0ff75e4950fc0173f45d1579995072a256f1788d4d41a13b12f5936a8eb9e"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg044.tif",
+   "key": "83bf2f441dce27b2",
+   "bytes": 663,
+   "stream_bytes": 663,
+   "stream_sha256": "9e5c7755c8bcfd0f450b6508e9889f1e6a72ff384db79f6704a68243e1b2e40b"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg045.tif",
+   "key": "c75e22990d7793c2",
+   "bytes": 653,
+   "stream_bytes": 653,
+   "stream_sha256": "65991a34354f9f77232fa8ff0ed19d9316446de8df7fa484366b94c23573226c"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg046.tif",
+   "key": "fbbebc26fbdfeab1",
+   "bytes": 673,
+   "stream_bytes": 673,
+   "stream_sha256": "02ee0ab410e02876b8df4b2dc25c51918a06e966ab095a79c3e1f5724489e283"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/01_GT/man_seg047.tif",
+   "key": "821fefd254883e7d",
+   "bytes": 650,
+   "stream_bytes": 650,
+   "stream_sha256": "8e08ea62d20270751111d696ba1dd58614669b4b95a24a2d219e3469276051a9"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg001.tif",
+   "key": "614e1241cdd4574b",
+   "bytes": 6878,
+   "stream_bytes": 6878,
+   "stream_sha256": "1061f36ccf25bf677504f6a240da46b4fe955d4e9c9502277627943d68513370"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg022.tif",
+   "key": "19ae6da0fb5ce892",
+   "bytes": 636,
+   "stream_bytes": 636,
+   "stream_sha256": "a05c3325f683036e0a4ebc7af408308fb1d8c684e3270dc9d4c2efefbe1c7a45"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg025.tif",
+   "key": "5f7685b069c98649",
+   "bytes": 669,
+   "stream_bytes": 669,
+   "stream_sha256": "f7847a3b3352715219b35af934b557eceb4e7dfbc60f61b4874aaaa1dcd71a98"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg027.tif",
+   "key": "8f686403ee25a7d5",
+   "bytes": 644,
+   "stream_bytes": 644,
+   "stream_sha256": "05623e085945cc23fe9c95dae96c2cb442ae7be7783118d55067e77e89cb3459"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg028.tif",
+   "key": "feb176cdef46bfbf",
+   "bytes": 636,
+   "stream_bytes": 636,
+   "stream_sha256": "557df12a85ad6f67aff9e7fe3a4917065da2691b5d013618e434752441c0892c"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg029.tif",
+   "key": "11ba1c43de8a5465",
+   "bytes": 652,
+   "stream_bytes": 652,
+   "stream_sha256": "91cd4d51ca3673091adb7453b0b5683055f20f93de668b881a08e151c508e732"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg030.tif",
+   "key": "4d146316f01bfeec",
+   "bytes": 635,
+   "stream_bytes": 635,
+   "stream_sha256": "8db990b8cd3994e7b7e94f68e3e5afc04f45680bb380268845b02af3230baaf0"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg035.tif",
+   "key": "c11848db454eeedd",
+   "bytes": 654,
+   "stream_bytes": 654,
+   "stream_sha256": "5214e4c15f1fe691a97d2e32db6d03771690fa361c81367a5a01ff184895b775"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg039.tif",
+   "key": "2e0064a05edd88ff",
+   "bytes": 648,
+   "stream_bytes": 648,
+   "stream_sha256": "9a0df286036d13000fb066f257ba05cc628d250ae7fc6b50a06aef560097cd6b"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg046.tif",
+   "key": "d6f19057990e3129",
+   "bytes": 651,
+   "stream_bytes": 651,
+   "stream_sha256": "7e0e83c7c568ddef9f23d43709815e433cd0effece0c55b3ca20fd9e490f4228"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg047.tif",
+   "key": "8a51362f9e143108",
+   "bytes": 679,
+   "stream_bytes": 679,
+   "stream_sha256": "bd8befacbe730147d6d679612796ad6634ad259c74e63d223d88c7cdda6dd2fd"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg052.tif",
+   "key": "a41bd9dd7107209f",
+   "bytes": 9674,
+   "stream_bytes": 9674,
+   "stream_sha256": "b1425f5c422ce86e85c85ebe457eeb7323b71775e0da4e87960327638f149ad6"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg055.tif",
+   "key": "0236e12c105a7d9b",
+   "bytes": 8786,
+   "stream_bytes": 8786,
+   "stream_sha256": "56ad536ac0bc0be7b88f2e00b4977c3c1647bad64261e32ed6274fc27936d4d1"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg060.tif",
+   "key": "d7382101f9ffc1ca",
+   "bytes": 665,
+   "stream_bytes": 665,
+   "stream_sha256": "01d8f6d1494ac16563febea9a96258de836b28ba19249c9f38c47f1a20d7aaa5"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg065.tif",
+   "key": "71cb7e4d95e16879",
+   "bytes": 635,
+   "stream_bytes": 635,
+   "stream_sha256": "624367ec5776f722ba7d7a3cd14af3580d73aa63b7812849f2e93bfc121226ba"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg072.tif",
+   "key": "bf718c1f7965ded4",
+   "bytes": 8983,
+   "stream_bytes": 8983,
+   "stream_sha256": "61f97b3b3a4862b12898abaf2f35e4b7facbba9eecb0ebce586cb8485b654288"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg076.tif",
+   "key": "75f951f006b27208",
+   "bytes": 639,
+   "stream_bytes": 639,
+   "stream_sha256": "1e9f8b66a8e9a191466db6c7648ce154100d971c0f63bf65f5b0a66f2226ee62"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg080.tif",
+   "key": "e4763dc4f22d30bc",
+   "bytes": 652,
+   "stream_bytes": 652,
+   "stream_sha256": "cc0e030f20b87ee33dfbc209b946be5e11521fa1fc5146e728e5a5b2023d62c8"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg082.tif",
+   "key": "b980a6e0d648e9cb",
+   "bytes": 657,
+   "stream_bytes": 657,
+   "stream_sha256": "3951644278af259b890733f6969bdf3a90f66487ca9f04bf6fc5a1ca00c10901"
+  },
+  {
+   "input_id": "Fluo-N2DH-GOWT1/02_GT/man_seg091.tif",
+   "key": "d6542a7c26dd7830",
+   "bytes": 622,
+   "stream_bytes": 622,
+   "stream_sha256": "2bba3fc4b3207a8ce60f9e81f57daed2876ab556705be0e8e5c1b29709e720e4"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg000.tif",
+   "key": "aad4af8fba8272db",
+   "bytes": 16358,
+   "stream_bytes": 16358,
+   "stream_sha256": "a0f6b07d0130799ce38b57e89ce47b233d91d78458174b4e1644ba6f5491b8b4"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg001.tif",
+   "key": "6dcf48c1d1bc8daa",
+   "bytes": 16005,
+   "stream_bytes": 16005,
+   "stream_sha256": "5bbc1c0a9f36d9c3e3145c5da92cb850dc8135afa9d326e99e5366239dfd52c9"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg002.tif",
+   "key": "4430ad84ddf5d024",
+   "bytes": 16392,
+   "stream_bytes": 16392,
+   "stream_sha256": "b211b4f82a00dd82d8fd09958bc8246f01b4a945824277a3c771b5b1de433274"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg003.tif",
+   "key": "f105a5812da71ff0",
+   "bytes": 16434,
+   "stream_bytes": 16434,
+   "stream_sha256": "94721a41979dbe525d334868a4f01ed79affa0bdcd80ff92a2a6c0bea739ce10"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg004.tif",
+   "key": "f3b4ec3731f51108",
+   "bytes": 16828,
+   "stream_bytes": 16828,
+   "stream_sha256": "112f2f3ef0e63467c33e9aa2de5c8cf28a6a434185c5ff861793fe4354fdfc21"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg005.tif",
+   "key": "0d23ade76f33e1a9",
+   "bytes": 16302,
+   "stream_bytes": 16302,
+   "stream_sha256": "372606d3e5655b65f4b9c8097143b74c64ad2390b7ed3b662eb2ce300a1bc56f"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg006.tif",
+   "key": "293073f9131e6527",
+   "bytes": 16431,
+   "stream_bytes": 16431,
+   "stream_sha256": "4932fb1a5c8ebd5e7b6095a026f8f1d934b4d3d8f774e015a73baf4ccfd57713"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg007.tif",
+   "key": "7cf126beba63591c",
+   "bytes": 16493,
+   "stream_bytes": 16493,
+   "stream_sha256": "4a767ff9e805d02811d345f5b6a0b1bd5142d09aef0eb6fd83cc3b85f6725689"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg008.tif",
+   "key": "c0d4514f486d6b2d",
+   "bytes": 16650,
+   "stream_bytes": 16650,
+   "stream_sha256": "6bd0087b672e3cbf2db5b9284b2cd71cd838ebf00914eb4e7545a9bd1f7df105"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg009.tif",
+   "key": "a0e8a60e12f937eb",
+   "bytes": 16528,
+   "stream_bytes": 16528,
+   "stream_sha256": "5a3463fe6a6e098b8c8b4917e707821f7b57ce23c8a28f7069d54f482d09d169"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg010.tif",
+   "key": "0f7d721d61dc2b0d",
+   "bytes": 16897,
+   "stream_bytes": 16897,
+   "stream_sha256": "4d6e92ea118f04c7a4517f94284ef3cbcb834b993b40ddd2e2c7a25ee3549ce7"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg011.tif",
+   "key": "5f684b1c7d0e0a1c",
+   "bytes": 17249,
+   "stream_bytes": 17249,
+   "stream_sha256": "c204eefe29b2af4f4edd7b1a140095ca520d2e199e0343fea14b97cc846a8d9c"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg012.tif",
+   "key": "9101f2226fc6760a",
+   "bytes": 16983,
+   "stream_bytes": 16983,
+   "stream_sha256": "2e4472d1f835786f6a8bd71c2c7d9807060877fc07bc4f5a27df57ee178761c4"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg013.tif",
+   "key": "85f869942aca5629",
+   "bytes": 17085,
+   "stream_bytes": 17085,
+   "stream_sha256": "870e328a9186edb647c707b58115bce805c51fc8448d2eca928f9da5a1d11b30"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg014.tif",
+   "key": "bd1584c9c01dd25e",
+   "bytes": 17132,
+   "stream_bytes": 17132,
+   "stream_sha256": "705573dac2e12c05a98f5aaa9a6b90a19d287d7b61136a78816bb1059c6b0ecd"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg015.tif",
+   "key": "795e7a5d4f2597b7",
+   "bytes": 17137,
+   "stream_bytes": 17137,
+   "stream_sha256": "9d184e60458c1733f7616fe18c6a2897be228ab62231c38cd43caf197282a88f"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg016.tif",
+   "key": "eaff176ae233878c",
+   "bytes": 17610,
+   "stream_bytes": 17610,
+   "stream_sha256": "2082b3b0c5dab5dfe743f03dc7fd304acf3cb002912af845c2a2299d4a7faf91"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg017.tif",
+   "key": "3bd6e29f4d6f478f",
+   "bytes": 17921,
+   "stream_bytes": 17921,
+   "stream_sha256": "9c0c74c67d5cec6f3da0855fb052afe81f273642d247866c0bb5aa29a0c64e8e"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg018.tif",
+   "key": "7bd8fb4fab368051",
+   "bytes": 17425,
+   "stream_bytes": 17425,
+   "stream_sha256": "f55d2b98879683b3590c2b4f8b07cecc7f8ce5064f7d1c4ba8694673120d2a84"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg019.tif",
+   "key": "4f29fb4c79c7d463",
+   "bytes": 18804,
+   "stream_bytes": 18804,
+   "stream_sha256": "dc5a15bb84239f25de2e6f603ff42ea1e2fd300020c31e3b330e39ae8353c56c"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg020.tif",
+   "key": "9515a467e5d8f9a6",
+   "bytes": 19802,
+   "stream_bytes": 19802,
+   "stream_sha256": "f7f0b92b22d50efdfc6febf79775661b214a9bcdef7d6751c1744bc2cf8f449f"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg021.tif",
+   "key": "c9d7a866362d9a28",
+   "bytes": 20114,
+   "stream_bytes": 20114,
+   "stream_sha256": "9ae99cd8303a14202bc3fb52155f36db2513d3a7ec0387c9369789d1d9e37eb2"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg022.tif",
+   "key": "85cabfaa8bc4a005",
+   "bytes": 21461,
+   "stream_bytes": 21461,
+   "stream_sha256": "500ed56f4092d45d6c3381d2d6666ec9470271b3c100d0ae8988c1ebb6d05b1e"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg023.tif",
+   "key": "2c6f4b05bfe8ad22",
+   "bytes": 21602,
+   "stream_bytes": 21602,
+   "stream_sha256": "188569a684b5206df0ad477b77f74a3b67c220e3a845bad090b1e7742755486b"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg024.tif",
+   "key": "28f3af1de761b632",
+   "bytes": 21598,
+   "stream_bytes": 21598,
+   "stream_sha256": "1d8d596c885133844d077a9a853f46c167d81e7563482887375e4c73ccc7c249"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg025.tif",
+   "key": "32d90c5fdc2d062f",
+   "bytes": 21753,
+   "stream_bytes": 21753,
+   "stream_sha256": "b4b4d48379dba101a646924d4e9e583a092c0750cb0f0587a77571ce012cfaf9"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg026.tif",
+   "key": "8dc3cce069cb7657",
+   "bytes": 22470,
+   "stream_bytes": 22470,
+   "stream_sha256": "0cd58c40ec50e67b80a78995a99bd19286f07264fc5be4d4421695e36d87911a"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg027.tif",
+   "key": "7afbc9e87662b263",
+   "bytes": 22798,
+   "stream_bytes": 22798,
+   "stream_sha256": "453f169ca9cf90893657f484f8cba61f43c88d97a1586d0ac68f47e88412d210"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg028.tif",
+   "key": "d2cf7906b25d8f13",
+   "bytes": 22482,
+   "stream_bytes": 22482,
+   "stream_sha256": "291a0f1b9d7057588caccf9a2da5485bea4a67f27f3ed44f058d98aea96ae7b9"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg029.tif",
+   "key": "0cf1b0598ca28b44",
+   "bytes": 22576,
+   "stream_bytes": 22576,
+   "stream_sha256": "beb217735fa2091164ac7aeff4c1b6aa56c6a92bfee0149a361f0a73462a27fd"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg030.tif",
+   "key": "39a2ac69fd2942d5",
+   "bytes": 22572,
+   "stream_bytes": 22572,
+   "stream_sha256": "aecc823013943283cfd304dee086e108dc0bcb726b443b5cfb9a120f465ba9dd"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg031.tif",
+   "key": "a032f8ab062c55ee",
+   "bytes": 22012,
+   "stream_bytes": 22012,
+   "stream_sha256": "23580b68f21b51771ec85f4578ec86069e2b6f2a179d43c255569723ead6254a"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg032.tif",
+   "key": "8251d760dd9f16d7",
+   "bytes": 21304,
+   "stream_bytes": 21304,
+   "stream_sha256": "a5b1d757ced7323c31138f99da9098d655112ddd39ca0b2fb39e39564e6a8671"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg033.tif",
+   "key": "e9ef0506041ce37c",
+   "bytes": 22111,
+   "stream_bytes": 22111,
+   "stream_sha256": "a38d262790dab962fb315ebc8d440a708abce1c6e84cd011bb3b6bc30e8ee3fa"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg034.tif",
+   "key": "a9d378bcff76cb9b",
+   "bytes": 21653,
+   "stream_bytes": 21653,
+   "stream_sha256": "f88e3d50c223c8e270306edb2253aa60520287dc244785e0394d935946159905"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg035.tif",
+   "key": "76371362a8d4767b",
+   "bytes": 21393,
+   "stream_bytes": 21393,
+   "stream_sha256": "77146518bf0fd40698e5a7180b724d685ab0adc4c2df8cbc22c1770a75508540"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg036.tif",
+   "key": "fa2dad6245d91229",
+   "bytes": 22288,
+   "stream_bytes": 22288,
+   "stream_sha256": "34fb2df38727a3e73bbb8e4d77c3ef132b0d378cba51237da4fa1b16d02eb54d"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg037.tif",
+   "key": "0249be846f788d78",
+   "bytes": 22455,
+   "stream_bytes": 22455,
+   "stream_sha256": "d1a314efa00950b851998b6112d4c44ba59da5f110f0c024d3c2ece39477b418"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg038.tif",
+   "key": "e46d9127da9ef661",
+   "bytes": 22108,
+   "stream_bytes": 22108,
+   "stream_sha256": "e09689ea2d57d14e49f40a9d4afc4ea143f82b8e4a4017f07f122b055440d8d8"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg039.tif",
+   "key": "be8d869e3927741c",
+   "bytes": 21796,
+   "stream_bytes": 21796,
+   "stream_sha256": "7e5fe5fa5353b60c2c55795c868d801a6d6f52f447b2910f42956d64d57e3f1d"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg040.tif",
+   "key": "3ed3f8d57345e6ec",
+   "bytes": 22101,
+   "stream_bytes": 22101,
+   "stream_sha256": "7d1ad431097974ac71bbaadff3561ec69da9c3a8138709006a03b362e35300ca"
+  },
+  {
+   "input_id": "Fluo-N2DH-SIM+/01_GT/man_seg041.tif",
+   "key": "95b136cb1891e4f4",
+   "bytes": 22541,
+   "stream_bytes": 22541,
+   "stream_sha256": "bc8b0c6d19b0052d9670d31ab6081ee9d292a43ab898aba83a26d10d7f096a1e"
+  }
+ ],
+ "errors": [],
+ "not_applicable": [],
+ "finished": "2026-10-29 08:52:40"
+}

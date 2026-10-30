@@ -1,0 +1,27 @@
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o maniac/chance.o maniac/chance.cpp
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o maniac/symbol.o maniac/symbol.cpp
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o image/crc32k.o image/crc32k.cpp
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o image/image.o image/image.cpp
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o image/image-png.o image/image-png.cpp
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o image/image-pnm.o image/image-pnm.cpp
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o image/image-pam.o image/image-pam.cpp
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o image/image-rggb.o image/image-rggb.cpp
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o image/image-metadata.o image/image-metadata.cpp
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o image/color_range.o image/color_range.cpp
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o transform/factory.o transform/factory.cpp
+image/image-pam.cpp: In function 'bool image_load_pam_fp(FILE*, Image&)':
+image/image-pam.cpp:90:27: warning: comparison of integer expressions of different signedness: 'ColorVal' {aka 'int'} and 'unsigned int' [-Wsign-compare]
+   90 |                 if (pixel > maxval)
+      |                     ~~~~~~^~~~~~~~
+image/image-pam.cpp:106:27: warning: comparison of integer expressions of different signedness: 'int' and 'unsigned int' [-Wsign-compare]
+  106 |                 if (pixel > maxval)
+      |                     ~~~~~~^~~~~~~~
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o common.o common.cpp
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o flif-enc.o flif-enc.cpp
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o flif-dec.o flif-dec.cpp
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o io.o io.cpp
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o ../extern/lodepng.o ../extern/lodepng.cpp
+g++ -c -std=gnu++11   -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK -DNDEBUG -O2 -ftree-vectorize -flto -Wall -fPIC -o flif.o flif.cpp
+g++ -std=gnu++11  -I/usr/include/libpng16  -DLODEPNG_NO_COMPILE_PNG -DLODEPNG_NO_COMPILE_DISK  -DNDEBUG -O2 -flto -Wall -fPIC -o flif flif.o maniac/chance.o maniac/symbol.o image/crc32k.o image/image.o image/image-png.o image/image-pnm.o image/image-pam.o image/image-rggb.o image/image-metadata.o image/color_range.o transform/factory.o common.o flif-enc.o flif-dec.o io.o ../extern/lodepng.o  -lpng16 
+lto-wrapper: warning: using serial compilation of 20 LTRANS jobs
+lto-wrapper: note: see the '-flto' option documentation for more information

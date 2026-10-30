@@ -1,0 +1,35 @@
+{
+  "codec": "BDLC v1 (stream version 1)",
+  "files_sha256": {
+    "bdlc/core.py": "af4cf5e7685c92c83b00ecd77349b434063455e70bceb1510ea7ad64b4dff687",
+    "bdlc/api.py": "9d2985eb4549d429fe64a2e8a33d05d59a9af64b1625d256151e098bef33ec14",
+    "bdlc/__init__.py": "2f596743e5233c2d976455aab57ae7597a4ed6c39c5bb8ee77e40b5d8e1d119b",
+    "bdlc/init_v1.npz": "6e860e5b548626d22d4f1b46031df0a47f8610b2a96b4827bbcb68dabc2fc865",
+    "legacy_rvc.py": "17e67c0fd87f4ed10b830e8ba7a073a87e5c6aa14aaeea7e073573a47d320d44"
+  },
+  "T1_table_sha256_q0_n0_int64le": "8295261d117d3941b1d63107a023f60e889f3b9b9fafaf88e9a84deaf27ea559",
+  "constants": {
+    "NMAX": 1023,
+    "DMAX": 8,
+    "PMAX": 2,
+    "REL_CTX": 1,
+    "WIN_PRED": 0,
+    "H_SLOPE": 0,
+    "LEFT_CTX": 0,
+    "NCTX": 639,
+    "EG_W": 33
+  },
+  "model_ids": {
+    "1": "T1 frozen initial table (strength 32)",
+    "2": "uniform initial table",
+    "3": "external table (research)"
+  },
+  "flags": {
+    "1": "F_NOSLOPE",
+    "2": "F_NOK2",
+    "4": "F_NOPASS"
+  },
+  "legacy_rvc_note": "legacy_rvc.py is a byte-identical copy of ../codec.py (old RVC codec)",
+  "development_tuning": "T1 and REL_CTX were selected on the 52 development maps; every tried variant is in dev_log.csv",
+  "frozen_at": "2026-10-28 20:44:44"
+}

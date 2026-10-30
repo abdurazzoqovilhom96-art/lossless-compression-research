@@ -1,0 +1,718 @@
+{
+ "codec": "cseg_gzip9",
+ "mode": "size",
+ "shard": 11,
+ "pin": {
+  "requested_cpu": 4,
+  "affinity_ok": true,
+  "priority_ok": false,
+  "affinity_mask": "0x10"
+ },
+ "python": "3.14.4 (main, Apr 14 2026, 14:26:14) [Clang 22.1.3 ]",
+ "started": "2026-10-29 08:58:06",
+ "images": [
+  {
+   "input_id": "DAVIS2017/cat-girl/00047",
+   "key": "58ae71d6d83be770",
+   "bytes": 2863,
+   "stream_bytes": 2863,
+   "stream_sha256": "4383d3d690578b3a46dbaa67c2306d265ef2d297310042797712ff006561eb97"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00048",
+   "key": "bb3a81a6971ed529",
+   "bytes": 2857,
+   "stream_bytes": 2857,
+   "stream_sha256": "e8629fc4fee4d8857d852bcf2634275e18259859d2c452cc84ce531d8b9eafad"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00049",
+   "key": "d9ed51b9b4808aca",
+   "bytes": 2836,
+   "stream_bytes": 2836,
+   "stream_sha256": "e04a4c31fb13e1b4ab07b59c67ae9104a757035fb9df86a8a36662d6a8f5584d"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00050",
+   "key": "fe7a04b6cdeab0e4",
+   "bytes": 2816,
+   "stream_bytes": 2816,
+   "stream_sha256": "72c49ffc69fdaea8cbc95bc7a7fc10c6b8e71d1679a80017549e42a382692a1f"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00051",
+   "key": "c22f4baf08930dbc",
+   "bytes": 2894,
+   "stream_bytes": 2894,
+   "stream_sha256": "48a565a133da0e267dfb1fcb0c492a8b5c26379d0c599ca7f6a9670323bae785"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00052",
+   "key": "270a58e02c9bf0df",
+   "bytes": 2845,
+   "stream_bytes": 2845,
+   "stream_sha256": "a980816edae8ca365bba48f7f3d93abf0502e2c263b317ce558123bc32f65e15"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00053",
+   "key": "ceda5ac67471af32",
+   "bytes": 2861,
+   "stream_bytes": 2861,
+   "stream_sha256": "aa94610d40c7b56fbbf1906f3857165cb5c2ee3cdfb4628fcbefc1f3a1bae09e"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00054",
+   "key": "8462b06ea54342f2",
+   "bytes": 2871,
+   "stream_bytes": 2871,
+   "stream_sha256": "81fedb501b3290935869d9870672a846c83a9761d59ee7a9503bc80947e1d9a5"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00055",
+   "key": "3acd6d814f881a2d",
+   "bytes": 2828,
+   "stream_bytes": 2828,
+   "stream_sha256": "417fc115b65f6b4b31ba38998ecb2331b40fadeae606ee908bd0f3d1cbcd56c7"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00056",
+   "key": "3e53e507de4e6961",
+   "bytes": 2839,
+   "stream_bytes": 2839,
+   "stream_sha256": "ca430724956ba8de1bed1ed0858c41c0d73963042efa71003ba29883bf4caa62"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00057",
+   "key": "dcc3c16c45bb6362",
+   "bytes": 2615,
+   "stream_bytes": 2615,
+   "stream_sha256": "5d8676573979c0bc766705c0671ccdeec6af3ea5b622b872c9fa09a7741040c4"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00058",
+   "key": "708c848aee8bf1d1",
+   "bytes": 2355,
+   "stream_bytes": 2355,
+   "stream_sha256": "ffc9a30424a127a87c88c064eba0bd756cdc9f310a99ba4b8f40ff39320c1a48"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00059",
+   "key": "5bc6b2ad4ffdaecf",
+   "bytes": 2048,
+   "stream_bytes": 2048,
+   "stream_sha256": "15083a8ee8a2ecc895e1a085ef9ed8e843c8076e4312a13f940009c4e46aac54"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00060",
+   "key": "7dc57847a2529c6f",
+   "bytes": 1893,
+   "stream_bytes": 1893,
+   "stream_sha256": "755989dc623fec415ad1ea45eebb1d2d6e94abbef262047e284513a365e40c20"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00061",
+   "key": "6674ac3cffa5f129",
+   "bytes": 1842,
+   "stream_bytes": 1842,
+   "stream_sha256": "431049a865c2511f2d9bbac8292eb6455fbc22f291d7faff14b70e8fe2b945b4"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00062",
+   "key": "dbea4184a1d17516",
+   "bytes": 2088,
+   "stream_bytes": 2088,
+   "stream_sha256": "e633c04273b5faf323c13f8f6439c4c10bdd7c0005bf756eb1ad3ebfea9172df"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00063",
+   "key": "bb16092a88e43bdb",
+   "bytes": 2060,
+   "stream_bytes": 2060,
+   "stream_sha256": "d0500db680ce66cb28b72b905dc08291b8be40eb80234e3bcef1f173e28cf5ac"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00064",
+   "key": "529611a625d2bf6f",
+   "bytes": 2069,
+   "stream_bytes": 2069,
+   "stream_sha256": "93d884c23147818fa283ea1e7c3d2555b6da90da0f021e6d1b53ba30f659ade0"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00065",
+   "key": "442c8c3d355c8ea9",
+   "bytes": 2139,
+   "stream_bytes": 2139,
+   "stream_sha256": "8d7024745ebc4b3ec52d239b27dedbae232313e823daa8bc3359e296e13a5ed8"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00066",
+   "key": "f698c1c14942c90a",
+   "bytes": 2098,
+   "stream_bytes": 2098,
+   "stream_sha256": "7d6dc286a22587cfb49015e4fc48c39466150afe244b58533af880ef50771c6c"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00067",
+   "key": "b6742ff968553d1e",
+   "bytes": 2182,
+   "stream_bytes": 2182,
+   "stream_sha256": "3fed22286e2231f13b05fa37191ca0f807b32f67159900cda064ecf784f08f00"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00068",
+   "key": "619a70fad71982fe",
+   "bytes": 2371,
+   "stream_bytes": 2371,
+   "stream_sha256": "ba6bb11dc3289654e89340d88321061e53b343ccc90745903d6fa0ce92042f58"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00069",
+   "key": "1884239ad837f045",
+   "bytes": 2455,
+   "stream_bytes": 2455,
+   "stream_sha256": "a5f76ef92b7bf1db941c1f9d4368e8fe5d96f8b854c12942bf52990dacea4fe8"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00070",
+   "key": "05ad7d900908f1a0",
+   "bytes": 2405,
+   "stream_bytes": 2405,
+   "stream_sha256": "28cbf4506599d069762e1af2242d440956ce65d0ce892f6c827e500a872e602e"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00071",
+   "key": "9ba458aa13ce07a3",
+   "bytes": 2460,
+   "stream_bytes": 2460,
+   "stream_sha256": "e166d32a27e87afc8877d65f5c19230c97e5dfb04812c6042b840a6b0d3d86d5"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00072",
+   "key": "26939059b25cc8ae",
+   "bytes": 2514,
+   "stream_bytes": 2514,
+   "stream_sha256": "88c16297dcf26bee41b7f79b9ab05f66c3e52d39d21fe7cf22c4d0b0864b7a2b"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00073",
+   "key": "7b90db47c147439b",
+   "bytes": 2470,
+   "stream_bytes": 2470,
+   "stream_sha256": "db06f5bd551763eac815269dff7c7d16b8a3b8448ead8b944cb229a0ea20e2a8"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00074",
+   "key": "1adbbccd6ba501b5",
+   "bytes": 2478,
+   "stream_bytes": 2478,
+   "stream_sha256": "f282e0e9366af83c9e0040d8bef344468df19cf6f25e5b91a2875aff7f890539"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00075",
+   "key": "4646607a2f31181f",
+   "bytes": 2739,
+   "stream_bytes": 2739,
+   "stream_sha256": "ef058744045ab643d9d60f999f00f155b59f83fcd53666ea935c296ee8634d85"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00076",
+   "key": "77584119d533a690",
+   "bytes": 2869,
+   "stream_bytes": 2869,
+   "stream_sha256": "c8819f60ef5659964b44e64d7e30728b16968458ff6f0b025bfb1008416ce889"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00077",
+   "key": "193e79caa7908e7b",
+   "bytes": 2902,
+   "stream_bytes": 2902,
+   "stream_sha256": "117fa59d37abcd259c6010727c156d1a123cab63162527b481fcbb05b1c77c5c"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00078",
+   "key": "884fbccd1a60c28a",
+   "bytes": 2952,
+   "stream_bytes": 2952,
+   "stream_sha256": "63bf9b4393ee468adc0a369667e53e226632eea24cd36f440a46cbfc2a01f6b6"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00079",
+   "key": "c802662e904fb8a8",
+   "bytes": 2837,
+   "stream_bytes": 2837,
+   "stream_sha256": "e5819002debbc7eae501e70e08d2019f589f60bd3bcc883940412080ee8c6ea5"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00080",
+   "key": "6e4c9d96bc31859f",
+   "bytes": 2803,
+   "stream_bytes": 2803,
+   "stream_sha256": "ccaebb6242f07ddf3104d90301e96e507d29b35874c98083514a47794d2cfd1a"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00081",
+   "key": "43b66d871c849474",
+   "bytes": 2745,
+   "stream_bytes": 2745,
+   "stream_sha256": "9d521466fbb1c6f6ce6ce960c5348751589407a3ef00fcea885095e8518734da"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00082",
+   "key": "aad4e0c37aa667ef",
+   "bytes": 2735,
+   "stream_bytes": 2735,
+   "stream_sha256": "e22bdd8245c6b090f4cfe479164a5dc10c3edabfe46fc74a6900adfbb0618cd3"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00083",
+   "key": "1321803a0e3726ae",
+   "bytes": 2653,
+   "stream_bytes": 2653,
+   "stream_sha256": "12042fa3de473783e45db3443d9c112576f38c098bba3863739357e8112b9183"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00084",
+   "key": "8c98e6ef2f2b6cbf",
+   "bytes": 2630,
+   "stream_bytes": 2630,
+   "stream_sha256": "4671367dfc70823e2b74645a3be54a338d9bc90811e862447bd9b06b18b6a575"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00085",
+   "key": "efedc0f7f972c311",
+   "bytes": 2672,
+   "stream_bytes": 2672,
+   "stream_sha256": "87b31a95f9c8bea3137a2c740faa4e0f2f0ce2584d39a7ee615dcbc779700103"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00086",
+   "key": "d73ac27152e25dee",
+   "bytes": 2643,
+   "stream_bytes": 2643,
+   "stream_sha256": "c9ebc33413018433b832ee062e92e019c5e2a4ad044de528a8072ac9835f5621"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00087",
+   "key": "2311bf5f6f62a204",
+   "bytes": 2649,
+   "stream_bytes": 2649,
+   "stream_sha256": "e1147cdf68316a2206a0e1c5279d842f0614c3c73f146fa6873b58a87dd53285"
+  },
+  {
+   "input_id": "DAVIS2017/cat-girl/00088",
+   "key": "6a5777b4c7837796",
+   "bytes": 2714,
+   "stream_bytes": 2714,
+   "stream_sha256": "243e2122028d2d1a4a44111a82b6bb09053bf33522dc94fd28efa8ab84d86251"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00000",
+   "key": "0589479fdc038492",
+   "bytes": 2613,
+   "stream_bytes": 2613,
+   "stream_sha256": "09c392841d72f68f7a73de774ffa173ee4fe3167855386950b9549f6a809ac17"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00001",
+   "key": "0d562aef0ca6ee35",
+   "bytes": 2636,
+   "stream_bytes": 2636,
+   "stream_sha256": "bd0b827b00a4f3b837eade5d05fb31c9447ba2539fab18a4defdbd63039dbd47"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00002",
+   "key": "1068308a77bd4b64",
+   "bytes": 2725,
+   "stream_bytes": 2725,
+   "stream_sha256": "3ed25708008d4fc9025980a9894d306f91232ee17a52f20964314ba4a099ef64"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00003",
+   "key": "da5c4589cd382e84",
+   "bytes": 2842,
+   "stream_bytes": 2842,
+   "stream_sha256": "3f2d7466c5715f99232da03950961e465b3db00a9cb6883832a8edc18e991894"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00004",
+   "key": "7476f76b949d4444",
+   "bytes": 2874,
+   "stream_bytes": 2874,
+   "stream_sha256": "eedc7f858785fc993032dd9defd83e6977b8f5c41b7f4ac1abab77014ab7e37c"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00005",
+   "key": "9a2111a61c0063cf",
+   "bytes": 2971,
+   "stream_bytes": 2971,
+   "stream_sha256": "8c270a8ac51b7d89bf71feb4df606f161adbee16d7f3a9293fa92166cf353ad5"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00006",
+   "key": "c7a44fe1a8f5fd27",
+   "bytes": 3066,
+   "stream_bytes": 3066,
+   "stream_sha256": "50dcf952a2390b6a52594c008ef9a7eda12643904b3a29bbb8fc9310b02f7083"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00007",
+   "key": "8a71c4ef2f70f990",
+   "bytes": 3114,
+   "stream_bytes": 3114,
+   "stream_sha256": "1e7fb8fc9fe4ce2d7fb011c7c0a13671a5ea0aa9c566bb78d38b4d8ffd1103a5"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00008",
+   "key": "906bd40d287e066c",
+   "bytes": 3320,
+   "stream_bytes": 3320,
+   "stream_sha256": "09e94442f24ee7bcf9f5d71e48393aed6593cb53b92dd51b18d211c491f65f9c"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00009",
+   "key": "5c212288cd51fa8d",
+   "bytes": 3400,
+   "stream_bytes": 3400,
+   "stream_sha256": "8daa08b88314ab1fe4a94aaf2f7876f944b466ddc7ba9be9e5b095550f853c64"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00010",
+   "key": "c5700720a17b208c",
+   "bytes": 3532,
+   "stream_bytes": 3532,
+   "stream_sha256": "7031c9f5d1648be47718fc464a45ca7f62a2dee2cfa10ad1d65c2bd734425621"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00011",
+   "key": "58c9a1bab457c878",
+   "bytes": 3605,
+   "stream_bytes": 3605,
+   "stream_sha256": "aac9c8c66522507c19591be94952f6d2b92349b911969ac39ea91ea0a3ac9b93"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00012",
+   "key": "d2d4a45b864848d5",
+   "bytes": 3490,
+   "stream_bytes": 3490,
+   "stream_sha256": "e4ea1d577f2555cd9e1e7c01ac485e008c55a61bc745e28ec4a22b28379815d4"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00013",
+   "key": "527f45b99f94a501",
+   "bytes": 3492,
+   "stream_bytes": 3492,
+   "stream_sha256": "8fba2240b1316ede5464182437cfe351169311721309e5be3037dca654ab871c"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00014",
+   "key": "698751205ff09644",
+   "bytes": 3518,
+   "stream_bytes": 3518,
+   "stream_sha256": "070ed03707515dceb0e9cd9f2b0dd00c38de1ef4cd3a5ba9f4e59cee00c8e325"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00015",
+   "key": "3177ac7ce386183b",
+   "bytes": 3489,
+   "stream_bytes": 3489,
+   "stream_sha256": "28dde7fa5b411ae7cae62274dd3e4f12920219a54fff6cf0e2174acac887ead6"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00016",
+   "key": "033a7488aed5f4c6",
+   "bytes": 3459,
+   "stream_bytes": 3459,
+   "stream_sha256": "9f360822fa367bd242c961142f214c039b4dcbf4365818b6c1cc26dde43e658c"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00017",
+   "key": "511876c832abdc46",
+   "bytes": 3440,
+   "stream_bytes": 3440,
+   "stream_sha256": "468745d5bc52899e6d8efa52bfe5bc9905b2b80553973fc905854bb2028744ba"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00018",
+   "key": "6903108cb844b116",
+   "bytes": 3318,
+   "stream_bytes": 3318,
+   "stream_sha256": "094b68057fe0a9227ded19d4b58ac5085c782d71c9eb3f5792892c33cbed6316"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00019",
+   "key": "2783f3dd084ba0cf",
+   "bytes": 3323,
+   "stream_bytes": 3323,
+   "stream_sha256": "9f1a5a21f93b56c5969e974ece81f929a8293afa787881db8b1ec7f1eca851a3"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00020",
+   "key": "f04e7e45ffe52e69",
+   "bytes": 3300,
+   "stream_bytes": 3300,
+   "stream_sha256": "a674d740650d341a327be199dd568cbc33827327a56e808d5e580355facf4adf"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00021",
+   "key": "e21c33da7151c078",
+   "bytes": 3465,
+   "stream_bytes": 3465,
+   "stream_sha256": "3bd752656786a3acfd5e11f39f54ca88db44d62b4992851b4105a0280bb9d856"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00022",
+   "key": "0b6fb1cde0b4e562",
+   "bytes": 3431,
+   "stream_bytes": 3431,
+   "stream_sha256": "8c16e0ac16b4e583f0785a345a9ff397e7339e277b4d19b0f5f75c4651cc693f"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00023",
+   "key": "f9771c12459f25dd",
+   "bytes": 3389,
+   "stream_bytes": 3389,
+   "stream_sha256": "68223f3e91ffdc4dbf9955477ab321aa8fff5af06d9348b25498a0671d8ddffc"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00024",
+   "key": "bd188a2718338ed0",
+   "bytes": 3064,
+   "stream_bytes": 3064,
+   "stream_sha256": "45d11d3e701316e5dfec8548b1df9d2129768c2aa54a0d16f2180b043cd784aa"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00025",
+   "key": "788c9369a81253f9",
+   "bytes": 2840,
+   "stream_bytes": 2840,
+   "stream_sha256": "7436f386ef4ed0bd2dcf86f799ec457593ba25df7252c148cd5aad73960587f1"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00026",
+   "key": "d7ea63c16e303083",
+   "bytes": 2663,
+   "stream_bytes": 2663,
+   "stream_sha256": "8eed70247507dc31beb5afbaf42529dc3876ea1fdb03e0a5aed6ce5347cf8d5c"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00027",
+   "key": "89f64b84d5312e32",
+   "bytes": 2620,
+   "stream_bytes": 2620,
+   "stream_sha256": "0e5846984aa482e0e7cc1006716cf59400111786b900621b3f72fdefcee8345d"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00028",
+   "key": "ba4fc4ec38a39456",
+   "bytes": 2570,
+   "stream_bytes": 2570,
+   "stream_sha256": "7b30f45104c8d139eec6a4afcf8b8b10977a11d3240de996cb2bc20d128901c4"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00029",
+   "key": "55040181b3f34202",
+   "bytes": 2477,
+   "stream_bytes": 2477,
+   "stream_sha256": "a73668cb502e9d53f2e62aade8c325b2ede95c0b68746eac51111ddf99952b6d"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00030",
+   "key": "fda27b93418d3b6a",
+   "bytes": 2545,
+   "stream_bytes": 2545,
+   "stream_sha256": "582c09fa339fc2cad85ff325bae9bb7b3cf27906fa1bffe5e3da3fae71c63442"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00031",
+   "key": "c5ecf17a8f80d321",
+   "bytes": 2537,
+   "stream_bytes": 2537,
+   "stream_sha256": "8c44c49f76a737ba9325391c207a0bc9059ebe709f2a4a55cc388355e401d8db"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00032",
+   "key": "49f9319a2c0bb549",
+   "bytes": 2539,
+   "stream_bytes": 2539,
+   "stream_sha256": "9b2b4f8df5156d5fc18d8705ba211db5456180b469261963a0eebcdb4cb03c88"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00033",
+   "key": "650b5ea4fc9f516f",
+   "bytes": 2596,
+   "stream_bytes": 2596,
+   "stream_sha256": "d450d7db01f6199b77f69fefdf83f8b2d1772271bdd2da178e5f1f5d841a7d57"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00034",
+   "key": "48b351e1d1c9cf12",
+   "bytes": 2631,
+   "stream_bytes": 2631,
+   "stream_sha256": "40dddc89418503f8ef6b9e393d86e769c2e6ae9d311f5074468fc8464aa43d08"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00035",
+   "key": "59b6c8e271f996f8",
+   "bytes": 2569,
+   "stream_bytes": 2569,
+   "stream_sha256": "2608ad59eb17530a64505cb6890eca97b1919022e23fcd6b06839d1edfcb51ad"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00036",
+   "key": "271d57583795b998",
+   "bytes": 2645,
+   "stream_bytes": 2645,
+   "stream_sha256": "a873cb7271a0a9e958a9499809883bef3d3b55cb803fa5716f3dab3aa0785827"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00037",
+   "key": "a89aa22bcb403b7b",
+   "bytes": 2663,
+   "stream_bytes": 2663,
+   "stream_sha256": "ead8e1dc645cd2fa06ec6ca36d94d20420e225f613ed797075128d3e531832fc"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00038",
+   "key": "48724b02ec4625db",
+   "bytes": 2870,
+   "stream_bytes": 2870,
+   "stream_sha256": "273421fc9364ab8fbe7ce7221239693958c1ec313d50830a9de2c0b2ea4c0cef"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00039",
+   "key": "1b1c3a7bfc0a634e",
+   "bytes": 2987,
+   "stream_bytes": 2987,
+   "stream_sha256": "63cfed94515c78c7372771f5eeb80b884be5e3eaa557c9f027231c37d21e8f8d"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00040",
+   "key": "1a3e067f6df4794a",
+   "bytes": 3161,
+   "stream_bytes": 3161,
+   "stream_sha256": "d0027a3f0dcd2236dfdf17053a29961125817428a3c41d2fd80107746732f636"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00041",
+   "key": "7d25021bc8e3ab9f",
+   "bytes": 3197,
+   "stream_bytes": 3197,
+   "stream_sha256": "791f2e2d718b24412ebdd74b1a3fc274dc2fd31e1ac6bc7b47dd75eccdfffa87"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00042",
+   "key": "278feea013f6aeab",
+   "bytes": 3301,
+   "stream_bytes": 3301,
+   "stream_sha256": "a5ff4601081c8a6ef96a1295df2de01674c4b04e4595fa8eccce8b60075fb17c"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00043",
+   "key": "a7b7d17f14090ae1",
+   "bytes": 3322,
+   "stream_bytes": 3322,
+   "stream_sha256": "04b270d26ae723cc91c7ed513d154d7e3bc161939677fd2d27613270db7ee94f"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00044",
+   "key": "42f0207841369db6",
+   "bytes": 3179,
+   "stream_bytes": 3179,
+   "stream_sha256": "c405ad2e3539a2d1006ed23c1104c5bc6ec13c02d15335f2256a7b6a5b20ea8e"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00045",
+   "key": "4d9ccb4ecd9942bd",
+   "bytes": 3130,
+   "stream_bytes": 3130,
+   "stream_sha256": "e101b6a34b4ba92b47a4d20dda6f66b13a2c7560e3b07c6b3b514ee60e9b53ff"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00046",
+   "key": "dcd4fdd9c106598b",
+   "bytes": 2990,
+   "stream_bytes": 2990,
+   "stream_sha256": "03c33d97dd934ca0e752c79916d61d3cd82597da7e5b294cb2891733ace68be1"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00047",
+   "key": "fc0d74c054f3639b",
+   "bytes": 2980,
+   "stream_bytes": 2980,
+   "stream_sha256": "eb23ee02777d293d82e29cac254ad496a2bee9e333847f566161f62612774589"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00048",
+   "key": "ed723b8074928429",
+   "bytes": 2911,
+   "stream_bytes": 2911,
+   "stream_sha256": "d1e59adbfe6c29e56a57bfa6979778ccacc4c990be1898fe0b4364407282053e"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00049",
+   "key": "4048145c9fabf6ec",
+   "bytes": 2692,
+   "stream_bytes": 2692,
+   "stream_sha256": "77a0db919316e3d3cfad5a53015f27d0809d4079b69254246010f1e86b0211f3"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00050",
+   "key": "72c2b6bf48b4f0be",
+   "bytes": 2583,
+   "stream_bytes": 2583,
+   "stream_sha256": "e87130ca707f84b15926e7d19dbb3e02bd8201156ab132677f5ee18e2cac2d0f"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00051",
+   "key": "bc0acb5ce3601c67",
+   "bytes": 2583,
+   "stream_bytes": 2583,
+   "stream_sha256": "e2e828770f01ca519f64d111969d87e8293afd91b36c3ea6a7a72bd8fa6d223c"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00052",
+   "key": "d0f52da15bd147c4",
+   "bytes": 2771,
+   "stream_bytes": 2771,
+   "stream_sha256": "b0784b850c3d13e434831b2b9c5451ff162bf4d50c0e16a3108642eb1dc597d5"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00053",
+   "key": "7ba97a7858d6ef78",
+   "bytes": 2808,
+   "stream_bytes": 2808,
+   "stream_sha256": "9ed004993c6b48c00c9bf9c72916f81f31536ee1bf0ad5da4c470be9cd3a78e5"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00054",
+   "key": "0b859631954f5102",
+   "bytes": 2849,
+   "stream_bytes": 2849,
+   "stream_sha256": "5655cdb63526c0942fa2df2d6b905d27c91ba1fc984855bea354eb4cfffb5190"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00055",
+   "key": "515e0df1cdaf6f01",
+   "bytes": 2825,
+   "stream_bytes": 2825,
+   "stream_sha256": "044db3047d47f2f7ce9baacb05456ecc3c505cc11e26994e46e89941a16a6464"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00056",
+   "key": "dcc85704ed64aff3",
+   "bytes": 2783,
+   "stream_bytes": 2783,
+   "stream_sha256": "26632e37570286a71822292ba9c3b52b5c5824938b7abdd10b2c312762f778ef"
+  },
+  {
+   "input_id": "DAVIS2017/classic-car/00057",
+   "key": "f37bae1984a40975",
+   "bytes": 2661,
+   "stream_bytes": 2661,
+   "stream_sha256": "3c2a7418ec5a9de98679fbd08583268fb7ef6807b48e7652a35675386e057633"
+  }
+ ],
+ "errors": [],
+ "not_applicable": [],
+ "finished": "2026-10-29 08:58:11"
+}

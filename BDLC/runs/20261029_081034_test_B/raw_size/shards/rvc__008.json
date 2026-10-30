@@ -1,0 +1,718 @@
+{
+ "codec": "rvc",
+ "mode": "size",
+ "shard": 8,
+ "pin": {
+  "requested_cpu": 15,
+  "affinity_ok": true,
+  "priority_ok": false,
+  "affinity_mask": "0x8000"
+ },
+ "python": "3.14.4 (main, Apr 14 2026, 14:26:14) [Clang 22.1.3 ]",
+ "started": "2026-10-29 08:50:27",
+ "images": [
+  {
+   "input_id": "DAVIS2017/camel/00032",
+   "key": "00d2bff95cd6a500",
+   "bytes": 5248,
+   "stream_bytes": 5248,
+   "stream_sha256": "d522d8a04a4f718c9dd2915cab59381054181925c35ca49bf558276efe7109a4"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00033",
+   "key": "20d1756a5c7434e8",
+   "bytes": 5264,
+   "stream_bytes": 5264,
+   "stream_sha256": "8f7acdaed14efdd174ba2e55d45e5fbebdaab6e734f910e760a8efa27b084a5e"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00034",
+   "key": "8f165f329447d675",
+   "bytes": 5283,
+   "stream_bytes": 5283,
+   "stream_sha256": "3d5cfe61f2a1d4415379e411c73f65c048946bdd58a81d63a25873120c82215b"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00035",
+   "key": "0b53f5173c2f2736",
+   "bytes": 5289,
+   "stream_bytes": 5289,
+   "stream_sha256": "9e7319985602975c48d03ec83b4d07da90edbe441ac55fba6bdf5a0e87f761d1"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00036",
+   "key": "702681b2ad4e7271",
+   "bytes": 5260,
+   "stream_bytes": 5260,
+   "stream_sha256": "0cb85c9061383727a7ecefd0a1d0e7ae5d0a631c1b4e8a37b7300b7946fe4192"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00037",
+   "key": "ea2ab62342cc3e21",
+   "bytes": 5270,
+   "stream_bytes": 5270,
+   "stream_sha256": "fcb166612feb3424f3214ea0df8c33819770854eebfefdac4f56d426f24677d5"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00038",
+   "key": "533709f6d868023e",
+   "bytes": 5246,
+   "stream_bytes": 5246,
+   "stream_sha256": "18b2a5f1292240c4f1d0f1dd98cc6b18d828bc7c3a826bce000443827ee4b97a"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00039",
+   "key": "9284c6bb2cf8aef2",
+   "bytes": 5230,
+   "stream_bytes": 5230,
+   "stream_sha256": "d42febd1790ac4f76527b05c0168d9511599322c3b235642d3fb38bdc705c956"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00040",
+   "key": "e967ecf9100133f6",
+   "bytes": 5192,
+   "stream_bytes": 5192,
+   "stream_sha256": "46de298ee2675876dbfb4fd6b5c83e5ba0ecb5737ab6b6e3cf3afc00b7417d4a"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00041",
+   "key": "7aa40ce2466665e9",
+   "bytes": 5216,
+   "stream_bytes": 5216,
+   "stream_sha256": "41a4e55c75b7028f20456a2b62d385dc5123f850d7689227f4e8970132f8703e"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00042",
+   "key": "5b0c62ace973b01d",
+   "bytes": 5247,
+   "stream_bytes": 5247,
+   "stream_sha256": "4bac43764fa805e00e52ab41cb77579777c9d442cc91d295ff2141f7585e4bcf"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00043",
+   "key": "6b841f7a2cd391db",
+   "bytes": 5213,
+   "stream_bytes": 5213,
+   "stream_sha256": "1855d87ab6827685f1206e1b3ca7912d9e8b0139e7733aaf3c3db500c9c58b80"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00044",
+   "key": "ce5362e18eb4abeb",
+   "bytes": 5212,
+   "stream_bytes": 5212,
+   "stream_sha256": "8d3d20dc710cff843ecc7067c2d437f7990b3a39206b29fc519652f5b3de2791"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00045",
+   "key": "6fa219638567bd10",
+   "bytes": 5230,
+   "stream_bytes": 5230,
+   "stream_sha256": "b82cb777aa57ea0a769a8813315ec2bfc376f9f8496b55950a2944786661eb1c"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00046",
+   "key": "cac84f72e0cc7498",
+   "bytes": 5236,
+   "stream_bytes": 5236,
+   "stream_sha256": "6ab193eb50d817c5e7ad43c7285c9b552e99910d03cf86661ee92cc633c0534d"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00047",
+   "key": "8cf70b4be37ff7ee",
+   "bytes": 5198,
+   "stream_bytes": 5198,
+   "stream_sha256": "782c890ec9ee8e8c9e18eed1ef6969a1adba5dcb9a4cb1405e42a0d6244773fc"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00048",
+   "key": "a818545a82ecbc8f",
+   "bytes": 5163,
+   "stream_bytes": 5163,
+   "stream_sha256": "9a282eaf2e852573baea471956d21c2e98fd601dad8cbc0c7fa41f70dd1879fe"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00049",
+   "key": "c8995bff6125e905",
+   "bytes": 5146,
+   "stream_bytes": 5146,
+   "stream_sha256": "492b964bacb5e5947e634b6802a39cc0240041914717eb5e38b96490cfc76f69"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00050",
+   "key": "47d0c60cca057344",
+   "bytes": 5122,
+   "stream_bytes": 5122,
+   "stream_sha256": "0f9952073ee1e23b4fead7b34d0d4158cc262f9f55dc08f0b2b4eecb501f47b0"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00051",
+   "key": "b0b6d621f547fa5f",
+   "bytes": 5127,
+   "stream_bytes": 5127,
+   "stream_sha256": "3bd87fd3be552e6f76cbec9495ec2be042b139ebddde441add5fdc814692334e"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00052",
+   "key": "2c2f8ffff843c6ac",
+   "bytes": 5068,
+   "stream_bytes": 5068,
+   "stream_sha256": "344f6466d79b63207be0e7baad079a3b61a1cb78956dcfbdb650bb8d123663f5"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00053",
+   "key": "fe641e8eb526cd7e",
+   "bytes": 5046,
+   "stream_bytes": 5046,
+   "stream_sha256": "556a66edd8cc721327666b87da1463e2bf9f0b6956c32cb5b98f5d028b85fdc6"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00054",
+   "key": "b530db6ae9bf026a",
+   "bytes": 4919,
+   "stream_bytes": 4919,
+   "stream_sha256": "cfa6ed5a2d6f3b3c2eb19607fb13a2546c39f612960ac1f3cd5a33ed177aaacc"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00055",
+   "key": "d34b4f13bf1914b2",
+   "bytes": 4757,
+   "stream_bytes": 4757,
+   "stream_sha256": "223270ea30dde9908ca001246e50897fc8383976e94347653e6d8b812dd1384d"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00056",
+   "key": "d68b8e1d4d0d7aa3",
+   "bytes": 4738,
+   "stream_bytes": 4738,
+   "stream_sha256": "ae90e7b81e3c6895c6a93d437a4f5195cd4607b9714d091b7086cd88160907f3"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00057",
+   "key": "7ffd554a318e6a59",
+   "bytes": 4799,
+   "stream_bytes": 4799,
+   "stream_sha256": "4a8244fbbacb79788430804a7046d331c094d7fbe97e5cce190521855882c641"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00058",
+   "key": "ca99ac8d468cd279",
+   "bytes": 4816,
+   "stream_bytes": 4816,
+   "stream_sha256": "ed3d45d14c00c8b0c2d13875048408fe00673915e07d074e0ab7725006e943d1"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00059",
+   "key": "e0c950cfe44ed738",
+   "bytes": 4854,
+   "stream_bytes": 4854,
+   "stream_sha256": "52de47a1f770cc349e2f3e59b069c941a02ae6f087130632b106bdb7228ad909"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00060",
+   "key": "6c103ec1af6a4af1",
+   "bytes": 4810,
+   "stream_bytes": 4810,
+   "stream_sha256": "ceb5ee19e16c3a22c1d941a64e12ae36bb6e484a9add0f7ec4944423ac985836"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00061",
+   "key": "5457bd38a0657c47",
+   "bytes": 4818,
+   "stream_bytes": 4818,
+   "stream_sha256": "7d5ca817fb40ccebd90a610edda83f2ed53be3126e415fef20d4ffbdfe0af7ae"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00062",
+   "key": "9117a96d8c5a224d",
+   "bytes": 4788,
+   "stream_bytes": 4788,
+   "stream_sha256": "19b0694bb572ff519ea91fd2ea3422c53570c7136789360b0338bd452f646c3b"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00063",
+   "key": "5b5f0df24e884136",
+   "bytes": 4858,
+   "stream_bytes": 4858,
+   "stream_sha256": "41d7bb0ed09cfbfd0e5797c43b94367b17958a6915e9514ee365868cfc6e6144"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00064",
+   "key": "06351fde11545270",
+   "bytes": 4826,
+   "stream_bytes": 4826,
+   "stream_sha256": "debd315484c7beac5e115245333d0846f68558e9c23ff8b12f32776a38cfff73"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00065",
+   "key": "5de97c46bd0bf5e7",
+   "bytes": 4805,
+   "stream_bytes": 4805,
+   "stream_sha256": "7153ef0f537c5d0acabd62e9ed9415dc3e2960a5076ce6ce0323e3c623a42898"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00066",
+   "key": "f0d03609e8780f7d",
+   "bytes": 4789,
+   "stream_bytes": 4789,
+   "stream_sha256": "20ce9174208e9365bb1e17a5f8eb19aeb6ae2903f79ed5ae8fad7a57a28674c6"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00067",
+   "key": "0820ead758035116",
+   "bytes": 4709,
+   "stream_bytes": 4709,
+   "stream_sha256": "8c6dc5a06367183747d8fde0712f1efde073df49d63d1dbc92d410eb1d8b2256"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00068",
+   "key": "48543c77f9eca382",
+   "bytes": 4684,
+   "stream_bytes": 4684,
+   "stream_sha256": "3086c2359510a5e83adad2fb1a3cd24c269312abe45c268afcc3d1e403834c63"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00069",
+   "key": "6b921031db9c3db4",
+   "bytes": 4609,
+   "stream_bytes": 4609,
+   "stream_sha256": "2122623fdc64440bc407fbb8548784fa326bae35b49bfd66b850a89442cf697e"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00070",
+   "key": "04e4736ce2f35320",
+   "bytes": 4601,
+   "stream_bytes": 4601,
+   "stream_sha256": "5f0b78d1fcaa1566240117907887635be44b50a8798a2608219d5eb21fe93c4b"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00071",
+   "key": "3139196f658d1fc0",
+   "bytes": 4579,
+   "stream_bytes": 4579,
+   "stream_sha256": "58137dd2a4a719461a056ad38f0a5e0f1624e8c1ff7ce9978439356168f4feed"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00072",
+   "key": "da715d4f186c9574",
+   "bytes": 4613,
+   "stream_bytes": 4613,
+   "stream_sha256": "77a3bac0e083b6b08c94c929cf1ca5edf1b9641c4edd89a322122ec6fe20da76"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00073",
+   "key": "b346afe3287973c8",
+   "bytes": 4584,
+   "stream_bytes": 4584,
+   "stream_sha256": "1dfdd719b33d81a9247f0a2b4d70ae4bd6084b7729be36378b138161c1913f53"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00074",
+   "key": "1a099fd2f0f3c6af",
+   "bytes": 4581,
+   "stream_bytes": 4581,
+   "stream_sha256": "cc15c4d372c386258ca2d9eb7cef55128b609e5ba1618477f0677a64dcf78ed4"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00075",
+   "key": "317d99275371dbe5",
+   "bytes": 4559,
+   "stream_bytes": 4559,
+   "stream_sha256": "0d6cf7ff3d12f1456f73151024cebe5804d5bc3f1e47afb9d314af87043983d3"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00076",
+   "key": "b934a8f546b2dac4",
+   "bytes": 4562,
+   "stream_bytes": 4562,
+   "stream_sha256": "55fa211dbe5834104fb34fdad015abf976d5a706c30d0b3113b5de6cfae657cf"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00077",
+   "key": "2c45ee31f8e90159",
+   "bytes": 4568,
+   "stream_bytes": 4568,
+   "stream_sha256": "aaa54671829a4af4d7331d0b15a04a8ac1afb25fb30e2de56756560e8b2d0f58"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00078",
+   "key": "5196ed6a9270a9c9",
+   "bytes": 4553,
+   "stream_bytes": 4553,
+   "stream_sha256": "aafe3ec3d39fae0215b511b5de077252fe9b40fafdf41a1c3ef77a3ae4f5842d"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00079",
+   "key": "28924f49d6b8754d",
+   "bytes": 4526,
+   "stream_bytes": 4526,
+   "stream_sha256": "c8bca3b0e8630fd848bf161405b9a1573f04d66a98bd5ab3664558c65384ab45"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00080",
+   "key": "ec778b816c9c7a9c",
+   "bytes": 4526,
+   "stream_bytes": 4526,
+   "stream_sha256": "37cf63cea4ffc6ad747f32e7483a68bed67ef89f251f40bc90dc7389205ecb1f"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00081",
+   "key": "0f64d4a6089f4c9c",
+   "bytes": 4448,
+   "stream_bytes": 4448,
+   "stream_sha256": "b67f6ecba183c3f5341d30d82cbb3665f74376266e3511b981b5751154d9d703"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00082",
+   "key": "5e95732053e65c1b",
+   "bytes": 4462,
+   "stream_bytes": 4462,
+   "stream_sha256": "1af4718e9274c89e47915c597b8659db9a08ced56c3ebfc2e153d2991cc7a50e"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00083",
+   "key": "f0f81139b7d234d6",
+   "bytes": 4393,
+   "stream_bytes": 4393,
+   "stream_sha256": "1a0daf56f79cdf561457806d7669ab1fa2c4b4e964d7537bd3347ddd7432219e"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00084",
+   "key": "be8067be76bdf779",
+   "bytes": 4416,
+   "stream_bytes": 4416,
+   "stream_sha256": "dd51bcba26958fd5edf3636af2101195c8738c4a7bbaf3a1786636f3342d1c92"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00085",
+   "key": "64870694ff127163",
+   "bytes": 4498,
+   "stream_bytes": 4498,
+   "stream_sha256": "2dad8459a1d7a206b053ecec063934b89443f07dcd8f6fb958de4372b3e71704"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00086",
+   "key": "d97c3051af2f3c0e",
+   "bytes": 4566,
+   "stream_bytes": 4566,
+   "stream_sha256": "8d84edd066034d8f22c4f981db39fca4eae3273d6d158a1dc6f88ed7b51f1495"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00087",
+   "key": "98f684a4a873b0c8",
+   "bytes": 4578,
+   "stream_bytes": 4578,
+   "stream_sha256": "5b05eacd614f86a839157237a4fb35ab3b6cdcc98e64825f798eb41a6c28dd2f"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00088",
+   "key": "e040968e7d5fd1ba",
+   "bytes": 4550,
+   "stream_bytes": 4550,
+   "stream_sha256": "80ca1b79e4728607b58d33df447bc8bc3a11bc4ced55d29372e80cf90e53ad75"
+  },
+  {
+   "input_id": "DAVIS2017/camel/00089",
+   "key": "f87cef35fe3a3d1c",
+   "bytes": 4539,
+   "stream_bytes": 4539,
+   "stream_sha256": "14db5d9c663b4aadbd6a75d5ef696e3e9726c2041f8039c2456f1a9e9bc2d2ee"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00000",
+   "key": "23d16172bdd48e0a",
+   "bytes": 4269,
+   "stream_bytes": 4269,
+   "stream_sha256": "3a4e464d6e0f060983fb5980c1ca467b4f265bed4596f9ca5f6fc3f0c8d7fc52"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00001",
+   "key": "b8810ba614253cf0",
+   "bytes": 4245,
+   "stream_bytes": 4245,
+   "stream_sha256": "e427bb5f7b1bea554ad40dfd9ea8130f4c654ff58f680bbe27ce1fb5d30ebb40"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00002",
+   "key": "b8cf13438444cb57",
+   "bytes": 4254,
+   "stream_bytes": 4254,
+   "stream_sha256": "626fd77107bd49d43fcb73cfa4ee15f1c1185864f72245bfb73ec80c3e9dd83e"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00003",
+   "key": "4ba6a533241139ca",
+   "bytes": 4267,
+   "stream_bytes": 4267,
+   "stream_sha256": "34b1536925dc86c9c264d90dee8600315c23a99165be9581b9f4f8bd05b1705f"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00004",
+   "key": "454194e23d79961c",
+   "bytes": 4262,
+   "stream_bytes": 4262,
+   "stream_sha256": "84cf9eccaf4bb1b8d0a9c1a33cc7acab83b487579c0660ef8bc31c13ddc88b6e"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00005",
+   "key": "fefde66e9f574bc9",
+   "bytes": 4254,
+   "stream_bytes": 4254,
+   "stream_sha256": "fb0f63174f78302f576721cdf1d13bec64a1cc34c1df37ef329489df94b83bb5"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00006",
+   "key": "ba974110aae57513",
+   "bytes": 4280,
+   "stream_bytes": 4280,
+   "stream_sha256": "f41c111c23658cf3e920565f69d38c7c7b6c4a6cdea6be83265179129c1c636c"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00007",
+   "key": "ec79e5963d545237",
+   "bytes": 4289,
+   "stream_bytes": 4289,
+   "stream_sha256": "21c264c869d04c17387bb7e52c1d48bcdf89bfd7c8a36944b1a9105ab016bd89"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00008",
+   "key": "ad6d7c1520b655d7",
+   "bytes": 4288,
+   "stream_bytes": 4288,
+   "stream_sha256": "c8e8771f620816dd444c0f129d2d0eb46ea9456eea812f5f15fd7fd63afaa3c2"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00009",
+   "key": "06af78d05e3aa441",
+   "bytes": 4273,
+   "stream_bytes": 4273,
+   "stream_sha256": "6e5b6822fb27dd32c277278f0f3599a50a92f47a5df5c862a3db7726090466b5"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00010",
+   "key": "5e7fae5afbab0ab2",
+   "bytes": 4314,
+   "stream_bytes": 4314,
+   "stream_sha256": "4547bb4246aeea2ef3c489fc8097aafa195dccd19c7c8902cbb8c7ee03454b4d"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00011",
+   "key": "1c0ebb4a535616a4",
+   "bytes": 4310,
+   "stream_bytes": 4310,
+   "stream_sha256": "0b2585a562b786f2990ca85ac614dd51e0ff4c7b1e7d56f0e47db1210ee243eb"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00012",
+   "key": "8558f17854e5e5f3",
+   "bytes": 4300,
+   "stream_bytes": 4300,
+   "stream_sha256": "573bfa6b5d794b223ce5dce73abfd000a6389f9458360bc81c03f2f215798c44"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00013",
+   "key": "dccd2e77b3a5a22d",
+   "bytes": 4297,
+   "stream_bytes": 4297,
+   "stream_sha256": "51b583e3a89207ef65dceac906005746f68374f1ed78a716a79d36c763cd2c12"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00014",
+   "key": "3cee5cb21514c412",
+   "bytes": 4323,
+   "stream_bytes": 4323,
+   "stream_sha256": "5d265d7dfa2ede6b1d7f9337d2679d74604ad2780b0db2e31cf2864122731d9d"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00015",
+   "key": "09424b734619755e",
+   "bytes": 4327,
+   "stream_bytes": 4327,
+   "stream_sha256": "63d345d6ea799378e40f92bc1764d8b15d3b5eed31683780211535194dc301fd"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00016",
+   "key": "b0f6c8f4cffab4c6",
+   "bytes": 4317,
+   "stream_bytes": 4317,
+   "stream_sha256": "bbe1bb505290ba7aace4ba5cbc1b88e11d67a960833d0ea1e4a6568a16865edf"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00017",
+   "key": "796ececa016a2e1b",
+   "bytes": 4290,
+   "stream_bytes": 4290,
+   "stream_sha256": "c1de89c1aca14225ae0f605f7c66ad6cc4c34a6e257926215fbe363555e44423"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00018",
+   "key": "92e1cfc11e81a547",
+   "bytes": 4290,
+   "stream_bytes": 4290,
+   "stream_sha256": "4a53914a92c1acd21f6a9bb27f4ab7c72f6e9116b07f991fa07f569fec26054b"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00019",
+   "key": "1eeaea6c6991dbdc",
+   "bytes": 4282,
+   "stream_bytes": 4282,
+   "stream_sha256": "0817f1df3da82abf8eee5c2bcb1d0444fa560c1360fd253b235615158933ba91"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00020",
+   "key": "ef302210e3118010",
+   "bytes": 4259,
+   "stream_bytes": 4259,
+   "stream_sha256": "49278f4c8407971c35c08f381cc370d06de43f99b3786b78c6cc1383f6b65283"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00021",
+   "key": "a60b5620e8541e48",
+   "bytes": 4219,
+   "stream_bytes": 4219,
+   "stream_sha256": "a167f6d28d42e3c5d7e20b7a448869535f98e608165602b575c4ec392a623cf9"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00022",
+   "key": "96d2307c43b3c336",
+   "bytes": 4207,
+   "stream_bytes": 4207,
+   "stream_sha256": "26030fb3a5031f064d4660c954a6fd13f8de0d7b72f1b8af45d4fbaff6a54c78"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00023",
+   "key": "274c4606b0cc4bc5",
+   "bytes": 4236,
+   "stream_bytes": 4236,
+   "stream_sha256": "57d0b0890f9648573abc547a73d3c25a70f0dd748c1be199cc96f0493d7fb6cd"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00024",
+   "key": "5bcef701d4a34109",
+   "bytes": 4263,
+   "stream_bytes": 4263,
+   "stream_sha256": "03838cdc1b1d2207a17755567c74639cee43341ee3771c4e56c3d8b0958df11a"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00025",
+   "key": "8d8b5b511c1f10a5",
+   "bytes": 4247,
+   "stream_bytes": 4247,
+   "stream_sha256": "223234872f9c571138321853b2752d429ad0f537c32b84086a2161d8f9985e2f"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00026",
+   "key": "fcb177a4fdce159a",
+   "bytes": 4237,
+   "stream_bytes": 4237,
+   "stream_sha256": "b4f3f736cf238243f6e599e0defee8bebd849adf56f0a9a245c6ecff66043552"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00027",
+   "key": "01a7393d1cf9b7c4",
+   "bytes": 4242,
+   "stream_bytes": 4242,
+   "stream_sha256": "cb79ab8740379063b70141aadb9af3b3f1e0a6369513aa99a1f6e9d5c74487ca"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00028",
+   "key": "3f2373c06a32c744",
+   "bytes": 4205,
+   "stream_bytes": 4205,
+   "stream_sha256": "aa1c1d3813fb3ce8b3d22ca36487475c2c9bac35bffb8109373c1848979d7331"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00029",
+   "key": "337e496c12c163ad",
+   "bytes": 4206,
+   "stream_bytes": 4206,
+   "stream_sha256": "5a60ec32cad12d43ccc67e16c098b0022e3ee8210e8b7c7054b8a7eef4080a1f"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00030",
+   "key": "dbc46e18c11d9ea1",
+   "bytes": 4165,
+   "stream_bytes": 4165,
+   "stream_sha256": "39343a3452edf511acac2810e45f3c074c802aeaddb5f7aea893dd6b2b8f596c"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00031",
+   "key": "80a52e96c7831a6a",
+   "bytes": 4191,
+   "stream_bytes": 4191,
+   "stream_sha256": "2aff2d3072f7cfaab9751e4453ddbcf968e5f5a5abcff1974058c0a7993fb85c"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00032",
+   "key": "c5ef4d6f92ccab6e",
+   "bytes": 4190,
+   "stream_bytes": 4190,
+   "stream_sha256": "38750380e3cc46b29de71421b086ae0f29d12e95951607c4d3c5fb33a40192de"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00033",
+   "key": "306ddff0b1264eee",
+   "bytes": 4151,
+   "stream_bytes": 4151,
+   "stream_sha256": "74980aa74696b1a032e6cae0c7883acc8a84366a81ddfe3c0e91af5a1c4eb219"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00034",
+   "key": "95ab4cf9ff4857dc",
+   "bytes": 4180,
+   "stream_bytes": 4180,
+   "stream_sha256": "ea05caba270240b8abbe17cd274d017609436bd76456cbfeef16a793ace3f435"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00035",
+   "key": "e76ea337083f0bbe",
+   "bytes": 4216,
+   "stream_bytes": 4216,
+   "stream_sha256": "cfa65696de33352a9dbda323909fe603506e7ea2d0c25d5bbc8a0dbf47aa5200"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00036",
+   "key": "2e627eb79abb9696",
+   "bytes": 4205,
+   "stream_bytes": 4205,
+   "stream_sha256": "5562431ab3e9a5bfd58a16dc0d99819d3ba999a44de7c245ab8fab33868e9a73"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00037",
+   "key": "5c01afc62820133b",
+   "bytes": 4193,
+   "stream_bytes": 4193,
+   "stream_sha256": "1d1f98fce7a1d3ae34babbb9f010368c7e458ae579e5159b463bc1f1f22f0305"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00038",
+   "key": "c012f49f37b9fd99",
+   "bytes": 4191,
+   "stream_bytes": 4191,
+   "stream_sha256": "5c70ff1457e7ffe5642dc8eb596cbe63ac6212436298077f469fdfac2493538c"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00039",
+   "key": "395ec65143f9a884",
+   "bytes": 4235,
+   "stream_bytes": 4235,
+   "stream_sha256": "758086cab2c9b45e29c96c310c57c66abcc671f3ade16a835ae46534963b3c2a"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00040",
+   "key": "c18b0c3b2e7ea103",
+   "bytes": 4233,
+   "stream_bytes": 4233,
+   "stream_sha256": "721cccd03669f59381b32ad791b29e6acb03cee00c4a0348945f9f497162a875"
+  },
+  {
+   "input_id": "DAVIS2017/car-roundabout/00041",
+   "key": "9e8eba100ca985b2",
+   "bytes": 4246,
+   "stream_bytes": 4246,
+   "stream_sha256": "e58cb8fcad07f3708909ea9bf8541c28a8a90f3133b41b5f836c210bb8edea6f"
+  }
+ ],
+ "errors": [],
+ "not_applicable": [],
+ "finished": "2026-10-29 08:50:42"
+}

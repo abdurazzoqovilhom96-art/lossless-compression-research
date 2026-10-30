@@ -1,0 +1,18 @@
+{
+ "codec": "blosc2_zstd_bitshuffle",
+ "mode": "coldstart",
+ "pin": {
+  "requested_cpu": 2,
+  "affinity_ok": true,
+  "priority_ok": true,
+  "affinity_mask": "0x4",
+  "nice": -10
+ },
+ "ok": true,
+ "numba_cache_dir": "/tmp/numba_cache",
+ "import_ns": 1223311,
+ "first_encode_ns": 12885362,
+ "first_decode_ns": 676681,
+ "second_encode_ns": 8820549,
+ "second_decode_ns": 664960
+}

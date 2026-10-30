@@ -1,0 +1,29 @@
+--- a/source/commonlib/utility.cpp	2026-08-20 19:51:10.000000000 +0000
++++ b/source/commonlib/utility.cpp	2026-10-29 06:00:23.108012122 +0000
+@@ -724,6 +724,7 @@
+ 			break;
+ 		}
+ 	}
++	return 0; // BDLC benchmark: missing return (UB); value unused by the only caller
+ }
+ 
+ int get_direction1(int direction, int *index)
+--- a/source/decoder/decoder.cpp	2026-08-20 19:51:10.000000000 +0000
++++ b/source/decoder/decoder.cpp	2026-10-29 06:00:23.111424680 +0000
+@@ -2347,6 +2347,7 @@
+ 				return 2;
+ 		}
+ 	}
++	return 0; // BDLC benchmark: missing return (UB); value unused by all callers
+ }
+ 
+ void deObjectEdge_3OT(unsigned char *img, int pic_height, int pic_width,
+@@ -3458,7 +3459,7 @@
+ 		return -1;
+ 	}
+ 	size = getFSize(pFile);
+-	unsigned char *buffer = new unsigned char[size];
++	unsigned char *buffer = new unsigned char[size + 16](); // BDLC benchmark: zero padding, decoder reads ahead
+ 	fread(buffer, 1, size, pFile);
+ 	fclose(pFile);
+ 

@@ -1,0 +1,718 @@
+{
+ "codec": "cseg_gzip9",
+ "mode": "size",
+ "shard": 39,
+ "pin": {
+  "requested_cpu": 6,
+  "affinity_ok": true,
+  "priority_ok": false,
+  "affinity_mask": "0x40"
+ },
+ "python": "3.14.4 (main, Apr 14 2026, 14:26:14) [Clang 22.1.3 ]",
+ "started": "2026-10-29 08:58:18",
+ "images": [
+  {
+   "input_id": "DAVIS2017/mbike-trick/00028",
+   "key": "d93fa5e04d417a80",
+   "bytes": 1095,
+   "stream_bytes": 1095,
+   "stream_sha256": "537f1c2fa2f66078bded72b1c5bd3e4999999a8ad7003f6a98b8d7295ea36b93"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00029",
+   "key": "6b94ae9042db5d03",
+   "bytes": 1082,
+   "stream_bytes": 1082,
+   "stream_sha256": "0859333fe907e2052a5268f7acbbe5c4ba0d8ced2f06958e23c188a723f1afac"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00030",
+   "key": "ae0dd791c176a011",
+   "bytes": 1077,
+   "stream_bytes": 1077,
+   "stream_sha256": "824fbefb1dafb6aa248576b3fb30699afda6b278efe38422992b4caee91281d4"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00031",
+   "key": "15c264141ca3dba7",
+   "bytes": 1090,
+   "stream_bytes": 1090,
+   "stream_sha256": "b70f5c95f7d8da6e383df438c2be751a3713140252ad6a97adf532a91303190e"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00032",
+   "key": "17f2c19f5add5ad6",
+   "bytes": 1140,
+   "stream_bytes": 1140,
+   "stream_sha256": "ef8e97a02a626d0c560f5469d73f6593d378dcc7a4019c1399c18b34914ab226"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00033",
+   "key": "236049bda8fffc64",
+   "bytes": 1124,
+   "stream_bytes": 1124,
+   "stream_sha256": "cfe7ea5b4ef019191b43df50c6f5ab6dea1ce0d446a89ab39d69452a23d390ea"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00034",
+   "key": "2800b6b81beee977",
+   "bytes": 1126,
+   "stream_bytes": 1126,
+   "stream_sha256": "3a442cbc8bf8c0757896269843ff1cf9a15411437a005d1fe3971bf45f330491"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00035",
+   "key": "96856fdbbf654628",
+   "bytes": 1236,
+   "stream_bytes": 1236,
+   "stream_sha256": "a9373719a9085f6a4bcddad8c4f4605f67db252e64f7e9476205e98ed7565c7f"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00036",
+   "key": "38d88956dfc18e74",
+   "bytes": 1363,
+   "stream_bytes": 1363,
+   "stream_sha256": "e3b9e46d236db173bcbfae922cc32bc26f8d3afba78484fe262687cc0253c571"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00037",
+   "key": "64fa548fe27e35cf",
+   "bytes": 1323,
+   "stream_bytes": 1323,
+   "stream_sha256": "c5c7d8122412833e0506d031eb6fb843325266c063ca68ef25412c42297ec41d"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00038",
+   "key": "a25f78476b3bcfb8",
+   "bytes": 1330,
+   "stream_bytes": 1330,
+   "stream_sha256": "236bb46423efcf6b820bb977b13dafcf0c25949beef6ae136e5523689adae1a7"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00039",
+   "key": "af7053ebe8ac075d",
+   "bytes": 1358,
+   "stream_bytes": 1358,
+   "stream_sha256": "5d9197ce0fb4cdc2acc72ab7ec5115e931237cff98ddfaf1f29e754fd4e3d4f7"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00040",
+   "key": "080817b644fecfd4",
+   "bytes": 1356,
+   "stream_bytes": 1356,
+   "stream_sha256": "3058dcf124b6fbfb20789bca99e264668afd387737cfcaa66cb264ae13e9c8d8"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00041",
+   "key": "e910e3232bcff5e8",
+   "bytes": 1388,
+   "stream_bytes": 1388,
+   "stream_sha256": "b505b0b897747f46b2e53493a9eedaab3a2baaba2dc9438951b4e9a3543145b9"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00042",
+   "key": "959ed5725b0ab7e2",
+   "bytes": 1385,
+   "stream_bytes": 1385,
+   "stream_sha256": "4290f5bb4dff0e22fd072d1c532fd4852f7e3eebb53006d081cc0e8bdbe0ca41"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00043",
+   "key": "0ba55dabce97e8fc",
+   "bytes": 1418,
+   "stream_bytes": 1418,
+   "stream_sha256": "4917d2f833b637de12c6b960c652c7a6e7c46a2f7c85ef4e49686171454b12a9"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00044",
+   "key": "cc302f22ed6c906f",
+   "bytes": 1449,
+   "stream_bytes": 1449,
+   "stream_sha256": "ab7b919093215a86d16f075b61919324fd9179c5fb12d60224ee26e8e4853f2e"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00045",
+   "key": "663aac9b3df3c158",
+   "bytes": 1464,
+   "stream_bytes": 1464,
+   "stream_sha256": "ee5c963ba5e4ee7d3676b2061d109edf6c7515459b8c5a12c9a3d1e5ceb2f1d2"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00046",
+   "key": "633b80fc5fcd48c5",
+   "bytes": 1564,
+   "stream_bytes": 1564,
+   "stream_sha256": "65cfd95e4830d0e202e225043527383ca6c20b4a8b3cd85ebe1e7e7ebb2d6984"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00047",
+   "key": "1837a85bd6f00a08",
+   "bytes": 1610,
+   "stream_bytes": 1610,
+   "stream_sha256": "e41adafba56234514129a52b1846149642e2a83fe6fa68f83e3e170ed11dafff"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00048",
+   "key": "2b9d6e84aae35674",
+   "bytes": 1690,
+   "stream_bytes": 1690,
+   "stream_sha256": "672b4bd161c99ec93568e3767c349226bfcea71e958846e3295a505629b750b0"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00049",
+   "key": "9a09230cae31eb1b",
+   "bytes": 1739,
+   "stream_bytes": 1739,
+   "stream_sha256": "8b86d1b484bbb82b26d982af595edc867e4a8a9c5465a93b2c77f57c9f59b9c0"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00050",
+   "key": "1e11ac217f70fc87",
+   "bytes": 1781,
+   "stream_bytes": 1781,
+   "stream_sha256": "e00f6c1a800c80881d4b95d176f49334e8327c46c9c83208eb0e109c36f0ad2f"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00051",
+   "key": "eb57fe388ef076a3",
+   "bytes": 1789,
+   "stream_bytes": 1789,
+   "stream_sha256": "3e5bc16af004265052146d9f5df7e2a933fc0c456d45f91b18b97bdd795a1f89"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00052",
+   "key": "36ecea3e0abe562c",
+   "bytes": 1880,
+   "stream_bytes": 1880,
+   "stream_sha256": "448d95156ab70fbc3065eb56a5c921029912d2fd7180474a7979b2c7e9d0cb6c"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00053",
+   "key": "bc768add9678b63f",
+   "bytes": 1934,
+   "stream_bytes": 1934,
+   "stream_sha256": "6cafe42e77f8372575e24712efcc917baf8ef70759b3de17504a359f989281bf"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00054",
+   "key": "270746f0db54358b",
+   "bytes": 1895,
+   "stream_bytes": 1895,
+   "stream_sha256": "1c723f7794016ae290c6239ab37e13bd6c255a6d3696d6544f7f5863cd70e1a1"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00055",
+   "key": "1fa00faae2809044",
+   "bytes": 1894,
+   "stream_bytes": 1894,
+   "stream_sha256": "e3b4ac01ee270891ab2666b76f9fefce910cd5cf2d125bf26ba2f70180f3b1af"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00056",
+   "key": "1baacbec8a520500",
+   "bytes": 1909,
+   "stream_bytes": 1909,
+   "stream_sha256": "b04eba44ba8c83bd95eec3b3fe55dac1c7fe91277b87f437ca6e5c1e66d13740"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00057",
+   "key": "b5451a4519e9c5a7",
+   "bytes": 2038,
+   "stream_bytes": 2038,
+   "stream_sha256": "423106f1fa1551889fec402cc0144c3ccc00ddff3b184f1696a1a4768e263d9d"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00058",
+   "key": "a0420f88b7509bb1",
+   "bytes": 2092,
+   "stream_bytes": 2092,
+   "stream_sha256": "a200d428be866aebeb1a0589c72a2d7840c5a620b30909a99f545822cf2a5d3e"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00059",
+   "key": "bb1db1ad93b65b50",
+   "bytes": 2248,
+   "stream_bytes": 2248,
+   "stream_sha256": "438ba2ea38793f934d42387aaadfd43ec028f9f726e0590dafd2b14f767c02bd"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00060",
+   "key": "e8b0ae8fbd9b7474",
+   "bytes": 2408,
+   "stream_bytes": 2408,
+   "stream_sha256": "3e9178a653dbe2ef8678a9b77e8e85808d52d06a6fcad5a12fc4cf8c11677080"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00061",
+   "key": "bf81373f4d6f2437",
+   "bytes": 2453,
+   "stream_bytes": 2453,
+   "stream_sha256": "04b0be735f708d19ade59abf6b3c98ed23c0b9dcd9f76c4d6f8891814c23db94"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00062",
+   "key": "fbe3a9e01c6f6625",
+   "bytes": 2538,
+   "stream_bytes": 2538,
+   "stream_sha256": "286435ceb07b6b6642a989be9fa8391069c2b9e4fa85321ecf69e8ced199dde6"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00063",
+   "key": "7a1b5c4229680e86",
+   "bytes": 2621,
+   "stream_bytes": 2621,
+   "stream_sha256": "8bd21c3ab2ab7e45a34b26a6f27fe16551f32b99877b5fb56fae48af5f17b12a"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00064",
+   "key": "29e4b79162fa2b95",
+   "bytes": 2717,
+   "stream_bytes": 2717,
+   "stream_sha256": "519044f47128541f88174f63c0eccea10991e04d588869d1b5d4a9202b7ee912"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00065",
+   "key": "bcacc3a075dc5109",
+   "bytes": 2848,
+   "stream_bytes": 2848,
+   "stream_sha256": "c57f7fd065ccdba0902f49131815806c2eb8e6ddfba1e53df7519a3b4702e7cb"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00066",
+   "key": "dc0b8290adaf9f9f",
+   "bytes": 2958,
+   "stream_bytes": 2958,
+   "stream_sha256": "1e69600177c96ab59dc9cd47783cd48464bb249effbb3920322b882c60182d7d"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00067",
+   "key": "651df510d7830638",
+   "bytes": 3118,
+   "stream_bytes": 3118,
+   "stream_sha256": "6007e11865179da963a463f9602d2fd54a65d4a780b5f1c806170c178ccf3833"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00068",
+   "key": "045b8a540e0f8e42",
+   "bytes": 3302,
+   "stream_bytes": 3302,
+   "stream_sha256": "f66a4b9db4172f2f2c24200d32648f1c504369b0512faeb606af2677409f451c"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00069",
+   "key": "e9a7dfd654ac935e",
+   "bytes": 3418,
+   "stream_bytes": 3418,
+   "stream_sha256": "c780d288e80e153ac88dca41b9918c9d23e5cb8280044122392757268efdb83a"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00070",
+   "key": "8fb964bac0739d09",
+   "bytes": 3584,
+   "stream_bytes": 3584,
+   "stream_sha256": "b3f75c442a167d1f8c48ed1233820a009fe00f4078e9ae5d2fbe37fb844005f4"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00071",
+   "key": "d9035475bb357ec0",
+   "bytes": 3671,
+   "stream_bytes": 3671,
+   "stream_sha256": "b94212160d91f14470aa8860c6262e3e496a573d0f4599f3d6ccdd279ec881df"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00072",
+   "key": "7a500e9523f961d9",
+   "bytes": 3701,
+   "stream_bytes": 3701,
+   "stream_sha256": "4a05848d79a37cced83896e014c6094e227d76571e480a78aa167cdbce7cf845"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00073",
+   "key": "bbabecf039c3759e",
+   "bytes": 3934,
+   "stream_bytes": 3934,
+   "stream_sha256": "c24f4d5b70b25bdbe3fe150c4e36c0918baf75923b6366c751f7a389a90f5c8c"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00074",
+   "key": "f6eea0d49c5fd968",
+   "bytes": 4289,
+   "stream_bytes": 4289,
+   "stream_sha256": "944aa971040a4910f81a666fb343f9ab3b530815dc30c935ac9c019bd734ae05"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00075",
+   "key": "9ac8314e2080eab0",
+   "bytes": 4402,
+   "stream_bytes": 4402,
+   "stream_sha256": "e1984ecee3b66f9656b591e9b3ac9b311fee19fa9e285d56a2755529247174bc"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00076",
+   "key": "662c424ba83e971b",
+   "bytes": 4708,
+   "stream_bytes": 4708,
+   "stream_sha256": "810dee18fe4338af61f5d214c399a9776af9bb744e81f90196e05db9ed4ec531"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00077",
+   "key": "b28c79a13a3dbc5c",
+   "bytes": 4739,
+   "stream_bytes": 4739,
+   "stream_sha256": "962a8c659cf52205e653dd39301bc7545b57488a6b406e4808be217ec5ccbe21"
+  },
+  {
+   "input_id": "DAVIS2017/mbike-trick/00078",
+   "key": "4b98f0ac5027034e",
+   "bytes": 4766,
+   "stream_bytes": 4766,
+   "stream_sha256": "ef5ae08a032432b3ac889f741ce78a73c63d819c13288d36c8c0e7bf67ffcd72"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00000",
+   "key": "ae4cc3fae536d177",
+   "bytes": 1350,
+   "stream_bytes": 1350,
+   "stream_sha256": "4ad9b2d7eeaa73f3b60750a76724675960a27be8042c4f6e0ea6825dd0351a43"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00001",
+   "key": "94eda7526b082bcf",
+   "bytes": 1300,
+   "stream_bytes": 1300,
+   "stream_sha256": "f702711368c47629c80f1fa629bc60709e1260097bc79c8a5b98bb5d00d62f9a"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00002",
+   "key": "4891be59678a7a6e",
+   "bytes": 1240,
+   "stream_bytes": 1240,
+   "stream_sha256": "c7f307552d417709affaaabad5e2085a05d910e44123160556e6fbb14ca3400d"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00003",
+   "key": "6d3a79688853fc7d",
+   "bytes": 1213,
+   "stream_bytes": 1213,
+   "stream_sha256": "14d649a346b341be73c42ac8969da3681f6dc2f774edeb451edc5ec9edbd1431"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00004",
+   "key": "13fb6e7757403d97",
+   "bytes": 1263,
+   "stream_bytes": 1263,
+   "stream_sha256": "9702eae7fa3c9d1346af3aecda79af902909413c74aca1302d09339b6767fd1a"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00005",
+   "key": "bc88c2d0d8264645",
+   "bytes": 1284,
+   "stream_bytes": 1284,
+   "stream_sha256": "4a50514eca18e6290b069f157abb39bacc5ad788a6e440269ab96c62743646ac"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00006",
+   "key": "cb9ebfa113bff9dd",
+   "bytes": 1182,
+   "stream_bytes": 1182,
+   "stream_sha256": "cd3e77ca1994bb39098125c493af77c2d36418691cc3cc0ceabee9e0857f2633"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00007",
+   "key": "a2b95ecc8dd342d4",
+   "bytes": 1155,
+   "stream_bytes": 1155,
+   "stream_sha256": "89bb954d96412ebff35c03fff3459e11e7603469cb2fbde7e4ad4a37a4bdba40"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00008",
+   "key": "4fbd317a94ec9a0a",
+   "bytes": 1193,
+   "stream_bytes": 1193,
+   "stream_sha256": "c1e5af38f15ee23547a440ee6e0ab885df5f63813ca9c141b2e22f208ae69ea0"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00009",
+   "key": "12cb7bac04cf10c9",
+   "bytes": 1196,
+   "stream_bytes": 1196,
+   "stream_sha256": "9bbe6b9b1eb740b7b1d1d1c7fe1be2748c0d2b84ced87930e67a9c73e4eaaec3"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00010",
+   "key": "e3d2ae913703868c",
+   "bytes": 1162,
+   "stream_bytes": 1162,
+   "stream_sha256": "52548d6852562a7f8974f0503e4e4a163b3088ed09b4f48188695a0da7d6fc0f"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00011",
+   "key": "9df6e83b319aeb28",
+   "bytes": 1184,
+   "stream_bytes": 1184,
+   "stream_sha256": "d0accd7121728746680238dd68e94e6c4671f2f162f11b1eac7bbc46a055e401"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00012",
+   "key": "cd91e96ccbe83810",
+   "bytes": 1101,
+   "stream_bytes": 1101,
+   "stream_sha256": "24138cc404601487a8c50e742f27ead7b59c4c05c9e909d68c2e894abac8e6e7"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00013",
+   "key": "7f22720414f406d4",
+   "bytes": 1144,
+   "stream_bytes": 1144,
+   "stream_sha256": "a515898fb2891a24b75db66730ffb15494da19ecf1c4ff8d64b85b526562616e"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00014",
+   "key": "1c6fc4c1b8596a05",
+   "bytes": 1123,
+   "stream_bytes": 1123,
+   "stream_sha256": "84d8f187296bf25848a200a07f47261ce1205a1bb61ee14d1ea3bf4e7018c3f3"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00015",
+   "key": "df5e9aea7642b535",
+   "bytes": 1084,
+   "stream_bytes": 1084,
+   "stream_sha256": "a8c4f14d21de4334d04f06e9c5473d103fdfee72990dd7a4c3f8ed9a01b8dffe"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00016",
+   "key": "55e842e852fc96ad",
+   "bytes": 1036,
+   "stream_bytes": 1036,
+   "stream_sha256": "69b7b49727358cfa5e15491fd04b39014edb48acd24ed1178ab02d03444d2318"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00017",
+   "key": "36ab3b8fb1c87fa3",
+   "bytes": 921,
+   "stream_bytes": 921,
+   "stream_sha256": "1fc4f12d4c382062e5247c2f3e7bf0890e98e9e33eaf773ac948764c6136014f"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00018",
+   "key": "fdd84fb71aab1921",
+   "bytes": 959,
+   "stream_bytes": 959,
+   "stream_sha256": "8354d141367a64feed1c0bfc271fbbf02ce7a287ff911d09a4644f01ec77a0e3"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00019",
+   "key": "8c6b62f0e675061b",
+   "bytes": 1074,
+   "stream_bytes": 1074,
+   "stream_sha256": "7e4dea37211d2fd0c36cafcff9521b18524e50e68b57993c7bc1fe846deceade"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00020",
+   "key": "9f8333d12a0e6937",
+   "bytes": 1219,
+   "stream_bytes": 1219,
+   "stream_sha256": "b74513db61018ea94e2cd14f8b87eff9cb27c083451d8cf3f089da1c2a994368"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00021",
+   "key": "d9b1392f02623edc",
+   "bytes": 1226,
+   "stream_bytes": 1226,
+   "stream_sha256": "082e16f3b00836b29bf8899452af8faac0dff4aabf7e59012a54e951634e5f64"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00022",
+   "key": "3a0980f21daf5ffa",
+   "bytes": 1188,
+   "stream_bytes": 1188,
+   "stream_sha256": "41b384032ec5a6be5f9ec09b5a5997ac45d4c99bdae2fcdd0d7ae534f07e4026"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00023",
+   "key": "dae698a054d0b88f",
+   "bytes": 1203,
+   "stream_bytes": 1203,
+   "stream_sha256": "9ab6feea6fae6d5d8ffcff6898eeeab126432e81c28ace1720f8d6fcb80fed88"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00024",
+   "key": "e1d3e365abaf024d",
+   "bytes": 1124,
+   "stream_bytes": 1124,
+   "stream_sha256": "869876d029bc8e880685fdf84872d0ca8536547c7763edc20d6c3c4ebdb96e55"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00025",
+   "key": "df06b30237c37d29",
+   "bytes": 1024,
+   "stream_bytes": 1024,
+   "stream_sha256": "dd1f8fade4eca55737196673774712f52f4c690b35f7669e85562cf479e59fb4"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00026",
+   "key": "5b8d79b13d32967b",
+   "bytes": 901,
+   "stream_bytes": 901,
+   "stream_sha256": "1273ead05ace765475d069f79a5911e898f1e53ba1c52a101a7717623d853c9b"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00027",
+   "key": "a01b2e779dd45902",
+   "bytes": 829,
+   "stream_bytes": 829,
+   "stream_sha256": "32451a073a145f0a6a0ca68355fc51b2a952ce80a071fd49ac134625958d148c"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00028",
+   "key": "8e48ba437c66337c",
+   "bytes": 705,
+   "stream_bytes": 705,
+   "stream_sha256": "8aea10067a85a2aa9425656f6654e5952e07098137a21959cdac72906a15083a"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00029",
+   "key": "af689abb76f8b38d",
+   "bytes": 639,
+   "stream_bytes": 639,
+   "stream_sha256": "da537d14e96dc89cdfc28d32c5b2b09aac0a274d9dd04d1e9bec668ccbd51ef3"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00030",
+   "key": "a284309f0109944c",
+   "bytes": 650,
+   "stream_bytes": 650,
+   "stream_sha256": "c78d6e70af52048f153706fb7c33796b5eca7dac459663d2d02108bd52910c8e"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00031",
+   "key": "9e319c833ce0ed6d",
+   "bytes": 669,
+   "stream_bytes": 669,
+   "stream_sha256": "63ce79d4771ef2af461a4ddfd40ee5bd1af9bfde0a2a83cb578bff475b2cc3f8"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00032",
+   "key": "555c214a6b0ca716",
+   "bytes": 655,
+   "stream_bytes": 655,
+   "stream_sha256": "eefb42e441c1011fd739f107269600ebd3a509bcecfa6bdcc3ef3dd468450d2f"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00033",
+   "key": "8586cf25b6d2f81a",
+   "bytes": 640,
+   "stream_bytes": 640,
+   "stream_sha256": "95addb7dda3ebabd19e1fce3d35b705a19dee5c04331734b610df41056126a64"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00034",
+   "key": "04626b3653bd6158",
+   "bytes": 696,
+   "stream_bytes": 696,
+   "stream_sha256": "b4ef420f57589a69b8fb8616b38c9c393cd13b941bfce1abc4fdfffc4a84d157"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00035",
+   "key": "51ec8e355a309339",
+   "bytes": 690,
+   "stream_bytes": 690,
+   "stream_sha256": "92ded5faa30435bd0e4b5c8c1f06f2f1053dac4d1d21cc1662833d500a53a8f7"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00036",
+   "key": "23e696b1d4f4a797",
+   "bytes": 780,
+   "stream_bytes": 780,
+   "stream_sha256": "2ecf2c23f66cedecf9a2a388653c38a374a989b23e28da8d8cc26792ac7d21dd"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00037",
+   "key": "c822701ab8e7765e",
+   "bytes": 767,
+   "stream_bytes": 767,
+   "stream_sha256": "08fcffbd05b316277535dd0dceaba261b3c56ca6d38a606c3db986b0c59f64d4"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00038",
+   "key": "f1915e2b5600d02b",
+   "bytes": 743,
+   "stream_bytes": 743,
+   "stream_sha256": "85ef8ec27e874296bb4bf69cff24e95f69918ab2625e56258089b2ab2f48fbbc"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00039",
+   "key": "490265df745a9dcd",
+   "bytes": 782,
+   "stream_bytes": 782,
+   "stream_sha256": "2f05fe69638dab2defcbc328eef66ae669048fe8c387c41819677d491366008d"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00040",
+   "key": "1e7ed59eff53a386",
+   "bytes": 788,
+   "stream_bytes": 788,
+   "stream_sha256": "e20e4809ea9acfa2d9288b9f8152275ae836d2cb0a055231d0ce156b1ea15694"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00041",
+   "key": "8e6e9beffb27af0e",
+   "bytes": 753,
+   "stream_bytes": 753,
+   "stream_sha256": "1582b1f6bc0551d601482a737c51c34495e7c9e2239297880ad0d4a2841b02d8"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00042",
+   "key": "aca7e8ab65de08c7",
+   "bytes": 819,
+   "stream_bytes": 819,
+   "stream_sha256": "e9f34af5c8f74bc93d892fac1ad600404d144bf8adc962e446695ce3dbacdc7e"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00043",
+   "key": "9ecdab87bdb4776a",
+   "bytes": 895,
+   "stream_bytes": 895,
+   "stream_sha256": "3642536b129ce1f9a7b29730b69eaee54882f3836b8dfca987c4491895d17fab"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00044",
+   "key": "05f638814067d339",
+   "bytes": 912,
+   "stream_bytes": 912,
+   "stream_sha256": "c8ad3d91a8704b9b9d81f069871a6935b420029987b9d5604db8704440129d79"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00045",
+   "key": "b9b024034d04467a",
+   "bytes": 933,
+   "stream_bytes": 933,
+   "stream_sha256": "9247f4731f9a70c3e09f4dc30544456f7527898c304096992fb55819a1da891b"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00046",
+   "key": "cf840655e8682e5e",
+   "bytes": 896,
+   "stream_bytes": 896,
+   "stream_sha256": "141374e0ba67c62ac64efaad1c978a54f5533c5254255e07886e3bedc88c1e64"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00047",
+   "key": "441da4c16de27123",
+   "bytes": 892,
+   "stream_bytes": 892,
+   "stream_sha256": "54aeb5b8b06d65dd41ed60717fd3e4acae7710fc76ff69b75a1981d16203bf62"
+  },
+  {
+   "input_id": "DAVIS2017/miami-surf/00048",
+   "key": "be5d5dc492f62d0e",
+   "bytes": 962,
+   "stream_bytes": 962,
+   "stream_sha256": "99b89d74548af58997436d6990defca2f2a8bc8256d30f0e3ae1cd2f7a6beada"
+  }
+ ],
+ "errors": [],
+ "not_applicable": [],
+ "finished": "2026-10-29 08:58:22"
+}
