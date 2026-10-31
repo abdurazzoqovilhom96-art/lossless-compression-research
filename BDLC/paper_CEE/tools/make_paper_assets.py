@@ -933,7 +933,8 @@ Test & Hypothesis & Estimate & Better & $p$ & $p$ (Holm) \\
 ''', [rel(P_TESTS), rel(P_PARETO), rel(P_PER), rel(P_TESTS_C), rel(P_PARETO_C), rel(P_PER_C)])
 
 # Table: BDLC vs every competitor (one scope)
-def comparison_table(scope, label, caption_extra, star=True):
+def comparison_table(scope, label, caption_extra, star=True, font=r'\footnotesize'):
+    r"""font: \footnotesize in the text; the appendix tables use \scriptsize so that two of them fit on a page."""
     order = sorted(competitors, key=lambda c: float(S[(scope, c)]['micro_bpp']))
     rows = []
     b = S[(scope, 'bdlc')]
@@ -949,7 +950,7 @@ def comparison_table(scope, label, caption_extra, star=True):
     n_t = b['images_timed']
     return r'''\begin{%s}[pos=%s]
 \caption{%s: BDLC against each competitor configuration on the same %s maps (sizes) and %s timed maps (speed). Size gain $=100(1-\sum B_{\mathrm{BDLC}}/\sum B_{\mathrm{ref}})$; negative means BDLC is larger. Maps: BDLC smaller / equal / larger. Speed-up: ratio of summed net times; below 1 means BDLC is slower.%s}\label{%s}
-\footnotesize
+%s
 \begin{tabular*}{\tblwidth}{@{}LRRRRR@{}}
 \toprule
 Configuration & Size (bpp) & Size gain (\%%) & Maps & Encode speed-up & Decode speed-up \\
@@ -958,18 +959,22 @@ Configuration & Size (bpp) & Size gain (\%%) & Maps & Encode speed-up & Decode s
 \bottomrule
 \end{tabular*}
 \end{%s}
-''' % (env, '!htbp', SCOPE_NAME[scope], fint(n_img), fint(n_t), caption_extra, label,
+''' % (env, '!htbp', SCOPE_NAME[scope], fint(n_img), fint(n_t), caption_extra, label, font,
        '\n'.join(rows), env)
 
 
 write('tab_compare_davis.tex', comparison_table(DAVIS, 'tab:compare', ''), [rel(P_PAIR), rel(P_SUMMARY)])
+# appendix tables: smaller type and rows (local to the float), so that two of them share a page
+APPFONT = r'\scriptsize\renewcommand{\arraystretch}{0.88}'
 # (the pooled table of all real maps of protocol B is not printed: 6,208 of its 6,262 maps are DAVIS maps, so it
 # repeats Table tab:compare; its test results are reported in Section 6.1 and all its rows are in the run's CSV files)
 for scope, lab in (('Fluo-N2DH-GOWT1_GT_SEG', 'tab:compare-gowt1'),
                    ('PhC-C2DL-PSC_GT_SEG', 'tab:compare-psc'), ('Fluo-N2DH-SIM+_GT_SEG', 'tab:compare-sim')):
     extra = ' Descriptive only (two sequences).'
-    write('tab_compare_%s.tex' % lab.split('-')[1], comparison_table(scope, lab, extra), [rel(P_PAIR), rel(P_SUMMARY)])
-write('tab_compare_coco.tex', comparison_table(COCO, 'tab:compare-coco', ' Protocol C.'), [rel(P_PAIR_C), rel(P_SUMMARY_C)])
+    write('tab_compare_%s.tex' % lab.split('-')[1], comparison_table(scope, lab, extra, font=APPFONT),
+          [rel(P_PAIR), rel(P_SUMMARY)])
+write('tab_compare_coco.tex', comparison_table(COCO, 'tab:compare-coco', ' Protocol C.', font=APPFONT),
+      [rel(P_PAIR_C), rel(P_SUMMARY_C)])
 
 # Table: ablation
 rows = []
@@ -1152,6 +1157,20 @@ SAVEKW = {} if LANG == 'en' else {'bbox_inches': 'tight', 'pad_inches': 0.03}
 NCOL = 4 if LANG == 'en' else 3
 
 
+def save_fig(fig, path, **kw):
+    """fig.savefig with a few retries: on this Windows machine a figure file is sometimes held open briefly by
+    another process (OSError: Invalid argument); the file is written again a second later."""
+    import time
+    for attempt in range(8):
+        try:
+            fig.savefig(path, **kw)
+            return
+        except OSError:
+            if attempt == 7:
+                raise
+            time.sleep(1.0)
+
+
 def tr(s):
     """Figure text in the language of this build (identity for the manuscript)."""
     return FIGTXT.get(s, s)
@@ -1265,13 +1284,13 @@ def scatter_figure(kind, fname, label_extra, src, ga=False):
     if ga:
         # the journal prefers TIFF, EPS or PDF for the graphical abstract; PNG is used inside the manuscript
         p = os.path.join(SUB, fname)
-        fig.savefig(p, dpi=300, **SAVEKW)
-        fig.savefig(p.replace('.png', '.pdf'), **SAVEKW)
-        fig.savefig(p.replace('.png', '.tiff'), dpi=300, pil_kwargs={'compression': 'tiff_lzw'}, **SAVEKW)
+        save_fig(fig, p, dpi=300, **SAVEKW)
+        save_fig(fig, p.replace('.png', '.pdf'), **SAVEKW)
+        save_fig(fig, p.replace('.png', '.tiff'), dpi=300, pil_kwargs={'compression': 'tiff_lzw'}, **SAVEKW)
     else:
         p = os.path.join(FIG, fname)
-        fig.savefig(p, **SAVEKW)
-        fig.savefig(p.replace('.pdf', '.png'), dpi=300, **SAVEKW)
+        save_fig(fig, p, **SAVEKW)
+        save_fig(fig, p.replace('.pdf', '.png'), dpi=300, **SAVEKW)
     plt.close(fig)
     MANIFEST.append((rel(p), [rel(src)]))
     return front
@@ -1297,6 +1316,115 @@ front_dec_c = pareto_front([(float(r['decode_MPix_s']), float(r['micro_bpp']), r
 macro('FrontEncNamesCOCO', andjoin(tex(NAME[c]) if c != 'bdlc' else 'BDLC' for _, _, c in sorted(front_enc_c, key=lambda p: p[1])), rel(src_enc_c))
 macro('FrontDecNamesCOCO', andjoin(tex(NAME[c]) if c != 'bdlc' else 'BDLC' for _, _, c in sorted(front_dec_c, key=lambda p: p[1])), rel(src_dec_c))
 macro('BppTimedCOCO', '%.5f' % float([r for r in read_csv(src_enc_c) if r['codec'] == 'bdlc'][0]['micro_bpp']), rel(src_enc_c))
+
+# method figure: how BDLC codes a run end, on three two-row examples (W = 32). The decisions drawn are computed
+# by run_end_decisions, which follows the label and run-end rules of bdlc/core.py (Sections 3.3 and 3.4), and are
+# checked against the decisions the caption in sections/03_method.tex describes.
+def run_end_decisions(ref, cur, dmax=8):
+    W = len(ref)
+    P = [c for c in range(1, W) if ref[c] != ref[c - 1]] + [W, W]
+    runs, a0 = [], 0
+    for c in range(1, W + 1):
+        if c == W or cur[c] != cur[c - 1]:
+            runs.append((a0, c, cur[a0]))
+            a0 = c
+    out, prev = [], None
+    for a0, a1, lab in runs:
+        k1, src, e1 = ref[a0], None, None
+        if prev is None or k1 != prev:
+            if lab == k1:
+                src = 'k1'
+            else:
+                e1 = k1
+        if src is None:
+            p0 = min(p for p in P if p > a0)
+            k2 = ref[p0] if p0 < W else None
+            if k2 is not None and k2 != prev and k2 != e1 and lab == k2:
+                src = 'k2'
+        modes = []
+        if src is None:
+            src = 'escape'
+        else:
+            lo = a0
+            while True:
+                j = next(i for i, p in enumerate(P) if p > lo)
+                if j < len(P) - 2 and ref[P[j]] == lab:
+                    j += 1
+                b1 = P[j]
+                if b1 >= W:
+                    modes.append(('noref',))
+                    break
+                b2 = P[j + 1]
+                if a1 > b2:
+                    modes.append(('pass', b1, b2))
+                    lo = b2
+                    continue
+                d = a1 - b1
+                modes.append(('vertical' if abs(d) <= dmax else 'horizontal', b1, b2, d))
+                break
+        out.append((a0, a1, lab, src, modes))
+        prev = lab
+    return out
+
+
+METHOD_EXAMPLES = [   # (reference row, current row, run shown, decisions of that run, panel title)
+    ([0] * 10 + [2] * 10 + [0] * 12, [0] * 8 + [2] * 13 + [0] * 11, 1,
+     ('k2', [('vertical', 20, 32, 1)]), '(a) label from $k_2$; run end in vertical mode, $\\delta=+1$'),
+    ([0] * 8 + [3] * 4 + [0] * 10 + [1] * 10, [0] * 20 + [1] * 12, 0,
+     ('k1', [('pass', 8, 12), ('vertical', 22, 32, -2)]), '(b) PASS over the pair $(b_1,b_2)$, then vertical mode, $\\delta=-2$'),
+    ([0] * 6 + [2] * 26, [0] * 18 + [2] * 14, 0,
+     ('k1', [('horizontal', 6, 32, 12)]), '(c) horizontal mode, $|\\delta|=12>D_{\\max}=8$'),
+]
+LABCOL = {0: '#e1e0d9', 1: '#1baf7a', 2: '#2a78d6', 3: '#eb6834'}
+fig, axes = plt.subplots(3, 1, figsize=(6.6, 4.1), dpi=300)
+for ax, (ref, cur, ri, expect, title) in zip(axes, METHOD_EXAMPLES):
+    dec = run_end_decisions(ref, cur)
+    a0, a1, lab, src, modes = dec[ri]
+    assert (src, modes) == expect, (title, src, modes)
+    W = len(ref)
+    for y, row in ((1.25, ref), (0.0, cur)):
+        for c, v in enumerate(row):
+            ax.add_patch(plt.Rectangle((c, y), 1, 0.8, facecolor=LABCOL[v], edgecolor='white', lw=0.6))
+    ax.add_patch(plt.Rectangle((a0, -0.04), a1 - a0, 0.88, fill=False, edgecolor=INK, lw=1.1))
+    ax.text(-0.6, 1.65, tr('row $r-1$ ($R$)'), ha='right', va='center', fontsize=6.5)
+    ax.text(-0.6, 0.40, tr('row $r$'), ha='right', va='center', fontsize=6.5)
+    for p in (c for c in range(1, W) if ref[c] != ref[c - 1]):
+        ax.plot([p, p], [2.05, 2.25], color=INK, lw=0.8)
+    ax.text(a0, -0.32, '$a_0$', ha='center', va='center', fontsize=6.5)
+    ax.text(a1, -0.32, '$a_1$', ha='center', va='center', fontsize=6.5)
+    if src == 'k2':
+        ax.annotate('$k_1$', (a0 + 0.5, 1.65), xytext=(a0 - 1.6, 2.55), fontsize=6.5, ha='center',
+                    arrowprops=dict(arrowstyle='-', color=GRAY, lw=0.5))
+        p0 = min(p for p in range(a0 + 1, W) if ref[p] != ref[p - 1])
+        ax.annotate('$k_2$', (p0 + 0.5, 1.65), xytext=(p0 + 1.8, 2.55), fontsize=6.5, ha='center',
+                    arrowprops=dict(arrowstyle='-', color=GRAY, lw=0.5))
+    for m in modes:
+        if m[0] == 'pass':
+            for b, name in ((m[1], '$b_1$'), (m[2], '$b_2$')):
+                ax.plot([b, b], [1.2, 2.1], color=GRAY, lw=0.7, ls=':')
+                ax.text(b, 2.45, name, ha='center', va='center', fontsize=6.5, color=GRAY)
+            ax.text((m[1] + m[2]) / 2, 0.40, 'PASS', ha='center', va='center', fontsize=6.5, color=INK)
+        elif m[0] in ('vertical', 'horizontal'):
+            b1, d = m[1], m[3]
+            ax.plot([b1, b1], [0.85, 2.1], color=INK, lw=0.9, ls='--')
+            ax.text(b1, 2.45, '$b_1$', ha='center', va='center', fontsize=6.5)
+            ax.annotate('', (a1, 1.03), xytext=(b1, 1.03), arrowprops=dict(arrowstyle='->', color=INK, lw=0.9,
+                                                                           shrinkA=0, shrinkB=0))
+            if abs(d) > 3:   # long arrow: label on the arrow
+                ax.text((a1 + b1) / 2, 1.03, '$\\delta$', ha='center', va='bottom', fontsize=6.5,
+                        bbox=dict(facecolor='white', edgecolor='none', pad=0.3))
+            else:            # short arrow: label beside it, clear of the boundary line
+                ax.text(max(a1, b1) + 0.35, 1.03, '$\\delta$', ha='left', va='center', fontsize=6.5)
+    ax.set_title(tr(title), fontsize=7, loc='left', pad=2)
+    ax.set_xlim(-6.5, W + 0.3)       # room on the left for the row names
+    ax.set_ylim(-0.6, 2.8)
+    ax.axis('off')
+fig.tight_layout(h_pad=0.6)
+p = os.path.join(FIG, 'fig_method.pdf')
+save_fig(fig, p, **SAVEKW)
+save_fig(fig, p.replace('.pdf', '.png'), dpi=300, **SAVEKW)
+plt.close(fig)
+MANIFEST.append((rel(p), ['paper_CEE/tools/make_paper_assets.py (examples; rules of bdlc/core.py)']))
 
 # bar chart: compressed size, all 6,208 DAVIS maps
 src = os.path.join(RES, 'plot_data', 'size_%s.csv' % DAVIS)
@@ -1327,8 +1455,8 @@ handles = [Line2D([], [], ls='', marker=STYLE[c][1], color=STYLE[c][0], markered
 ax.legend(handles=handles, loc='upper center', bbox_to_anchor=(0.4, -0.07), fontsize=6.5, frameon=False, ncol=3)
 fig.tight_layout()
 p = os.path.join(FIG, 'fig_size.pdf')
-fig.savefig(p, **SAVEKW)
-fig.savefig(p.replace('.pdf', '.png'), dpi=300, **SAVEKW)
+save_fig(fig, p, **SAVEKW)
+save_fig(fig, p.replace('.pdf', '.png'), dpi=300, **SAVEKW)
 plt.close(fig)
 MANIFEST.append((rel(p), [rel(src)]))
 assert [r['images'] if 'images' in r else None for r in rows]  # source rows exist
@@ -1355,8 +1483,8 @@ for s in ('top', 'right'):
     ax.spines[s].set_visible(False)
 fig.tight_layout()
 p = os.path.join(FIG, 'fig_bit_shares.pdf')
-fig.savefig(p, **SAVEKW)
-fig.savefig(p.replace('.pdf', '.png'), dpi=300, **SAVEKW)
+save_fig(fig, p, **SAVEKW)
+save_fig(fig, p.replace('.pdf', '.png'), dpi=300, **SAVEKW)
 plt.close(fig)
 MANIFEST.append((rel(p), [rel(P_BB), rel(P_BB_C)]))
 
