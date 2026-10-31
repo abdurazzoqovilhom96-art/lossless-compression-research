@@ -138,6 +138,8 @@ It needs Python 3.14 with `numpy` and `matplotlib` (versions in `BDLC/requiremen
 
 We ran the first command on Windows 11 from this repository's files; the committed results were generated in the Linux container. All 36 CSV files agreed to within 2.3×10⁻¹⁶ (relative), the last digit of a double-precision number. The only other differences were Wilcoxon p-values from the normal approximation below 10⁻¹⁵, which are at the limit of double precision (for example 2.2×10⁻¹⁶ on Linux and 0 on Windows); they should be read as p < 10⁻¹⁵. Text tables may differ in line endings.
 
+For run C, regenerated on Windows 11 from a fresh clone of this repository (without the shard files), the report status was the same (`PARTIAL`, 46 files, 1 failed check) and all values of the 16 CSV files agreed to within 10⁻¹² (relative), except the two Wilcoxon p-values of the variant without PASS mode in `statistics/size_gain.csv` (0.103869 in the container, 0.103871 on Windows). In that comparison 201 groups of maps have absolute log ratios that are mathematically equal (ln(a/b) for one map and −ln(b/a) for another) but whose floating-point values differ in the last digits; whether they count as ties in the signed-rank test depends on the platform's logarithm. This p-value is not used in the manuscript.
+
 Every number, table and figure of the manuscript is produced from these files by
 
 ```
