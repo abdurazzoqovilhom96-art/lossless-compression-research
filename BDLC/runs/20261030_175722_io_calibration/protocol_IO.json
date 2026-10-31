@@ -1,0 +1,30 @@
+{
+ "purpose": "post-hoc I/O calibration of the command-line timing (paper limitation B1)",
+ "design": "Post-hoc I/O calibration of the command-line timing (paper limitation B1). Writes the run folder, the three\nworker tasks and the protocol file BEFORE anything is timed.\n\n    python -I posthoc/io_calibration/prepare.py\n\nDesign (fixed here, before the run):\n  * Same machine, container image (bdlc-bench:2026-10-29), worker code, CPU core (2), priority (nice -10),\n    repeats (3), warm-up and null-run subtraction as protocol B; the image list is the timing list of\n    protocol B (1,169 maps; each task in the order its codec had in run B), taken from run 20261029_081034_test_B.\n  * Three tasks, run one after another in one session:\n      ecc_real : ecc_direct with the real ECC-2026 binaries (/opt/baselines/bin);\n      ecc_shim : ecc_direct with pass-through programs that copy the input file to the output file, so the\n                 harness performs every step of the ECC-2026 path except the coding itself;\n      bdlc     : BDLC, for a same-session reference.\n  * Analysis (posthoc/io_calibration/analyze.py), DAVIS 2017 timed maps, clusters = sequences:\n      net time = median of the 3 repeats minus the median null (1x1) time of the same task;\n      speed-up of BDLC over ECC-2026 as in B3 (geometric mean over sequences of summed times) and as the ratio\n      of summed times, (a) for ecc_real as measured and (b) for ecc_real minus ecc_shim, i.e. with the file and\n      conversion cost of the command-line path removed. Both are reported, whatever they show.\n  * Nothing of protocol B is changed or re-used except the image list; run B's files are only read.\n",
+ "written_at_utc": "2026-10-30 12:57:22",
+ "run_folder": "runs/20261030_175722_io_calibration",
+ "image_list_from": "runs/20261029_081034_test_B/tasks/ecc_direct_bench.json",
+ "image_list_sha256": "3273b7d6d4e7925805c6f6c02ce9d26aeac670a15942b85f81bfb3904aada1a4",
+ "n_images": 1169,
+ "code_sha256": {
+  "bench/worker.py": "2c7b57ccd761e9a5b9886f9b9496dfbdc4a0e435f745a2d23ac4889bdf6425b6",
+  "bench/backends.py": "3e0277584b903cd8503958997370b3c4c4ac99b0789e159ace1e85dc45ddcf43",
+  "bench/external.py": "467805fc8588b69ed40a4590661a460e490b4356d70bc845e7eaa5155edc7624",
+  "bdlc/core.py": "af4cf5e7685c92c83b00ecd77349b434063455e70bceb1510ea7ad64b4dff687",
+  "bdlc/api.py": "9d2985eb4549d429fe64a2e8a33d05d59a9af64b1625d256151e098bef33ec14",
+  "bdlc/__init__.py": "2f596743e5233c2d976455aab57ae7597a4ed6c39c5bb8ee77e40b5d8e1d119b",
+  "bdlc/init_v1.npz": "6e860e5b548626d22d4f1b46031df0a47f8610b2a96b4827bbcb68dabc2fc865",
+  "posthoc/io_calibration/bin/ecc_encoder": "fe216768c20bf693e685b6dd5cc641a519215127634f806916ac8a96447ac129",
+  "posthoc/io_calibration/bin/ecc_decoder": "0e0e8b039855f3eead45d4baf9ba1ba1c0ce6ee83ba76ca02c448a5ba75f614d",
+  "posthoc/io_calibration/run_io.sh": "d15d3f9e5d392a1333ac5ca984221b9e54218893d939256f7dcd588ab5ab4e81",
+  "posthoc/io_calibration/analyze.py": "5f37fc7e230941cd217da5a56743a3307a7a64db3e5d705e2d50bacb15868111",
+  "posthoc/io_calibration/prepare.py": "7217a5d33e31b9b45bb410252188edb277a041dbfbac647e05b37f2749760a29"
+ },
+ "task_sha256": {
+  "ecc_real": "e2a931312d5af7b9cf40a59a68b0b8ba16e966bfde8161a9eb4bffe4d804661a",
+  "ecc_shim": "2a92111b49a3482c2893fd19235a67a404b11b20e8203233df1378477e867c00",
+  "bdlc": "1606d0bbebc18f4188391180f3e6ef8b2788249d0cbbb358a05cdd1c3eb28add"
+ },
+ "container_image": "bdlc-bench:2026-10-29",
+ "real_ecc_binaries": "/opt/baselines/bin (hashes recorded in protocol_B.json)"
+}

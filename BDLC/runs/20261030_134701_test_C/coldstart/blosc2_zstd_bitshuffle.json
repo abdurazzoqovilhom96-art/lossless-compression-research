@@ -1,0 +1,62 @@
+[
+ {
+  "codec": "blosc2_zstd_bitshuffle",
+  "mode": "coldstart",
+  "pin": {
+   "requested_cpu": 2,
+   "affinity_ok": true,
+   "priority_ok": true,
+   "affinity_mask": "0x4",
+   "nice": -10
+  },
+  "ok": true,
+  "numba_cache_dir": "/tmp/numba_cache",
+  "import_ns": 1347464,
+  "first_encode_ns": 62015952,
+  "first_decode_ns": 586805,
+  "second_encode_ns": 59541321,
+  "second_decode_ns": 603090,
+  "cache_mode": "cache",
+  "run": 0
+ },
+ {
+  "codec": "blosc2_zstd_bitshuffle",
+  "mode": "coldstart",
+  "pin": {
+   "requested_cpu": 2,
+   "affinity_ok": true,
+   "priority_ok": true,
+   "affinity_mask": "0x4",
+   "nice": -10
+  },
+  "ok": true,
+  "numba_cache_dir": "/tmp/numba_cache",
+  "import_ns": 2264116,
+  "first_encode_ns": 65909128,
+  "first_decode_ns": 581951,
+  "second_encode_ns": 60667342,
+  "second_decode_ns": 582774,
+  "cache_mode": "cache",
+  "run": 1
+ },
+ {
+  "codec": "blosc2_zstd_bitshuffle",
+  "mode": "coldstart",
+  "pin": {
+   "requested_cpu": 2,
+   "affinity_ok": true,
+   "priority_ok": true,
+   "affinity_mask": "0x4",
+   "nice": -10
+  },
+  "ok": true,
+  "numba_cache_dir": "/tmp/numba_cache",
+  "import_ns": 1285879,
+  "first_encode_ns": 65649262,
+  "first_decode_ns": 648120,
+  "second_encode_ns": 58336207,
+  "second_decode_ns": 521515,
+  "cache_mode": "cache",
+  "run": 2
+ }
+]

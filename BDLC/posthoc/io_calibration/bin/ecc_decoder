@@ -1,0 +1,13 @@
+#!/bin/sh
+# Pass-through stand-in for ecc_decoder (I/O calibration only): copies the input file to the output file.
+# Together with the pass-through encoder the "stream" is the raw 8-bit map, so the harness's lossless
+# check still holds and the decode path (stream file written, program start, map file read) is identical.
+in=; out=
+while [ $# -gt 0 ]; do
+    case "$1" in
+        -i) in=$2; shift 2 ;;
+        -o) out=$2; shift 2 ;;
+        *) shift ;;
+    esac
+done
+exec cp "$in" "$out"

@@ -24,6 +24,13 @@ The DAVIS 2017 trainval 480p annotations are not redistributed, because the DAVI
 - J. Pont-Tuset et al., "The 2017 DAVIS Challenge on Video Object Segmentation," arXiv:1704.00675 (2017).
 - F. Perazzi et al., "A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation," CVPR 2016.
 
+## COCO-Stuff (not included)
+
+Protocol C uses the 5,000 validation maps (`val2017/*.png`) of the COCO-Stuff 2017 archive `stuffthingmaps_trainval2017.zip`. The COCO-Stuff annotations are published by their authors under the Creative Commons Attribution 4.0 licence (CC BY 4.0). They are not copied into this repository; `BDLC/tools/build_manifest_C.py` recreates the maps from the official archive. The source URL, size, SHA-256 and licence note of the archive are in `BDLC/downloads/COCO-Stuff/ACQUISITION.json`, and `BDLC/data_C/COCO-Stuff/INVENTORY.csv` lists the SHA-256 of every source map. COCO images are not part of the archive and were not used. Please cite:
+
+- H. Caesar, J. Uijlings, V. Ferrari, "COCO-Stuff: Thing and Stuff Classes in Context," CVPR 2018.
+- T.-Y. Lin et al., "Microsoft COCO: Common Objects in Context," ECCV 2014.
+
 ## Third-party software (not included)
 
 Source archives of ECC-2026, HM-16.21+SCM-8.8, JBIG-KIT 2.1, FLIF 0.4 and Compresso are not included. Their URLs, versions or commits, licences and SHA-256 hashes are in `BDLC/downloads/baselines/ACQUISITION.json` and `BDLC/downloads/baselines/INVENTORY.csv`.

@@ -1,0 +1,2575 @@
+{
+ "runs": [
+  "runs/20261029_081034_test_B",
+  "runs/20261030_134701_test_C"
+ ],
+ "outputs": [
+  {
+   "file": "paper_CEE/overleaf/tables/tab_datasets.tex",
+   "sources": [
+    "runs/20261029_081034_test_B/byte_breakdown.csv",
+    "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv",
+    "runs/20261030_134701_test_C/byte_breakdown.csv",
+    "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/tables/tab_codecs.tex",
+   "sources": [
+    "protocol_B.json"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/tables/tab_settings_a.tex",
+   "sources": [
+    "protocol_B.json"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/tables/tab_settings_b.tex",
+   "sources": [
+    "protocol_B.json"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/tables/tab_tests.tex",
+   "sources": [
+    "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv",
+    "runs/20261029_081034_test_B/results/statistics/pareto_B4.csv",
+    "runs/20261029_081034_test_B/results/tables/per_image.csv",
+    "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv",
+    "runs/20261030_134701_test_C/results/statistics/pareto_B4.csv",
+    "runs/20261030_134701_test_C/results/tables/per_image.csv"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/tables/tab_compare_davis.tex",
+   "sources": [
+    "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv",
+    "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/tables/tab_compare_gowt1.tex",
+   "sources": [
+    "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv",
+    "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/tables/tab_compare_psc.tex",
+   "sources": [
+    "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv",
+    "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/tables/tab_compare_sim.tex",
+   "sources": [
+    "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv",
+    "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/tables/tab_compare_coco.tex",
+   "sources": [
+    "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv",
+    "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/tables/tab_ablation.tex",
+   "sources": [
+    "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv",
+    "runs/20261029_081034_test_B/results/statistics/speed_coefficients.csv",
+    "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/tables/tab_throughput.tex",
+   "sources": [
+    "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv",
+    "runs/20261029_081034_test_B/results/statistics/coldstart.csv"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/tables/tab_ctc.tex",
+   "sources": [
+    "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/tables/tab_published.tex",
+   "sources": [
+    "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv",
+    "paper_CEE/tools/published_ecc2026.json"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/figures/fig_pareto_encode.pdf",
+   "sources": [
+    "runs/20261029_081034_test_B/results/plot_data/size_vs_encode_DAVIS2017_480p.csv"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/figures/fig_pareto_decode.pdf",
+   "sources": [
+    "runs/20261029_081034_test_B/results/plot_data/size_vs_decode_DAVIS2017_480p.csv"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/submission/graphical_abstract.png",
+   "sources": [
+    "runs/20261029_081034_test_B/results/plot_data/size_vs_encode_DAVIS2017_480p.csv"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/figures/fig_pareto_coco.pdf",
+   "sources": [
+    "runs/20261030_134701_test_C/results/plot_data/size_vs_encode_COCO-Stuff_val2017.csv"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/figures/fig_size.pdf",
+   "sources": [
+    "runs/20261029_081034_test_B/results/plot_data/size_DAVIS2017_480p.csv"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/figures/fig_bit_shares.pdf",
+   "sources": [
+    "runs/20261029_081034_test_B/byte_breakdown.csv",
+    "runs/20261030_134701_test_C/byte_breakdown.csv"
+   ]
+  },
+  {
+   "file": "paper_CEE/overleaf/numbers.tex",
+   "sources": [
+    "../real_manifest.csv",
+    "SHA-256 of BDLC/protocol_B.json (first 8 hex digits)",
+    "SHA-256 of BDLC/protocol_C.json (first 8 hex digits)",
+    "manifest_C.csv (input maps)",
+    "paper_CEE/tools/published_ecc2026.json",
+    "protocol_B.json",
+    "protocol_B.json + protocol_C.json",
+    "protocol_C.json",
+    "runs/20261029_081034_test_B/byte_breakdown.csv",
+    "runs/20261029_081034_test_B/byte_breakdown.csv + runs/20261030_134701_test_C/byte_breakdown.csv",
+    "runs/20261029_081034_test_B/failures.json",
+    "runs/20261029_081034_test_B/not_applicable.json",
+    "runs/20261029_081034_test_B/results/plot_data/size_vs_decode_DAVIS2017_480p.csv",
+    "runs/20261029_081034_test_B/results/plot_data/size_vs_encode_DAVIS2017_480p.csv",
+    "runs/20261029_081034_test_B/results/reports/status.json",
+    "runs/20261029_081034_test_B/results/reports/status.json + runs/20261030_134701_test_C/results/reports/status.json",
+    "runs/20261029_081034_test_B/results/statistics/coldstart.csv",
+    "runs/20261029_081034_test_B/results/statistics/pareto_B4.csv",
+    "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv",
+    "runs/20261029_081034_test_B/results/statistics/virtual_best.csv",
+    "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv",
+    "runs/20261029_081034_test_B/results/tables/per_image.csv",
+    "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv",
+    "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv + paper_CEE/tools/published_ecc2026.json",
+    "runs/20261030_134701_test_C/byte_breakdown.csv",
+    "runs/20261030_134701_test_C/failures.json",
+    "runs/20261030_134701_test_C/results/plot_data/size_vs_decode_COCO-Stuff_val2017.csv",
+    "runs/20261030_134701_test_C/results/plot_data/size_vs_encode_COCO-Stuff_val2017.csv",
+    "runs/20261030_134701_test_C/results/reports/status.json",
+    "runs/20261030_134701_test_C/results/statistics/pareto_B4.csv",
+    "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv",
+    "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv",
+    "runs/20261030_134701_test_C/results/tables/per_image.csv",
+    "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv",
+    "runs/20261030_175722_io_calibration/per_map.csv",
+    "runs/20261030_175722_io_calibration/protocol_IO.json",
+    "runs/20261030_175722_io_calibration/summary.json"
+   ]
+  }
+ ],
+ "macros": [
+  {
+   "name": "Nconfigs",
+   "value": "41",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "Ncompetitors",
+   "value": "35",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "NnonECC",
+   "value": "33",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "Nvariants",
+   "value": "5",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "NmapsTotal",
+   "value": "6{,}477",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "NtimedTotal",
+   "value": "1{,}169",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "Nrepeats",
+   "value": "3",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "NsizeJobs",
+   "value": "20",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "Ncoldruns",
+   "value": "3",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "NprimaryPairs",
+   "value": "265{,}557",
+   "source": "runs/20261029_081034_test_B/results/reports/status.json"
+  },
+  {
+   "name": "NtimedPairs",
+   "value": "47{,}929",
+   "source": "runs/20261029_081034_test_B/results/reports/status.json"
+  },
+  {
+   "name": "NreportFiles",
+   "value": "162",
+   "source": "runs/20261029_081034_test_B/results/reports/status.json"
+  },
+  {
+   "name": "Nfailures",
+   "value": "0",
+   "source": "runs/20261029_081034_test_B/failures.json"
+  },
+  {
+   "name": "NnotApplicable",
+   "value": "0",
+   "source": "runs/20261029_081034_test_B/not_applicable.json"
+  },
+  {
+   "name": "ProtocolHash",
+   "value": "96e16ed1",
+   "source": "SHA-256 of BDLC/protocol_B.json (first 8 hex digits)"
+  },
+  {
+   "name": "CPUname",
+   "value": "Intel Core i7-13700F",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "PythonVersion",
+   "value": "3.14.4",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "VerNumba",
+   "value": "0.68.1",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "VerNumpy",
+   "value": "2.5.4",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "VerImagecodecs",
+   "value": "2026.10.10",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "VerCrackle",
+   "value": "0.50.0",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "VerCseg",
+   "value": "2.3.3",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "VerZstandard",
+   "value": "0.25.0",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "NmapsDAVIS",
+   "value": "6{,}208",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "NtimedDAVIS",
+   "value": "900",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixDAVIS",
+   "value": "1{,}771",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixDAVIS",
+   "value": "2{,}444",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "BppDAVIS",
+   "value": "0.00809",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "NmapsReal",
+   "value": "6{,}262",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "NtimedReal",
+   "value": "954",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixReal",
+   "value": "1{,}838",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixReal",
+   "value": "2{,}535",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "BppReal",
+   "value": "0.00797",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "NmapsGOWT",
+   "value": "50",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "NtimedGOWT",
+   "value": "50",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixGOWT",
+   "value": "2{,}623",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixGOWT",
+   "value": "3{,}632",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "BppGOWT",
+   "value": "0.00127",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "NmapsPSC",
+   "value": "4",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "NtimedPSC",
+   "value": "4",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixPSC",
+   "value": "961",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixPSC",
+   "value": "1{,}165",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "BppPSC",
+   "value": "0.03084",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "NmapsSIM",
+   "value": "215",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "NtimedSIM",
+   "value": "215",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixSIM",
+   "value": "1{,}434",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixSIM",
+   "value": "1{,}875",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "BppSIM",
+   "value": "0.01555",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "NmapsCTC",
+   "value": "269",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "NseqDAVIS",
+   "value": "90",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "NseqReal",
+   "value": "94",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "NdevMaps",
+   "value": "52",
+   "source": "../real_manifest.csv"
+  },
+  {
+   "name": "NdevHeLa",
+   "value": "18",
+   "source": "../real_manifest.csv"
+  },
+  {
+   "name": "NdevUThree",
+   "value": "34",
+   "source": "../real_manifest.csv"
+  },
+  {
+   "name": "NdevSeq",
+   "value": "4",
+   "source": "../real_manifest.csv"
+  },
+  {
+   "name": "BoneDeltaDAVIS",
+   "value": "\\textminus 10.2",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BoneDeltaAbsDAVIS",
+   "value": "10.2",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BoneLoDAVIS",
+   "value": "\\textminus 11.1",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BoneHiDAVIS",
+   "value": "\\textminus 9.2",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BoneLoAbsDAVIS",
+   "value": "9.2",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BoneHiAbsDAVIS",
+   "value": "11.1",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BoneBetterDAVIS",
+   "value": "2",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BoneGroupsDAVIS",
+   "value": "90",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BonePsignDAVIS",
+   "value": "$6.6\\times10^{-24}$",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BonePholmDAVIS",
+   "value": "$1.3\\times10^{-23}$",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BoneWilcoxonDAVIS",
+   "value": "$<10^{-15}$",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BtwoWilcoxonDAVIS",
+   "value": "$<10^{-15}$",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BtwoDeltaDAVIS",
+   "value": "33.1",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BtwoLoDAVIS",
+   "value": "30.4",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BtwoHiDAVIS",
+   "value": "35.6",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BtwoBetterDAVIS",
+   "value": "87",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BtwoPsignDAVIS",
+   "value": "$9.8\\times10^{-23}$",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BtwoPholmDAVIS",
+   "value": "$9.8\\times10^{-23}$",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BthreeEncDAVIS",
+   "value": "17.1",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BthreeDecDAVIS",
+   "value": "8.6",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BthreeEncGroupsDAVIS",
+   "value": "90",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BthreeDecGroupsDAVIS",
+   "value": "90",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BthreePsignDAVIS",
+   "value": "$8.1\\times10^{-28}$",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BthreePholmDAVIS",
+   "value": "$2.4\\times10^{-27}$",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BfourDominatingDAVIS",
+   "value": "0",
+   "source": "runs/20261029_081034_test_B/results/statistics/pareto_B4.csv"
+  },
+  {
+   "name": "BfourMaxGroupsDAVIS",
+   "value": "0",
+   "source": "runs/20261029_081034_test_B/results/statistics/pareto_B4.csv"
+  },
+  {
+   "name": "BoneDeltaReal",
+   "value": "\\textminus 9.9",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BoneDeltaAbsReal",
+   "value": "9.9",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BoneLoReal",
+   "value": "\\textminus 10.8",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BoneHiReal",
+   "value": "\\textminus 8.9",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BoneLoAbsReal",
+   "value": "8.9",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BoneHiAbsReal",
+   "value": "10.8",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BoneBetterReal",
+   "value": "4",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BoneGroupsReal",
+   "value": "94",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BonePsignReal",
+   "value": "$3.2\\times10^{-22}$",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BonePholmReal",
+   "value": "$3.2\\times10^{-22}$",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BoneWilcoxonReal",
+   "value": "$<10^{-15}$",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BtwoWilcoxonReal",
+   "value": "$<10^{-15}$",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BtwoDeltaReal",
+   "value": "33.3",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BtwoLoReal",
+   "value": "30.7",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BtwoHiReal",
+   "value": "35.7",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BtwoBetterReal",
+   "value": "91",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BtwoPsignReal",
+   "value": "$7.0\\times10^{-24}$",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BtwoPholmReal",
+   "value": "$1.4\\times10^{-23}$",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BthreeEncReal",
+   "value": "17.2",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BthreeDecReal",
+   "value": "8.5",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BthreeEncGroupsReal",
+   "value": "94",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BthreeDecGroupsReal",
+   "value": "94",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BthreePsignReal",
+   "value": "$5.0\\times10^{-29}$",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BthreePholmReal",
+   "value": "$1.5\\times10^{-28}$",
+   "source": "runs/20261029_081034_test_B/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "BfourDominatingReal",
+   "value": "0",
+   "source": "runs/20261029_081034_test_B/results/statistics/pareto_B4.csv"
+  },
+  {
+   "name": "BfourMaxGroupsReal",
+   "value": "0",
+   "source": "runs/20261029_081034_test_B/results/statistics/pareto_B4.csv"
+  },
+  {
+   "name": "BoneBetterNames",
+   "value": "\\textit{kite-surf} and \\textit{skate-park}",
+   "source": "runs/20261029_081034_test_B/results/statistics/virtual_best.csv"
+  },
+  {
+   "name": "GainECC",
+   "value": "\\textminus 9.8",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsECC",
+   "value": "9.8",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncECC",
+   "value": "17.3",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecECC",
+   "value": "8.62",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppECC",
+   "value": "0.00737",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixECC",
+   "value": "102",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixECC",
+   "value": "283",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeLossECC",
+   "value": "5{,}908",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "SizeWinECC",
+   "value": "258",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainECCpi",
+   "value": "\\textminus 7.5",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsECCpi",
+   "value": "7.5",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncECCpi",
+   "value": "22.6",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecECCpi",
+   "value": "13.0",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppECCpi",
+   "value": "0.00753",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixECCpi",
+   "value": "78.4",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixECCpi",
+   "value": "188",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeLossECCpi",
+   "value": "5{,}377",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "SizeWinECCpi",
+   "value": "746",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainCrackle",
+   "value": "28.1",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsCrackle",
+   "value": "28.1",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncCrackle",
+   "value": "4.90",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecCrackle",
+   "value": "3.24",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppCrackle",
+   "value": "0.01125",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixCrackle",
+   "value": "361",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixCrackle",
+   "value": "755",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeLossCrackle",
+   "value": "55",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "SizeWinCrackle",
+   "value": "6{,}153",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainJPEGLS",
+   "value": "82.7",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsJPEGLS",
+   "value": "82.7",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncJPEGLS",
+   "value": "0.66",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecJPEGLS",
+   "value": "0.47",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppJPEGLS",
+   "value": "0.04686",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixJPEGLS",
+   "value": "2{,}663",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixJPEGLS",
+   "value": "5{,}149",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeLossJPEGLS",
+   "value": "0",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "SizeWinJPEGLS",
+   "value": "6{,}208",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainZstdthree",
+   "value": "84.0",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsZstdthree",
+   "value": "84.0",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncZstdthree",
+   "value": "0.49",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecZstdthree",
+   "value": "0.45",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppZstdthree",
+   "value": "0.05051",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixZstdthree",
+   "value": "3{,}577",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixZstdthree",
+   "value": "5{,}393",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeLossZstdthree",
+   "value": "0",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "SizeWinZstdthree",
+   "value": "6{,}208",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainZstdnineteen",
+   "value": "77.9",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsZstdnineteen",
+   "value": "77.9",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncZstdnineteen",
+   "value": "35.7",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecZstdnineteen",
+   "value": "0.42",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppZstdnineteen",
+   "value": "0.03653",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixZstdnineteen",
+   "value": "49.5",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixZstdnineteen",
+   "value": "5{,}858",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeLossZstdnineteen",
+   "value": "0",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "SizeWinZstdnineteen",
+   "value": "6{,}208",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainJXLten",
+   "value": "51.0",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsJXLten",
+   "value": "51.0",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncJXLten",
+   "value": "2{,}569",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecJXLten",
+   "value": "45.6",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppJXLten",
+   "value": "0.01650",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixJXLten",
+   "value": "0.69",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixJXLten",
+   "value": "53.5",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeLossJXLten",
+   "value": "98",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "SizeWinJXLten",
+   "value": "6{,}110",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainHEVC",
+   "value": "58.4",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsHEVC",
+   "value": "58.4",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncHEVC",
+   "value": "2{,}021",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecHEVC",
+   "value": "66.9",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppHEVC",
+   "value": "0.01943",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixHEVC",
+   "value": "0.88",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixHEVC",
+   "value": "36.5",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeLossHEVC",
+   "value": "0",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "SizeWinHEVC",
+   "value": "6{,}208",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainFLIF",
+   "value": "36.1",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsFLIF",
+   "value": "36.1",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncFLIF",
+   "value": "578",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecFLIF",
+   "value": "67.2",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppFLIF",
+   "value": "0.01267",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixFLIF",
+   "value": "3.06",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixFLIF",
+   "value": "36.4",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeLossFLIF",
+   "value": "102",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "SizeWinFLIF",
+   "value": "6{,}106",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainCompresso",
+   "value": "83.6",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsCompresso",
+   "value": "83.6",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncCompresso",
+   "value": "14.9",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecCompresso",
+   "value": "15.5",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppCompresso",
+   "value": "0.04925",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixCompresso",
+   "value": "119",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixCompresso",
+   "value": "157",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeLossCompresso",
+   "value": "0",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "SizeWinCompresso",
+   "value": "6{,}208",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainJBIG",
+   "value": "43.1",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsJBIG",
+   "value": "43.1",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncJBIG",
+   "value": "15.9",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecJBIG",
+   "value": "12.2",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppJBIG",
+   "value": "0.01423",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixJBIG",
+   "value": "112",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixJBIG",
+   "value": "200",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeLossJBIG",
+   "value": "114",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "SizeWinJBIG",
+   "value": "6{,}094",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "NwonSize",
+   "value": "33",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "NwonEnc",
+   "value": "33",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "NwonDec",
+   "value": "32",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "NwonAll",
+   "value": "30",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "LostSizeNames",
+   "value": "ECC-2026 (rank map) and ECC-2026",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "LostEncNames",
+   "value": "Zstandard -3 and JPEG-LS",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "LostDecNames",
+   "value": "Zstandard -3, Zstandard -19 and JPEG-LS",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BestNonECCName",
+   "value": "Crackle mo0 + zstd",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "GainBestNonECC",
+   "value": "28.1",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncBestNonECC",
+   "value": "4.9",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecBestNonECC",
+   "value": "3.2",
+   "source": "runs/20261029_081034_test_B/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "RatioJPEGLS",
+   "value": "5.8",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "RatioZstdthree",
+   "value": "6.2",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "RatioZstdnineteen",
+   "value": "4.5",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblNoKtwo",
+   "value": "65.2",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblNoKtwoGOWT",
+   "value": "148.5",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblNoKtwoPSC",
+   "value": "85.0",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblNoSlope",
+   "value": "22.1",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblNoSlopeGOWT",
+   "value": "41.7",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblNoSlopePSC",
+   "value": "11.7",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblNoPass",
+   "value": "4.2",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblNoPassGOWT",
+   "value": "4.8",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblNoPassPSC",
+   "value": "6.3",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblUniform",
+   "value": "3.2",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblUniformGOWT",
+   "value": "5.9",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblUniformPSC",
+   "value": "1.8",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblCRC",
+   "value": "1.0",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblCRCGOWT",
+   "value": "2.4",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblCRCPSC",
+   "value": "0.3",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "ColdImportCache",
+   "value": "133",
+   "source": "runs/20261029_081034_test_B/results/statistics/coldstart.csv"
+  },
+  {
+   "name": "ColdEncCache",
+   "value": "90",
+   "source": "runs/20261029_081034_test_B/results/statistics/coldstart.csv"
+  },
+  {
+   "name": "ColdDecCache",
+   "value": "5",
+   "source": "runs/20261029_081034_test_B/results/statistics/coldstart.csv"
+  },
+  {
+   "name": "WarmEncCache",
+   "value": "0.44",
+   "source": "runs/20261029_081034_test_B/results/statistics/coldstart.csv"
+  },
+  {
+   "name": "WarmDecCache",
+   "value": "0.26",
+   "source": "runs/20261029_081034_test_B/results/statistics/coldstart.csv"
+  },
+  {
+   "name": "ColdImportNoCache",
+   "value": "156",
+   "source": "runs/20261029_081034_test_B/results/statistics/coldstart.csv"
+  },
+  {
+   "name": "ColdEncNoCache",
+   "value": "10{,}977",
+   "source": "runs/20261029_081034_test_B/results/statistics/coldstart.csv"
+  },
+  {
+   "name": "ColdDecNoCache",
+   "value": "4{,}054",
+   "source": "runs/20261029_081034_test_B/results/statistics/coldstart.csv"
+  },
+  {
+   "name": "WarmEncNoCache",
+   "value": "0.38",
+   "source": "runs/20261029_081034_test_B/results/statistics/coldstart.csv"
+  },
+  {
+   "name": "WarmDecNoCache",
+   "value": "0.17",
+   "source": "runs/20261029_081034_test_B/results/statistics/coldstart.csv"
+  },
+  {
+   "name": "ColdEncNoCacheS",
+   "value": "11.0",
+   "source": "runs/20261029_081034_test_B/results/statistics/coldstart.csv"
+  },
+  {
+   "name": "ColdDecNoCacheS",
+   "value": "4.1",
+   "source": "runs/20261029_081034_test_B/results/statistics/coldstart.csv"
+  },
+  {
+   "name": "NbbMaps",
+   "value": "11{,}477",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv + runs/20261030_134701_test_C/byte_breakdown.csv"
+  },
+  {
+   "name": "BoundMin",
+   "value": "\\textminus 1.47",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv + runs/20261030_134701_test_C/byte_breakdown.csv"
+  },
+  {
+   "name": "BoundMax",
+   "value": "1.06",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv + runs/20261030_134701_test_C/byte_breakdown.csv"
+  },
+  {
+   "name": "UnattributedMax",
+   "value": "0",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv + runs/20261030_134701_test_C/byte_breakdown.csv"
+  },
+  {
+   "name": "ShareDispDAVIS",
+   "value": "70",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "ShareRunEndDAVIS",
+   "value": "92",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "ShareRunLenDAVIS",
+   "value": "5",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "ShareLabelDAVIS",
+   "value": "3",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "KminDAVIS",
+   "value": "1",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "KmedDAVIS",
+   "value": "3",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "KmaxDAVIS",
+   "value": "9",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "KminGOWT",
+   "value": "2",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "KmedGOWT",
+   "value": "3",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "KmaxGOWT",
+   "value": "29",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "KminPSC",
+   "value": "69",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "KmedPSC",
+   "value": "122",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "KmaxPSC",
+   "value": "187",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "KminSIM",
+   "value": "9",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "KmedSIM",
+   "value": "31",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "KmaxSIM",
+   "value": "55",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "SzeroBoneDelta",
+   "value": "\\textminus 9.8",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroBoneDeltaAbs",
+   "value": "9.8",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroBoneLo",
+   "value": "\\textminus 10.7",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroBoneHi",
+   "value": "\\textminus 8.9",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroBoneLoAbs",
+   "value": "8.9",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroBoneHiAbs",
+   "value": "10.7",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroBoneBetter",
+   "value": "2",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroBonePsign",
+   "value": "$6.6\\times10^{-24}$",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroBtwoDelta",
+   "value": "33.3",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroBtwoDeltaAbs",
+   "value": "33.3",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroBtwoLo",
+   "value": "30.5",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroBtwoHi",
+   "value": "35.8",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroBtwoLoAbs",
+   "value": "30.5",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroBtwoHiAbs",
+   "value": "35.8",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroBtwoBetter",
+   "value": "86",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroBtwoPsign",
+   "value": "$2.2\\times10^{-21}$",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SigmaMinDAVIS",
+   "value": "5",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SigmaMedDAVIS",
+   "value": "8",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SigmaMaxDAVIS",
+   "value": "18",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "LabelSetMedBytesDAVIS",
+   "value": "0.97",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "LabelSetMaxBytesDAVIS",
+   "value": "3.32",
+   "source": "runs/20261029_081034_test_B/byte_breakdown.csv"
+  },
+  {
+   "name": "SigmaShareMin",
+   "value": "0.8",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "SigmaShareMax",
+   "value": "2.1",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "NpiConfigs",
+   "value": "6",
+   "source": "protocol_B.json"
+  },
+  {
+   "name": "NullEncECCms",
+   "value": "3.95",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "NullDecECCms",
+   "value": "0.99",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "NetEncECCms",
+   "value": "3.62",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "NetDecECCms",
+   "value": "1.29",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "NetEncBDLCms",
+   "value": "0.22",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "NetDecBDLCms",
+   "value": "0.15",
+   "source": "runs/20261029_081034_test_B/results/tables/per_image.csv"
+  },
+  {
+   "name": "ProtocolHashC",
+   "value": "1c8570c6",
+   "source": "SHA-256 of BDLC/protocol_C.json (first 8 hex digits)"
+  },
+  {
+   "name": "NmapsCOCO",
+   "value": "5{,}000",
+   "source": "protocol_C.json"
+  },
+  {
+   "name": "NtimedCOCO",
+   "value": "1{,}000",
+   "source": "protocol_C.json"
+  },
+  {
+   "name": "NprimaryPairsC",
+   "value": "205{,}000",
+   "source": "runs/20261030_134701_test_C/results/reports/status.json"
+  },
+  {
+   "name": "NtimedPairsC",
+   "value": "41{,}000",
+   "source": "runs/20261030_134701_test_C/results/reports/status.json"
+  },
+  {
+   "name": "NprimaryPairsAll",
+   "value": "470{,}557",
+   "source": "runs/20261029_081034_test_B/results/reports/status.json + runs/20261030_134701_test_C/results/reports/status.json"
+  },
+  {
+   "name": "NmapsAll",
+   "value": "11{,}477",
+   "source": "protocol_B.json + protocol_C.json"
+  },
+  {
+   "name": "NfailuresC",
+   "value": "0",
+   "source": "runs/20261030_134701_test_C/failures.json"
+  },
+  {
+   "name": "KminCOCO",
+   "value": "1",
+   "source": "runs/20261030_134701_test_C/byte_breakdown.csv"
+  },
+  {
+   "name": "KmedCOCO",
+   "value": "9",
+   "source": "runs/20261030_134701_test_C/byte_breakdown.csv"
+  },
+  {
+   "name": "KmaxCOCO",
+   "value": "30",
+   "source": "runs/20261030_134701_test_C/byte_breakdown.csv"
+  },
+  {
+   "name": "NclassesCOCO",
+   "value": "171",
+   "source": "manifest_C.csv (input maps)"
+  },
+  {
+   "name": "BppCOCO",
+   "value": "0.03424",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixCOCO",
+   "value": "957",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixCOCO",
+   "value": "1{,}196",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "ConeTies",
+   "value": "20",
+   "source": "runs/20261030_134701_test_C/results/tables/per_image.csv"
+  },
+  {
+   "name": "CtwoTies",
+   "value": "19",
+   "source": "runs/20261030_134701_test_C/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroConeDelta",
+   "value": "\\textminus 3.5",
+   "source": "runs/20261030_134701_test_C/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroConeLo",
+   "value": "\\textminus 3.9",
+   "source": "runs/20261030_134701_test_C/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroConeHi",
+   "value": "\\textminus 3.2",
+   "source": "runs/20261030_134701_test_C/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroConeBetter",
+   "value": "2{,}021",
+   "source": "runs/20261030_134701_test_C/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroCtwoDelta",
+   "value": "11.2",
+   "source": "runs/20261030_134701_test_C/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroCtwoLo",
+   "value": "10.9",
+   "source": "runs/20261030_134701_test_C/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroCtwoHi",
+   "value": "11.5",
+   "source": "runs/20261030_134701_test_C/results/tables/per_image.csv"
+  },
+  {
+   "name": "SzeroCtwoBetter",
+   "value": "4{,}332",
+   "source": "runs/20261030_134701_test_C/results/tables/per_image.csv"
+  },
+  {
+   "name": "ConeDelta",
+   "value": "\\textminus 4.5",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "ConeDeltaAbs",
+   "value": "4.5",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "ConeLoAbs",
+   "value": "4.1",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "ConeHiAbs",
+   "value": "4.8",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "ConeBetter",
+   "value": "1{,}839",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "ConeGroups",
+   "value": "5{,}000",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "ConePsign",
+   "value": "$9.3\\times10^{-77}$",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "ConePholm",
+   "value": "$9.3\\times10^{-77}$",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "CtwoDelta",
+   "value": "10.1",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "CtwoLo",
+   "value": "9.8",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "CtwoHi",
+   "value": "10.4",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "CtwoBetter",
+   "value": "4{,}209",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "CthreeEnc",
+   "value": "22.8",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "CthreeDec",
+   "value": "10.8",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "CthreeEncGroups",
+   "value": "1{,}000",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "CthreeDecGroups",
+   "value": "1{,}000",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "CthreeGroups",
+   "value": "1{,}000",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "CthreePholm",
+   "value": "$1.9\\times10^{-301}$",
+   "source": "runs/20261030_134701_test_C/results/statistics/protocol_B_tests.csv"
+  },
+  {
+   "name": "CfourDominating",
+   "value": "0",
+   "source": "runs/20261030_134701_test_C/results/statistics/pareto_B4.csv"
+  },
+  {
+   "name": "CfourMaxGroups",
+   "value": "0",
+   "source": "runs/20261030_134701_test_C/results/statistics/pareto_B4.csv"
+  },
+  {
+   "name": "GainECCCOCO",
+   "value": "\\textminus 4.2",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsECCCOCO",
+   "value": "4.2",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncECCCOCO",
+   "value": "23.2",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecECCCOCO",
+   "value": "10.9",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppECCCOCO",
+   "value": "0.03285",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixECCCOCO",
+   "value": "41.2",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixECCCOCO",
+   "value": "110",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeWinECCCOCO",
+   "value": "1{,}839",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainECCpiCOCO",
+   "value": "\\textminus 2.9",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsECCpiCOCO",
+   "value": "2.9",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncECCpiCOCO",
+   "value": "22.5",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecECCpiCOCO",
+   "value": "12.1",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppECCpiCOCO",
+   "value": "0.03328",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixECCpiCOCO",
+   "value": "42.5",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixECCpiCOCO",
+   "value": "98.8",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeWinECCpiCOCO",
+   "value": "2{,}117",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainCrackleCOCO",
+   "value": "8.7",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsCrackleCOCO",
+   "value": "8.7",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncCrackleCOCO",
+   "value": "3.78",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecCrackleCOCO",
+   "value": "2.53",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppCrackleCOCO",
+   "value": "0.03752",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixCrackleCOCO",
+   "value": "253",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixCrackleCOCO",
+   "value": "473",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeWinCrackleCOCO",
+   "value": "4{,}296",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainJPEGLSCOCO",
+   "value": "81.7",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsJPEGLSCOCO",
+   "value": "81.7",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncJPEGLSCOCO",
+   "value": "0.68",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecJPEGLSCOCO",
+   "value": "0.66",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppJPEGLSCOCO",
+   "value": "0.18755",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixJPEGLSCOCO",
+   "value": "1{,}413",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixJPEGLSCOCO",
+   "value": "1{,}825",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeWinJPEGLSCOCO",
+   "value": "5{,}000",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainZstdthreeCOCO",
+   "value": "74.7",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsZstdthreeCOCO",
+   "value": "74.7",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncZstdthreeCOCO",
+   "value": "0.40",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecZstdthreeCOCO",
+   "value": "0.31",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppZstdthreeCOCO",
+   "value": "0.13555",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixZstdthreeCOCO",
+   "value": "2{,}419",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixZstdthreeCOCO",
+   "value": "3{,}865",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeWinZstdthreeCOCO",
+   "value": "5{,}000",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainZstdnineteenCOCO",
+   "value": "65.6",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsZstdnineteenCOCO",
+   "value": "65.6",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncZstdnineteenCOCO",
+   "value": "71.1",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecZstdnineteenCOCO",
+   "value": "0.34",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppZstdnineteenCOCO",
+   "value": "0.09941",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixZstdnineteenCOCO",
+   "value": "13.5",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixZstdnineteenCOCO",
+   "value": "3{,}472",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeWinZstdnineteenCOCO",
+   "value": "5{,}000",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainFLIFCOCO",
+   "value": "24.1",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsFLIFCOCO",
+   "value": "24.1",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncFLIFCOCO",
+   "value": "319",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecFLIFCOCO",
+   "value": "30.4",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppFLIFCOCO",
+   "value": "0.04512",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixFLIFCOCO",
+   "value": "3.00",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixFLIFCOCO",
+   "value": "39.3",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeWinFLIFCOCO",
+   "value": "4{,}930",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainJXLtenCOCO",
+   "value": "37.4",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsJXLtenCOCO",
+   "value": "37.4",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncJXLtenCOCO",
+   "value": "1{,}711",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecJXLtenCOCO",
+   "value": "31.3",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppJXLtenCOCO",
+   "value": "0.05468",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixJXLtenCOCO",
+   "value": "0.56",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixJXLtenCOCO",
+   "value": "38.2",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeWinJXLtenCOCO",
+   "value": "4{,}999",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainHEVCCOCO",
+   "value": "39.5",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "GainAbsHEVCCOCO",
+   "value": "39.5",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "EncHEVCCOCO",
+   "value": "1{,}266",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "DecHEVCCOCO",
+   "value": "36.6",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BppHEVCCOCO",
+   "value": "0.05662",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "EncMPixHEVCCOCO",
+   "value": "0.76",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "DecMPixHEVCCOCO",
+   "value": "32.7",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SizeWinHEVCCOCO",
+   "value": "5{,}000",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "BestNonECCNameCOCO",
+   "value": "Crackle mo0 + zstd",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "GainBestNonECCCOCO",
+   "value": "8.7",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "RatioJPEGLSCOCO",
+   "value": "5.5",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "RatioZstdthreeCOCO",
+   "value": "4.0",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "RatioZstdnineteenCOCO",
+   "value": "2.9",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "NwonEncCOCO",
+   "value": "33",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "NwonDecCOCO",
+   "value": "32",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "NwonAllCOCO",
+   "value": "30",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "LostEncNamesCOCO",
+   "value": "Zstandard -3 and JPEG-LS",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "LostDecNamesCOCO",
+   "value": "Zstandard -3, Zstandard -19 and JPEG-LS",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "LostSizeNamesCOCO",
+   "value": "ECC-2026 (rank map) and ECC-2026",
+   "source": "runs/20261030_134701_test_C/results/tables/pairwise_vs_bdlc.csv"
+  },
+  {
+   "name": "AblNoKtwoCOCO",
+   "value": "43.3",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblNoSlopeCOCO",
+   "value": "12.2",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblNoPassCOCO",
+   "value": "0.0",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblUniformCOCO",
+   "value": "\\textminus 0.1",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "AblCRCCOCO",
+   "value": "0.3",
+   "source": "runs/20261030_134701_test_C/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "SigmaMinCOCO",
+   "value": "5",
+   "source": "runs/20261030_134701_test_C/byte_breakdown.csv"
+  },
+  {
+   "name": "SigmaMaxCOCO",
+   "value": "49",
+   "source": "runs/20261030_134701_test_C/byte_breakdown.csv"
+  },
+  {
+   "name": "LabelSetMedBytesCOCO",
+   "value": "11.8",
+   "source": "runs/20261030_134701_test_C/byte_breakdown.csv"
+  },
+  {
+   "name": "ShareGeomCOCO",
+   "value": "81",
+   "source": "runs/20261030_134701_test_C/byte_breakdown.csv"
+  },
+  {
+   "name": "ShareDispCOCO",
+   "value": "47",
+   "source": "runs/20261030_134701_test_C/byte_breakdown.csv"
+  },
+  {
+   "name": "ShareLabelCOCO",
+   "value": "19",
+   "source": "runs/20261030_134701_test_C/byte_breakdown.csv"
+  },
+  {
+   "name": "CtwoPsign",
+   "value": "$<10^{-300}$",
+   "source": "runs/20261030_134701_test_C/results/tables/per_image.csv"
+  },
+  {
+   "name": "IOprotocolHash",
+   "value": "6221c5d1",
+   "source": "runs/20261030_175722_io_calibration/protocol_IO.json"
+  },
+  {
+   "name": "IOshimEncms",
+   "value": "0.77",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IOshimDecms",
+   "value": "0.19",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IOeccEncms",
+   "value": "4.07",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IOeccDecms",
+   "value": "1.38",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IObdlcEncms",
+   "value": "0.21",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IObdlcDecms",
+   "value": "0.16",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IOshareEnc",
+   "value": "25",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IOshareDec",
+   "value": "40",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IOGeoMeasEnc",
+   "value": "19.3",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IOGeoMeasDec",
+   "value": "9.2",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IOGeoAdjEnc",
+   "value": "13.8",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IOSumMeasEnc",
+   "value": "19.3",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IOSumMeasDec",
+   "value": "9.2",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IOSumAdjEnc",
+   "value": "14.4",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IOSumAdjDec",
+   "value": "5.5",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IOfasterEnc",
+   "value": "90",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IOfasterDec",
+   "value": "79",
+   "source": "runs/20261030_175722_io_calibration/summary.json"
+  },
+  {
+   "name": "IOnonposDec",
+   "value": "10",
+   "source": "runs/20261030_175722_io_calibration/per_map.csv"
+  },
+  {
+   "name": "IOgroupsTotal",
+   "value": "90",
+   "source": "runs/20261030_175722_io_calibration/per_map.csv"
+  },
+  {
+   "name": "PubECCBytes",
+   "value": "367.5",
+   "source": "paper_CEE/tools/published_ecc2026.json"
+  },
+  {
+   "name": "OurECCBytes",
+   "value": "380.5",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "PubECCbppRatio",
+   "value": "1.020",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv + paper_CEE/tools/published_ecc2026.json"
+  },
+  {
+   "name": "PubECCbppDiff",
+   "value": "2.0",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv + paper_CEE/tools/published_ecc2026.json"
+  },
+  {
+   "name": "PubECCEncms",
+   "value": "52.4",
+   "source": "paper_CEE/tools/published_ecc2026.json"
+  },
+  {
+   "name": "PubECCDecms",
+   "value": "4.40",
+   "source": "paper_CEE/tools/published_ecc2026.json"
+  },
+  {
+   "name": "OurECCEncmsMean",
+   "value": "4.05",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "OurECCDecmsMean",
+   "value": "1.46",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv"
+  },
+  {
+   "name": "PubHEVCbppRatio",
+   "value": "0.991",
+   "source": "runs/20261029_081034_test_B/results/tables/summary_by_dataset.csv + paper_CEE/tools/published_ecc2026.json"
+  },
+  {
+   "name": "PubDAVISmaps",
+   "value": "6{,}268",
+   "source": "paper_CEE/tools/published_ecc2026.json"
+  },
+  {
+   "name": "PubDAVISres",
+   "value": "848$\\times$480",
+   "source": "paper_CEE/tools/published_ecc2026.json"
+  },
+  {
+   "name": "FrontEncNames",
+   "value": "ECC-2026, BDLC, JPEG-LS and Zstandard -3",
+   "source": "runs/20261029_081034_test_B/results/plot_data/size_vs_encode_DAVIS2017_480p.csv"
+  },
+  {
+   "name": "FrontDecNames",
+   "value": "ECC-2026, BDLC and Zstandard -19",
+   "source": "runs/20261029_081034_test_B/results/plot_data/size_vs_decode_DAVIS2017_480p.csv"
+  },
+  {
+   "name": "NfrontEnc",
+   "value": "4",
+   "source": "runs/20261029_081034_test_B/results/plot_data/size_vs_encode_DAVIS2017_480p.csv"
+  },
+  {
+   "name": "NfrontDec",
+   "value": "3",
+   "source": "runs/20261029_081034_test_B/results/plot_data/size_vs_decode_DAVIS2017_480p.csv"
+  },
+  {
+   "name": "BppTimedDAVIS",
+   "value": "0.00795",
+   "source": "runs/20261029_081034_test_B/results/plot_data/size_vs_encode_DAVIS2017_480p.csv"
+  },
+  {
+   "name": "FrontEncNamesCOCO",
+   "value": "ECC-2026, ECC-2026 (rank map), BDLC and Zstandard -3",
+   "source": "runs/20261030_134701_test_C/results/plot_data/size_vs_encode_COCO-Stuff_val2017.csv"
+  },
+  {
+   "name": "FrontDecNamesCOCO",
+   "value": "ECC-2026, BDLC, Zstandard -19 and Zstandard -3",
+   "source": "runs/20261030_134701_test_C/results/plot_data/size_vs_decode_COCO-Stuff_val2017.csv"
+  },
+  {
+   "name": "BppTimedCOCO",
+   "value": "0.03480",
+   "source": "runs/20261030_134701_test_C/results/plot_data/size_vs_encode_COCO-Stuff_val2017.csv"
+  }
+ ]
+}

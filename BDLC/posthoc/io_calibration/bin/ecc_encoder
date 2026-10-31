@@ -1,0 +1,13 @@
+#!/bin/sh
+# Pass-through stand-in for ecc_encoder (I/O calibration only): copies the input file to the output file.
+# It accepts the same arguments as ecc_encoder, so the harness takes exactly the same path as for
+# ECC-2026 (label scan, YUV file written to tmpfs, program start, output file read), without any coding.
+in=; out=
+while [ $# -gt 0 ]; do
+    case "$1" in
+        -i) in=$2; shift 2 ;;
+        -o) out=$2; shift 2 ;;
+        *) shift ;;
+    esac
+done
+exec cp "$in" "$out"

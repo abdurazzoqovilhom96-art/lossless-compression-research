@@ -1,0 +1,17 @@
+{
+ "source": "Yang R, Liao J, Choi H, Racape F, Bajic IV. Context adaptive extended chain coding for semantic map compression. arXiv:2603.03073 (2026), HTML version https://arxiv.org/html/2603.03073, Tables III and IV",
+ "retrieved": "2026-10-30",
+ "note": "Values copied from the paper's tables for the DAVIS 480p row. Rates are bytes per map; times are seconds per map on the authors' machine.",
+ "davis": {
+  "resolution": [848, 480],
+  "maps": 6268,
+  "max_values": 5,
+  "rate_bytes": {"JBIG1": 620.7, "FLIF": 618.7, "SCM-7.0": 997.5, "CC-SMC": 459.1, "ECC-2026": 367.5},
+  "enc_s": {"JBIG1": 0.0245, "FLIF": 0.1948, "SCM-7.0": 1.2831, "CC-SMC": 0.0557, "ECC-2026": 0.0524},
+  "dec_s": {"JBIG1": 0.0275, "FLIF": 0.0341, "SCM-7.0": 0.0542, "CC-SMC": 0.0106, "ECC-2026": 0.0044}
+ },
+ "other_datasets": {
+  "CASIA-B": {"resolution": [320, 240], "maps": 8443, "max_values": 2},
+  "Cityscapes": {"resolution": [2048, 1024], "maps": 2975, "max_values": 27, "split": "training set"}
+ }
+}

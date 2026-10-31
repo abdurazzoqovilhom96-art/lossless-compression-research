@@ -1,0 +1,44 @@
+{
+ "maps": 900,
+ "sequences": 90,
+ "median_ms": {
+  "ecc_enc_s": 4.072118,
+  "ecc_dec_s": 1.383492,
+  "shim_enc_s": 0.7683139999999999,
+  "shim_dec_s": 0.18553850000000002,
+  "bdlc_enc_s": 0.213898,
+  "bdlc_dec_s": 0.15589999999999998
+ },
+ "null_ms": {
+  "ecc_enc": 3.089869,
+  "ecc_dec": 0.745931,
+  "shim_enc": 0.979244,
+  "shim_dec": 1.025152,
+  "bdlc_enc": 0.005102,
+  "bdlc_dec": 0.003011
+ },
+ "speedup_geo_measured": {
+  "enc": 19.250178194263146,
+  "dec": 9.238331566185035
+ },
+ "speedup_geo_io_removed": {
+  "enc": 13.82547769517412,
+  "dec": null
+ },
+ "speedup_sum_measured": {
+  "enc": 19.283464399583732,
+  "dec": 9.16386664892019
+ },
+ "speedup_sum_io_removed": {
+  "enc": 14.429744242748473,
+  "dec": 5.489197686174786
+ },
+ "shim_share_of_ecc_net_pct": {
+  "enc": 25.170374245304362,
+  "dec": 40.0995464417676
+ },
+ "sequences_bdlc_faster_io_removed": {
+  "enc": 90,
+  "dec": 79
+ }
+}
